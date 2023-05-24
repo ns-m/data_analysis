@@ -1,0 +1,24 @@
+1_Запись Youtube (прошлый поток)
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://disk.yandex.ru/i/CYsyOTjcnihiZQ
+2. https://console.cloud.google.com/
+3. https://cloud.google.com/bigquery/docs/sandbox
+4. https://console.cloud.google.com/bigquery
+5. https://cloud.google.com/bigquery/public-data
+6. https://cloud.google.com/bigquery/docs/quickstarts/query-public-dataset-console#open_a_public_dataset
+7. https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+8. https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html
+9. https://workspace.google.com/marketplace/app/simple_ml_for_sheets/685936641092
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах
+1. https://lookerstudio.google.com/navigation/reporting
+2. https://powerbi.microsoft.com/ru-ru/data-storytelling/
+3. https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B8%D0%BD%D0%B3
+4. https://public.tableau.com/app/discover/viz-of-the-day
+5. https://demos.qlik.com/qliksense
+6. https://www.tadviser.ru/index.php/BI
+7. https://www.sberbank.com/common/img/uploaded/ir/docs/investor_presentation_febr1_2020.pdf
+8. https://analytics.google.com
+9. https://support.google.com/looker-studio/topic/7019880?hl=ru&ref_topic=7570421&sjid=18054513132566944473-EU
+10. https://docs.google.com/spreadsheets/d/1TtK6w2FiXethqjGvd5E0k93tS28JVqqOMpekGwjIU2M/edit?usp=share_link

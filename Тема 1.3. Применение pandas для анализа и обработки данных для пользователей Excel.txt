@@ -1,0 +1,16 @@
+1. https://datastudio.google.com/
+2. https://docs.google.com/spreadsheets/d/1L7841SD5dyG2Z8N9ZeBRaMHqYEPIJV8D/edit?usp=share_link&ouid=115645456076953951741&rtpof=true&sd=true
+3. https://powerbi.microsoft.com/ru-ru/
+4. https://powerbi.microsoft.com/ru-ru/data-storytelling/
+5. https://community.powerbi.com/t5/Galleries/ct-p/PBI_Comm_Galleries
+6. https://public.tableau.com/app/discover/viz-of-the-day
+7. https://demos.qlik.com/qliksense
+8. https://analytics.google.com/
+9. https://drive.google.com/file/d/1eRdfm9SSwKcCoJ0npYVLcSSz-BNK91HM/view?usp=share_link
+10. https://jupyter.org/
+11. https://colab.research.google.com/
+12. https://learn.microsoft.com/ru-ru/training/modules/describe-cloud-compute/
+13. https://azure.microsoft.com/ru-ru/resources/cloud-computing-dictionary/types-of-cloud-computing
+14. https://cloud.google.com/tpu
+https://colab.research.google.com/drive/18POKOd749sm5_Q4mQ2RZzVOwE-uerv21?usp=sharing
+https://docs.google.com/spreadsheets/d/1x8nAgNIMmkcrS5NQKnZj_a3WVC95QtXc/edit?usp=share_link&ouid=115645456076953951741&rtpof=true&sd=true

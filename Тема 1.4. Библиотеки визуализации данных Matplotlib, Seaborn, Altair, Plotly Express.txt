@@ -1,0 +1,9 @@
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://docs.google.com/spreadsheets/d/1x8nAgNIMmkcrS5NQKnZj_a3WVC95QtXc/edit?usp=share_link&ouid=115645456076953951741&rtpof=true&sd=true
+2. https://matplotlib.org/stable/plot_types/basic/plot.html#sphx-glr-plot-types-basic-plot-py
+3. https://seaborn.pydata.org/examples/faceted_lineplot.html
+4. https://seaborn.pydata.org/examples/errorband_lineplots.html
+5. https://ru.wikipedia.org/wiki/%D0%AF%D1%89%D0%B8%D0%BA_%D1%81_%D1%83%D1%81%D0%B0%D0%BC%D0%B8#/media/%D0%A4%D0%B0%D0%B9%D0%BB:Boxplot_vs_PDF.svg
+6. https://plotly.com/python/plotly-express/
+7. https://colab.research.google.com/drive/18POKOd749sm5_Q4mQ2RZzVOwE-uerv21?usp=sharing

@@ -7,3 +7,37 @@
 5. https://ru.wikipedia.org/wiki/%D0%AF%D1%89%D0%B8%D0%BA_%D1%81_%D1%83%D1%81%D0%B0%D0%BC%D0%B8#/media/%D0%A4%D0%B0%D0%B9%D0%BB:Boxplot_vs_PDF.svg
 6. https://plotly.com/python/plotly-express/
 7. https://colab.research.google.com/drive/18POKOd749sm5_Q4mQ2RZzVOwE-uerv21?usp=sharing
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах
+
+1. https://colab.research.google.com/drive/18POKOd749sm5_Q4mQ2RZzVOwE-uerv21?usp=sharing
+2. 
+import matplotlib.pyplot as plt
+import seaborn as sns
+3. 
+g = df_Овощи[['OrderDate', 'Sales', 'Profit', 'Quantity']]
+4. 
+g.plot(x='OrderDate',y=['Sales', 'Profit'])
+5. 
+g.plot(x='OrderDate',y=['Sales', 'Profit'], figsize=(12,6))
+6. 
+mport seaborn as sns
+sns.set_theme(style="ticks")
+sns.lineplot(g, x='OrderDate', y='Sales')
+h = df_Овощи[[ 'Sales', 'Profit']]
+h.plot.hist()
+7. h.plot.hist(bins=30,)
+8. sns.distplot(df_Овощи['Profit'])
+9. sns.jointplot(df_Овощи,x='Sales', y='Profit', kind="hex", color="#4CB391")
+10. 
+sns.heatmap(h.corr(), annot=True)
+11 
+sns.relplot(
+    data=df,
+    x="Sales", y="Profit",
+    hue="Year", size="Quantity",
+    #palette=cmap,
+    sizes=(10, 200),
+)
+12 
+df_1 = df[['Discount', 'Freight', 'UnitCost', 'UnitPrice','Sales', 'Profit', 'Quantity', 'Year' ]]sns.pairplot(df_1, hue="Year")

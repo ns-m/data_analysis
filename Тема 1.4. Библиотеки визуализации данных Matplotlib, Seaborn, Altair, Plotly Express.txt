@@ -41,3 +41,6 @@ sns.relplot(
 )
 12 
 df_1 = df[['Discount', 'Freight', 'UnitCost', 'UnitPrice','Sales', 'Profit', 'Quantity', 'Year' ]]sns.pairplot(df_1, hue="Year")
+
+
+https://www.glideapps.com/blog/introducing-glide-pages

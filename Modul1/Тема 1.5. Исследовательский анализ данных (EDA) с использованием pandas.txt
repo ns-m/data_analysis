@@ -38,3 +38,6 @@ plot_scatterplot(df, vis) #this creates an Altair plot using your source data an
 7. https://colab.research.google.com/drive/1ew4uJsLbUQTjG1ps21d6jiHElTasDPML?usp=sharing
 8. https://colab.research.google.com/drive/1ew4uJsLbUQTjG1ps21d6jiHElTasDPML?usp=sharing
 9. df.drop_duplicates(inplace=True)
+
+https://habr.com/ru/companies/skillfactory/articles/595807/
+https://coderlessons.com/tutorials/python-technologies/vyuchit-python-panda/python-pandas-kratkoe-rukovodstvo

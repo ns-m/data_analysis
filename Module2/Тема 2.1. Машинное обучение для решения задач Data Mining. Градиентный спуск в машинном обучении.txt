@@ -1,0 +1,12 @@
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://ru.wikipedia.org/wiki/CRISP-DM
+2. https://colab.research.google.com/drive/1Me4zUtVUfNoheCOH9SuADZQqkk3N-zSb?usp=sharing
+3. https://scikit-learn.org/stable/
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://colab.research.google.com/drive/1NKSFQjye8AD1CrOu4lymsVd-Jc65eMI7?usp=sharing
+2. https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html
+3. https://www.kaggle.com/c/boston-housing
+4. https://wiki.loginom.ru/articles/coefficient-determ-adj.html

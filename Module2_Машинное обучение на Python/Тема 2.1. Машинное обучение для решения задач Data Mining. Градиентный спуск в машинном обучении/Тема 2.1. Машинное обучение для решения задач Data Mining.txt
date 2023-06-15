@@ -1,0 +1,33 @@
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://ru.wikipedia.org/wiki/CRISP-DM
+2. https://colab.research.google.com/drive/1Me4zUtVUfNoheCOH9SuADZQqkk3N-zSb?usp=sharing
+3. https://scikit-learn.org/stable/
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://colab.research.google.com/drive/1NKSFQjye8AD1CrOu4lymsVd-Jc65eMI7?usp=sharing
+2. https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html
+3. https://www.kaggle.com/c/boston-housing
+4. https://wiki.loginom.ru/articles/coefficient-determ-adj.html
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах
+
+1. https://www.anaconda.com/
+2. https://docs.bamboolib.8080labs.com/documentation/how-tos/installation-and-setup/install-bamboolib
+3. https://docs.trymito.io/getting-started/installing-mito/installing-mito-inside-a-virtual-environment#python-virtual-environment
+4. https://nodejs.org/en
+5. https://colab.research.google.com/drive/1NKSFQjye8AD1CrOu4lymsVd-Jc65eMI7?usp=sharing
+6. https://scikit-learn.org/stable/
+7. boston = pd.read_csv('https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/boston.csv')
+8. boston = pd.read_csv('https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/boston.csv')
+9. https://drive.google.com/file/d/1fp9sJl5bMsNxxOUT_M9FOgdxNlG5ylI8/view?usp=drive_link
+11. https://www.openml.org/search?type=data&sort=runs&id=531&status=active
+12. https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html
+13. 
+boston.columns
+import plotly.express as px
+px.histogram(boston, x='crim')
+14. https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares
+15. https://ml.ai-academy.ru/
+16. https://colab.research.google.com/drive/1NKSFQjye8AD1CrOu4lymsVd-Jc65eMI7?usp=sharing

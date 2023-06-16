@@ -6,3 +6,6 @@
 4. http://lib.stat.cmu.edu/datasets/boston
 5. https://developers.google.com/machine-learning/crash-course/reducing-loss/playground-exercise?hl=ru
 6. https://colab.research.google.com/drive/13AKLnYgXGk3e16r27zmDsDb-dTsiJgEa?usp=sharing
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+1. https://colab.research.google.com/drive/1NKSFQjye8AD1CrOu4lymsVd-Jc65eMI7?usp=sharing

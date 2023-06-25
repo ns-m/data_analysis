@@ -1,0 +1,19 @@
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://colab.research.google.com/drive/1PIigDvYLxRVYzcBkcJ_ZQDqF4cLBWzhf?usp=sharing
+2. https://www.scikit-yb.org/en/latest/
+3. https://drive.google.com/file/d/1UT2o0z-EKCN2hCNoHC-z22_GnFv3wHoi/view?usp=share_link
+4. https://drive.google.com/file/d/1v6vT0lWEYC9s8aUXZ9XRwFhFrQXZ-xeG/view?usp=share_link
+5. https://christophm.github.io/interpretable-ml-book/lime.html
+6. https://github.com/gradio-app/gradio
+7. https://explainerdashboard.readthedocs.io/en/stable/explainers.html
+8. https://colab.research.google.com/drive/1PXR-BZ_v-AT3K_2oryqyKA8b7yO3Qb8d?usp=sharing
+9. https://colab.research.google.com/drive/1PXR-BZ_v-AT3K_2oryqyKA8b7yO3Qb8d?usp=sharing
+
+https://developers.google.com/codelabs/tensorflow-4-cnns?continue=https%3A%2F%2Fcodelabs.developers.google.com%2F#0
+
+https://developers.google.com/codelabs/tensorflow-3-convolutions?continue=https%3A%2F%2Fcodelabs.developers.google.com%2F#0
+
+https://developers.google.com/codelabs/tensorflow-lab2-computervision?continue=https%3A%2F%2Fcodelabs.developers.google.com%2F#0
+
+https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist#0

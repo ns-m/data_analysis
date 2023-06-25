@@ -1,0 +1,10 @@
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://colab.research.google.com/drive/1-JVQr7Kxv6PlLzrh2-Pp5vBSNZKD0giZ?usp=sharing
+2. https://www.openml.org/search?type=data&sort=runs&id=40945&status=active
+3. https://colab.research.google.com/drive/1kfAxyGGyDdzdCjodn95m0a6KkNCgujz0?usp=sharing
+4. https://drive.google.com/file/d/1YG0djTdsJ1GeDS4k4OOu2Ci_8zdx81Cp/view?usp=share_link
+5. https://docs.dataprep.ai/user_guide/user_guide.html
+6. https://drive.google.com/file/d/1UT2o0z-EKCN2hCNoHC-z22_GnFv3wHoi/view?usp=share_link
+7. https://colab.research.google.com/drive/1PIigDvYLxRVYzcBkcJ_ZQDqF4cLBWzhf?usp=sharing
+

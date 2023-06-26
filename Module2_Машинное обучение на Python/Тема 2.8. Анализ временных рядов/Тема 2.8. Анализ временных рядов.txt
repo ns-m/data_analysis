@@ -1,0 +1,8 @@
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://colab.research.google.com/drive/1z1AGoDtsStAz1Ijb48iApi8uGSF6yOx8?usp=sharing
+2. https://drive.google.com/file/d/1musputOYXWo5CmqrInjFxGdnyl43RgEc/view?usp=share_link
+3. https://colab.research.google.com/drive/1Vk-Zuivq9jlc3QIkEDf_Ohs2BBou5alu?usp=sharing
+4. https://colab.research.google.com/drive/1Vk-Zuivq9jlc3QIkEDf_Ohs2BBou5alu?usp=sharing
+5. https://www.kaggle.com/datasets?search=Association+Rule
+6. https://disk.yandex.ru/i/fGsyGztmWeofgA

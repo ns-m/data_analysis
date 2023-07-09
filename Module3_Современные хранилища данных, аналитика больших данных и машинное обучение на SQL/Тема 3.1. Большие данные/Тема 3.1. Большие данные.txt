@@ -1,0 +1,38 @@
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://github.com/winedarksea/AutoTS
+2. https://unit8co.github.io/darts/#forecasting-models
+3. https://github.com/facebookresearch/Kats
+4. https://pypi.org/project/greykite/
+5. https://facebook.github.io/prophet/
+6. https://drive.google.com/file/d/1kx9gD_c7ceptu7fkwdJIOgJb75jfAOwJ/view?usp=sharing
+7. https://drive.google.com/file/d/1EuQ0JS6ABpgh3lFG-lBLlRPf-3mru08Y/view?usp=sharing
+8. https://drive.google.com/file/d/1kx9gD_c7ceptu7fkwdJIOgJb75jfAOwJ/view?usp=sharing
+9. https://drive.google.com/file/d/1EuQ0JS6ABpgh3lFG-lBLlRPf-3mru08Y/view?usp=sharing
+10. https://neuralprophet.com/
+11. https://colab.research.google.com/drive/17ckLvkZ1wMLoXx2JCS6nJxtJtQMBlahT?usp=sharing
+12. https://drive.google.com/file/d/1YljEZPnxtLetW4C7hveoDPbCQBHyPxqT/view?usp=share_link
+13. https://drive.google.com/file/d/16pGPcCGlD1scqFd_ra2_eYosU4bxNAep/view?usp=sharing
+14. https://wiki.loginom.ru/articles/arima.html
+15. https://wiki.loginom.ru/articles/autoregressive-model.html
+16. https://neuralprophet.com/model-overview.html
+17. https://docs.trymito.io/getting-started/installing-mito/installing-mito-inside-a-virtual-environment#python-virtual-environment
+18. https://docs.bamboolib.8080labs.com/documentation/how-tos/installation-and-setup/install-bamboolib
+19. https://pypi.org/project/dtale/
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах
+
+1. https://www.anaconda.com/
+2. https://www.mlfinlab.com/en/latest/external/dtale.html
+3. 
+import pandas as pd
+import numpy as np
+df = pd.read_csv('https://raw.githubusercontent.com/pav-sahnyuk/datasets/main/Big%20Mart%20Sales_Train.csv')
+4. https://pypi.org/project/dtale/2.6.0/
+5. https://www.nltk.org/index.html
+6. https://docs.bamboolib.8080labs.com/documentation/how-tos/installation-and-setup/install-bamboolib
+7. 
+# Install bamboolib ...
+#!pip install --upgrade bamboolib --user
+#Download Node.js https://nodejs.org/en/
+#!python -m bamboolib install_labextensions

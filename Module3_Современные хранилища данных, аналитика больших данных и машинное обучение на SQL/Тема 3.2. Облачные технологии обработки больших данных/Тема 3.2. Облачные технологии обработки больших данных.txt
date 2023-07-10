@@ -1,0 +1,40 @@
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://docs.trymito.io/getting-started/installing-mito/installing-mito-inside-a-virtual-environment
+2. https://docs.trymito.io/how-to/interacting-with-your-data/mito-spreadsheet-formulas
+3. https://colab.research.google.com/drive/16dmY8ea1qrPAChm6qsb4176r6h3xKkRn?usp=sharing
+4. https://www.youtube.com/watch?v=7fLoBXEI3N0
+5. https://colab.research.google.com/drive/16dmY8ea1qrPAChm6qsb4176r6h3xKkRn?usp=sharing
+6. https://cloud.google.com/bigquery/docs/sandbox
+7. https://disk.yandex.ru/d/e9myjbjekZbpnQ
+8. https://azure.microsoft.com/ru-ru/resources/cloud-computing-dictionary/what-is-cloud-computing
+9. https://azure.microsoft.com/ru-ru/resources/cloud-computing-dictionary/types-of-cloud-computing
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах
+
+1. https://docs.bamboolib.8080labs.com/documentation/how-tos/installation-and-setup/install-bamboolib
+2. https://nodejs.org/en
+3. https://www.java.com/ru/
+4. https://www.cheddarflow.com/blog/invest-in-databricks-ipo-latest-stock-price-equity-owners-2023/
+5.
+#Download Node.js https://nodejs.org/en/
+!python -m bamboolib install_labextensions
+import bamboolib as bam
+import pandas as pd
+df = pd.read_csv(bam.titanic_csv)
+df
+6. 
+import bamboolib as bam
+import pandas as pd
+import numpy as np
+df = pd.read_csv('https://raw.githubusercontent.com/pav-sahnyuk/datasets/main/Big%20Mart%20Sales_Train.csv')
+7. 
+!pip install h2o
+import h2o
+from h2o.automl import H2OAutoML
+h2o.init()
+8. https://h2o.ai/platform/ai-cloud/make/h2o/?n=res8
+9. http://h2o-release.s3.amazonaws.com/h2o/rel-3.42.0/1/index.html
+10. https://disk.yandex.ru/d/_Sybrf7VC5PgPA
+11. https://drive.google.com/file/d/1hzC88r1pq8QdTIh5M8ekV2Lg37e3ZMp1/view?usp=drive_link
+

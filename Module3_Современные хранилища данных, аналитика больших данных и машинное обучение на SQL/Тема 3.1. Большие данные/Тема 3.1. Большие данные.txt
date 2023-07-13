@@ -36,3 +36,5 @@ df = pd.read_csv('https://raw.githubusercontent.com/pav-sahnyuk/datasets/main/Bi
 #!pip install --upgrade bamboolib --user
 #Download Node.js https://nodejs.org/en/
 #!python -m bamboolib install_labextensions
+
+https://excelbianalytics.com/wp/

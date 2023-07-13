@@ -1,0 +1,4604 @@
+Category;Order Date;Segment;Sales Target
+Office Supplies;2017-01-04;Consumer;15 
+Office Supplies;2017-01-05;Home Office;300 
+Office Supplies;2017-01-06;Consumer;21 
+Furniture;2017-01-07;Home Office;2316 
+Technology;2017-01-07;Home Office;1068 
+Office Supplies;2017-01-07;Home Office;699 
+Office Supplies;2017-01-07;Consumer;17 
+Office Supplies;2017-01-07;Corporate;14 
+Furniture;2017-01-08;Consumer;81 
+Office Supplies;2017-01-08;Consumer;11 
+Technology;2017-01-10;Consumer;29 
+Office Supplies;2017-01-10;Consumer;9 
+Furniture;2017-01-11;Corporate;47 
+Office Supplies;2017-01-11;Corporate;3 
+Furniture;2017-01-12;Consumer;9 
+Office Supplies;2017-01-14;Consumer;1387 
+Furniture;2017-01-14;Consumer;792 
+Technology;2017-01-14;Corporate;595 
+Office Supplies;2017-01-14;Corporate;570 
+Furniture;2017-01-15;Corporate;66 
+Technology;2017-01-16;Consumer;144 
+Technology;2017-01-17;Consumer;112 
+Furniture;2017-01-17;Consumer;109 
+Office Supplies;2017-01-17;Consumer;49 
+Office Supplies;2017-01-19;Corporate;66 
+Office Supplies;2017-01-20;Consumer;183 
+Furniture;2017-01-20;Consumer;158 
+Furniture;2017-01-21;Consumer;1244 
+Technology;2017-01-21;Consumer;749 
+Office Supplies;2017-01-21;Consumer;538 
+Office Supplies;2017-01-21;Corporate;67 
+Furniture;2017-01-22;Consumer;25 
+Office Supplies;2017-01-24;Consumer;40 
+Office Supplies;2017-01-27;Home Office;531 
+Technology;2017-01-27;Home Office;343 
+Furniture;2017-01-27;Corporate;124 
+Furniture;2017-01-27;Home Office;65 
+Office Supplies;2017-01-27;Corporate;10 
+Furniture;2017-01-28;Consumer;360 
+Office Supplies;2017-01-28;Consumer;86 
+Office Supplies;2017-01-29;Consumer;3 
+Office Supplies;2017-01-31;Consumer;262 
+Furniture;2017-02-01;Consumer;308 
+Technology;2017-02-02;Consumer;506 
+Technology;2017-02-03;Consumer;176 
+Office Supplies;2017-02-03;Consumer;19 
+Office Supplies;2017-02-03;Home Office;11 
+Office Supplies;2017-02-04;Consumer;106 
+Office Supplies;2017-02-05;Home Office;122 
+Office Supplies;2017-02-05;Corporate;15 
+Technology;2017-02-07;Corporate;261 
+Office Supplies;2017-02-07;Corporate;13 
+Office Supplies;2017-02-07;Consumer;10 
+Technology;2017-02-08;Corporate;108 
+Office Supplies;2017-02-08;Corporate;71 
+Furniture;2017-02-09;Home Office;13 
+Furniture;2017-02-12;Consumer;1535 
+Technology;2017-02-12;Consumer;241 
+Office Supplies;2017-02-12;Consumer;143 
+Furniture;2017-02-13;Consumer;113 
+Office Supplies;2017-02-15;Corporate;353 
+Technology;2017-02-15;Corporate;259 
+Office Supplies;2017-02-15;Consumer;16 
+Office Supplies;2017-02-16;Corporate;18 
+Office Supplies;2017-02-17;Consumer;9 
+Office Supplies;2017-02-18;Consumer;50 
+Furniture;2017-02-19;Consumer;22 
+Office Supplies;2017-02-19;Consumer;12 
+Technology;2017-02-21;Corporate;69 
+Furniture;2017-02-21;Corporate;19 
+Office Supplies;2017-02-21;Home Office;12 
+Office Supplies;2017-02-22;Consumer;9 
+Office Supplies;2017-02-23;Consumer;19 
+Office Supplies;2017-02-24;Home Office;13 
+Office Supplies;2017-02-25;Consumer;60 
+Office Supplies;2017-02-28;Consumer;21 
+Furniture;2017-03-01;Consumer;1247 
+Furniture;2017-03-01;Home Office;545 
+Office Supplies;2017-03-01;Consumer;260 
+Office Supplies;2017-03-01;Home Office;19 
+Technology;2017-03-01;Home Office;5 
+Technology;2017-03-02;Corporate;138 
+Office Supplies;2017-03-02;Home Office;43 
+Office Supplies;2017-03-02;Corporate;3 
+Furniture;2017-03-03;Consumer;557 
+Furniture;2017-03-03;Corporate;287 
+Office Supplies;2017-03-03;Consumer;200 
+Office Supplies;2017-03-03;Home Office;142 
+Office Supplies;2017-03-03;Corporate;54 
+Technology;2017-03-03;Home Office;9 
+Office Supplies;2017-03-04;Consumer;315 
+Technology;2017-03-05;Consumer;446 
+Office Supplies;2017-03-05;Consumer;217 
+Furniture;2017-03-07;Corporate;983 
+Office Supplies;2017-03-07;Consumer;227 
+Office Supplies;2017-03-07;Corporate;208 
+Office Supplies;2017-03-07;Home Office;115 
+Furniture;2017-03-07;Consumer;49 
+Office Supplies;2017-03-10;Consumer;749 
+Technology;2017-03-11;Corporate;646 
+Office Supplies;2017-03-11;Corporate;178 
+Office Supplies;2017-03-11;Consumer;124 
+Furniture;2017-03-11;Consumer;8 
+Furniture;2017-03-14;Home Office;1220 
+Technology;2017-03-14;Home Office;523 
+Office Supplies;2017-03-14;Consumer;217 
+Office Supplies;2017-03-14;Home Office;99 
+Technology;2017-03-14;Consumer;77 
+Office Supplies;2017-03-14;Corporate;12 
+Office Supplies;2017-03-15;Consumer;302 
+Furniture;2017-03-15;Consumer;43 
+Technology;2017-03-16;Home Office;514 
+Furniture;2017-03-17;Corporate;3396 
+Office Supplies;2017-03-17;Corporate;361 
+Office Supplies;2017-03-17;Consumer;250 
+Technology;2017-03-18;Home Office;25729 
+Office Supplies;2017-03-18;Home Office;1771 
+Furniture;2017-03-18;Home Office;1536 
+Technology;2017-03-19;Corporate;445 
+Office Supplies;2017-03-19;Corporate;66 
+Furniture;2017-03-19;Corporate;22 
+Technology;2017-03-21;Corporate;3080 
+Office Supplies;2017-03-21;Corporate;312 
+Furniture;2017-03-21;Consumer;216 
+Office Supplies;2017-03-21;Consumer;79 
+Furniture;2017-03-22;Corporate;314 
+Office Supplies;2017-03-22;Consumer;79 
+Office Supplies;2017-03-22;Corporate;77 
+Technology;2017-03-23;Consumer;623 
+Office Supplies;2017-03-23;Consumer;330 
+Furniture;2017-03-24;Consumer;37 
+Office Supplies;2017-03-24;Consumer;23 
+Furniture;2017-03-25;Consumer;341 
+Technology;2017-03-25;Consumer;46 
+Office Supplies;2017-03-25;Consumer;42 
+Technology;2017-03-26;Corporate;84 
+Office Supplies;2017-03-26;Corporate;33 
+Office Supplies;2017-03-26;Consumer;16 
+Furniture;2017-03-28;Consumer;1102 
+Furniture;2017-03-28;Home Office;327 
+Technology;2017-03-28;Home Office;314 
+Office Supplies;2017-03-28;Consumer;7 
+Furniture;2017-03-29;Consumer;918 
+Office Supplies;2017-03-30;Home Office;342 
+Technology;2017-03-30;Home Office;219 
+Furniture;2017-03-30;Consumer;212 
+Office Supplies;2017-03-30;Consumer;184 
+Furniture;2017-03-30;Home Office;113 
+Office Supplies;2017-03-30;Corporate;65 
+Furniture;2017-03-31;Consumer;1193 
+Office Supplies;2017-03-31;Consumer;827 
+Technology;2017-03-31;Consumer;78 
+Office Supplies;2017-03-31;Corporate;2 
+Office Supplies;2017-04-01;Corporate;63 
+Office Supplies;2017-04-01;Consumer;46 
+Technology;2017-04-02;Consumer;892 
+Office Supplies;2017-04-02;Consumer;242 
+Furniture;2017-04-02;Corporate;181 
+Technology;2017-04-03;Corporate;238 
+Office Supplies;2017-04-03;Corporate;12 
+Office Supplies;2017-04-04;Corporate;278 
+Technology;2017-04-04;Corporate;96 
+Office Supplies;2017-04-04;Consumer;87 
+Office Supplies;2017-04-04;Home Office;17 
+Furniture;2017-04-04;Consumer;5 
+Office Supplies;2017-04-05;Corporate;4795 
+Office Supplies;2017-04-05;Consumer;832 
+Office Supplies;2017-04-05;Home Office;54 
+Technology;2017-04-05;Corporate;32 
+Furniture;2017-04-06;Corporate;763 
+Technology;2017-04-06;Corporate;307 
+Office Supplies;2017-04-06;Corporate;241 
+Furniture;2017-04-06;Home Office;158 
+Technology;2017-04-06;Home Office;109 
+Office Supplies;2017-04-06;Home Office;10 
+Technology;2017-04-07;Corporate;535 
+Technology;2017-04-07;Home Office;199 
+Office Supplies;2017-04-07;Corporate;119 
+Office Supplies;2017-04-07;Home Office;52 
+Furniture;2017-04-07;Consumer;9 
+Furniture;2017-04-08;Corporate;1167 
+Technology;2017-04-08;Home Office;340 
+Furniture;2017-04-08;Consumer;162 
+Furniture;2017-04-08;Home Office;109 
+Office Supplies;2017-04-08;Home Office;44 
+Office Supplies;2017-04-08;Corporate;19 
+Technology;2017-04-11;Consumer;928 
+Technology;2017-04-11;Home Office;720 
+Office Supplies;2017-04-11;Consumer;109 
+Technology;2017-04-12;Corporate;1438 
+Furniture;2017-04-12;Corporate;312 
+Office Supplies;2017-04-12;Corporate;58 
+Office Supplies;2017-04-12;Consumer;34 
+Office Supplies;2017-04-13;Corporate;548 
+Technology;2017-04-13;Corporate;76 
+Office Supplies;2017-04-13;Home Office;8 
+Furniture;2017-04-15;Home Office;163 
+Office Supplies;2017-04-15;Home Office;92 
+Office Supplies;2017-04-16;Corporate;39 
+Technology;2017-04-18;Consumer;444 
+Furniture;2017-04-18;Consumer;304 
+Office Supplies;2017-04-18;Consumer;167 
+Office Supplies;2017-04-19;Consumer;141 
+Furniture;2017-04-19;Home Office;76 
+Furniture;2017-04-20;Consumer;1326 
+Office Supplies;2017-04-20;Consumer;38 
+Office Supplies;2017-04-21;Corporate;829 
+Office Supplies;2017-04-21;Consumer;16 
+Office Supplies;2017-04-22;Corporate;258 
+Furniture;2017-04-23;Home Office;614 
+Office Supplies;2017-04-23;Home Office;51 
+Office Supplies;2017-04-23;Corporate;2 
+Furniture;2017-04-25;Home Office;1772 
+Office Supplies;2017-04-25;Home Office;313 
+Technology;2017-04-25;Consumer;287 
+Furniture;2017-04-26;Corporate;216 
+Office Supplies;2017-04-26;Home Office;35 
+Office Supplies;2017-04-26;Corporate;17 
+Technology;2017-04-28;Consumer;1630 
+Office Supplies;2017-04-28;Corporate;731 
+Technology;2017-04-28;Corporate;160 
+Furniture;2017-04-29;Corporate;578 
+Office Supplies;2017-04-29;Corporate;105 
+Furniture;2017-04-29;Consumer;63 
+Technology;2017-04-29;Consumer;20 
+Office Supplies;2017-04-29;Consumer;16 
+Office Supplies;2017-04-30;Consumer;1031 
+Technology;2017-04-30;Consumer;51 
+Technology;2017-05-02;Consumer;422 
+Office Supplies;2017-05-02;Consumer;25 
+Office Supplies;2017-05-03;Consumer;47 
+Office Supplies;2017-05-03;Home Office;24 
+Office Supplies;2017-05-04;Consumer;90 
+Office Supplies;2017-05-04;Corporate;62 
+Furniture;2017-05-04;Consumer;25 
+Furniture;2017-05-04;Corporate;10 
+Furniture;2017-05-05;Consumer;124 
+Office Supplies;2017-05-05;Corporate;81 
+Office Supplies;2017-05-05;Consumer;38 
+Office Supplies;2017-05-06;Home Office;267 
+Furniture;2017-05-07;Consumer;960 
+Office Supplies;2017-05-07;Consumer;23 
+Technology;2017-05-08;Consumer;1620 
+Technology;2017-05-09;Consumer;229 
+Office Supplies;2017-05-09;Corporate;148 
+Technology;2017-05-10;Consumer;1417 
+Furniture;2017-05-10;Consumer;522 
+Office Supplies;2017-05-10;Consumer;222 
+Furniture;2017-05-11;Corporate;1031 
+Technology;2017-05-11;Consumer;195 
+Office Supplies;2017-05-11;Home Office;124 
+Furniture;2017-05-11;Consumer;61 
+Office Supplies;2017-05-11;Corporate;33 
+Furniture;2017-05-12;Consumer;639 
+Office Supplies;2017-05-13;Home Office;418 
+Furniture;2017-05-13;Corporate;296 
+Technology;2017-05-13;Consumer;151 
+Office Supplies;2017-05-13;Consumer;60 
+Office Supplies;2017-05-13;Corporate;8 
+Furniture;2017-05-14;Corporate;342 
+Furniture;2017-05-16;Corporate;205 
+Technology;2017-05-16;Consumer;50 
+Office Supplies;2017-05-17;Home Office;85 
+Technology;2017-05-18;Consumer;725 
+Furniture;2017-05-18;Consumer;127 
+Office Supplies;2017-05-18;Consumer;17 
+Office Supplies;2017-05-19;Consumer;82 
+Furniture;2017-05-20;Corporate;131 
+Office Supplies;2017-05-20;Corporate;128 
+Technology;2017-05-20;Corporate;21 
+Office Supplies;2017-05-21;Corporate;2634 
+Office Supplies;2017-05-21;Home Office;788 
+Technology;2017-05-21;Corporate;624 
+Furniture;2017-05-21;Consumer;94 
+Office Supplies;2017-05-21;Consumer;78 
+Technology;2017-05-22;Consumer;168 
+Office Supplies;2017-05-23;Consumer;295 
+Technology;2017-05-23;Consumer;50 
+Office Supplies;2017-05-24;Consumer;108 
+Office Supplies;2017-05-25;Consumer;88 
+Furniture;2017-05-25;Consumer;28 
+Furniture;2017-05-26;Consumer;562 
+Furniture;2017-05-26;Corporate;317 
+Technology;2017-05-26;Corporate;303 
+Office Supplies;2017-05-26;Consumer;116 
+Office Supplies;2017-05-26;Home Office;44 
+Technology;2017-05-27;Consumer;1298 
+Furniture;2017-05-27;Corporate;510 
+Office Supplies;2017-05-27;Corporate;356 
+Office Supplies;2017-05-27;Consumer;15 
+Office Supplies;2017-05-28;Consumer;138 
+Technology;2017-05-28;Corporate;88 
+Technology;2017-05-30;Corporate;1160 
+Furniture;2017-05-30;Consumer;313 
+Office Supplies;2017-05-30;Corporate;309 
+Office Supplies;2017-05-30;Consumer;77 
+Technology;2017-05-31;Consumer;781 
+Furniture;2017-06-01;Home Office;2142 
+Office Supplies;2017-06-01;Home Office;1808 
+Technology;2017-06-01;Consumer;891 
+Office Supplies;2017-06-01;Corporate;194 
+Furniture;2017-06-01;Consumer;20 
+Office Supplies;2017-06-02;Consumer;347 
+Technology;2017-06-02;Consumer;218 
+Furniture;2017-06-02;Home Office;62 
+Office Supplies;2017-06-02;Home Office;62 
+Furniture;2017-06-03;Consumer;497 
+Office Supplies;2017-06-03;Consumer;156 
+Office Supplies;2017-06-03;Home Office;15 
+Furniture;2017-06-04;Consumer;458 
+Office Supplies;2017-06-04;Home Office;17 
+Office Supplies;2017-06-04;Consumer;17 
+Furniture;2017-06-06;Corporate;1091 
+Office Supplies;2017-06-06;Corporate;162 
+Office Supplies;2017-06-06;Consumer;127 
+Office Supplies;2017-06-06;Home Office;99 
+Furniture;2017-06-07;Consumer;237 
+Office Supplies;2017-06-07;Corporate;13 
+Office Supplies;2017-06-08;Consumer;1745 
+Furniture;2017-06-08;Consumer;615 
+Furniture;2017-06-08;Corporate;158 
+Furniture;2017-06-09;Consumer;2909 
+Technology;2017-06-09;Consumer;1891 
+Office Supplies;2017-06-09;Consumer;168 
+Office Supplies;2017-06-09;Corporate;91 
+Office Supplies;2017-06-09;Home Office;76 
+Technology;2017-06-09;Home Office;71 
+Furniture;2017-06-09;Corporate;38 
+Office Supplies;2017-06-10;Corporate;482 
+Office Supplies;2017-06-13;Corporate;14 
+Furniture;2017-06-14;Home Office;209 
+Furniture;2017-06-15;Corporate;961 
+Office Supplies;2017-06-15;Consumer;39 
+Office Supplies;2017-06-15;Corporate;8 
+Furniture;2017-06-16;Consumer;693 
+Office Supplies;2017-06-16;Consumer;102 
+Office Supplies;2017-06-17;Consumer;3313 
+Technology;2017-06-17;Consumer;63 
+Furniture;2017-06-17;Consumer;7 
+Technology;2017-06-18;Consumer;133 
+Office Supplies;2017-06-20;Consumer;1005 
+Technology;2017-06-20;Consumer;565 
+Furniture;2017-06-20;Consumer;183 
+Technology;2017-06-21;Consumer;4043 
+Office Supplies;2017-06-21;Consumer;271 
+Furniture;2017-06-21;Consumer;117 
+Furniture;2017-06-22;Consumer;1004 
+Office Supplies;2017-06-22;Consumer;699 
+Technology;2017-06-22;Consumer;294 
+Technology;2017-06-23;Consumer;75 
+Office Supplies;2017-06-23;Consumer;22 
+Furniture;2017-06-24;Consumer;4 
+Furniture;2017-06-25;Corporate;470 
+Technology;2017-06-25;Corporate;248 
+Office Supplies;2017-06-25;Corporate;74 
+Office Supplies;2017-06-27;Consumer;318 
+Technology;2017-06-27;Consumer;224 
+Furniture;2017-06-27;Consumer;86 
+Furniture;2017-06-28;Consumer;1081 
+Office Supplies;2017-06-28;Consumer;395 
+Office Supplies;2017-06-28;Corporate;6 
+Office Supplies;2017-06-29;Consumer;41 
+Office Supplies;2017-06-30;Consumer;713 
+Office Supplies;2017-06-30;Corporate;80 
+Technology;2017-07-01;Corporate;593 
+Office Supplies;2017-07-01;Corporate;23 
+Technology;2017-07-02;Consumer;78 
+Office Supplies;2017-07-02;Consumer;5 
+Office Supplies;2017-07-04;Corporate;178 
+Office Supplies;2017-07-04;Consumer;34 
+Office Supplies;2017-07-05;Consumer;579 
+Technology;2017-07-05;Consumer;475 
+Furniture;2017-07-05;Corporate;254 
+Office Supplies;2017-07-05;Home Office;192 
+Office Supplies;2017-07-05;Corporate;15 
+Technology;2017-07-06;Consumer;498 
+Furniture;2017-07-06;Home Office;464 
+Furniture;2017-07-07;Consumer;205 
+Furniture;2017-07-08;Corporate;523 
+Office Supplies;2017-07-08;Corporate;181 
+Furniture;2017-07-08;Consumer;56 
+Furniture;2017-07-09;Home Office;127 
+Office Supplies;2017-07-09;Home Office;103 
+Office Supplies;2017-07-09;Corporate;23 
+Furniture;2017-07-11;Corporate;901 
+Technology;2017-07-11;Consumer;652 
+Technology;2017-07-11;Corporate;184 
+Office Supplies;2017-07-11;Corporate;182 
+Office Supplies;2017-07-11;Consumer;82 
+Furniture;2017-07-12;Corporate;768 
+Furniture;2017-07-12;Home Office;543 
+Office Supplies;2017-07-12;Home Office;321 
+Technology;2017-07-12;Home Office;258 
+Furniture;2017-07-12;Consumer;121 
+Office Supplies;2017-07-12;Consumer;48 
+Technology;2017-07-12;Consumer;21 
+Office Supplies;2017-07-12;Corporate;7 
+Furniture;2017-07-13;Corporate;309 
+Office Supplies;2017-07-14;Consumer;90 
+Office Supplies;2017-07-14;Home Office;65 
+Technology;2017-07-14;Home Office;41 
+Technology;2017-07-14;Consumer;37 
+Furniture;2017-07-14;Consumer;30 
+Office Supplies;2017-07-14;Corporate;17 
+Office Supplies;2017-07-15;Corporate;6 
+Technology;2017-07-15;Corporate;3 
+Furniture;2017-07-18;Home Office;280 
+Office Supplies;2017-07-18;Consumer;15 
+Technology;2017-07-19;Corporate;335 
+Furniture;2017-07-19;Corporate;77 
+Office Supplies;2017-07-19;Corporate;26 
+Office Supplies;2017-07-19;Home Office;7 
+Furniture;2017-07-20;Home Office;858 
+Office Supplies;2017-07-20;Corporate;482 
+Office Supplies;2017-07-20;Home Office;298 
+Office Supplies;2017-07-20;Consumer;260 
+Furniture;2017-07-20;Consumer;43 
+Technology;2017-07-20;Corporate;41 
+Furniture;2017-07-21;Corporate;1819 
+Office Supplies;2017-07-21;Corporate;164 
+Technology;2017-07-21;Consumer;37 
+Furniture;2017-07-22;Consumer;773 
+Office Supplies;2017-07-22;Consumer;306 
+Technology;2017-07-22;Consumer;171 
+Office Supplies;2017-07-22;Home Office;20 
+Technology;2017-07-23;Consumer;1507 
+Technology;2017-07-23;Corporate;914 
+Office Supplies;2017-07-23;Corporate;45 
+Office Supplies;2017-07-23;Consumer;18 
+Office Supplies;2017-07-25;Consumer;8736 
+Furniture;2017-07-25;Consumer;69 
+Office Supplies;2017-07-25;Home Office;22 
+Office Supplies;2017-07-26;Consumer;2145 
+Technology;2017-07-26;Consumer;1454 
+Furniture;2017-07-26;Consumer;800 
+Technology;2017-07-26;Corporate;109 
+Office Supplies;2017-07-27;Corporate;315 
+Technology;2017-07-27;Consumer;205 
+Furniture;2017-07-28;Consumer;129 
+Office Supplies;2017-07-28;Consumer;69 
+Furniture;2017-07-30;Corporate;1190 
+Office Supplies;2017-08-01;Corporate;152 
+Furniture;2017-08-01;Corporate;48 
+Office Supplies;2017-08-01;Consumer;20 
+Office Supplies;2017-08-01;Home Office;5 
+Office Supplies;2017-08-02;Home Office;779 
+Technology;2017-08-02;Home Office;18 
+Furniture;2017-08-03;Consumer;203 
+Office Supplies;2017-08-03;Consumer;181 
+Office Supplies;2017-08-03;Home Office;84 
+Office Supplies;2017-08-04;Consumer;1553 
+Technology;2017-08-04;Consumer;404 
+Office Supplies;2017-08-04;Corporate;376 
+Technology;2017-08-04;Corporate;263 
+Furniture;2017-08-05;Corporate;1179 
+Furniture;2017-08-05;Consumer;705 
+Office Supplies;2017-08-05;Consumer;178 
+Technology;2017-08-05;Corporate;143 
+Office Supplies;2017-08-05;Corporate;101 
+Technology;2017-08-05;Consumer;14 
+Technology;2017-08-06;Consumer;273 
+Technology;2017-08-08;Consumer;1637 
+Technology;2017-08-08;Home Office;909 
+Furniture;2017-08-08;Consumer;520 
+Office Supplies;2017-08-08;Consumer;454 
+Office Supplies;2017-08-08;Home Office;208 
+Furniture;2017-08-08;Home Office;48 
+Office Supplies;2017-08-09;Consumer;2018 
+Technology;2017-08-09;Home Office;1376 
+Technology;2017-08-09;Corporate;164 
+Office Supplies;2017-08-09;Home Office;22 
+Office Supplies;2017-08-09;Corporate;17 
+Office Supplies;2017-08-11;Consumer;461 
+Furniture;2017-08-11;Consumer;12 
+Technology;2017-08-12;Consumer;1154 
+Office Supplies;2017-08-12;Home Office;269 
+Office Supplies;2017-08-12;Corporate;198 
+Technology;2017-08-12;Home Office;173 
+Furniture;2017-08-12;Consumer;80 
+Office Supplies;2017-08-12;Consumer;13 
+Office Supplies;2017-08-15;Consumer;661 
+Furniture;2017-08-15;Consumer;193 
+Furniture;2017-08-16;Consumer;725 
+Technology;2017-08-17;Corporate;340 
+Office Supplies;2017-08-17;Corporate;167 
+Furniture;2017-08-19;Consumer;600 
+Office Supplies;2017-08-19;Corporate;410 
+Furniture;2017-08-19;Corporate;318 
+Office Supplies;2017-08-19;Consumer;103 
+Office Supplies;2017-08-20;Corporate;835 
+Furniture;2017-08-20;Corporate;440 
+Furniture;2017-08-20;Consumer;379 
+Office Supplies;2017-08-22;Consumer;20 
+Office Supplies;2017-08-22;Home Office;4 
+Office Supplies;2017-08-23;Consumer;352 
+Technology;2017-08-23;Consumer;141 
+Office Supplies;2017-08-23;Corporate;52 
+Office Supplies;2017-08-23;Home Office;18 
+Furniture;2017-08-23;Consumer;4 
+Office Supplies;2017-08-24;Corporate;40 
+Furniture;2017-08-24;Corporate;12 
+Technology;2017-08-25;Consumer;998 
+Office Supplies;2017-08-25;Consumer;216 
+Office Supplies;2017-08-25;Corporate;101 
+Technology;2017-08-25;Corporate;88 
+Furniture;2017-08-25;Corporate;6 
+Technology;2017-08-26;Home Office;317 
+Office Supplies;2017-08-26;Consumer;18 
+Furniture;2017-08-26;Consumer;9 
+Office Supplies;2017-08-26;Home Office;8 
+Furniture;2017-08-27;Corporate;1207 
+Technology;2017-08-27;Corporate;563 
+Technology;2017-08-27;Consumer;184 
+Office Supplies;2017-08-27;Consumer;43 
+Office Supplies;2017-08-29;Consumer;583 
+Furniture;2017-08-29;Consumer;178 
+Office Supplies;2017-08-29;Corporate;113 
+Office Supplies;2017-08-30;Consumer;118 
+Technology;2017-08-31;Consumer;102 
+Technology;2017-09-01;Consumer;303 
+Office Supplies;2017-09-01;Consumer;101 
+Office Supplies;2017-09-02;Consumer;1908 
+Technology;2017-09-02;Consumer;709 
+Technology;2017-09-02;Corporate;588 
+Furniture;2017-09-02;Consumer;60 
+Office Supplies;2017-09-03;Consumer;16 
+Office Supplies;2017-09-03;Home Office;8 
+Office Supplies;2017-09-05;Consumer;256 
+Furniture;2017-09-05;Consumer;31 
+Office Supplies;2017-09-06;Corporate;58 
+Furniture;2017-09-06;Corporate;42 
+Furniture;2017-09-07;Consumer;932 
+Furniture;2017-09-07;Home Office;793 
+Technology;2017-09-07;Consumer;512 
+Technology;2017-09-07;Corporate;458 
+Office Supplies;2017-09-07;Consumer;378 
+Technology;2017-09-07;Home Office;265 
+Office Supplies;2017-09-07;Corporate;191 
+Office Supplies;2017-09-07;Home Office;74 
+Furniture;2017-09-07;Corporate;46 
+Technology;2017-09-08;Consumer;7365 
+Furniture;2017-09-08;Consumer;3720 
+Office Supplies;2017-09-08;Consumer;1501 
+Furniture;2017-09-08;Home Office;169 
+Technology;2017-09-08;Corporate;113 
+Office Supplies;2017-09-08;Home Office;78 
+Office Supplies;2017-09-08;Corporate;17 
+Office Supplies;2017-09-09;Corporate;1610 
+Technology;2017-09-09;Consumer;1485 
+Furniture;2017-09-09;Corporate;684 
+Office Supplies;2017-09-09;Consumer;124 
+Furniture;2017-09-09;Home Office;66 
+Office Supplies;2017-09-09;Home Office;30 
+Furniture;2017-09-09;Consumer;17 
+Furniture;2017-09-10;Consumer;1742 
+Office Supplies;2017-09-10;Consumer;105 
+Office Supplies;2017-09-10;Home Office;8 
+Furniture;2017-09-11;Consumer;118 
+Furniture;2017-09-12;Consumer;3899 
+Office Supplies;2017-09-12;Home Office;600 
+Office Supplies;2017-09-12;Corporate;156 
+Technology;2017-09-12;Home Office;111 
+Office Supplies;2017-09-12;Consumer;59 
+Furniture;2017-09-12;Home Office;35 
+Technology;2017-09-12;Corporate;14 
+Technology;2017-09-13;Consumer;751 
+Furniture;2017-09-13;Home Office;330 
+Office Supplies;2017-09-13;Consumer;114 
+Office Supplies;2017-09-13;Corporate;104 
+Furniture;2017-09-13;Consumer;16 
+Technology;2017-09-14;Consumer;3167 
+Office Supplies;2017-09-14;Consumer;1147 
+Furniture;2017-09-14;Consumer;552 
+Office Supplies;2017-09-14;Corporate;100 
+Furniture;2017-09-14;Corporate;10 
+Furniture;2017-09-15;Corporate;106 
+Office Supplies;2017-09-15;Consumer;16 
+Furniture;2017-09-15;Consumer;15 
+Office Supplies;2017-09-16;Corporate;29 
+Office Supplies;2017-09-17;Consumer;562 
+Technology;2017-09-17;Consumer;116 
+Furniture;2017-09-17;Consumer;35 
+Office Supplies;2017-09-17;Home Office;6 
+Technology;2017-09-19;Corporate;5915 
+Technology;2017-09-19;Consumer;2599 
+Furniture;2017-09-19;Corporate;836 
+Office Supplies;2017-09-19;Corporate;98 
+Office Supplies;2017-09-19;Consumer;73 
+Office Supplies;2017-09-19;Home Office;5 
+Furniture;2017-09-20;Consumer;2672 
+Technology;2017-09-20;Consumer;1989 
+Office Supplies;2017-09-20;Consumer;138 
+Office Supplies;2017-09-20;Home Office;65 
+Office Supplies;2017-09-20;Corporate;12 
+Technology;2017-09-21;Consumer;1943 
+Office Supplies;2017-09-21;Consumer;233 
+Office Supplies;2017-09-21;Home Office;101 
+Office Supplies;2017-09-21;Corporate;68 
+Furniture;2017-09-21;Home Office;7 
+Furniture;2017-09-22;Consumer;670 
+Office Supplies;2017-09-22;Corporate;338 
+Office Supplies;2017-09-22;Consumer;239 
+Office Supplies;2017-09-23;Consumer;10084 
+Furniture;2017-09-23;Corporate;427 
+Technology;2017-09-23;Corporate;91 
+Office Supplies;2017-09-23;Home Office;51 
+Office Supplies;2017-09-23;Corporate;11 
+Office Supplies;2017-09-24;Consumer;212 
+Furniture;2017-09-25;Home Office;325 
+Office Supplies;2017-09-25;Home Office;59 
+Furniture;2017-09-26;Home Office;521 
+Office Supplies;2017-09-26;Home Office;375 
+Office Supplies;2017-09-26;Corporate;165 
+Furniture;2017-09-26;Consumer;156 
+Technology;2017-09-26;Consumer;148 
+Furniture;2017-09-26;Corporate;20 
+Technology;2017-09-26;Home Office;3 
+Furniture;2017-09-27;Consumer;592 
+Furniture;2017-09-27;Corporate;84 
+Office Supplies;2017-09-27;Consumer;82 
+Furniture;2017-09-28;Consumer;364 
+Office Supplies;2017-09-28;Corporate;158 
+Office Supplies;2017-09-29;Consumer;2626 
+Furniture;2017-09-29;Home Office;2331 
+Office Supplies;2017-09-29;Corporate;1713 
+Technology;2017-09-29;Consumer;604 
+Furniture;2017-09-29;Corporate;443 
+Furniture;2017-09-29;Consumer;316 
+Office Supplies;2017-09-30;Corporate;756 
+Office Supplies;2017-09-30;Consumer;189 
+Furniture;2017-09-30;Corporate;14 
+Office Supplies;2017-10-01;Home Office;5 
+Technology;2017-10-02;Corporate;567 
+Office Supplies;2017-10-02;Corporate;43 
+Furniture;2017-10-03;Consumer;293 
+Furniture;2017-10-03;Corporate;242 
+Technology;2017-10-03;Consumer;147 
+Office Supplies;2017-10-03;Consumer;98 
+Office Supplies;2017-10-03;Home Office;70 
+Furniture;2017-10-04;Consumer;637 
+Office Supplies;2017-10-04;Consumer;131 
+Technology;2017-10-05;Consumer;100 
+Office Supplies;2017-10-05;Consumer;96 
+Office Supplies;2017-10-06;Corporate;390 
+Office Supplies;2017-10-06;Consumer;89 
+Technology;2017-10-06;Consumer;10 
+Furniture;2017-10-07;Home Office;125 
+Office Supplies;2017-10-07;Corporate;102 
+Office Supplies;2017-10-08;Consumer;120 
+Technology;2017-10-08;Consumer;25 
+Office Supplies;2017-10-09;Consumer;126 
+Office Supplies;2017-10-09;Corporate;85 
+Technology;2017-10-09;Consumer;15 
+Technology;2017-10-10;Corporate;1564 
+Office Supplies;2017-10-10;Corporate;234 
+Furniture;2017-10-10;Home Office;157 
+Technology;2017-10-10;Consumer;91 
+Office Supplies;2017-10-10;Home Office;16 
+Office Supplies;2017-10-10;Consumer;16 
+Office Supplies;2017-10-11;Consumer;460 
+Furniture;2017-10-11;Consumer;438 
+Technology;2017-10-11;Home Office;328 
+Furniture;2017-10-11;Home Office;69 
+Furniture;2017-10-11;Corporate;10 
+Office Supplies;2017-10-11;Corporate;7 
+Office Supplies;2017-10-12;Consumer;40 
+Office Supplies;2017-10-12;Corporate;21 
+Furniture;2017-10-13;Consumer;1415 
+Office Supplies;2017-10-13;Home Office;359 
+Furniture;2017-10-13;Corporate;268 
+Office Supplies;2017-10-13;Consumer;214 
+Technology;2017-10-13;Consumer;23 
+Office Supplies;2017-10-13;Corporate;23 
+Technology;2017-10-13;Home Office;20 
+Technology;2017-10-14;Consumer;2090 
+Furniture;2017-10-14;Consumer;1678 
+Office Supplies;2017-10-14;Consumer;440 
+Office Supplies;2017-10-14;Corporate;252 
+Furniture;2017-10-15;Consumer;193 
+Office Supplies;2017-10-15;Consumer;7 
+Technology;2017-10-16;Consumer;155 
+Office Supplies;2017-10-16;Consumer;13 
+Technology;2017-10-17;Consumer;112 
+Office Supplies;2017-10-17;Consumer;11 
+Furniture;2017-10-17;Consumer;5 
+Technology;2017-10-18;Corporate;1520 
+Furniture;2017-10-18;Corporate;1048 
+Office Supplies;2017-10-18;Corporate;457 
+Office Supplies;2017-10-18;Consumer;58 
+Technology;2017-10-19;Home Office;344 
+Office Supplies;2017-10-19;Corporate;162 
+Technology;2017-10-19;Corporate;128 
+Office Supplies;2017-10-19;Consumer;12 
+Office Supplies;2017-10-20;Home Office;510 
+Furniture;2017-10-20;Corporate;338 
+Technology;2017-10-20;Home Office;278 
+Office Supplies;2017-10-20;Consumer;212 
+Office Supplies;2017-10-20;Corporate;85 
+Furniture;2017-10-21;Corporate;650 
+Furniture;2017-10-21;Consumer;381 
+Office Supplies;2017-10-21;Corporate;255 
+Office Supplies;2017-10-21;Consumer;133 
+Furniture;2017-10-22;Corporate;125 
+Furniture;2017-10-22;Home Office;84 
+Office Supplies;2017-10-24;Consumer;44 
+Office Supplies;2017-10-24;Home Office;10 
+Office Supplies;2017-10-25;Corporate;42 
+Technology;2017-10-25;Consumer;36 
+Office Supplies;2017-10-25;Consumer;13 
+Technology;2017-10-26;Consumer;372 
+Furniture;2017-10-26;Consumer;58 
+Office Supplies;2017-10-27;Home Office;21 
+Office Supplies;2017-10-28;Corporate;655 
+Furniture;2017-10-28;Corporate;580 
+Technology;2017-10-28;Corporate;224 
+Technology;2017-10-29;Consumer;2955 
+Office Supplies;2017-10-29;Corporate;73 
+Technology;2017-10-29;Corporate;2 
+Furniture;2017-10-31;Consumer;1962 
+Furniture;2017-10-31;Corporate;1458 
+Technology;2017-10-31;Consumer;698 
+Office Supplies;2017-10-31;Corporate;579 
+Technology;2017-10-31;Corporate;242 
+Office Supplies;2017-10-31;Consumer;91 
+Technology;2017-10-31;Home Office;81 
+Technology;2017-11-01;Consumer;1840 
+Office Supplies;2017-11-01;Consumer;1106 
+Technology;2017-11-01;Corporate;920 
+Office Supplies;2017-11-01;Corporate;248 
+Office Supplies;2017-11-01;Home Office;71 
+Furniture;2017-11-01;Corporate;58 
+Furniture;2017-11-01;Consumer;32 
+Technology;2017-11-02;Home Office;840 
+Technology;2017-11-02;Consumer;638 
+Office Supplies;2017-11-02;Consumer;413 
+Technology;2017-11-02;Corporate;100 
+Furniture;2017-11-02;Consumer;98 
+Furniture;2017-11-03;Consumer;1220 
+Technology;2017-11-03;Consumer;729 
+Office Supplies;2017-11-03;Consumer;575 
+Technology;2017-11-03;Corporate;84 
+Office Supplies;2017-11-03;Home Office;6 
+Office Supplies;2017-11-03;Corporate;6 
+Technology;2017-11-04;Home Office;4119 
+Technology;2017-11-04;Consumer;1181 
+Furniture;2017-11-04;Consumer;615 
+Furniture;2017-11-04;Home Office;117 
+Office Supplies;2017-11-04;Home Office;96 
+Office Supplies;2017-11-04;Corporate;73 
+Office Supplies;2017-11-04;Consumer;36 
+Office Supplies;2017-11-05;Consumer;1126 
+Furniture;2017-11-05;Consumer;428 
+Technology;2017-11-05;Consumer;100 
+Technology;2017-11-05;Home Office;45 
+Furniture;2017-11-05;Home Office;18 
+Office Supplies;2017-11-06;Consumer;40 
+Furniture;2017-11-07;Consumer;745 
+Office Supplies;2017-11-07;Consumer;554 
+Office Supplies;2017-11-07;Corporate;138 
+Technology;2017-11-08;Consumer;364 
+Technology;2017-11-09;Consumer;669 
+Office Supplies;2017-11-09;Consumer;508 
+Furniture;2017-11-09;Consumer;238 
+Furniture;2017-11-09;Home Office;52 
+Office Supplies;2017-11-10;Consumer;740 
+Furniture;2017-11-10;Consumer;683 
+Technology;2017-11-10;Consumer;570 
+Office Supplies;2017-11-11;Corporate;2180 
+Office Supplies;2017-11-11;Consumer;1813 
+Furniture;2017-11-11;Consumer;1342 
+Technology;2017-11-11;Consumer;988 
+Furniture;2017-11-11;Corporate;524 
+Technology;2017-11-11;Home Office;501 
+Office Supplies;2017-11-11;Home Office;409 
+Technology;2017-11-11;Corporate;88 
+Furniture;2017-11-12;Consumer;556 
+Technology;2017-11-12;Consumer;115 
+Office Supplies;2017-11-12;Corporate;70 
+Furniture;2017-11-12;Corporate;68 
+Technology;2017-11-12;Corporate;68 
+Office Supplies;2017-11-12;Consumer;62 
+Technology;2017-11-14;Consumer;866 
+Office Supplies;2017-11-14;Consumer;102 
+Furniture;2017-11-14;Home Office;64 
+Office Supplies;2017-11-14;Corporate;21 
+Office Supplies;2017-11-14;Home Office;12 
+Office Supplies;2017-11-15;Consumer;898 
+Technology;2017-11-15;Consumer;803 
+Office Supplies;2017-11-15;Corporate;11 
+Furniture;2017-11-15;Consumer;10 
+Office Supplies;2017-11-16;Corporate;368 
+Technology;2017-11-16;Home Office;279 
+Furniture;2017-11-16;Corporate;275 
+Office Supplies;2017-11-16;Home Office;275 
+Technology;2017-11-16;Corporate;79 
+Furniture;2017-11-16;Consumer;38 
+Furniture;2017-11-17;Consumer;4153 
+Office Supplies;2017-11-17;Corporate;4086 
+Office Supplies;2017-11-17;Consumer;2259 
+Furniture;2017-11-17;Home Office;509 
+Furniture;2017-11-17;Corporate;122 
+Technology;2017-11-17;Corporate;109 
+Office Supplies;2017-11-17;Home Office;37 
+Furniture;2017-11-18;Corporate;1286 
+Furniture;2017-11-18;Consumer;894 
+Technology;2017-11-18;Consumer;528 
+Office Supplies;2017-11-18;Consumer;511 
+Office Supplies;2017-11-18;Corporate;113 
+Technology;2017-11-19;Consumer;4439 
+Furniture;2017-11-19;Corporate;893 
+Technology;2017-11-19;Home Office;601 
+Office Supplies;2017-11-19;Corporate;260 
+Office Supplies;2017-11-19;Consumer;210 
+Office Supplies;2017-11-19;Home Office;179 
+Technology;2017-11-20;Corporate;834 
+Office Supplies;2017-11-20;Corporate;80 
+Office Supplies;2017-11-21;Corporate;911 
+Technology;2017-11-21;Corporate;296 
+Technology;2017-11-21;Home Office;91 
+Office Supplies;2017-11-21;Home Office;6 
+Office Supplies;2017-11-22;Corporate;1084 
+Office Supplies;2017-11-22;Consumer;63 
+Office Supplies;2017-11-22;Home Office;10 
+Furniture;2017-11-23;Consumer;966 
+Furniture;2017-11-23;Corporate;171 
+Office Supplies;2017-11-23;Corporate;101 
+Office Supplies;2017-11-23;Consumer;56 
+Technology;2017-11-23;Consumer;30 
+Office Supplies;2017-11-23;Home Office;25 
+Technology;2017-11-23;Corporate;6 
+Technology;2017-11-24;Consumer;1372 
+Office Supplies;2017-11-24;Corporate;1279 
+Technology;2017-11-24;Corporate;1050 
+Office Supplies;2017-11-24;Consumer;629 
+Furniture;2017-11-24;Corporate;538 
+Furniture;2017-11-24;Consumer;314 
+Furniture;2017-11-24;Home Office;98 
+Office Supplies;2017-11-24;Home Office;6 
+Furniture;2017-11-25;Corporate;1336 
+Office Supplies;2017-11-25;Home Office;1185 
+Furniture;2017-11-25;Consumer;802 
+Technology;2017-11-25;Consumer;486 
+Office Supplies;2017-11-25;Corporate;390 
+Furniture;2017-11-25;Home Office;284 
+Office Supplies;2017-11-25;Consumer;55 
+Technology;2017-11-25;Corporate;27 
+Technology;2017-11-26;Consumer;783 
+Office Supplies;2017-11-26;Consumer;705 
+Office Supplies;2017-11-26;Home Office;82 
+Office Supplies;2017-11-26;Corporate;57 
+Furniture;2017-11-26;Consumer;19 
+Furniture;2017-11-27;Corporate;218 
+Office Supplies;2017-11-27;Consumer;4 
+Technology;2017-11-28;Consumer;1059 
+Furniture;2017-11-28;Home Office;411 
+Furniture;2017-11-28;Corporate;382 
+Office Supplies;2017-11-28;Corporate;228 
+Office Supplies;2017-11-28;Consumer;66 
+Office Supplies;2017-11-28;Home Office;54 
+Technology;2017-11-29;Consumer;570 
+Office Supplies;2017-11-29;Consumer;53 
+Office Supplies;2017-11-29;Corporate;12 
+Office Supplies;2017-11-30;Consumer;114 
+Technology;2017-11-30;Consumer;102 
+Office Supplies;2017-11-30;Corporate;7 
+Furniture;2017-12-01;Consumer;3609 
+Technology;2017-12-01;Consumer;894 
+Furniture;2017-12-01;Corporate;735 
+Office Supplies;2017-12-01;Consumer;89 
+Furniture;2017-12-02;Consumer;928 
+Furniture;2017-12-02;Corporate;423 
+Office Supplies;2017-12-02;Corporate;169 
+Technology;2017-12-02;Corporate;130 
+Technology;2017-12-02;Consumer;120 
+Office Supplies;2017-12-02;Consumer;42 
+Technology;2017-12-03;Consumer;523 
+Office Supplies;2017-12-03;Corporate;28 
+Technology;2017-12-04;Corporate;120 
+Office Supplies;2017-12-05;Corporate;1715 
+Technology;2017-12-05;Corporate;785 
+Office Supplies;2017-12-05;Consumer;398 
+Office Supplies;2017-12-06;Corporate;1085 
+Furniture;2017-12-06;Consumer;499 
+Office Supplies;2017-12-06;Consumer;133 
+Technology;2017-12-06;Consumer;36 
+Office Supplies;2017-12-07;Home Office;391 
+Office Supplies;2017-12-07;Consumer;123 
+Furniture;2017-12-08;Consumer;586 
+Office Supplies;2017-12-08;Consumer;149 
+Technology;2017-12-08;Consumer;146 
+Furniture;2017-12-08;Corporate;122 
+Office Supplies;2017-12-08;Corporate;65 
+Technology;2017-12-09;Consumer;983 
+Office Supplies;2017-12-09;Corporate;416 
+Office Supplies;2017-12-09;Consumer;32 
+Furniture;2017-12-10;Corporate;349 
+Office Supplies;2017-12-10;Corporate;124 
+Office Supplies;2017-12-10;Consumer;100 
+Furniture;2017-12-12;Consumer;4555 
+Office Supplies;2017-12-12;Corporate;189 
+Office Supplies;2017-12-12;Consumer;34 
+Furniture;2017-12-13;Corporate;193 
+Office Supplies;2017-12-13;Consumer;88 
+Office Supplies;2017-12-13;Corporate;19 
+Technology;2017-12-14;Consumer;6423 
+Furniture;2017-12-14;Consumer;278 
+Office Supplies;2017-12-14;Consumer;11 
+Office Supplies;2017-12-14;Corporate;9 
+Furniture;2017-12-15;Consumer;793 
+Furniture;2017-12-15;Corporate;468 
+Technology;2017-12-15;Consumer;44 
+Furniture;2017-12-16;Corporate;2345 
+Technology;2017-12-16;Home Office;1002 
+Technology;2017-12-16;Consumer;462 
+Furniture;2017-12-16;Home Office;249 
+Office Supplies;2017-12-16;Corporate;117 
+Furniture;2017-12-16;Consumer;92 
+Office Supplies;2017-12-16;Consumer;32 
+Office Supplies;2017-12-17;Consumer;50 
+Furniture;2017-12-19;Consumer;1601 
+Technology;2017-12-19;Corporate;692 
+Technology;2017-12-19;Consumer;492 
+Office Supplies;2017-12-19;Consumer;211 
+Office Supplies;2017-12-19;Corporate;37 
+Furniture;2017-12-20;Home Office;2538 
+Office Supplies;2017-12-20;Consumer;2152 
+Furniture;2017-12-20;Consumer;976 
+Technology;2017-12-20;Consumer;556 
+Furniture;2017-12-20;Corporate;188 
+Office Supplies;2017-12-20;Home Office;187 
+Furniture;2017-12-21;Consumer;1651 
+Office Supplies;2017-12-21;Home Office;19 
+Office Supplies;2017-12-21;Consumer;17 
+Office Supplies;2017-12-22;Home Office;559 
+Office Supplies;2017-12-22;Consumer;266 
+Office Supplies;2017-12-23;Consumer;671 
+Office Supplies;2017-12-23;Corporate;63 
+Furniture;2017-12-23;Consumer;56 
+Furniture;2017-12-23;Corporate;47 
+Technology;2017-12-24;Home Office;1139 
+Office Supplies;2017-12-24;Home Office;348 
+Furniture;2017-12-24;Corporate;257 
+Office Supplies;2017-12-24;Corporate;156 
+Furniture;2017-12-24;Consumer;28 
+Furniture;2017-12-24;Home Office;26 
+Office Supplies;2017-12-24;Consumer;21 
+Furniture;2017-12-26;Corporate;712 
+Furniture;2017-12-26;Home Office;583 
+Office Supplies;2017-12-26;Consumer;568 
+Office Supplies;2017-12-26;Corporate;118 
+Furniture;2017-12-26;Consumer;3 
+Office Supplies;2017-12-27;Consumer;1113 
+Furniture;2017-12-27;Home Office;783 
+Technology;2017-12-27;Corporate;548 
+Furniture;2017-12-27;Consumer;468 
+Office Supplies;2017-12-27;Home Office;111 
+Office Supplies;2017-12-27;Corporate;21 
+Office Supplies;2017-12-28;Corporate;2870 
+Office Supplies;2017-12-28;Consumer;1155 
+Technology;2017-12-29;Corporate;902 
+Technology;2017-12-29;Consumer;478 
+Office Supplies;2017-12-29;Corporate;292 
+Office Supplies;2017-12-29;Consumer;176 
+Furniture;2017-12-29;Corporate;102 
+Furniture;2017-12-29;Consumer;40 
+Furniture;2017-12-29;Home Office;9 
+Technology;2017-12-30;Corporate;779 
+Office Supplies;2017-12-30;Corporate;571 
+Furniture;2017-12-30;Corporate;482 
+Office Supplies;2017-12-30;Consumer;217 
+Technology;2017-12-30;Consumer;30 
+Technology;2017-12-31;Home Office;2392 
+Furniture;2017-12-31;Corporate;1337 
+Furniture;2017-12-31;Home Office;1041 
+Office Supplies;2017-12-31;Home Office;232 
+Office Supplies;2017-12-31;Corporate;90 
+Technology;2017-12-31;Corporate;71 
+Technology;2018-01-02;Corporate;1166 
+Furniture;2018-01-02;Corporate;434 
+Office Supplies;2018-01-02;Corporate;143 
+Furniture;2018-01-03;Consumer;1177 
+Technology;2018-01-03;Consumer;363 
+Office Supplies;2018-01-03;Corporate;9 
+Office Supplies;2018-01-03;Consumer;7 
+Furniture;2018-01-04;Corporate;210 
+Office Supplies;2018-01-04;Corporate;66 
+Office Supplies;2018-01-05;Home Office;132 
+Office Supplies;2018-01-05;Corporate;95 
+Furniture;2018-01-05;Home Office;61 
+Office Supplies;2018-01-06;Corporate;31 
+Office Supplies;2018-01-09;Consumer;357 
+Furniture;2018-01-10;Consumer;967 
+Office Supplies;2018-01-12;Corporate;404 
+Technology;2018-01-12;Corporate;360 
+Furniture;2018-01-13;Consumer;472 
+Office Supplies;2018-01-13;Consumer;71 
+Office Supplies;2018-01-13;Corporate;10 
+Furniture;2018-01-17;Home Office;260 
+Office Supplies;2018-01-17;Consumer;95 
+Office Supplies;2018-01-17;Corporate;7 
+Furniture;2018-01-19;Consumer;266 
+Office Supplies;2018-01-23;Home Office;40 
+Office Supplies;2018-01-24;Home Office;12 
+Office Supplies;2018-01-26;Corporate;159 
+Furniture;2018-01-27;Consumer;2807 
+Technology;2018-01-27;Consumer;552 
+Furniture;2018-01-28;Consumer;4083 
+Technology;2018-01-30;Consumer;1632 
+Furniture;2018-01-30;Consumer;214 
+Office Supplies;2018-01-30;Consumer;13 
+Furniture;2018-01-31;Consumer;46 
+Office Supplies;2018-01-31;Consumer;41 
+Furniture;2018-02-03;Corporate;251 
+Technology;2018-02-03;Consumer;127 
+Office Supplies;2018-02-03;Consumer;78 
+Furniture;2018-02-03;Consumer;31 
+Office Supplies;2018-02-03;Corporate;12 
+Furniture;2018-02-06;Consumer;1460 
+Office Supplies;2018-02-06;Consumer;700 
+Office Supplies;2018-02-06;Corporate;175 
+Technology;2018-02-06;Consumer;18 
+Office Supplies;2018-02-07;Corporate;298 
+Technology;2018-02-08;Consumer;97 
+Office Supplies;2018-02-08;Consumer;22 
+Technology;2018-02-09;Consumer;528 
+Furniture;2018-02-09;Consumer;216 
+Office Supplies;2018-02-09;Corporate;38 
+Furniture;2018-02-09;Corporate;35 
+Technology;2018-02-09;Corporate;20 
+Office Supplies;2018-02-10;Corporate;74 
+Technology;2018-02-14;Consumer;879 
+Office Supplies;2018-02-14;Consumer;61 
+Technology;2018-02-15;Corporate;946 
+Office Supplies;2018-02-15;Consumer;540 
+Office Supplies;2018-02-16;Consumer;135 
+Office Supplies;2018-02-16;Corporate;34 
+Office Supplies;2018-02-18;Consumer;57 
+Furniture;2018-02-18;Consumer;33 
+Office Supplies;2018-02-18;Corporate;10 
+Office Supplies;2018-02-20;Consumer;310 
+Technology;2018-02-20;Consumer;31 
+Office Supplies;2018-02-21;Consumer;2306 
+Office Supplies;2018-02-22;Home Office;86 
+Office Supplies;2018-02-23;Home Office;32 
+Office Supplies;2018-02-25;Consumer;23 
+Technology;2018-02-27;Consumer;571 
+Furniture;2018-02-27;Corporate;504 
+Technology;2018-02-27;Corporate;90 
+Office Supplies;2018-02-27;Corporate;18 
+Furniture;2018-02-28;Consumer;474 
+Furniture;2018-02-28;Corporate;174 
+Office Supplies;2018-02-28;Consumer;64 
+Technology;2018-02-28;Corporate;16 
+Furniture;2018-03-01;Corporate;1191 
+Technology;2018-03-01;Corporate;91 
+Office Supplies;2018-03-01;Corporate;48 
+Office Supplies;2018-03-01;Consumer;3 
+Furniture;2018-03-02;Consumer;685 
+Office Supplies;2018-03-02;Home Office;101 
+Office Supplies;2018-03-05;Consumer;922 
+Technology;2018-03-05;Corporate;434 
+Furniture;2018-03-05;Consumer;423 
+Furniture;2018-03-05;Corporate;145 
+Technology;2018-03-05;Consumer;49 
+Office Supplies;2018-03-05;Corporate;3 
+Technology;2018-03-06;Consumer;986 
+Furniture;2018-03-06;Consumer;387 
+Technology;2018-03-07;Home Office;722 
+Office Supplies;2018-03-07;Home Office;105 
+Furniture;2018-03-08;Consumer;1852 
+Technology;2018-03-08;Consumer;808 
+Office Supplies;2018-03-08;Corporate;22 
+Office Supplies;2018-03-08;Consumer;20 
+Technology;2018-03-09;Corporate;407 
+Office Supplies;2018-03-09;Consumer;4 
+Office Supplies;2018-03-10;Corporate;90 
+Office Supplies;2018-03-10;Consumer;1 
+Furniture;2018-03-12;Corporate;39 
+Office Supplies;2018-03-12;Corporate;9 
+Office Supplies;2018-03-12;Consumer;5 
+Furniture;2018-03-13;Home Office;1255 
+Furniture;2018-03-13;Consumer;143 
+Office Supplies;2018-03-14;Consumer;673 
+Technology;2018-03-15;Corporate;14 
+Office Supplies;2018-03-16;Consumer;7465 
+Furniture;2018-03-16;Consumer;174 
+Technology;2018-03-16;Corporate;94 
+Furniture;2018-03-16;Corporate;38 
+Office Supplies;2018-03-16;Home Office;18 
+Office Supplies;2018-03-17;Corporate;34 
+Technology;2018-03-17;Corporate;13 
+Technology;2018-03-19;Corporate;3181 
+Office Supplies;2018-03-19;Corporate;1381 
+Technology;2018-03-19;Home Office;408 
+Furniture;2018-03-19;Home Office;357 
+Office Supplies;2018-03-19;Consumer;144 
+Office Supplies;2018-03-19;Home Office;67 
+Office Supplies;2018-03-20;Corporate;1142 
+Technology;2018-03-20;Corporate;212 
+Office Supplies;2018-03-20;Consumer;48 
+Office Supplies;2018-03-21;Consumer;1270 
+Technology;2018-03-22;Corporate;1518 
+Technology;2018-03-22;Consumer;526 
+Office Supplies;2018-03-22;Consumer;321 
+Office Supplies;2018-03-22;Corporate;133 
+Furniture;2018-03-22;Corporate;80 
+Technology;2018-03-23;Corporate;254 
+Office Supplies;2018-03-23;Corporate;219 
+Furniture;2018-03-23;Consumer;113 
+Office Supplies;2018-03-23;Consumer;55 
+Furniture;2018-03-24;Home Office;377 
+Furniture;2018-03-24;Corporate;40 
+Office Supplies;2018-03-24;Corporate;8 
+Furniture;2018-03-26;Corporate;3631 
+Office Supplies;2018-03-26;Corporate;1267 
+Office Supplies;2018-03-26;Consumer;42 
+Technology;2018-03-26;Consumer;18 
+Office Supplies;2018-03-27;Consumer;71 
+Technology;2018-03-28;Consumer;178 
+Office Supplies;2018-03-28;Consumer;78 
+Furniture;2018-03-29;Home Office;1120 
+Office Supplies;2018-03-29;Consumer;271 
+Technology;2018-03-29;Consumer;47 
+Furniture;2018-03-29;Consumer;17 
+Furniture;2018-03-30;Home Office;374 
+Technology;2018-03-30;Corporate;183 
+Office Supplies;2018-03-30;Corporate;25 
+Office Supplies;2018-03-31;Corporate;93 
+Technology;2018-03-31;Corporate;75 
+Furniture;2018-03-31;Corporate;23 
+Technology;2018-04-02;Consumer;230 
+Office Supplies;2018-04-02;Consumer;34 
+Office Supplies;2018-04-02;Corporate;8 
+Technology;2018-04-04;Consumer;574 
+Office Supplies;2018-04-04;Consumer;563 
+Office Supplies;2018-04-04;Home Office;110 
+Furniture;2018-04-04;Home Office;100 
+Furniture;2018-04-05;Home Office;962 
+Furniture;2018-04-05;Corporate;919 
+Office Supplies;2018-04-05;Home Office;571 
+Technology;2018-04-05;Consumer;238 
+Office Supplies;2018-04-05;Corporate;172 
+Technology;2018-04-05;Home Office;59 
+Office Supplies;2018-04-05;Consumer;48 
+Office Supplies;2018-04-06;Consumer;118 
+Technology;2018-04-06;Consumer;24 
+Office Supplies;2018-04-07;Consumer;496 
+Technology;2018-04-07;Consumer;407 
+Office Supplies;2018-04-07;Home Office;10 
+Furniture;2018-04-09;Consumer;363 
+Office Supplies;2018-04-09;Consumer;338 
+Office Supplies;2018-04-10;Home Office;168 
+Office Supplies;2018-04-10;Corporate;14 
+Technology;2018-04-11;Consumer;755 
+Office Supplies;2018-04-11;Consumer;487 
+Furniture;2018-04-11;Consumer;105 
+Office Supplies;2018-04-12;Home Office;41 
+Furniture;2018-04-13;Consumer;1508 
+Technology;2018-04-13;Consumer;809 
+Technology;2018-04-13;Corporate;248 
+Office Supplies;2018-04-13;Home Office;88 
+Office Supplies;2018-04-13;Corporate;80 
+Office Supplies;2018-04-13;Consumer;45 
+Furniture;2018-04-13;Corporate;41 
+Office Supplies;2018-04-14;Consumer;35 
+Technology;2018-04-16;Consumer;2156 
+Furniture;2018-04-16;Consumer;1548 
+Office Supplies;2018-04-16;Corporate;130 
+Furniture;2018-04-16;Corporate;109 
+Technology;2018-04-16;Corporate;105 
+Office Supplies;2018-04-16;Consumer;9 
+Office Supplies;2018-04-17;Consumer;1507 
+Technology;2018-04-17;Consumer;1122 
+Office Supplies;2018-04-18;Home Office;858 
+Technology;2018-04-18;Corporate;334 
+Office Supplies;2018-04-18;Consumer;223 
+Technology;2018-04-18;Consumer;99 
+Office Supplies;2018-04-18;Corporate;96 
+Furniture;2018-04-18;Consumer;94 
+Furniture;2018-04-18;Corporate;61 
+Office Supplies;2018-04-19;Consumer;290 
+Furniture;2018-04-20;Corporate;578 
+Office Supplies;2018-04-20;Consumer;325 
+Technology;2018-04-20;Corporate;311 
+Office Supplies;2018-04-20;Corporate;12 
+Technology;2018-04-21;Consumer;404 
+Furniture;2018-04-21;Consumer;346 
+Office Supplies;2018-04-21;Consumer;19 
+Technology;2018-04-22;Consumer;77 
+Office Supplies;2018-04-22;Consumer;61 
+Office Supplies;2018-04-24;Home Office;23 
+Office Supplies;2018-04-25;Consumer;705 
+Furniture;2018-04-25;Consumer;113 
+Office Supplies;2018-04-25;Corporate;33 
+Furniture;2018-04-26;Consumer;1514 
+Technology;2018-04-26;Corporate;290 
+Office Supplies;2018-04-26;Corporate;112 
+Office Supplies;2018-04-26;Consumer;78 
+Furniture;2018-04-26;Corporate;66 
+Technology;2018-04-27;Consumer;1490 
+Furniture;2018-04-27;Consumer;1382 
+Office Supplies;2018-04-27;Home Office;45 
+Office Supplies;2018-04-27;Consumer;24 
+Office Supplies;2018-04-28;Home Office;4000 
+Office Supplies;2018-04-28;Consumer;42 
+Office Supplies;2018-04-29;Home Office;8 
+Technology;2018-04-30;Consumer;900 
+Furniture;2018-04-30;Home Office;213 
+Technology;2018-04-30;Corporate;204 
+Furniture;2018-04-30;Corporate;72 
+Office Supplies;2018-04-30;Corporate;40 
+Office Supplies;2018-05-01;Corporate;227 
+Technology;2018-05-01;Corporate;95 
+Office Supplies;2018-05-01;Consumer;72 
+Furniture;2018-05-01;Corporate;64 
+Technology;2018-05-02;Corporate;141 
+Office Supplies;2018-05-02;Corporate;9 
+Furniture;2018-05-03;Consumer;836 
+Furniture;2018-05-03;Home Office;593 
+Technology;2018-05-03;Consumer;360 
+Office Supplies;2018-05-03;Consumer;314 
+Office Supplies;2018-05-03;Home Office;14 
+Technology;2018-05-04;Corporate;994 
+Office Supplies;2018-05-04;Corporate;128 
+Furniture;2018-05-04;Corporate;47 
+Furniture;2018-05-07;Consumer;264 
+Office Supplies;2018-05-07;Consumer;55 
+Technology;2018-05-08;Consumer;2828 
+Office Supplies;2018-05-08;Consumer;465 
+Furniture;2018-05-08;Consumer;301 
+Office Supplies;2018-05-08;Home Office;41 
+Furniture;2018-05-08;Corporate;7 
+Office Supplies;2018-05-09;Consumer;46 
+Office Supplies;2018-05-10;Home Office;107 
+Technology;2018-05-10;Consumer;46 
+Furniture;2018-05-11;Home Office;198 
+Technology;2018-05-12;Consumer;829 
+Office Supplies;2018-05-12;Consumer;213 
+Furniture;2018-05-12;Consumer;23 
+Technology;2018-05-13;Home Office;229 
+Office Supplies;2018-05-13;Home Office;16 
+Furniture;2018-05-14;Corporate;1235 
+Office Supplies;2018-05-14;Consumer;1163 
+Office Supplies;2018-05-14;Home Office;502 
+Office Supplies;2018-05-15;Corporate;73 
+Technology;2018-05-16;Home Office;266 
+Office Supplies;2018-05-17;Consumer;89 
+Office Supplies;2018-05-17;Corporate;51 
+Office Supplies;2018-05-18;Corporate;10 
+Furniture;2018-05-20;Consumer;155 
+Office Supplies;2018-05-20;Consumer;6 
+Office Supplies;2018-05-21;Corporate;53 
+Office Supplies;2018-05-21;Consumer;21 
+Technology;2018-05-22;Consumer;3337 
+Office Supplies;2018-05-22;Consumer;104 
+Office Supplies;2018-05-23;Home Office;757 
+Office Supplies;2018-05-23;Corporate;231 
+Office Supplies;2018-05-23;Consumer;149 
+Furniture;2018-05-23;Home Office;69 
+Furniture;2018-05-24;Consumer;518 
+Office Supplies;2018-05-24;Consumer;8 
+Office Supplies;2018-05-25;Consumer;719 
+Technology;2018-05-25;Corporate;601 
+Office Supplies;2018-05-25;Home Office;128 
+Office Supplies;2018-05-25;Corporate;60 
+Furniture;2018-05-25;Home Office;13 
+Technology;2018-05-26;Consumer;380 
+Furniture;2018-05-26;Consumer;208 
+Technology;2018-05-26;Home Office;166 
+Office Supplies;2018-05-26;Home Office;160 
+Office Supplies;2018-05-28;Consumer;660 
+Technology;2018-05-28;Consumer;42 
+Office Supplies;2018-05-28;Home Office;6 
+Office Supplies;2018-05-29;Consumer;663 
+Furniture;2018-05-29;Corporate;394 
+Office Supplies;2018-05-29;Home Office;77 
+Office Supplies;2018-05-29;Corporate;8 
+Technology;2018-05-30;Consumer;387 
+Technology;2018-05-30;Home Office;166 
+Office Supplies;2018-05-30;Consumer;143 
+Furniture;2018-05-31;Consumer;4213 
+Office Supplies;2018-05-31;Corporate;688 
+Office Supplies;2018-05-31;Consumer;300 
+Furniture;2018-05-31;Corporate;61 
+Furniture;2018-05-31;Home Office;24 
+Office Supplies;2018-05-31;Home Office;7 
+Office Supplies;2018-06-01;Consumer;467 
+Technology;2018-06-01;Consumer;294 
+Office Supplies;2018-06-01;Corporate;51 
+Office Supplies;2018-06-01;Home Office;10 
+Technology;2018-06-04;Consumer;1088 
+Furniture;2018-06-04;Home Office;34 
+Office Supplies;2018-06-04;Home Office;28 
+Office Supplies;2018-06-04;Consumer;16 
+Furniture;2018-06-05;Corporate;1294 
+Office Supplies;2018-06-05;Corporate;9 
+Office Supplies;2018-06-07;Home Office;50 
+Office Supplies;2018-06-07;Corporate;7 
+Office Supplies;2018-06-08;Corporate;841 
+Furniture;2018-06-08;Corporate;182 
+Office Supplies;2018-06-08;Consumer;123 
+Technology;2018-06-08;Consumer;2 
+Furniture;2018-06-09;Consumer;327 
+Technology;2018-06-09;Consumer;181 
+Office Supplies;2018-06-09;Consumer;115 
+Office Supplies;2018-06-09;Home Office;100 
+Office Supplies;2018-06-11;Corporate;1709 
+Furniture;2018-06-11;Corporate;1161 
+Technology;2018-06-11;Corporate;227 
+Office Supplies;2018-06-11;Consumer;137 
+Technology;2018-06-11;Consumer;55 
+Furniture;2018-06-11;Consumer;32 
+Technology;2018-06-12;Consumer;49 
+Office Supplies;2018-06-12;Consumer;47 
+Furniture;2018-06-12;Consumer;43 
+Office Supplies;2018-06-12;Home Office;27 
+Technology;2018-06-13;Corporate;810 
+Office Supplies;2018-06-13;Corporate;73 
+Technology;2018-06-13;Home Office;63 
+Office Supplies;2018-06-13;Consumer;39 
+Office Supplies;2018-06-13;Home Office;39 
+Furniture;2018-06-14;Home Office;50 
+Furniture;2018-06-15;Consumer;425 
+Technology;2018-06-15;Corporate;221 
+Office Supplies;2018-06-15;Consumer;79 
+Technology;2018-06-15;Consumer;12 
+Office Supplies;2018-06-16;Consumer;3362 
+Furniture;2018-06-16;Consumer;201 
+Technology;2018-06-16;Consumer;125 
+Furniture;2018-06-18;Corporate;656 
+Office Supplies;2018-06-18;Consumer;615 
+Technology;2018-06-18;Consumer;505 
+Furniture;2018-06-18;Home Office;68 
+Furniture;2018-06-18;Consumer;60 
+Office Supplies;2018-06-18;Corporate;38 
+Office Supplies;2018-06-18;Home Office;23 
+Office Supplies;2018-06-19;Home Office;219 
+Office Supplies;2018-06-19;Consumer;211 
+Furniture;2018-06-19;Consumer;11 
+Technology;2018-06-20;Home Office;282 
+Furniture;2018-06-20;Corporate;227 
+Technology;2018-06-20;Corporate;128 
+Technology;2018-06-20;Consumer;118 
+Technology;2018-06-21;Consumer;93 
+Office Supplies;2018-06-22;Consumer;1174 
+Furniture;2018-06-22;Home Office;765 
+Technology;2018-06-23;Consumer;569 
+Office Supplies;2018-06-23;Corporate;148 
+Technology;2018-06-23;Corporate;65 
+Furniture;2018-06-23;Corporate;27 
+Office Supplies;2018-06-23;Consumer;5 
+Office Supplies;2018-06-25;Consumer;453 
+Furniture;2018-06-25;Consumer;241 
+Office Supplies;2018-06-25;Home Office;115 
+Technology;2018-06-26;Consumer;933 
+Furniture;2018-06-26;Consumer;366 
+Office Supplies;2018-06-26;Consumer;182 
+Office Supplies;2018-06-26;Home Office;46 
+Technology;2018-06-26;Corporate;36 
+Furniture;2018-06-28;Corporate;950 
+Office Supplies;2018-06-28;Home Office;245 
+Office Supplies;2018-06-28;Corporate;20 
+Technology;2018-06-29;Home Office;243 
+Furniture;2018-06-29;Consumer;124 
+Office Supplies;2018-06-29;Consumer;26 
+Furniture;2018-07-02;Consumer;870 
+Office Supplies;2018-07-02;Consumer;604 
+Furniture;2018-07-02;Corporate;142 
+Technology;2018-07-02;Corporate;77 
+Office Supplies;2018-07-02;Home Office;17 
+Office Supplies;2018-07-02;Corporate;13 
+Furniture;2018-07-03;Corporate;429 
+Office Supplies;2018-07-03;Consumer;321 
+Furniture;2018-07-03;Consumer;63 
+Office Supplies;2018-07-03;Corporate;6 
+Technology;2018-07-04;Consumer;1111 
+Office Supplies;2018-07-04;Home Office;39 
+Office Supplies;2018-07-05;Consumer;33 
+Technology;2018-07-05;Consumer;30 
+Office Supplies;2018-07-05;Corporate;21 
+Office Supplies;2018-07-05;Home Office;18 
+Furniture;2018-07-05;Corporate;9 
+Office Supplies;2018-07-06;Corporate;533 
+Furniture;2018-07-06;Home Office;329 
+Furniture;2018-07-06;Consumer;175 
+Furniture;2018-07-06;Corporate;153 
+Technology;2018-07-06;Corporate;114 
+Office Supplies;2018-07-08;Consumer;19 
+Technology;2018-07-09;Consumer;772 
+Office Supplies;2018-07-09;Consumer;418 
+Furniture;2018-07-09;Consumer;187 
+Office Supplies;2018-07-09;Corporate;183 
+Office Supplies;2018-07-10;Consumer;39 
+Technology;2018-07-11;Corporate;687 
+Furniture;2018-07-11;Consumer;643 
+Office Supplies;2018-07-11;Corporate;243 
+Furniture;2018-07-11;Corporate;216 
+Office Supplies;2018-07-11;Consumer;140 
+Technology;2018-07-12;Consumer;1504 
+Furniture;2018-07-12;Consumer;423 
+Office Supplies;2018-07-12;Consumer;8 
+Furniture;2018-07-13;Consumer;2028 
+Office Supplies;2018-07-13;Home Office;41 
+Office Supplies;2018-07-13;Corporate;33 
+Office Supplies;2018-07-13;Consumer;21 
+Furniture;2018-07-14;Consumer;553 
+Office Supplies;2018-07-14;Consumer;285 
+Furniture;2018-07-16;Corporate;2090 
+Technology;2018-07-16;Corporate;510 
+Furniture;2018-07-16;Home Office;151 
+Office Supplies;2018-07-16;Home Office;147 
+Office Supplies;2018-07-16;Corporate;89 
+Furniture;2018-07-17;Corporate;232 
+Furniture;2018-07-17;Consumer;199 
+Office Supplies;2018-07-17;Corporate;22 
+Technology;2018-07-18;Consumer;571 
+Furniture;2018-07-18;Consumer;7 
+Office Supplies;2018-07-18;Corporate;6 
+Office Supplies;2018-07-18;Consumer;4 
+Office Supplies;2018-07-19;Consumer;2 
+Furniture;2018-07-20;Consumer;1130 
+Technology;2018-07-20;Consumer;1073 
+Office Supplies;2018-07-20;Consumer;390 
+Furniture;2018-07-23;Home Office;115 
+Office Supplies;2018-07-23;Home Office;63 
+Office Supplies;2018-07-23;Consumer;11 
+Technology;2018-07-24;Home Office;305 
+Office Supplies;2018-07-24;Home Office;232 
+Furniture;2018-07-24;Home Office;19 
+Furniture;2018-07-25;Consumer;1355 
+Technology;2018-07-25;Consumer;649 
+Furniture;2018-07-25;Corporate;369 
+Office Supplies;2018-07-25;Corporate;106 
+Office Supplies;2018-07-25;Home Office;26 
+Office Supplies;2018-07-25;Consumer;19 
+Furniture;2018-07-26;Consumer;354 
+Furniture;2018-07-26;Corporate;290 
+Office Supplies;2018-07-26;Consumer;166 
+Office Supplies;2018-07-26;Corporate;122 
+Technology;2018-07-27;Consumer;30 
+Technology;2018-07-30;Consumer;178 
+Furniture;2018-07-30;Home Office;164 
+Office Supplies;2018-07-30;Corporate;53 
+Office Supplies;2018-07-30;Consumer;11 
+Furniture;2018-07-30;Consumer;5 
+Technology;2018-07-31;Consumer;2171 
+Furniture;2018-07-31;Consumer;1091 
+Technology;2018-07-31;Corporate;223 
+Office Supplies;2018-07-31;Corporate;57 
+Office Supplies;2018-07-31;Consumer;18 
+Furniture;2018-08-01;Home Office;1035 
+Office Supplies;2018-08-01;Home Office;7 
+Technology;2018-08-02;Consumer;547 
+Technology;2018-08-02;Home Office;322 
+Furniture;2018-08-02;Consumer;283 
+Furniture;2018-08-02;Home Office;95 
+Office Supplies;2018-08-02;Home Office;8 
+Office Supplies;2018-08-02;Consumer;6 
+Office Supplies;2018-08-05;Corporate;58 
+Furniture;2018-08-05;Corporate;13 
+Furniture;2018-08-06;Corporate;373 
+Office Supplies;2018-08-06;Corporate;132 
+Technology;2018-08-07;Corporate;455 
+Furniture;2018-08-07;Consumer;228 
+Office Supplies;2018-08-07;Consumer;122 
+Office Supplies;2018-08-07;Corporate;92 
+Office Supplies;2018-08-07;Home Office;20 
+Office Supplies;2018-08-08;Consumer;591 
+Furniture;2018-08-08;Consumer;133 
+Technology;2018-08-08;Consumer;85 
+Technology;2018-08-09;Consumer;1336 
+Office Supplies;2018-08-09;Consumer;1216 
+Furniture;2018-08-09;Home Office;632 
+Furniture;2018-08-09;Corporate;626 
+Furniture;2018-08-09;Consumer;375 
+Office Supplies;2018-08-09;Corporate;187 
+Technology;2018-08-10;Consumer;497 
+Office Supplies;2018-08-10;Consumer;186 
+Office Supplies;2018-08-10;Home Office;79 
+Technology;2018-08-11;Home Office;149 
+Furniture;2018-08-11;Consumer;45 
+Office Supplies;2018-08-11;Home Office;11 
+Office Supplies;2018-08-13;Consumer;396 
+Office Supplies;2018-08-13;Corporate;115 
+Furniture;2018-08-13;Consumer;29 
+Office Supplies;2018-08-15;Corporate;307 
+Furniture;2018-08-15;Consumer;115 
+Office Supplies;2018-08-15;Consumer;67 
+Technology;2018-08-16;Consumer;1955 
+Technology;2018-08-16;Corporate;512 
+Office Supplies;2018-08-16;Consumer;321 
+Furniture;2018-08-16;Consumer;289 
+Furniture;2018-08-16;Corporate;252 
+Office Supplies;2018-08-16;Corporate;27 
+Technology;2018-08-17;Consumer;286 
+Office Supplies;2018-08-17;Corporate;48 
+Office Supplies;2018-08-17;Consumer;47 
+Furniture;2018-08-21;Corporate;1320 
+Office Supplies;2018-08-21;Home Office;940 
+Furniture;2018-08-21;Home Office;522 
+Office Supplies;2018-08-21;Corporate;131 
+Technology;2018-08-21;Home Office;22 
+Office Supplies;2018-08-22;Corporate;45 
+Office Supplies;2018-08-22;Home Office;16 
+Office Supplies;2018-08-23;Consumer;1017 
+Technology;2018-08-23;Consumer;254 
+Technology;2018-08-24;Consumer;3511 
+Office Supplies;2018-08-24;Consumer;1893 
+Furniture;2018-08-24;Consumer;906 
+Furniture;2018-08-24;Corporate;287 
+Technology;2018-08-24;Corporate;24 
+Office Supplies;2018-08-25;Home Office;113 
+Furniture;2018-08-25;Home Office;38 
+Furniture;2018-08-25;Consumer;28 
+Office Supplies;2018-08-25;Consumer;4 
+Office Supplies;2018-08-27;Consumer;578 
+Office Supplies;2018-08-27;Home Office;5 
+Technology;2018-08-28;Corporate;3939 
+Office Supplies;2018-08-28;Consumer;1629 
+Office Supplies;2018-08-28;Corporate;484 
+Furniture;2018-08-28;Consumer;302 
+Furniture;2018-08-28;Corporate;88 
+Technology;2018-08-28;Consumer;39 
+Technology;2018-08-29;Home Office;266 
+Furniture;2018-08-31;Corporate;1537 
+Technology;2018-08-31;Home Office;556 
+Technology;2018-08-31;Corporate;293 
+Office Supplies;2018-08-31;Corporate;126 
+Office Supplies;2018-08-31;Consumer;62 
+Office Supplies;2018-08-31;Home Office;23 
+Office Supplies;2018-09-01;Home Office;1324 
+Technology;2018-09-01;Consumer;835 
+Furniture;2018-09-01;Home Office;168 
+Office Supplies;2018-09-01;Consumer;18 
+Office Supplies;2018-09-03;Consumer;793 
+Office Supplies;2018-09-03;Corporate;539 
+Technology;2018-09-03;Corporate;248 
+Furniture;2018-09-03;Corporate;210 
+Furniture;2018-09-03;Home Office;131 
+Office Supplies;2018-09-03;Home Office;6 
+Technology;2018-09-04;Consumer;608 
+Office Supplies;2018-09-04;Consumer;306 
+Technology;2018-09-04;Corporate;117 
+Office Supplies;2018-09-04;Corporate;18 
+Furniture;2018-09-05;Consumer;747 
+Office Supplies;2018-09-05;Home Office;94 
+Furniture;2018-09-05;Home Office;65 
+Office Supplies;2018-09-05;Corporate;32 
+Office Supplies;2018-09-05;Consumer;27 
+Furniture;2018-09-05;Corporate;6 
+Furniture;2018-09-06;Home Office;459 
+Technology;2018-09-06;Corporate;396 
+Furniture;2018-09-06;Consumer;81 
+Office Supplies;2018-09-06;Corporate;58 
+Office Supplies;2018-09-06;Home Office;10 
+Technology;2018-09-07;Corporate;873 
+Office Supplies;2018-09-07;Consumer;652 
+Technology;2018-09-07;Home Office;554 
+Furniture;2018-09-07;Corporate;500 
+Office Supplies;2018-09-07;Corporate;244 
+Furniture;2018-09-07;Consumer;74 
+Office Supplies;2018-09-08;Consumer;65 
+Furniture;2018-09-08;Corporate;19 
+Furniture;2018-09-10;Corporate;584 
+Office Supplies;2018-09-10;Consumer;371 
+Office Supplies;2018-09-10;Corporate;296 
+Office Supplies;2018-09-11;Corporate;1218 
+Office Supplies;2018-09-11;Home Office;359 
+Furniture;2018-09-11;Corporate;231 
+Office Supplies;2018-09-11;Consumer;209 
+Technology;2018-09-11;Corporate;18 
+Furniture;2018-09-11;Home Office;10 
+Technology;2018-09-12;Consumer;452 
+Office Supplies;2018-09-12;Consumer;214 
+Furniture;2018-09-13;Consumer;1834 
+Furniture;2018-09-13;Corporate;1135 
+Office Supplies;2018-09-13;Corporate;214 
+Technology;2018-09-13;Consumer;192 
+Office Supplies;2018-09-13;Consumer;81 
+Office Supplies;2018-09-14;Consumer;1261 
+Technology;2018-09-14;Consumer;898 
+Furniture;2018-09-14;Consumer;794 
+Furniture;2018-09-14;Corporate;184 
+Office Supplies;2018-09-14;Home Office;23 
+Furniture;2018-09-15;Consumer;1617 
+Office Supplies;2018-09-15;Corporate;295 
+Office Supplies;2018-09-15;Consumer;200 
+Furniture;2018-09-15;Corporate;119 
+Technology;2018-09-15;Consumer;53 
+Office Supplies;2018-09-16;Consumer;30 
+Furniture;2018-09-17;Consumer;9254 
+Technology;2018-09-17;Consumer;994 
+Office Supplies;2018-09-17;Consumer;430 
+Furniture;2018-09-17;Home Office;372 
+Office Supplies;2018-09-17;Corporate;31 
+Office Supplies;2018-09-17;Home Office;28 
+Furniture;2018-09-17;Corporate;24 
+Technology;2018-09-18;Corporate;2551 
+Office Supplies;2018-09-18;Corporate;718 
+Office Supplies;2018-09-18;Consumer;550 
+Furniture;2018-09-18;Corporate;22 
+Office Supplies;2018-09-18;Home Office;17 
+Technology;2018-09-19;Consumer;274 
+Furniture;2018-09-19;Home Office;118 
+Technology;2018-09-19;Corporate;67 
+Office Supplies;2018-09-19;Corporate;21 
+Office Supplies;2018-09-19;Home Office;7 
+Office Supplies;2018-09-20;Consumer;1610 
+Office Supplies;2018-09-20;Corporate;88 
+Furniture;2018-09-21;Consumer;1622 
+Office Supplies;2018-09-21;Consumer;1328 
+Technology;2018-09-21;Corporate;1196 
+Furniture;2018-09-21;Home Office;1144 
+Technology;2018-09-21;Consumer;811 
+Technology;2018-09-21;Home Office;507 
+Furniture;2018-09-21;Corporate;185 
+Office Supplies;2018-09-21;Corporate;24 
+Office Supplies;2018-09-21;Home Office;8 
+Office Supplies;2018-09-22;Home Office;748 
+Technology;2018-09-22;Consumer;612 
+Furniture;2018-09-22;Consumer;223 
+Office Supplies;2018-09-22;Corporate;68 
+Office Supplies;2018-09-22;Consumer;57 
+Furniture;2018-09-22;Home Office;53 
+Furniture;2018-09-24;Home Office;1225 
+Office Supplies;2018-09-24;Corporate;1060 
+Technology;2018-09-24;Home Office;715 
+Furniture;2018-09-24;Consumer;450 
+Office Supplies;2018-09-24;Consumer;213 
+Technology;2018-09-24;Consumer;51 
+Office Supplies;2018-09-24;Home Office;17 
+Furniture;2018-09-24;Corporate;13 
+Furniture;2018-09-25;Consumer;1182 
+Technology;2018-09-25;Corporate;1155 
+Furniture;2018-09-25;Corporate;292 
+Office Supplies;2018-09-25;Consumer;259 
+Technology;2018-09-25;Home Office;172 
+Office Supplies;2018-09-25;Corporate;33 
+Office Supplies;2018-09-25;Home Office;12 
+Technology;2018-09-26;Consumer;2226 
+Office Supplies;2018-09-26;Corporate;796 
+Office Supplies;2018-09-26;Consumer;450 
+Technology;2018-09-26;Corporate;253 
+Office Supplies;2018-09-26;Home Office;194 
+Technology;2018-09-27;Consumer;2059 
+Office Supplies;2018-09-27;Home Office;175 
+Office Supplies;2018-09-27;Corporate;150 
+Office Supplies;2018-09-27;Consumer;146 
+Furniture;2018-09-27;Consumer;27 
+Office Supplies;2018-09-28;Corporate;378 
+Office Supplies;2018-09-28;Consumer;321 
+Technology;2018-09-28;Consumer;308 
+Technology;2018-09-28;Corporate;34 
+Technology;2018-10-01;Consumer;586 
+Technology;2018-10-01;Home Office;337 
+Office Supplies;2018-10-01;Corporate;130 
+Office Supplies;2018-10-01;Home Office;23 
+Office Supplies;2018-10-01;Consumer;3 
+Technology;2018-10-02;Consumer;501 
+Office Supplies;2018-10-02;Home Office;236 
+Office Supplies;2018-10-02;Corporate;217 
+Office Supplies;2018-10-02;Consumer;108 
+Technology;2018-10-02;Corporate;86 
+Furniture;2018-10-02;Consumer;12 
+Furniture;2018-10-03;Consumer;141 
+Technology;2018-10-03;Consumer;66 
+Office Supplies;2018-10-03;Consumer;34 
+Office Supplies;2018-10-03;Corporate;13 
+Furniture;2018-10-04;Corporate;409 
+Furniture;2018-10-04;Home Office;67 
+Office Supplies;2018-10-04;Consumer;30 
+Office Supplies;2018-10-04;Home Office;21 
+Furniture;2018-10-05;Consumer;390 
+Technology;2018-10-05;Consumer;297 
+Office Supplies;2018-10-05;Home Office;68 
+Office Supplies;2018-10-05;Corporate;67 
+Furniture;2018-10-08;Consumer;127 
+Furniture;2018-10-08;Corporate;62 
+Office Supplies;2018-10-08;Consumer;3 
+Technology;2018-10-09;Corporate;701 
+Technology;2018-10-09;Consumer;613 
+Furniture;2018-10-09;Consumer;421 
+Office Supplies;2018-10-09;Consumer;409 
+Office Supplies;2018-10-09;Corporate;81 
+Office Supplies;2018-10-10;Consumer;1611 
+Furniture;2018-10-10;Corporate;333 
+Office Supplies;2018-10-10;Corporate;84 
+Furniture;2018-10-11;Consumer;977 
+Technology;2018-10-11;Consumer;30 
+Office Supplies;2018-10-11;Consumer;20 
+Furniture;2018-10-12;Home Office;1464 
+Technology;2018-10-12;Consumer;388 
+Furniture;2018-10-12;Consumer;229 
+Office Supplies;2018-10-12;Consumer;82 
+Office Supplies;2018-10-12;Home Office;66 
+Technology;2018-10-12;Home Office;62 
+Furniture;2018-10-13;Consumer;317 
+Technology;2018-10-13;Consumer;71 
+Furniture;2018-10-15;Consumer;2654 
+Technology;2018-10-15;Home Office;296 
+Technology;2018-10-15;Consumer;277 
+Office Supplies;2018-10-15;Home Office;9 
+Office Supplies;2018-10-15;Consumer;5 
+Technology;2018-10-16;Corporate;734 
+Office Supplies;2018-10-17;Consumer;86 
+Technology;2018-10-18;Consumer;245 
+Office Supplies;2018-10-18;Home Office;71 
+Technology;2018-10-18;Home Office;29 
+Office Supplies;2018-10-18;Consumer;19 
+Furniture;2018-10-18;Consumer;9 
+Office Supplies;2018-10-19;Home Office;1739 
+Technology;2018-10-19;Home Office;232 
+Technology;2018-10-19;Corporate;141 
+Office Supplies;2018-10-19;Consumer;38 
+Office Supplies;2018-10-19;Corporate;36 
+Furniture;2018-10-20;Consumer;387 
+Technology;2018-10-20;Corporate;245 
+Office Supplies;2018-10-20;Consumer;21 
+Furniture;2018-10-20;Corporate;16 
+Office Supplies;2018-10-22;Consumer;16 
+Furniture;2018-10-23;Consumer;1313 
+Technology;2018-10-23;Consumer;762 
+Office Supplies;2018-10-23;Consumer;139 
+Office Supplies;2018-10-23;Corporate;3 
+Furniture;2018-10-24;Home Office;441 
+Furniture;2018-10-24;Corporate;368 
+Office Supplies;2018-10-24;Corporate;23 
+Office Supplies;2018-10-24;Home Office;3 
+Furniture;2018-10-25;Corporate;812 
+Furniture;2018-10-25;Consumer;243 
+Technology;2018-10-25;Corporate;138 
+Office Supplies;2018-10-25;Consumer;133 
+Office Supplies;2018-10-26;Corporate;1087 
+Technology;2018-10-26;Corporate;162 
+Furniture;2018-10-28;Consumer;57 
+Office Supplies;2018-10-28;Consumer;49 
+Office Supplies;2018-10-29;Corporate;234 
+Technology;2018-10-30;Corporate;1478 
+Technology;2018-10-30;Home Office;261 
+Office Supplies;2018-10-30;Consumer;161 
+Furniture;2018-10-30;Corporate;14 
+Technology;2018-10-31;Consumer;1153 
+Furniture;2018-10-31;Consumer;749 
+Office Supplies;2018-10-31;Consumer;660 
+Office Supplies;2018-10-31;Corporate;436 
+Office Supplies;2018-10-31;Home Office;76 
+Technology;2018-11-01;Consumer;2025 
+Furniture;2018-11-01;Consumer;952 
+Technology;2018-11-01;Home Office;30 
+Office Supplies;2018-11-01;Consumer;21 
+Technology;2018-11-01;Corporate;4 
+Office Supplies;2018-11-01;Home Office;3 
+Furniture;2018-11-02;Home Office;2333 
+Furniture;2018-11-02;Consumer;1547 
+Technology;2018-11-02;Consumer;421 
+Technology;2018-11-02;Corporate;345 
+Office Supplies;2018-11-02;Consumer;304 
+Office Supplies;2018-11-02;Corporate;26 
+Furniture;2018-11-03;Corporate;1449 
+Technology;2018-11-03;Home Office;1316 
+Furniture;2018-11-03;Home Office;46 
+Office Supplies;2018-11-03;Corporate;6 
+Office Supplies;2018-11-05;Consumer;597 
+Furniture;2018-11-05;Corporate;186 
+Office Supplies;2018-11-05;Corporate;23 
+Office Supplies;2018-11-06;Consumer;13 
+Office Supplies;2018-11-07;Corporate;1306 
+Furniture;2018-11-07;Consumer;772 
+Office Supplies;2018-11-07;Consumer;359 
+Technology;2018-11-07;Consumer;245 
+Furniture;2018-11-07;Corporate;196 
+Technology;2018-11-08;Corporate;5246 
+Furniture;2018-11-08;Corporate;4549 
+Technology;2018-11-08;Consumer;598 
+Office Supplies;2018-11-08;Consumer;546 
+Technology;2018-11-08;Home Office;316 
+Furniture;2018-11-08;Consumer;251 
+Office Supplies;2018-11-08;Corporate;145 
+Office Supplies;2018-11-08;Home Office;5 
+Technology;2018-11-09;Home Office;2299 
+Technology;2018-11-09;Consumer;923 
+Furniture;2018-11-09;Consumer;912 
+Office Supplies;2018-11-09;Consumer;326 
+Office Supplies;2018-11-09;Home Office;34 
+Office Supplies;2018-11-10;Home Office;1475 
+Office Supplies;2018-11-10;Corporate;786 
+Office Supplies;2018-11-10;Consumer;635 
+Technology;2018-11-10;Home Office;467 
+Technology;2018-11-10;Consumer;84 
+Furniture;2018-11-10;Home Office;26 
+Office Supplies;2018-11-11;Corporate;558 
+Furniture;2018-11-12;Corporate;677 
+Office Supplies;2018-11-12;Corporate;352 
+Technology;2018-11-12;Corporate;92 
+Office Supplies;2018-11-12;Consumer;15 
+Furniture;2018-11-13;Consumer;1666 
+Technology;2018-11-13;Consumer;826 
+Office Supplies;2018-11-13;Consumer;552 
+Technology;2018-11-13;Home Office;296 
+Furniture;2018-11-13;Home Office;63 
+Furniture;2018-11-14;Consumer;1012 
+Office Supplies;2018-11-14;Corporate;815 
+Technology;2018-11-14;Corporate;310 
+Technology;2018-11-14;Home Office;48 
+Office Supplies;2018-11-14;Consumer;20 
+Office Supplies;2018-11-15;Corporate;709 
+Furniture;2018-11-15;Home Office;40 
+Technology;2018-11-16;Home Office;1010 
+Furniture;2018-11-16;Home Office;948 
+Office Supplies;2018-11-16;Home Office;654 
+Furniture;2018-11-16;Corporate;629 
+Technology;2018-11-16;Corporate;599 
+Office Supplies;2018-11-16;Corporate;36 
+Furniture;2018-11-17;Consumer;1617 
+Office Supplies;2018-11-17;Consumer;1605 
+Technology;2018-11-17;Consumer;408 
+Technology;2018-11-19;Consumer;879 
+Furniture;2018-11-19;Home Office;156 
+Office Supplies;2018-11-19;Corporate;27 
+Office Supplies;2018-11-19;Consumer;5 
+Furniture;2018-11-20;Consumer;1126 
+Technology;2018-11-20;Corporate;456 
+Furniture;2018-11-20;Home Office;385 
+Office Supplies;2018-11-20;Consumer;258 
+Office Supplies;2018-11-20;Corporate;233 
+Office Supplies;2018-11-20;Home Office;179 
+Furniture;2018-11-20;Corporate;173 
+Technology;2018-11-20;Consumer;66 
+Technology;2018-11-20;Home Office;14 
+Furniture;2018-11-21;Consumer;1864 
+Technology;2018-11-21;Consumer;541 
+Technology;2018-11-21;Corporate;500 
+Office Supplies;2018-11-21;Corporate;358 
+Furniture;2018-11-21;Corporate;244 
+Office Supplies;2018-11-21;Consumer;105 
+Furniture;2018-11-22;Home Office;213 
+Office Supplies;2018-11-22;Consumer;171 
+Office Supplies;2018-11-22;Home Office;144 
+Technology;2018-11-22;Consumer;34 
+Technology;2018-11-22;Home Office;27 
+Office Supplies;2018-11-23;Consumer;2342 
+Office Supplies;2018-11-23;Corporate;336 
+Technology;2018-11-23;Consumer;320 
+Office Supplies;2018-11-24;Consumer;1181 
+Furniture;2018-11-24;Consumer;85 
+Technology;2018-11-24;Consumer;12 
+Office Supplies;2018-11-25;Consumer;14 
+Furniture;2018-11-26;Corporate;762 
+Technology;2018-11-26;Corporate;654 
+Office Supplies;2018-11-26;Corporate;178 
+Technology;2018-11-27;Home Office;1094 
+Furniture;2018-11-27;Consumer;725 
+Furniture;2018-11-27;Home Office;604 
+Office Supplies;2018-11-27;Home Office;371 
+Technology;2018-11-27;Corporate;202 
+Technology;2018-11-27;Consumer;89 
+Office Supplies;2018-11-27;Consumer;30 
+Technology;2018-11-28;Corporate;641 
+Furniture;2018-11-28;Consumer;562 
+Office Supplies;2018-11-28;Consumer;334 
+Office Supplies;2018-11-28;Corporate;206 
+Furniture;2018-11-28;Corporate;78 
+Office Supplies;2018-11-28;Home Office;8 
+Furniture;2018-11-29;Corporate;1493 
+Office Supplies;2018-11-29;Corporate;1260 
+Office Supplies;2018-11-29;Home Office;56 
+Technology;2018-11-29;Consumer;18 
+Office Supplies;2018-11-29;Consumer;9 
+Furniture;2018-11-30;Consumer;1076 
+Technology;2018-11-30;Consumer;297 
+Office Supplies;2018-11-30;Consumer;279 
+Office Supplies;2018-11-30;Home Office;79 
+Furniture;2018-11-30;Corporate;17 
+Furniture;2018-12-01;Home Office;5803 
+Office Supplies;2018-12-01;Home Office;307 
+Office Supplies;2018-12-01;Corporate;112 
+Office Supplies;2018-12-01;Consumer;58 
+Furniture;2018-12-01;Consumer;7 
+Office Supplies;2018-12-03;Corporate;537 
+Technology;2018-12-03;Corporate;516 
+Furniture;2018-12-03;Consumer;407 
+Office Supplies;2018-12-03;Home Office;216 
+Technology;2018-12-03;Consumer;111 
+Office Supplies;2018-12-03;Consumer;100 
+Technology;2018-12-03;Home Office;38 
+Furniture;2018-12-03;Corporate;3 
+Technology;2018-12-04;Consumer;1858 
+Office Supplies;2018-12-04;Consumer;1678 
+Furniture;2018-12-04;Consumer;1117 
+Office Supplies;2018-12-04;Corporate;386 
+Technology;2018-12-04;Corporate;121 
+Furniture;2018-12-04;Corporate;35 
+Office Supplies;2018-12-05;Consumer;328 
+Office Supplies;2018-12-05;Home Office;162 
+Furniture;2018-12-05;Corporate;148 
+Furniture;2018-12-05;Consumer;142 
+Technology;2018-12-05;Consumer;42 
+Technology;2018-12-05;Corporate;41 
+Office Supplies;2018-12-05;Corporate;13 
+Technology;2018-12-06;Consumer;2274 
+Office Supplies;2018-12-06;Consumer;2221 
+Technology;2018-12-06;Home Office;1050 
+Furniture;2018-12-06;Consumer;395 
+Office Supplies;2018-12-06;Home Office;46 
+Office Supplies;2018-12-06;Corporate;9 
+Technology;2018-12-07;Consumer;689 
+Furniture;2018-12-07;Consumer;367 
+Office Supplies;2018-12-07;Consumer;182 
+Office Supplies;2018-12-07;Corporate;12 
+Technology;2018-12-08;Home Office;1857 
+Office Supplies;2018-12-08;Home Office;332 
+Technology;2018-12-08;Corporate;236 
+Office Supplies;2018-12-08;Corporate;226 
+Office Supplies;2018-12-09;Corporate;36 
+Furniture;2018-12-10;Corporate;1691 
+Technology;2018-12-10;Home Office;872 
+Office Supplies;2018-12-10;Home Office;278 
+Technology;2018-12-10;Corporate;147 
+Technology;2018-12-10;Consumer;133 
+Office Supplies;2018-12-10;Corporate;98 
+Office Supplies;2018-12-10;Consumer;74 
+Technology;2018-12-11;Consumer;566 
+Furniture;2018-12-11;Consumer;564 
+Office Supplies;2018-12-11;Consumer;449 
+Office Supplies;2018-12-11;Home Office;114 
+Office Supplies;2018-12-12;Consumer;447 
+Furniture;2018-12-12;Consumer;438 
+Technology;2018-12-12;Consumer;322 
+Office Supplies;2018-12-12;Corporate;111 
+Technology;2018-12-13;Consumer;709 
+Office Supplies;2018-12-13;Corporate;144 
+Office Supplies;2018-12-13;Home Office;62 
+Office Supplies;2018-12-13;Consumer;34 
+Technology;2018-12-14;Consumer;363 
+Furniture;2018-12-14;Corporate;274 
+Office Supplies;2018-12-14;Corporate;144 
+Furniture;2018-12-14;Consumer;26 
+Furniture;2018-12-14;Home Office;14 
+Office Supplies;2018-12-14;Consumer;8 
+Technology;2018-12-15;Consumer;4151 
+Furniture;2018-12-15;Consumer;239 
+Technology;2018-12-15;Corporate;222 
+Office Supplies;2018-12-15;Consumer;157 
+Office Supplies;2018-12-15;Home Office;3 
+Office Supplies;2018-12-16;Consumer;5 
+Furniture;2018-12-17;Consumer;1358 
+Office Supplies;2018-12-17;Consumer;553 
+Technology;2018-12-17;Consumer;139 
+Office Supplies;2018-12-18;Consumer;711 
+Technology;2018-12-18;Consumer;155 
+Office Supplies;2018-12-18;Corporate;72 
+Office Supplies;2018-12-18;Home Office;20 
+Furniture;2018-12-18;Corporate;19 
+Technology;2018-12-19;Home Office;2048 
+Technology;2018-12-19;Consumer;1827 
+Furniture;2018-12-19;Home Office;948 
+Office Supplies;2018-12-19;Consumer;544 
+Office Supplies;2018-12-19;Corporate;135 
+Office Supplies;2018-12-19;Home Office;26 
+Technology;2018-12-20;Consumer;449 
+Furniture;2018-12-20;Consumer;347 
+Office Supplies;2018-12-20;Consumer;129 
+Technology;2018-12-20;Home Office;96 
+Office Supplies;2018-12-20;Corporate;60 
+Office Supplies;2018-12-20;Home Office;13 
+Furniture;2018-12-21;Consumer;1651 
+Technology;2018-12-21;Home Office;1151 
+Technology;2018-12-21;Consumer;185 
+Office Supplies;2018-12-21;Corporate;58 
+Office Supplies;2018-12-21;Home Office;54 
+Furniture;2018-12-21;Home Office;51 
+Office Supplies;2018-12-21;Consumer;26 
+Furniture;2018-12-22;Corporate;406 
+Office Supplies;2018-12-22;Corporate;34 
+Office Supplies;2018-12-22;Home Office;19 
+Office Supplies;2018-12-23;Consumer;185 
+Technology;2018-12-24;Corporate;4655 
+Furniture;2018-12-24;Corporate;885 
+Furniture;2018-12-24;Consumer;704 
+Technology;2018-12-24;Consumer;592 
+Office Supplies;2018-12-24;Consumer;233 
+Office Supplies;2018-12-24;Corporate;176 
+Technology;2018-12-25;Consumer;2207 
+Furniture;2018-12-25;Consumer;696 
+Furniture;2018-12-25;Corporate;630 
+Office Supplies;2018-12-25;Home Office;455 
+Office Supplies;2018-12-25;Consumer;229 
+Technology;2018-12-25;Corporate;73 
+Office Supplies;2018-12-25;Corporate;18 
+Furniture;2018-12-26;Home Office;245 
+Office Supplies;2018-12-26;Consumer;230 
+Furniture;2018-12-26;Consumer;57 
+Furniture;2018-12-27;Corporate;1525 
+Technology;2018-12-27;Corporate;754 
+Furniture;2018-12-27;Home Office;685 
+Office Supplies;2018-12-27;Home Office;547 
+Office Supplies;2018-12-27;Consumer;447 
+Technology;2018-12-27;Home Office;405 
+Office Supplies;2018-12-27;Corporate;369 
+Technology;2018-12-27;Consumer;228 
+Technology;2018-12-28;Consumer;60 
+Office Supplies;2018-12-28;Consumer;27 
+Office Supplies;2018-12-29;Consumer;7 
+Technology;2018-12-30;Consumer;2922 
+Office Supplies;2018-12-30;Consumer;369 
+Office Supplies;2018-12-31;Corporate;613 
+Office Supplies;2018-12-31;Consumer;569 
+Furniture;2018-12-31;Consumer;13 
+Technology;2019-01-02;Corporate;213 
+Furniture;2019-01-02;Corporate;148 
+Furniture;2019-01-03;Corporate;1752 
+Technology;2019-01-03;Corporate;392 
+Office Supplies;2019-01-03;Consumer;114 
+Office Supplies;2019-01-03;Corporate;10 
+Technology;2019-01-04;Corporate;1008 
+Office Supplies;2019-01-04;Corporate;105 
+Technology;2019-01-05;Corporate;276 
+Office Supplies;2019-01-05;Corporate;5 
+Office Supplies;2019-01-07;Home Office;36 
+Office Supplies;2019-01-07;Consumer;22 
+Furniture;2019-01-07;Consumer;21 
+Furniture;2019-01-08;Corporate;1472 
+Office Supplies;2019-01-08;Corporate;116 
+Technology;2019-01-08;Consumer;95 
+Office Supplies;2019-01-08;Consumer;75 
+Technology;2019-01-09;Corporate;633 
+Furniture;2019-01-09;Corporate;17 
+Technology;2019-01-10;Corporate;69 
+Furniture;2019-01-10;Corporate;68 
+Furniture;2019-01-10;Consumer;23 
+Office Supplies;2019-01-11;Home Office;79 
+Furniture;2019-01-11;Home Office;48 
+Technology;2019-01-11;Home Office;15 
+Furniture;2019-01-14;Consumer;328 
+Office Supplies;2019-01-14;Consumer;82 
+Technology;2019-01-15;Home Office;250 
+Furniture;2019-01-15;Consumer;169 
+Office Supplies;2019-01-15;Consumer;131 
+Office Supplies;2019-01-15;Home Office;122 
+Technology;2019-01-16;Consumer;83 
+Office Supplies;2019-01-16;Consumer;12 
+Technology;2019-01-17;Home Office;418 
+Technology;2019-01-17;Corporate;316 
+Furniture;2019-01-17;Home Office;306 
+Furniture;2019-01-21;Consumer;1202 
+Furniture;2019-01-22;Consumer;489 
+Office Supplies;2019-01-22;Consumer;179 
+Technology;2019-01-22;Home Office;171 
+Furniture;2019-01-22;Corporate;108 
+Office Supplies;2019-01-23;Corporate;1525 
+Technology;2019-01-23;Corporate;100 
+Furniture;2019-01-23;Consumer;59 
+Office Supplies;2019-01-24;Corporate;31 
+Office Supplies;2019-01-25;Corporate;479 
+Furniture;2019-01-25;Corporate;370 
+Office Supplies;2019-01-28;Corporate;43 
+Technology;2019-01-30;Consumer;1310 
+Furniture;2019-01-30;Consumer;943 
+Office Supplies;2019-01-30;Consumer;377 
+Office Supplies;2019-01-30;Corporate;136 
+Office Supplies;2019-01-31;Home Office;1526 
+Technology;2019-01-31;Home Office;106 
+Office Supplies;2019-01-31;Corporate;21 
+Office Supplies;2019-01-31;Consumer;17 
+Office Supplies;2019-02-01;Corporate;152 
+Technology;2019-02-02;Consumer;9625 
+Office Supplies;2019-02-02;Consumer;131 
+Furniture;2019-02-02;Corporate;68 
+Furniture;2019-02-02;Consumer;20 
+Furniture;2019-02-03;Consumer;780 
+Office Supplies;2019-02-04;Corporate;97 
+Technology;2019-02-04;Consumer;89 
+Furniture;2019-02-04;Consumer;14 
+Office Supplies;2019-02-05;Home Office;1043 
+Furniture;2019-02-05;Consumer;602 
+Technology;2019-02-05;Home Office;519 
+Furniture;2019-02-05;Home Office;274 
+Office Supplies;2019-02-05;Consumer;203 
+Technology;2019-02-05;Consumer;150 
+Furniture;2019-02-06;Corporate;135 
+Technology;2019-02-07;Corporate;636 
+Technology;2019-02-07;Consumer;102 
+Office Supplies;2019-02-07;Consumer;36 
+Technology;2019-02-08;Home Office;1004 
+Furniture;2019-02-08;Corporate;234 
+Technology;2019-02-09;Corporate;116 
+Technology;2019-02-11;Corporate;68 
+Office Supplies;2019-02-12;Consumer;1462 
+Office Supplies;2019-02-13;Home Office;135 
+Furniture;2019-02-14;Consumer;611 
+Office Supplies;2019-02-14;Consumer;258 
+Office Supplies;2019-02-15;Consumer;431 
+Furniture;2019-02-16;Consumer;803 
+Office Supplies;2019-02-16;Corporate;101 
+Technology;2019-02-16;Consumer;79 
+Furniture;2019-02-16;Corporate;69 
+Office Supplies;2019-02-16;Consumer;6 
+Office Supplies;2019-02-19;Consumer;345 
+Furniture;2019-02-19;Consumer;41 
+Office Supplies;2019-02-19;Corporate;35 
+Office Supplies;2019-02-20;Consumer;14 
+Office Supplies;2019-02-21;Corporate;795 
+Office Supplies;2019-02-21;Home Office;410 
+Furniture;2019-02-21;Corporate;190 
+Technology;2019-02-21;Corporate;56 
+Technology;2019-02-22;Consumer;511 
+Office Supplies;2019-02-22;Home Office;427 
+Office Supplies;2019-02-22;Consumer;11 
+Office Supplies;2019-02-23;Corporate;62 
+Office Supplies;2019-02-25;Consumer;49 
+Office Supplies;2019-02-27;Consumer;225 
+Furniture;2019-02-27;Consumer;16 
+Office Supplies;2019-02-28;Corporate;34 
+Office Supplies;2019-03-01;Consumer;106 
+Technology;2019-03-02;Consumer;4165 
+Furniture;2019-03-02;Consumer;711 
+Office Supplies;2019-03-02;Consumer;366 
+Technology;2019-03-02;Corporate;165 
+Office Supplies;2019-03-04;Consumer;4354 
+Technology;2019-03-04;Consumer;1197 
+Furniture;2019-03-04;Consumer;695 
+Furniture;2019-03-04;Corporate;623 
+Office Supplies;2019-03-04;Corporate;61 
+Technology;2019-03-05;Corporate;166 
+Office Supplies;2019-03-05;Consumer;126 
+Office Supplies;2019-03-05;Home Office;18 
+Office Supplies;2019-03-05;Corporate;10 
+Office Supplies;2019-03-06;Corporate;159 
+Technology;2019-03-07;Home Office;495 
+Furniture;2019-03-07;Consumer;287 
+Office Supplies;2019-03-07;Consumer;4 
+Office Supplies;2019-03-07;Home Office;2 
+Technology;2019-03-08;Corporate;22 
+Technology;2019-03-09;Consumer;1369 
+Furniture;2019-03-09;Consumer;201 
+Office Supplies;2019-03-09;Corporate;192 
+Office Supplies;2019-03-09;Home Office;132 
+Office Supplies;2019-03-09;Consumer;93 
+Technology;2019-03-09;Home Office;30 
+Furniture;2019-03-10;Consumer;383 
+Technology;2019-03-10;Home Office;204 
+Office Supplies;2019-03-10;Consumer;69 
+Technology;2019-03-11;Home Office;7317 
+Furniture;2019-03-11;Consumer;150 
+Office Supplies;2019-03-11;Corporate;92 
+Technology;2019-03-11;Consumer;37 
+Office Supplies;2019-03-11;Home Office;16 
+Office Supplies;2019-03-12;Home Office;496 
+Furniture;2019-03-12;Consumer;266 
+Furniture;2019-03-12;Home Office;102 
+Technology;2019-03-12;Corporate;50 
+Office Supplies;2019-03-12;Corporate;16 
+Office Supplies;2019-03-13;Corporate;936 
+Furniture;2019-03-13;Corporate;763 
+Office Supplies;2019-03-13;Consumer;47 
+Office Supplies;2019-03-14;Corporate;4966 
+Technology;2019-03-14;Corporate;1437 
+Furniture;2019-03-14;Consumer;491 
+Office Supplies;2019-03-14;Home Office;445 
+Furniture;2019-03-14;Corporate;373 
+Technology;2019-03-14;Home Office;219 
+Furniture;2019-03-14;Home Office;134 
+Office Supplies;2019-03-14;Consumer;73 
+Furniture;2019-03-15;Consumer;266 
+Furniture;2019-03-15;Corporate;233 
+Office Supplies;2019-03-15;Consumer;131 
+Office Supplies;2019-03-15;Corporate;41 
+Furniture;2019-03-16;Corporate;1862 
+Office Supplies;2019-03-16;Home Office;325 
+Technology;2019-03-16;Home Office;85 
+Office Supplies;2019-03-16;Corporate;30 
+Office Supplies;2019-03-18;Consumer;1209 
+Furniture;2019-03-18;Consumer;952 
+Technology;2019-03-18;Consumer;232 
+Office Supplies;2019-03-19;Consumer;811 
+Furniture;2019-03-19;Consumer;190 
+Furniture;2019-03-20;Consumer;112 
+Office Supplies;2019-03-20;Corporate;32 
+Furniture;2019-03-21;Home Office;669 
+Technology;2019-03-21;Consumer;94 
+Furniture;2019-03-21;Corporate;88 
+Office Supplies;2019-03-21;Consumer;45 
+Furniture;2019-03-22;Consumer;539 
+Furniture;2019-03-22;Corporate;94 
+Office Supplies;2019-03-22;Consumer;17 
+Office Supplies;2019-03-22;Corporate;1 
+Furniture;2019-03-23;Consumer;176 
+Technology;2019-03-23;Corporate;63 
+Technology;2019-03-25;Corporate;419 
+Furniture;2019-03-25;Consumer;277 
+Office Supplies;2019-03-25;Corporate;21 
+Office Supplies;2019-03-25;Consumer;16 
+Technology;2019-03-26;Consumer;1133 
+Office Supplies;2019-03-26;Corporate;53 
+Office Supplies;2019-03-27;Corporate;446 
+Technology;2019-03-27;Consumer;110 
+Office Supplies;2019-03-27;Consumer;103 
+Furniture;2019-03-28;Corporate;53 
+Office Supplies;2019-03-28;Corporate;30 
+Office Supplies;2019-03-29;Consumer;98 
+Office Supplies;2019-03-29;Corporate;29 
+Technology;2019-03-30;Home Office;862 
+Furniture;2019-03-30;Home Office;802 
+Furniture;2019-03-30;Consumer;757 
+Technology;2019-03-30;Consumer;146 
+Office Supplies;2019-03-30;Consumer;86 
+Office Supplies;2019-03-30;Home Office;43 
+Office Supplies;2019-03-31;Corporate;11 
+Technology;2019-04-01;Consumer;338 
+Furniture;2019-04-01;Consumer;282 
+Furniture;2019-04-02;Consumer;1304 
+Office Supplies;2019-04-02;Consumer;742 
+Office Supplies;2019-04-02;Corporate;108 
+Technology;2019-04-02;Consumer;34 
+Technology;2019-04-02;Corporate;14 
+Furniture;2019-04-02;Home Office;8 
+Furniture;2019-04-03;Corporate;1280 
+Technology;2019-04-04;Consumer;268 
+Office Supplies;2019-04-04;Consumer;104 
+Furniture;2019-04-04;Consumer;74 
+Office Supplies;2019-04-04;Home Office;9 
+Office Supplies;2019-04-05;Consumer;542 
+Technology;2019-04-05;Home Office;238 
+Furniture;2019-04-05;Home Office;78 
+Office Supplies;2019-04-05;Home Office;60 
+Office Supplies;2019-04-06;Consumer;715 
+Office Supplies;2019-04-06;Home Office;162 
+Technology;2019-04-06;Consumer;107 
+Technology;2019-04-07;Home Office;1385 
+Technology;2019-04-08;Corporate;1164 
+Furniture;2019-04-08;Corporate;567 
+Office Supplies;2019-04-08;Consumer;67 
+Office Supplies;2019-04-08;Corporate;33 
+Office Supplies;2019-04-09;Consumer;1151 
+Furniture;2019-04-09;Consumer;916 
+Technology;2019-04-09;Consumer;410 
+Office Supplies;2019-04-09;Home Office;197 
+Furniture;2019-04-09;Home Office;157 
+Furniture;2019-04-10;Consumer;562 
+Technology;2019-04-10;Home Office;508 
+Office Supplies;2019-04-10;Corporate;31 
+Office Supplies;2019-04-10;Home Office;6 
+Office Supplies;2019-04-11;Consumer;919 
+Office Supplies;2019-04-11;Corporate;52 
+Furniture;2019-04-13;Consumer;1282 
+Office Supplies;2019-04-13;Consumer;179 
+Office Supplies;2019-04-13;Corporate;163 
+Office Supplies;2019-04-14;Consumer;5 
+Furniture;2019-04-15;Consumer;1357 
+Office Supplies;2019-04-15;Consumer;154 
+Furniture;2019-04-16;Consumer;987 
+Technology;2019-04-16;Home Office;673 
+Office Supplies;2019-04-16;Home Office;321 
+Office Supplies;2019-04-16;Corporate;41 
+Technology;2019-04-17;Corporate;9373 
+Office Supplies;2019-04-17;Consumer;166 
+Technology;2019-04-17;Consumer;34 
+Office Supplies;2019-04-17;Corporate;25 
+Furniture;2019-04-17;Corporate;8 
+Furniture;2019-04-18;Consumer;283 
+Furniture;2019-04-18;Corporate;82 
+Technology;2019-04-18;Home Office;40 
+Office Supplies;2019-04-18;Home Office;29 
+Furniture;2019-04-18;Home Office;20 
+Office Supplies;2019-04-19;Corporate;1663 
+Furniture;2019-04-19;Corporate;482 
+Office Supplies;2019-04-19;Home Office;221 
+Office Supplies;2019-04-19;Consumer;214 
+Technology;2019-04-19;Consumer;28 
+Office Supplies;2019-04-20;Consumer;782 
+Office Supplies;2019-04-20;Home Office;398 
+Furniture;2019-04-20;Home Office;224 
+Technology;2019-04-20;Consumer;62 
+Office Supplies;2019-04-22;Corporate;188 
+Office Supplies;2019-04-22;Consumer;83 
+Furniture;2019-04-23;Home Office;1493 
+Office Supplies;2019-04-23;Home Office;332 
+Office Supplies;2019-04-23;Consumer;34 
+Furniture;2019-04-23;Consumer;27 
+Office Supplies;2019-04-24;Consumer;343 
+Office Supplies;2019-04-24;Corporate;291 
+Technology;2019-04-24;Corporate;107 
+Furniture;2019-04-25;Home Office;1206 
+Technology;2019-04-25;Home Office;225 
+Office Supplies;2019-04-25;Home Office;17 
+Office Supplies;2019-04-25;Consumer;4 
+Technology;2019-04-26;Consumer;87 
+Office Supplies;2019-04-26;Consumer;24 
+Furniture;2019-04-27;Home Office;387 
+Technology;2019-04-29;Corporate;399 
+Furniture;2019-04-29;Corporate;40 
+Office Supplies;2019-04-29;Home Office;27 
+Furniture;2019-04-29;Consumer;27 
+Office Supplies;2019-04-29;Corporate;14 
+Furniture;2019-05-01;Corporate;113 
+Furniture;2019-05-01;Home Office;24 
+Office Supplies;2019-05-01;Consumer;8 
+Furniture;2019-05-02;Consumer;408 
+Office Supplies;2019-05-02;Consumer;162 
+Furniture;2019-05-03;Consumer;487 
+Furniture;2019-05-03;Corporate;207 
+Office Supplies;2019-05-03;Consumer;194 
+Office Supplies;2019-05-03;Corporate;114 
+Technology;2019-05-04;Consumer;853 
+Office Supplies;2019-05-04;Consumer;232 
+Furniture;2019-05-04;Consumer;46 
+Furniture;2019-05-06;Corporate;1804 
+Technology;2019-05-06;Home Office;453 
+Furniture;2019-05-06;Consumer;332 
+Office Supplies;2019-05-06;Home Office;89 
+Office Supplies;2019-05-06;Consumer;81 
+Office Supplies;2019-05-06;Corporate;19 
+Office Supplies;2019-05-07;Home Office;113 
+Furniture;2019-05-07;Home Office;55 
+Furniture;2019-05-07;Consumer;39 
+Technology;2019-05-07;Consumer;26 
+Office Supplies;2019-05-07;Consumer;3 
+Technology;2019-05-08;Consumer;4452 
+Furniture;2019-05-08;Consumer;547 
+Office Supplies;2019-05-08;Consumer;143 
+Office Supplies;2019-05-09;Consumer;1038 
+Furniture;2019-05-09;Corporate;208 
+Technology;2019-05-09;Consumer;55 
+Office Supplies;2019-05-10;Corporate;1035 
+Technology;2019-05-10;Consumer;105 
+Office Supplies;2019-05-10;Consumer;105 
+Office Supplies;2019-05-10;Home Office;9 
+Technology;2019-05-11;Home Office;737 
+Office Supplies;2019-05-11;Consumer;21 
+Office Supplies;2019-05-12;Consumer;5 
+Technology;2019-05-13;Corporate;556 
+Technology;2019-05-13;Consumer;126 
+Office Supplies;2019-05-13;Corporate;96 
+Office Supplies;2019-05-13;Consumer;58 
+Furniture;2019-05-13;Corporate;10 
+Technology;2019-05-15;Corporate;209 
+Office Supplies;2019-05-15;Corporate;123 
+Furniture;2019-05-15;Consumer;80 
+Furniture;2019-05-15;Corporate;28 
+Office Supplies;2019-05-16;Home Office;563 
+Office Supplies;2019-05-16;Consumer;39 
+Office Supplies;2019-05-17;Consumer;586 
+Furniture;2019-05-17;Consumer;286 
+Furniture;2019-05-18;Consumer;180 
+Office Supplies;2019-05-18;Consumer;127 
+Office Supplies;2019-05-18;Corporate;28 
+Office Supplies;2019-05-19;Consumer;114 
+Office Supplies;2019-05-20;Consumer;775 
+Furniture;2019-05-20;Consumer;610 
+Office Supplies;2019-05-20;Corporate;103 
+Technology;2019-05-21;Consumer;1187 
+Furniture;2019-05-21;Home Office;892 
+Office Supplies;2019-05-21;Home Office;62 
+Office Supplies;2019-05-21;Consumer;3 
+Technology;2019-05-22;Corporate;2468 
+Office Supplies;2019-05-22;Corporate;174 
+Technology;2019-05-22;Consumer;113 
+Technology;2019-05-23;Consumer;733 
+Office Supplies;2019-05-23;Consumer;634 
+Technology;2019-05-23;Corporate;202 
+Furniture;2019-05-23;Consumer;192 
+Technology;2019-05-24;Consumer;9347 
+Furniture;2019-05-24;Consumer;33 
+Office Supplies;2019-05-24;Consumer;18 
+Office Supplies;2019-05-24;Home Office;5 
+Office Supplies;2019-05-25;Home Office;294 
+Office Supplies;2019-05-26;Home Office;1351 
+Furniture;2019-05-26;Home Office;27 
+Furniture;2019-05-27;Consumer;904 
+Technology;2019-05-27;Consumer;634 
+Office Supplies;2019-05-27;Corporate;203 
+Office Supplies;2019-05-27;Consumer;104 
+Technology;2019-05-27;Corporate;50 
+Furniture;2019-05-28;Corporate;3435 
+Office Supplies;2019-05-28;Consumer;1180 
+Office Supplies;2019-05-28;Corporate;431 
+Furniture;2019-05-28;Consumer;28 
+Technology;2019-05-29;Consumer;718 
+Office Supplies;2019-05-29;Consumer;706 
+Furniture;2019-05-29;Corporate;406 
+Technology;2019-05-29;Home Office;301 
+Office Supplies;2019-05-29;Corporate;110 
+Technology;2019-05-30;Consumer;833 
+Furniture;2019-05-30;Consumer;49 
+Office Supplies;2019-05-30;Consumer;41 
+Furniture;2019-05-31;Corporate;3115 
+Technology;2019-05-31;Corporate;2990 
+Office Supplies;2019-05-31;Home Office;1160 
+Technology;2019-05-31;Consumer;331 
+Office Supplies;2019-05-31;Corporate;139 
+Technology;2019-05-31;Home Office;131 
+Office Supplies;2019-05-31;Consumer;122 
+Furniture;2019-05-31;Home Office;52 
+Furniture;2019-06-01;Consumer;205 
+Technology;2019-06-01;Consumer;173 
+Office Supplies;2019-06-01;Consumer;40 
+Office Supplies;2019-06-03;Corporate;140 
+Furniture;2019-06-04;Corporate;77 
+Technology;2019-06-05;Consumer;1423 
+Furniture;2019-06-05;Consumer;794 
+Office Supplies;2019-06-05;Consumer;114 
+Office Supplies;2019-06-06;Consumer;434 
+Office Supplies;2019-06-06;Home Office;144 
+Office Supplies;2019-06-06;Corporate;58 
+Technology;2019-06-07;Home Office;3281 
+Office Supplies;2019-06-07;Consumer;820 
+Technology;2019-06-07;Consumer;773 
+Furniture;2019-06-07;Consumer;494 
+Office Supplies;2019-06-07;Home Office;110 
+Office Supplies;2019-06-07;Corporate;93 
+Office Supplies;2019-06-08;Home Office;52 
+Technology;2019-06-10;Consumer;838 
+Furniture;2019-06-10;Home Office;755 
+Furniture;2019-06-10;Consumer;113 
+Furniture;2019-06-11;Consumer;1443 
+Office Supplies;2019-06-11;Consumer;81 
+Furniture;2019-06-12;Consumer;894 
+Technology;2019-06-12;Consumer;605 
+Office Supplies;2019-06-12;Consumer;73 
+Furniture;2019-06-12;Corporate;14 
+Office Supplies;2019-06-12;Corporate;10 
+Technology;2019-06-13;Home Office;968 
+Office Supplies;2019-06-13;Consumer;552 
+Office Supplies;2019-06-13;Corporate;478 
+Office Supplies;2019-06-13;Home Office;417 
+Furniture;2019-06-13;Home Office;379 
+Technology;2019-06-13;Consumer;67 
+Furniture;2019-06-13;Consumer;48 
+Technology;2019-06-14;Home Office;416 
+Office Supplies;2019-06-14;Consumer;57 
+Furniture;2019-06-15;Corporate;2856 
+Furniture;2019-06-15;Home Office;650 
+Office Supplies;2019-06-15;Consumer;42 
+Technology;2019-06-15;Home Office;25 
+Technology;2019-06-15;Consumer;16 
+Office Supplies;2019-06-15;Home Office;16 
+Office Supplies;2019-06-16;Consumer;156 
+Technology;2019-06-17;Home Office;82 
+Office Supplies;2019-06-17;Consumer;51 
+Furniture;2019-06-18;Consumer;1361 
+Office Supplies;2019-06-18;Consumer;680 
+Technology;2019-06-18;Corporate;482 
+Furniture;2019-06-18;Corporate;392 
+Technology;2019-06-18;Consumer;26 
+Office Supplies;2019-06-18;Corporate;17 
+Office Supplies;2019-06-19;Corporate;479 
+Office Supplies;2019-06-19;Consumer;83 
+Office Supplies;2019-06-20;Corporate;15 
+Office Supplies;2019-06-21;Home Office;500 
+Office Supplies;2019-06-21;Consumer;256 
+Furniture;2019-06-21;Consumer;178 
+Technology;2019-06-21;Corporate;100 
+Technology;2019-06-21;Consumer;69 
+Furniture;2019-06-21;Corporate;53 
+Office Supplies;2019-06-21;Corporate;52 
+Furniture;2019-06-22;Consumer;361 
+Office Supplies;2019-06-22;Consumer;200 
+Office Supplies;2019-06-22;Corporate;1 
+Office Supplies;2019-06-24;Consumer;1387 
+Technology;2019-06-24;Consumer;742 
+Technology;2019-06-25;Consumer;4361 
+Office Supplies;2019-06-25;Consumer;364 
+Office Supplies;2019-06-25;Corporate;9 
+Furniture;2019-06-26;Corporate;430 
+Office Supplies;2019-06-26;Corporate;298 
+Furniture;2019-06-26;Consumer;113 
+Office Supplies;2019-06-26;Consumer;59 
+Office Supplies;2019-06-27;Corporate;838 
+Office Supplies;2019-06-27;Home Office;592 
+Technology;2019-06-27;Corporate;166 
+Technology;2019-06-27;Consumer;140 
+Furniture;2019-06-27;Corporate;33 
+Furniture;2019-06-27;Consumer;22 
+Office Supplies;2019-06-27;Consumer;16 
+Technology;2019-06-27;Home Office;12 
+Furniture;2019-06-28;Corporate;534 
+Technology;2019-06-28;Consumer;210 
+Office Supplies;2019-06-28;Corporate;32 
+Technology;2019-06-29;Consumer;378 
+Office Supplies;2019-06-29;Consumer;326 
+Furniture;2019-06-29;Consumer;116 
+Office Supplies;2019-06-29;Corporate;40 
+Office Supplies;2019-06-30;Consumer;169 
+Furniture;2019-07-01;Consumer;1267 
+Technology;2019-07-01;Home Office;53 
+Office Supplies;2019-07-01;Consumer;35 
+Technology;2019-07-02;Home Office;1577 
+Office Supplies;2019-07-02;Home Office;103 
+Office Supplies;2019-07-02;Consumer;75 
+Furniture;2019-07-03;Corporate;789 
+Office Supplies;2019-07-03;Corporate;44 
+Office Supplies;2019-07-03;Consumer;8 
+Office Supplies;2019-07-04;Corporate;889 
+Office Supplies;2019-07-04;Consumer;18 
+Furniture;2019-07-05;Consumer;1135 
+Technology;2019-07-05;Home Office;249 
+Office Supplies;2019-07-05;Consumer;64 
+Furniture;2019-07-05;Home Office;24 
+Technology;2019-07-08;Consumer;2716 
+Furniture;2019-07-08;Consumer;473 
+Furniture;2019-07-08;Corporate;289 
+Office Supplies;2019-07-08;Consumer;104 
+Office Supplies;2019-07-08;Corporate;68 
+Technology;2019-07-08;Home Office;62 
+Office Supplies;2019-07-08;Home Office;24 
+Technology;2019-07-09;Consumer;829 
+Technology;2019-07-09;Corporate;795 
+Furniture;2019-07-09;Consumer;683 
+Office Supplies;2019-07-09;Consumer;88 
+Office Supplies;2019-07-09;Corporate;53 
+Furniture;2019-07-10;Corporate;539 
+Office Supplies;2019-07-11;Consumer;560 
+Technology;2019-07-11;Corporate;294 
+Office Supplies;2019-07-11;Home Office;48 
+Technology;2019-07-13;Corporate;102 
+Furniture;2019-07-15;Corporate;591 
+Technology;2019-07-15;Consumer;543 
+Office Supplies;2019-07-15;Consumer;409 
+Technology;2019-07-15;Corporate;400 
+Office Supplies;2019-07-15;Corporate;104 
+Furniture;2019-07-15;Consumer;87 
+Furniture;2019-07-16;Corporate;244 
+Office Supplies;2019-07-16;Corporate;97 
+Office Supplies;2019-07-16;Home Office;39 
+Technology;2019-07-17;Consumer;664 
+Office Supplies;2019-07-17;Corporate;164 
+Technology;2019-07-17;Corporate;81 
+Furniture;2019-07-17;Corporate;9 
+Office Supplies;2019-07-17;Consumer;6 
+Office Supplies;2019-07-18;Consumer;854 
+Technology;2019-07-18;Corporate;519 
+Technology;2019-07-18;Consumer;422 
+Office Supplies;2019-07-18;Corporate;255 
+Furniture;2019-07-18;Consumer;35 
+Furniture;2019-07-19;Corporate;1539 
+Office Supplies;2019-07-19;Corporate;822 
+Office Supplies;2019-07-19;Home Office;345 
+Technology;2019-07-19;Consumer;74 
+Furniture;2019-07-20;Consumer;601 
+Office Supplies;2019-07-20;Consumer;458 
+Technology;2019-07-20;Home Office;430 
+Technology;2019-07-21;Consumer;90 
+Office Supplies;2019-07-22;Corporate;683 
+Furniture;2019-07-22;Consumer;309 
+Office Supplies;2019-07-22;Consumer;6 
+Office Supplies;2019-07-23;Consumer;949 
+Technology;2019-07-23;Consumer;120 
+Office Supplies;2019-07-23;Corporate;102 
+Office Supplies;2019-07-23;Home Office;82 
+Furniture;2019-07-23;Corporate;29 
+Furniture;2019-07-23;Consumer;11 
+Technology;2019-07-24;Corporate;244 
+Office Supplies;2019-07-24;Consumer;200 
+Technology;2019-07-24;Consumer;107 
+Office Supplies;2019-07-24;Corporate;52 
+Office Supplies;2019-07-24;Home Office;12 
+Furniture;2019-07-25;Corporate;236 
+Office Supplies;2019-07-25;Consumer;67 
+Furniture;2019-07-26;Consumer;3206 
+Technology;2019-07-26;Consumer;1512 
+Furniture;2019-07-26;Corporate;494 
+Technology;2019-07-26;Corporate;409 
+Office Supplies;2019-07-26;Corporate;305 
+Office Supplies;2019-07-26;Consumer;187 
+Office Supplies;2019-07-26;Home Office;60 
+Office Supplies;2019-07-29;Consumer;1202 
+Furniture;2019-07-29;Home Office;301 
+Furniture;2019-07-29;Consumer;186 
+Office Supplies;2019-07-29;Home Office;133 
+Office Supplies;2019-07-30;Consumer;786 
+Office Supplies;2019-07-30;Corporate;84 
+Office Supplies;2019-07-31;Consumer;1067 
+Office Supplies;2019-07-31;Corporate;651 
+Office Supplies;2019-07-31;Home Office;9 
+Furniture;2019-08-01;Corporate;811 
+Technology;2019-08-01;Consumer;725 
+Office Supplies;2019-08-01;Consumer;306 
+Furniture;2019-08-01;Consumer;240 
+Technology;2019-08-02;Corporate;1071 
+Office Supplies;2019-08-02;Corporate;61 
+Furniture;2019-08-02;Consumer;18 
+Technology;2019-08-03;Corporate;300 
+Furniture;2019-08-03;Corporate;124 
+Office Supplies;2019-08-03;Corporate;11 
+Technology;2019-08-04;Consumer;147 
+Office Supplies;2019-08-04;Consumer;77 
+Technology;2019-08-05;Corporate;314 
+Furniture;2019-08-05;Home Office;101 
+Office Supplies;2019-08-05;Home Office;53 
+Office Supplies;2019-08-05;Corporate;30 
+Office Supplies;2019-08-05;Consumer;4 
+Office Supplies;2019-08-06;Corporate;185 
+Technology;2019-08-07;Consumer;196 
+Office Supplies;2019-08-07;Corporate;62 
+Office Supplies;2019-08-07;Consumer;39 
+Technology;2019-08-08;Corporate;198 
+Office Supplies;2019-08-09;Home Office;453 
+Furniture;2019-08-09;Home Office;446 
+Office Supplies;2019-08-09;Consumer;71 
+Office Supplies;2019-08-10;Consumer;648 
+Technology;2019-08-10;Consumer;42 
+Office Supplies;2019-08-10;Home Office;15 
+Office Supplies;2019-08-12;Home Office;165 
+Office Supplies;2019-08-13;Consumer;1454 
+Technology;2019-08-13;Consumer;1316 
+Furniture;2019-08-13;Corporate;602 
+Furniture;2019-08-13;Consumer;190 
+Furniture;2019-08-13;Home Office;131 
+Office Supplies;2019-08-13;Home Office;40 
+Office Supplies;2019-08-14;Consumer;397 
+Furniture;2019-08-14;Corporate;215 
+Technology;2019-08-14;Consumer;66 
+Office Supplies;2019-08-14;Corporate;8 
+Technology;2019-08-15;Corporate;740 
+Technology;2019-08-15;Consumer;110 
+Office Supplies;2019-08-15;Consumer;28 
+Technology;2019-08-16;Consumer;775 
+Furniture;2019-08-16;Consumer;484 
+Office Supplies;2019-08-16;Consumer;183 
+Technology;2019-08-16;Corporate;66 
+Office Supplies;2019-08-16;Corporate;3 
+Furniture;2019-08-17;Corporate;160 
+Office Supplies;2019-08-17;Consumer;43 
+Office Supplies;2019-08-18;Consumer;14 
+Office Supplies;2019-08-19;Corporate;323 
+Office Supplies;2019-08-19;Consumer;86 
+Technology;2019-08-19;Corporate;36 
+Furniture;2019-08-19;Home Office;14 
+Office Supplies;2019-08-20;Consumer;467 
+Technology;2019-08-21;Home Office;15 
+Furniture;2019-08-22;Corporate;2800 
+Furniture;2019-08-22;Home Office;709 
+Furniture;2019-08-22;Consumer;567 
+Technology;2019-08-22;Corporate;371 
+Office Supplies;2019-08-22;Corporate;98 
+Office Supplies;2019-08-22;Home Office;37 
+Office Supplies;2019-08-23;Consumer;293 
+Furniture;2019-08-23;Home Office;100 
+Office Supplies;2019-08-23;Corporate;25 
+Office Supplies;2019-08-24;Corporate;1081 
+Office Supplies;2019-08-24;Home Office;789 
+Technology;2019-08-24;Consumer;729 
+Technology;2019-08-24;Home Office;648 
+Furniture;2019-08-24;Consumer;506 
+Office Supplies;2019-08-24;Consumer;216 
+Furniture;2019-08-24;Home Office;21 
+Furniture;2019-08-27;Corporate;2602 
+Technology;2019-08-27;Consumer;745 
+Furniture;2019-08-27;Consumer;634 
+Technology;2019-08-27;Corporate;530 
+Office Supplies;2019-08-27;Consumer;207 
+Office Supplies;2019-08-27;Corporate;178 
+Technology;2019-08-27;Home Office;44 
+Office Supplies;2019-08-28;Consumer;331 
+Furniture;2019-08-28;Consumer;220 
+Office Supplies;2019-08-28;Corporate;98 
+Technology;2019-08-28;Consumer;65 
+Furniture;2019-08-29;Consumer;147 
+Technology;2019-08-29;Consumer;92 
+Office Supplies;2019-08-29;Consumer;41 
+Office Supplies;2019-08-29;Corporate;17 
+Furniture;2019-08-30;Corporate;390 
+Technology;2019-08-30;Home Office;123 
+Office Supplies;2019-08-30;Home Office;101 
+Office Supplies;2019-08-30;Corporate;15 
+Furniture;2019-08-31;Consumer;825 
+Technology;2019-08-31;Consumer;606 
+Office Supplies;2019-08-31;Consumer;171 
+Office Supplies;2019-09-01;Consumer;23 
+Office Supplies;2019-09-02;Home Office;4622 
+Technology;2019-09-02;Consumer;495 
+Office Supplies;2019-09-02;Consumer;427 
+Furniture;2019-09-02;Consumer;173 
+Office Supplies;2019-09-02;Corporate;75 
+Technology;2019-09-02;Corporate;21 
+Technology;2019-09-02;Home Office;7 
+Technology;2019-09-03;Consumer;4735 
+Furniture;2019-09-03;Consumer;1322 
+Office Supplies;2019-09-03;Consumer;558 
+Technology;2019-09-03;Home Office;156 
+Furniture;2019-09-03;Home Office;92 
+Office Supplies;2019-09-03;Home Office;51 
+Office Supplies;2019-09-04;Home Office;993 
+Furniture;2019-09-04;Consumer;598 
+Technology;2019-09-04;Home Office;253 
+Office Supplies;2019-09-04;Corporate;161 
+Office Supplies;2019-09-04;Consumer;139 
+Furniture;2019-09-04;Home Office;74 
+Technology;2019-09-05;Consumer;2772 
+Office Supplies;2019-09-05;Consumer;754 
+Office Supplies;2019-09-05;Corporate;498 
+Furniture;2019-09-05;Consumer;127 
+Furniture;2019-09-06;Consumer;3161 
+Office Supplies;2019-09-06;Consumer;842 
+Technology;2019-09-06;Consumer;426 
+Furniture;2019-09-06;Corporate;425 
+Office Supplies;2019-09-06;Home Office;225 
+Technology;2019-09-06;Corporate;169 
+Office Supplies;2019-09-06;Corporate;48 
+Furniture;2019-09-07;Consumer;780 
+Technology;2019-09-07;Corporate;320 
+Office Supplies;2019-09-07;Consumer;113 
+Office Supplies;2019-09-07;Corporate;108 
+Technology;2019-09-07;Consumer;29 
+Furniture;2019-09-09;Consumer;2721 
+Office Supplies;2019-09-09;Consumer;551 
+Office Supplies;2019-09-09;Home Office;316 
+Furniture;2019-09-09;Home Office;160 
+Technology;2019-09-09;Consumer;88 
+Office Supplies;2019-09-09;Corporate;74 
+Technology;2019-09-09;Corporate;64 
+Office Supplies;2019-09-10;Consumer;67 
+Furniture;2019-09-10;Home Office;16 
+Technology;2019-09-11;Consumer;792 
+Technology;2019-09-11;Corporate;488 
+Office Supplies;2019-09-11;Consumer;428 
+Furniture;2019-09-11;Consumer;265 
+Office Supplies;2019-09-11;Home Office;119 
+Technology;2019-09-12;Consumer;4500 
+Technology;2019-09-12;Corporate;671 
+Office Supplies;2019-09-12;Consumer;454 
+Office Supplies;2019-09-12;Home Office;65 
+Office Supplies;2019-09-12;Corporate;35 
+Furniture;2019-09-13;Corporate;1437 
+Office Supplies;2019-09-13;Corporate;169 
+Technology;2019-09-13;Home Office;160 
+Furniture;2019-09-13;Home Office;72 
+Office Supplies;2019-09-13;Consumer;37 
+Technology;2019-09-13;Corporate;22 
+Furniture;2019-09-14;Consumer;1149 
+Office Supplies;2019-09-14;Consumer;773 
+Technology;2019-09-14;Consumer;189 
+Office Supplies;2019-09-15;Consumer;680 
+Technology;2019-09-15;Consumer;442 
+Office Supplies;2019-09-15;Home Office;25 
+Furniture;2019-09-16;Corporate;1106 
+Office Supplies;2019-09-16;Corporate;940 
+Office Supplies;2019-09-16;Consumer;121 
+Furniture;2019-09-17;Corporate;252 
+Furniture;2019-09-17;Home Office;104 
+Office Supplies;2019-09-17;Corporate;17 
+Office Supplies;2019-09-17;Home Office;12 
+Technology;2019-09-18;Corporate;532 
+Office Supplies;2019-09-18;Consumer;507 
+Technology;2019-09-18;Consumer;356 
+Furniture;2019-09-18;Consumer;186 
+Furniture;2019-09-18;Home Office;125 
+Furniture;2019-09-18;Corporate;118 
+Technology;2019-09-18;Home Office;90 
+Office Supplies;2019-09-18;Corporate;57 
+Office Supplies;2019-09-18;Home Office;12 
+Furniture;2019-09-19;Corporate;2174 
+Furniture;2019-09-19;Consumer;1240 
+Office Supplies;2019-09-19;Consumer;859 
+Office Supplies;2019-09-19;Corporate;380 
+Technology;2019-09-19;Consumer;223 
+Office Supplies;2019-09-20;Home Office;1642 
+Furniture;2019-09-20;Home Office;1631 
+Technology;2019-09-20;Consumer;272 
+Office Supplies;2019-09-20;Consumer;223 
+Office Supplies;2019-09-20;Corporate;9 
+Office Supplies;2019-09-21;Corporate;485 
+Office Supplies;2019-09-21;Consumer;424 
+Furniture;2019-09-21;Home Office;170 
+Furniture;2019-09-21;Corporate;98 
+Office Supplies;2019-09-23;Home Office;205 
+Technology;2019-09-23;Consumer;103 
+Office Supplies;2019-09-23;Consumer;97 
+Furniture;2019-09-23;Corporate;96 
+Technology;2019-09-23;Corporate;64 
+Office Supplies;2019-09-23;Corporate;41 
+Furniture;2019-09-23;Home Office;14 
+Furniture;2019-09-24;Corporate;653 
+Furniture;2019-09-24;Consumer;365 
+Office Supplies;2019-09-24;Consumer;116 
+Office Supplies;2019-09-24;Corporate;54 
+Office Supplies;2019-09-24;Home Office;33 
+Furniture;2019-09-24;Home Office;27 
+Office Supplies;2019-09-25;Corporate;839 
+Furniture;2019-09-25;Corporate;651 
+Office Supplies;2019-09-25;Home Office;501 
+Furniture;2019-09-25;Consumer;295 
+Furniture;2019-09-25;Home Office;20 
+Office Supplies;2019-09-25;Consumer;14 
+Furniture;2019-09-26;Consumer;815 
+Furniture;2019-09-26;Corporate;771 
+Office Supplies;2019-09-26;Consumer;689 
+Technology;2019-09-26;Corporate;510 
+Technology;2019-09-26;Consumer;467 
+Office Supplies;2019-09-26;Corporate;92 
+Furniture;2019-09-27;Corporate;845 
+Furniture;2019-09-27;Consumer;815 
+Technology;2019-09-27;Home Office;516 
+Office Supplies;2019-09-27;Home Office;293 
+Office Supplies;2019-09-27;Consumer;149 
+Office Supplies;2019-09-27;Corporate;113 
+Technology;2019-09-28;Consumer;1032 
+Furniture;2019-09-28;Corporate;842 
+Office Supplies;2019-09-28;Consumer;30 
+Office Supplies;2019-09-28;Corporate;3 
+Office Supplies;2019-09-29;Corporate;94 
+Technology;2019-09-30;Corporate;790 
+Technology;2019-09-30;Consumer;249 
+Office Supplies;2019-09-30;Consumer;147 
+Office Supplies;2019-09-30;Home Office;44 
+Office Supplies;2019-09-30;Corporate;26 
+Furniture;2019-10-01;Consumer;445 
+Office Supplies;2019-10-01;Consumer;2 
+Furniture;2019-10-02;Consumer;528 
+Technology;2019-10-02;Consumer;158 
+Office Supplies;2019-10-02;Consumer;59 
+Technology;2019-10-03;Corporate;18900 
+Office Supplies;2019-10-03;Corporate;826 
+Office Supplies;2019-10-03;Consumer;56 
+Furniture;2019-10-04;Home Office;842 
+Furniture;2019-10-04;Consumer;629 
+Office Supplies;2019-10-04;Home Office;102 
+Furniture;2019-10-04;Corporate;41 
+Office Supplies;2019-10-04;Consumer;15 
+Technology;2019-10-05;Home Office;4752 
+Furniture;2019-10-05;Consumer;259 
+Office Supplies;2019-10-05;Home Office;158 
+Office Supplies;2019-10-05;Consumer;59 
+Technology;2019-10-05;Corporate;48 
+Furniture;2019-10-05;Corporate;10 
+Technology;2019-10-07;Home Office;710 
+Office Supplies;2019-10-07;Consumer;29 
+Office Supplies;2019-10-07;Home Office;28 
+Technology;2019-10-08;Corporate;720 
+Office Supplies;2019-10-08;Consumer;144 
+Office Supplies;2019-10-08;Home Office;4 
+Office Supplies;2019-10-09;Consumer;454 
+Office Supplies;2019-10-09;Home Office;62 
+Furniture;2019-10-09;Corporate;53 
+Furniture;2019-10-10;Corporate;286 
+Furniture;2019-10-10;Home Office;151 
+Technology;2019-10-10;Corporate;26 
+Office Supplies;2019-10-10;Corporate;17 
+Office Supplies;2019-10-10;Home Office;2 
+Furniture;2019-10-11;Corporate;188 
+Office Supplies;2019-10-11;Corporate;24 
+Office Supplies;2019-10-11;Consumer;18 
+Furniture;2019-10-11;Consumer;15 
+Technology;2019-10-11;Corporate;15 
+Office Supplies;2019-10-12;Consumer;30 
+Furniture;2019-10-14;Corporate;901 
+Office Supplies;2019-10-14;Consumer;248 
+Furniture;2019-10-14;Consumer;196 
+Technology;2019-10-14;Consumer;179 
+Office Supplies;2019-10-14;Corporate;172 
+Technology;2019-10-15;Consumer;1422 
+Technology;2019-10-15;Corporate;1205 
+Office Supplies;2019-10-15;Consumer;158 
+Office Supplies;2019-10-15;Corporate;119 
+Furniture;2019-10-15;Consumer;89 
+Office Supplies;2019-10-16;Home Office;1234 
+Office Supplies;2019-10-16;Corporate;298 
+Technology;2019-10-16;Home Office;6 
+Furniture;2019-10-17;Corporate;128 
+Office Supplies;2019-10-18;Home Office;2121 
+Technology;2019-10-18;Home Office;400 
+Office Supplies;2019-10-18;Consumer;332 
+Furniture;2019-10-18;Home Office;133 
+Furniture;2019-10-18;Consumer;114 
+Furniture;2019-10-19;Consumer;317 
+Furniture;2019-10-21;Corporate;379 
+Technology;2019-10-21;Consumer;346 
+Office Supplies;2019-10-21;Consumer;97 
+Furniture;2019-10-21;Home Office;62 
+Furniture;2019-10-21;Consumer;52 
+Office Supplies;2019-10-21;Corporate;17 
+Office Supplies;2019-10-22;Home Office;4572 
+Furniture;2019-10-22;Corporate;1842 
+Office Supplies;2019-10-22;Consumer;707 
+Technology;2019-10-22;Consumer;431 
+Furniture;2019-10-22;Consumer;273 
+Office Supplies;2019-10-22;Corporate;138 
+Furniture;2019-10-22;Home Office;41 
+Furniture;2019-10-23;Consumer;126 
+Furniture;2019-10-23;Home Office;28 
+Office Supplies;2019-10-23;Consumer;15 
+Office Supplies;2019-10-24;Home Office;337 
+Office Supplies;2019-10-24;Corporate;53 
+Furniture;2019-10-24;Corporate;15 
+Technology;2019-10-25;Home Office;593 
+Technology;2019-10-25;Corporate;501 
+Technology;2019-10-25;Consumer;202 
+Office Supplies;2019-10-25;Corporate;14 
+Technology;2019-10-26;Corporate;855 
+Furniture;2019-10-28;Consumer;766 
+Office Supplies;2019-10-28;Consumer;80 
+Office Supplies;2019-10-28;Home Office;69 
+Office Supplies;2019-10-28;Corporate;69 
+Office Supplies;2019-10-29;Corporate;1226 
+Furniture;2019-10-29;Corporate;826 
+Technology;2019-10-29;Consumer;314 
+Furniture;2019-10-29;Consumer;258 
+Office Supplies;2019-10-29;Consumer;158 
+Furniture;2019-10-30;Consumer;73 
+Office Supplies;2019-10-30;Corporate;53 
+Office Supplies;2019-10-30;Consumer;12 
+Office Supplies;2019-10-31;Corporate;134 
+Office Supplies;2019-10-31;Consumer;13 
+Furniture;2019-11-01;Corporate;1915 
+Office Supplies;2019-11-01;Corporate;1351 
+Furniture;2019-11-01;Consumer;522 
+Office Supplies;2019-11-01;Consumer;31 
+Office Supplies;2019-11-02;Home Office;272 
+Office Supplies;2019-11-02;Corporate;121 
+Technology;2019-11-02;Consumer;62 
+Technology;2019-11-02;Home Office;19 
+Office Supplies;2019-11-04;Consumer;1732 
+Furniture;2019-11-04;Consumer;1085 
+Furniture;2019-11-04;Home Office;494 
+Technology;2019-11-04;Consumer;237 
+Technology;2019-11-04;Home Office;76 
+Office Supplies;2019-11-04;Corporate;9 
+Furniture;2019-11-05;Corporate;1967 
+Office Supplies;2019-11-05;Corporate;818 
+Technology;2019-11-05;Consumer;680 
+Office Supplies;2019-11-05;Consumer;181 
+Furniture;2019-11-05;Consumer;125 
+Office Supplies;2019-11-05;Home Office;45 
+Furniture;2019-11-06;Consumer;2727 
+Technology;2019-11-06;Consumer;862 
+Office Supplies;2019-11-06;Consumer;232 
+Office Supplies;2019-11-06;Home Office;225 
+Technology;2019-11-06;Corporate;23 
+Furniture;2019-11-07;Home Office;301 
+Furniture;2019-11-07;Corporate;234 
+Office Supplies;2019-11-07;Corporate;110 
+Office Supplies;2019-11-07;Consumer;73 
+Furniture;2019-11-08;Home Office;1443 
+Office Supplies;2019-11-08;Consumer;763 
+Technology;2019-11-08;Consumer;618 
+Technology;2019-11-08;Corporate;558 
+Office Supplies;2019-11-08;Corporate;85 
+Furniture;2019-11-08;Consumer;49 
+Furniture;2019-11-08;Corporate;13 
+Office Supplies;2019-11-08;Home Office;12 
+Furniture;2019-11-09;Consumer;1024 
+Technology;2019-11-10;Consumer;461 
+Technology;2019-11-11;Consumer;1439 
+Office Supplies;2019-11-11;Consumer;1183 
+Furniture;2019-11-11;Consumer;818 
+Office Supplies;2019-11-11;Home Office;518 
+Office Supplies;2019-11-11;Corporate;404 
+Technology;2019-11-11;Home Office;188 
+Furniture;2019-11-11;Home Office;171 
+Furniture;2019-11-11;Corporate;32 
+Furniture;2019-11-12;Corporate;2527 
+Office Supplies;2019-11-12;Home Office;695 
+Furniture;2019-11-12;Consumer;525 
+Technology;2019-11-12;Consumer;318 
+Office Supplies;2019-11-12;Corporate;186 
+Technology;2019-11-12;Corporate;124 
+Office Supplies;2019-11-12;Consumer;115 
+Furniture;2019-11-13;Consumer;3738 
+Furniture;2019-11-13;Home Office;728 
+Office Supplies;2019-11-13;Corporate;326 
+Technology;2019-11-13;Home Office;190 
+Office Supplies;2019-11-13;Consumer;120 
+Technology;2019-11-13;Consumer;29 
+Furniture;2019-11-13;Corporate;23 
+Technology;2019-11-14;Home Office;2485 
+Office Supplies;2019-11-14;Home Office;265 
+Office Supplies;2019-11-14;Corporate;252 
+Office Supplies;2019-11-14;Consumer;46 
+Furniture;2019-11-14;Corporate;30 
+Furniture;2019-11-14;Home Office;20 
+Technology;2019-11-15;Consumer;1533 
+Furniture;2019-11-15;Consumer;925 
+Office Supplies;2019-11-15;Consumer;97 
+Office Supplies;2019-11-16;Consumer;1023 
+Furniture;2019-11-16;Corporate;680 
+Technology;2019-11-16;Corporate;410 
+Office Supplies;2019-11-17;Consumer;40 
+Technology;2019-11-18;Consumer;58 
+Office Supplies;2019-11-18;Home Office;46 
+Office Supplies;2019-11-18;Consumer;22 
+Office Supplies;2019-11-19;Home Office;1387 
+Technology;2019-11-19;Corporate;1241 
+Technology;2019-11-19;Consumer;547 
+Furniture;2019-11-19;Consumer;308 
+Furniture;2019-11-19;Home Office;240 
+Office Supplies;2019-11-19;Corporate;105 
+Technology;2019-11-19;Home Office;67 
+Office Supplies;2019-11-19;Consumer;64 
+Office Supplies;2019-11-20;Consumer;447 
+Technology;2019-11-20;Consumer;76 
+Office Supplies;2019-11-20;Corporate;54 
+Office Supplies;2019-11-20;Home Office;35 
+Furniture;2019-11-20;Corporate;28 
+Furniture;2019-11-20;Consumer;2 
+Technology;2019-11-21;Consumer;1096 
+Furniture;2019-11-21;Corporate;634 
+Office Supplies;2019-11-21;Corporate;383 
+Technology;2019-11-21;Corporate;344 
+Technology;2019-11-21;Home Office;225 
+Office Supplies;2019-11-21;Consumer;151 
+Furniture;2019-11-21;Home Office;80 
+Office Supplies;2019-11-21;Home Office;36 
+Technology;2019-11-22;Corporate;393 
+Furniture;2019-11-22;Consumer;385 
+Furniture;2019-11-22;Home Office;104 
+Technology;2019-11-22;Consumer;104 
+Office Supplies;2019-11-22;Consumer;74 
+Office Supplies;2019-11-22;Corporate;63 
+Office Supplies;2019-11-23;Home Office;126 
+Office Supplies;2019-11-23;Consumer;81 
+Furniture;2019-11-23;Corporate;43 
+Office Supplies;2019-11-23;Corporate;32 
+Technology;2019-11-23;Consumer;22 
+Furniture;2019-11-24;Corporate;86 
+Office Supplies;2019-11-24;Corporate;16 
+Furniture;2019-11-25;Corporate;1911 
+Office Supplies;2019-11-25;Consumer;1287 
+Technology;2019-11-25;Corporate;1171 
+Technology;2019-11-25;Consumer;1161 
+Furniture;2019-11-25;Home Office;428 
+Technology;2019-11-25;Home Office;163 
+Office Supplies;2019-11-25;Home Office;120 
+Technology;2019-11-26;Consumer;4343 
+Furniture;2019-11-26;Corporate;1631 
+Office Supplies;2019-11-26;Corporate;581 
+Office Supplies;2019-11-26;Consumer;535 
+Technology;2019-11-26;Corporate;451 
+Furniture;2019-11-26;Consumer;177 
+Office Supplies;2019-11-26;Home Office;5 
+Furniture;2019-11-27;Consumer;4242 
+Technology;2019-11-27;Corporate;2584 
+Technology;2019-11-27;Consumer;515 
+Furniture;2019-11-27;Corporate;344 
+Office Supplies;2019-11-27;Consumer;213 
+Office Supplies;2019-11-27;Corporate;187 
+Technology;2019-11-27;Home Office;65 
+Office Supplies;2019-11-27;Home Office;18 
+Office Supplies;2019-11-28;Corporate;442 
+Technology;2019-11-28;Consumer;381 
+Office Supplies;2019-11-28;Consumer;339 
+Furniture;2019-11-28;Consumer;295 
+Technology;2019-11-28;Corporate;88 
+Furniture;2019-11-28;Corporate;32 
+Office Supplies;2019-11-29;Corporate;2326 
+Furniture;2019-11-29;Corporate;515 
+Technology;2019-11-29;Corporate;451 
+Office Supplies;2019-11-29;Consumer;8 
+Furniture;2019-11-30;Home Office;264 
+Technology;2019-11-30;Corporate;53 
+Office Supplies;2019-12-01;Consumer;479 
+Furniture;2019-12-01;Consumer;343 
+Technology;2019-12-01;Consumer;36 
+Office Supplies;2019-12-02;Corporate;2342 
+Furniture;2019-12-02;Consumer;1557 
+Technology;2019-12-02;Consumer;1300 
+Office Supplies;2019-12-02;Home Office;1030 
+Office Supplies;2019-12-02;Consumer;999 
+Furniture;2019-12-02;Home Office;28 
+Office Supplies;2019-12-03;Home Office;2079 
+Furniture;2019-12-03;Corporate;765 
+Office Supplies;2019-12-03;Consumer;666 
+Technology;2019-12-03;Home Office;535 
+Office Supplies;2019-12-03;Corporate;349 
+Technology;2019-12-03;Corporate;172 
+Furniture;2019-12-03;Home Office;76 
+Furniture;2019-12-04;Consumer;2184 
+Technology;2019-12-04;Consumer;1782 
+Office Supplies;2019-12-04;Consumer;1287 
+Office Supplies;2019-12-05;Consumer;550 
+Office Supplies;2019-12-05;Corporate;217 
+Furniture;2019-12-05;Consumer;123 
+Technology;2019-12-05;Consumer;73 
+Furniture;2019-12-06;Corporate;1842 
+Office Supplies;2019-12-06;Consumer;1283 
+Technology;2019-12-06;Consumer;679 
+Technology;2019-12-06;Corporate;454 
+Office Supplies;2019-12-06;Corporate;316 
+Furniture;2019-12-06;Consumer;188 
+Office Supplies;2019-12-06;Home Office;38 
+Office Supplies;2019-12-07;Corporate;1138 
+Office Supplies;2019-12-07;Consumer;540 
+Technology;2019-12-07;Consumer;536 
+Technology;2019-12-07;Home Office;495 
+Technology;2019-12-07;Corporate;470 
+Office Supplies;2019-12-07;Home Office;427 
+Furniture;2019-12-09;Corporate;1467 
+Furniture;2019-12-09;Consumer;1184 
+Technology;2019-12-09;Corporate;1067 
+Technology;2019-12-09;Consumer;354 
+Office Supplies;2019-12-09;Consumer;336 
+Office Supplies;2019-12-09;Corporate;51 
+Office Supplies;2019-12-09;Home Office;25 
+Furniture;2019-12-10;Consumer;1152 
+Office Supplies;2019-12-10;Corporate;368 
+Office Supplies;2019-12-10;Consumer;178 
+Technology;2019-12-10;Consumer;123 
+Furniture;2019-12-10;Corporate;74 
+Technology;2019-12-10;Corporate;19 
+Office Supplies;2019-12-11;Consumer;1625 
+Furniture;2019-12-11;Consumer;1554 
+Office Supplies;2019-12-11;Home Office;87 
+Office Supplies;2019-12-11;Corporate;64 
+Technology;2019-12-11;Consumer;42 
+Technology;2019-12-12;Corporate;1401 
+Furniture;2019-12-12;Consumer;1369 
+Furniture;2019-12-12;Corporate;858 
+Office Supplies;2019-12-12;Consumer;798 
+Office Supplies;2019-12-12;Corporate;610 
+Technology;2019-12-12;Consumer;503 
+Furniture;2019-12-12;Home Office;388 
+Technology;2019-12-13;Home Office;632 
+Furniture;2019-12-13;Consumer;376 
+Technology;2019-12-13;Corporate;330 
+Technology;2019-12-13;Consumer;235 
+Office Supplies;2019-12-13;Consumer;92 
+Office Supplies;2019-12-13;Corporate;66 
+Furniture;2019-12-13;Corporate;56 
+Office Supplies;2019-12-13;Home Office;42 
+Furniture;2019-12-13;Home Office;30 
+Furniture;2019-12-14;Corporate;1047 
+Technology;2019-12-14;Corporate;59 
+Office Supplies;2019-12-14;Consumer;9 
+Office Supplies;2019-12-14;Corporate;5 
+Furniture;2019-12-15;Consumer;477 
+Office Supplies;2019-12-15;Corporate;142 
+Furniture;2019-12-15;Corporate;81 
+Office Supplies;2019-12-15;Consumer;78 
+Furniture;2019-12-16;Corporate;1636 
+Furniture;2019-12-16;Home Office;485 
+Office Supplies;2019-12-16;Corporate;273 
+Office Supplies;2019-12-16;Home Office;107 
+Furniture;2019-12-16;Consumer;16 
+Office Supplies;2019-12-16;Consumer;2 
+Furniture;2019-12-17;Consumer;508 
+Office Supplies;2019-12-17;Consumer;37 
+Technology;2019-12-17;Home Office;20 
+Office Supplies;2019-12-17;Corporate;3 
+Office Supplies;2019-12-18;Consumer;10783 
+Furniture;2019-12-18;Consumer;1983 
+Technology;2019-12-18;Corporate;181 
+Office Supplies;2019-12-18;Corporate;74 
+Office Supplies;2019-12-18;Home Office;40 
+Office Supplies;2019-12-19;Corporate;4128 
+Office Supplies;2019-12-19;Home Office;952 
+Furniture;2019-12-19;Home Office;894 
+Technology;2019-12-19;Consumer;803 
+Furniture;2019-12-19;Corporate;188 
+Technology;2019-12-19;Home Office;154 
+Technology;2019-12-19;Corporate;62 
+Furniture;2019-12-19;Consumer;40 
+Furniture;2019-12-20;Corporate;483 
+Furniture;2019-12-20;Consumer;310 
+Office Supplies;2019-12-20;Corporate;60 
+Technology;2019-12-21;Consumer;63 
+Office Supplies;2019-12-21;Consumer;34 
+Furniture;2019-12-21;Home Office;17 
+Office Supplies;2019-12-21;Home Office;14 
+Furniture;2019-12-23;Consumer;947 
+Office Supplies;2019-12-23;Consumer;61 
+Office Supplies;2019-12-23;Home Office;54 
+Technology;2019-12-23;Home Office;12 
+Technology;2019-12-24;Corporate;3132 
+Office Supplies;2019-12-24;Corporate;1718 
+Technology;2019-12-24;Home Office;1545 
+Furniture;2019-12-24;Consumer;833 
+Furniture;2019-12-24;Corporate;138 
+Office Supplies;2019-12-24;Home Office;8 
+Office Supplies;2019-12-24;Consumer;5 
+Furniture;2019-12-25;Consumer;793 
+Office Supplies;2019-12-25;Home Office;574 
+Technology;2019-12-25;Home Office;245 
+Technology;2019-12-25;Corporate;186 
+Office Supplies;2019-12-25;Consumer;39 
+Office Supplies;2019-12-25;Corporate;35 
+Furniture;2019-12-26;Consumer;5727 
+Technology;2019-12-26;Corporate;2986 
+Furniture;2019-12-26;Corporate;1194 
+Technology;2019-12-26;Consumer;356 
+Office Supplies;2019-12-26;Consumer;176 
+Office Supplies;2019-12-26;Corporate;47 
+Furniture;2019-12-27;Corporate;1174 
+Technology;2019-12-27;Corporate;287 
+Office Supplies;2019-12-27;Corporate;112 
+Technology;2019-12-27;Consumer;86 
+Office Supplies;2019-12-27;Consumer;41 
+Furniture;2019-12-28;Corporate;761 
+Office Supplies;2019-12-28;Home Office;39 
+Technology;2019-12-28;Consumer;35 
+Office Supplies;2019-12-28;Consumer;32 
+Furniture;2019-12-30;Consumer;776 
+Office Supplies;2019-12-30;Consumer;318 
+Office Supplies;2019-12-30;Home Office;65 
+Office Supplies;2019-12-30;Corporate;38 
+Office Supplies;2019-12-31;Home Office;522 
+Furniture;2019-12-31;Consumer;184 
+Office Supplies;2019-12-31;Consumer;101 
+Office Supplies;2019-12-31;Corporate;21 
+Technology;2020-01-01;Consumer;333 
+Office Supplies;2020-01-01;Consumer;247 
+Office Supplies;2020-01-01;Corporate;145 
+Furniture;2020-01-02;Consumer;907 
+Office Supplies;2020-01-02;Consumer;543 
+Office Supplies;2020-01-02;Home Office;3 
+Furniture;2020-01-03;Consumer;959 
+Technology;2020-01-03;Corporate;627 
+Office Supplies;2020-01-03;Consumer;442 
+Office Supplies;2020-01-03;Corporate;42 
+Office Supplies;2020-01-04;Consumer;2091 
+Office Supplies;2020-01-07;Home Office;31 
+Technology;2020-01-08;Corporate;3366 
+Office Supplies;2020-01-08;Consumer;305 
+Furniture;2020-01-09;Corporate;982 
+Office Supplies;2020-01-10;Consumer;285 
+Office Supplies;2020-01-13;Corporate;671 
+Office Supplies;2020-01-13;Home Office;43 
+Furniture;2020-01-13;Home Office;38 
+Office Supplies;2020-01-14;Corporate;3922 
+Furniture;2020-01-14;Corporate;202 
+Office Supplies;2020-01-15;Consumer;230 
+Technology;2020-01-15;Home Office;216 
+Office Supplies;2020-01-15;Corporate;167 
+Technology;2020-01-15;Corporate;164 
+Technology;2020-01-15;Consumer;110 
+Office Supplies;2020-01-15;Home Office;105 
+Furniture;2020-01-15;Home Office;18 
+Office Supplies;2020-01-16;Consumer;2209 
+Technology;2020-01-16;Consumer;111 
+Office Supplies;2020-01-16;Home Office;22 
+Office Supplies;2020-01-17;Consumer;5555 
+Furniture;2020-01-17;Corporate;423 
+Furniture;2020-01-17;Consumer;315 
+Furniture;2020-01-20;Consumer;846 
+Office Supplies;2020-01-20;Consumer;632 
+Technology;2020-01-20;Consumer;468 
+Technology;2020-01-21;Consumer;453 
+Furniture;2020-01-21;Corporate;189 
+Office Supplies;2020-01-21;Consumer;35 
+Technology;2020-01-22;Home Office;1184 
+Office Supplies;2020-01-22;Home Office;939 
+Office Supplies;2020-01-22;Consumer;252 
+Furniture;2020-01-22;Home Office;80 
+Technology;2020-01-23;Home Office;2580 
+Office Supplies;2020-01-23;Home Office;1308 
+Office Supplies;2020-01-23;Corporate;21 
+Furniture;2020-01-24;Corporate;190 
+Technology;2020-01-24;Home Office;83 
+Technology;2020-01-24;Corporate;81 
+Office Supplies;2020-01-24;Corporate;48 
+Office Supplies;2020-01-24;Home Office;4 
+Office Supplies;2020-01-25;Corporate;260 
+Technology;2020-01-25;Corporate;102 
+Office Supplies;2020-01-25;Consumer;5 
+Technology;2020-01-27;Consumer;2852 
+Furniture;2020-01-27;Consumer;63 
+Office Supplies;2020-01-27;Consumer;28 
+Office Supplies;2020-01-27;Corporate;22 
+Technology;2020-01-28;Consumer;286 
+Office Supplies;2020-01-28;Consumer;13 
+Technology;2020-01-29;Home Office;697 
+Office Supplies;2020-01-29;Consumer;249 
+Furniture;2020-01-29;Home Office;42 
+Office Supplies;2020-01-30;Consumer;291 
+Furniture;2020-01-30;Consumer;14 
+Technology;2020-01-31;Consumer;1923 
+Technology;2020-01-31;Home Office;629 
+Furniture;2020-01-31;Consumer;425 
+Technology;2020-01-31;Corporate;182 
+Office Supplies;2020-01-31;Consumer;179 
+Furniture;2020-01-31;Home Office;107 
+Office Supplies;2020-01-31;Corporate;90 
+Furniture;2020-01-31;Corporate;33 
+Office Supplies;2020-01-31;Home Office;19 
+Technology;2020-02-03;Corporate;309 
+Furniture;2020-02-03;Corporate;217 
+Office Supplies;2020-02-03;Consumer;165 
+Office Supplies;2020-02-03;Corporate;111 
+Furniture;2020-02-03;Consumer;78 
+Office Supplies;2020-02-04;Home Office;436 
+Office Supplies;2020-02-04;Consumer;348 
+Furniture;2020-02-04;Home Office;19 
+Office Supplies;2020-02-05;Consumer;30 
+Office Supplies;2020-02-06;Corporate;1641 
+Technology;2020-02-06;Corporate;371 
+Office Supplies;2020-02-06;Consumer;254 
+Furniture;2020-02-07;Consumer;553 
+Technology;2020-02-07;Corporate;207 
+Office Supplies;2020-02-07;Corporate;40 
+Office Supplies;2020-02-07;Home Office;33 
+Office Supplies;2020-02-10;Consumer;664 
+Technology;2020-02-10;Consumer;110 
+Furniture;2020-02-10;Corporate;20 
+Furniture;2020-02-10;Consumer;4 
+Furniture;2020-02-11;Home Office;177 
+Office Supplies;2020-02-11;Consumer;24 
+Furniture;2020-02-12;Corporate;1040 
+Furniture;2020-02-12;Consumer;148 
+Technology;2020-02-12;Corporate;89 
+Office Supplies;2020-02-12;Corporate;39 
+Technology;2020-02-14;Consumer;864 
+Office Supplies;2020-02-14;Consumer;126 
+Furniture;2020-02-14;Consumer;110 
+Office Supplies;2020-02-14;Corporate;19 
+Furniture;2020-02-17;Consumer;554 
+Office Supplies;2020-02-17;Corporate;493 
+Office Supplies;2020-02-17;Consumer;125 
+Technology;2020-02-17;Corporate;16 
+Furniture;2020-02-18;Home Office;1995 
+Technology;2020-02-18;Home Office;608 
+Office Supplies;2020-02-18;Home Office;367 
+Technology;2020-02-18;Consumer;28 
+Technology;2020-02-19;Corporate;305 
+Office Supplies;2020-02-19;Corporate;11 
+Office Supplies;2020-02-20;Corporate;1121 
+Furniture;2020-02-20;Home Office;49 
+Office Supplies;2020-02-20;Home Office;14 
+Office Supplies;2020-02-20;Consumer;11 
+Furniture;2020-02-21;Home Office;392 
+Technology;2020-02-21;Home Office;322 
+Technology;2020-02-21;Corporate;225 
+Office Supplies;2020-02-21;Home Office;81 
+Furniture;2020-02-21;Corporate;24 
+Office Supplies;2020-02-21;Corporate;9 
+Technology;2020-02-22;Consumer;44 
+Technology;2020-02-24;Corporate;62 
+Office Supplies;2020-02-24;Consumer;40 
+Office Supplies;2020-02-24;Corporate;7 
+Technology;2020-02-25;Corporate;1148 
+Office Supplies;2020-02-25;Corporate;115 
+Office Supplies;2020-02-25;Consumer;4 
+Furniture;2020-02-26;Consumer;463 
+Office Supplies;2020-02-26;Consumer;2 
+Furniture;2020-02-27;Home Office;857 
+Technology;2020-02-27;Home Office;854 
+Office Supplies;2020-02-27;Consumer;328 
+Office Supplies;2020-02-27;Home Office;289 
+Technology;2020-02-27;Consumer;251 
+Furniture;2020-02-27;Consumer;96 
+Office Supplies;2020-03-01;Consumer;15 
+Technology;2020-03-03;Corporate;650 
+Furniture;2020-03-03;Corporate;482 
+Office Supplies;2020-03-03;Corporate;291 
+Office Supplies;2020-03-03;Consumer;17 
+Technology;2020-03-04;Consumer;1115 
+Furniture;2020-03-04;Corporate;436 
+Furniture;2020-03-04;Consumer;376 
+Office Supplies;2020-03-04;Consumer;94 
+Furniture;2020-03-05;Home Office;113 
+Office Supplies;2020-03-05;Consumer;91 
+Office Supplies;2020-03-05;Corporate;22 
+Office Supplies;2020-03-05;Home Office;11 
+Office Supplies;2020-03-06;Corporate;528 
+Office Supplies;2020-03-06;Consumer;417 
+Technology;2020-03-06;Corporate;312 
+Office Supplies;2020-03-07;Home Office;358 
+Technology;2020-03-07;Home Office;192 
+Office Supplies;2020-03-07;Consumer;91 
+Furniture;2020-03-07;Consumer;75 
+Office Supplies;2020-03-07;Corporate;63 
+Office Supplies;2020-03-08;Consumer;105 
+Technology;2020-03-08;Home Office;43 
+Office Supplies;2020-03-09;Corporate;722 
+Office Supplies;2020-03-09;Consumer;152 
+Technology;2020-03-10;Consumer;432 
+Technology;2020-03-10;Corporate;216 
+Office Supplies;2020-03-10;Consumer;26 
+Furniture;2020-03-11;Consumer;868 
+Technology;2020-03-11;Corporate;100 
+Office Supplies;2020-03-11;Corporate;60 
+Furniture;2020-03-11;Home Office;51 
+Technology;2020-03-11;Consumer;50 
+Technology;2020-03-11;Home Office;40 
+Office Supplies;2020-03-11;Home Office;5 
+Office Supplies;2020-03-12;Consumer;941 
+Technology;2020-03-12;Home Office;832 
+Furniture;2020-03-12;Home Office;163 
+Office Supplies;2020-03-12;Home Office;54 
+Office Supplies;2020-03-13;Corporate;250 
+Technology;2020-03-13;Corporate;62 
+Office Supplies;2020-03-13;Consumer;38 
+Office Supplies;2020-03-14;Consumer;2172 
+Technology;2020-03-14;Home Office;1326 
+Office Supplies;2020-03-14;Home Office;739 
+Technology;2020-03-14;Consumer;267 
+Furniture;2020-03-14;Home Office;92 
+Technology;2020-03-14;Corporate;9 
+Technology;2020-03-15;Corporate;44 
+Technology;2020-03-17;Home Office;1172 
+Office Supplies;2020-03-17;Corporate;563 
+Technology;2020-03-17;Consumer;176 
+Office Supplies;2020-03-17;Consumer;52 
+Furniture;2020-03-17;Consumer;51 
+Office Supplies;2020-03-17;Home Office;47 
+Technology;2020-03-18;Consumer;243 
+Office Supplies;2020-03-18;Consumer;234 
+Office Supplies;2020-03-18;Home Office;26 
+Technology;2020-03-19;Consumer;503 
+Office Supplies;2020-03-19;Consumer;217 
+Office Supplies;2020-03-19;Corporate;108 
+Furniture;2020-03-19;Consumer;71 
+Technology;2020-03-20;Consumer;1005 
+Furniture;2020-03-20;Consumer;757 
+Office Supplies;2020-03-20;Corporate;359 
+Office Supplies;2020-03-20;Consumer;60 
+Office Supplies;2020-03-20;Home Office;29 
+Office Supplies;2020-03-21;Consumer;353 
+Technology;2020-03-21;Corporate;285 
+Technology;2020-03-21;Consumer;238 
+Furniture;2020-03-21;Consumer;3 
+Furniture;2020-03-22;Consumer;1824 
+Office Supplies;2020-03-22;Consumer;965 
+Office Supplies;2020-03-22;Home Office;363 
+Office Supplies;2020-03-22;Corporate;57 
+Furniture;2020-03-22;Home Office;19 
+Technology;2020-03-24;Consumer;14700 
+Office Supplies;2020-03-24;Corporate;361 
+Office Supplies;2020-03-24;Consumer;231 
+Furniture;2020-03-24;Home Office;222 
+Office Supplies;2020-03-24;Home Office;36 
+Technology;2020-03-25;Corporate;446 
+Office Supplies;2020-03-25;Corporate;304 
+Furniture;2020-03-25;Consumer;258 
+Furniture;2020-03-25;Corporate;214 
+Furniture;2020-03-26;Corporate;1987 
+Technology;2020-03-26;Consumer;1115 
+Office Supplies;2020-03-26;Consumer;400 
+Office Supplies;2020-03-26;Corporate;22 
+Technology;2020-03-27;Corporate;2620 
+Furniture;2020-03-27;Consumer;276 
+Office Supplies;2020-03-27;Corporate;213 
+Technology;2020-03-27;Consumer;119 
+Furniture;2020-03-27;Corporate;67 
+Technology;2020-03-27;Home Office;48 
+Office Supplies;2020-03-27;Home Office;21 
+Furniture;2020-03-28;Consumer;2164 
+Office Supplies;2020-03-28;Consumer;343 
+Technology;2020-03-28;Consumer;236 
+Office Supplies;2020-03-28;Home Office;172 
+Office Supplies;2020-03-29;Corporate;924 
+Technology;2020-03-29;Corporate;463 
+Furniture;2020-03-29;Corporate;47 
+Office Supplies;2020-03-30;Consumer;81 
+Office Supplies;2020-03-31;Consumer;368 
+Technology;2020-03-31;Consumer;152 
+Furniture;2020-03-31;Consumer;88 
+Office Supplies;2020-03-31;Home Office;56 
+Technology;2020-04-01;Corporate;2550 
+Technology;2020-04-01;Home Office;658 
+Technology;2020-04-01;Consumer;648 
+Furniture;2020-04-01;Corporate;185 
+Office Supplies;2020-04-01;Corporate;138 
+Office Supplies;2020-04-01;Consumer;83 
+Furniture;2020-04-01;Home Office;52 
+Furniture;2020-04-01;Consumer;31 
+Technology;2020-04-02;Corporate;4969 
+Furniture;2020-04-02;Corporate;904 
+Office Supplies;2020-04-02;Consumer;302 
+Office Supplies;2020-04-02;Corporate;30 
+Technology;2020-04-03;Home Office;385 
+Furniture;2020-04-03;Home Office;350 
+Furniture;2020-04-03;Consumer;28 
+Office Supplies;2020-04-03;Consumer;16 
+Office Supplies;2020-04-03;Home Office;10 
+Furniture;2020-04-04;Consumer;25 
+Office Supplies;2020-04-04;Consumer;6 
+Technology;2020-04-05;Consumer;376 
+Office Supplies;2020-04-05;Home Office;254 
+Technology;2020-04-05;Home Office;152 
+Office Supplies;2020-04-07;Home Office;106 
+Office Supplies;2020-04-07;Corporate;8 
+Furniture;2020-04-08;Home Office;1001 
+Technology;2020-04-08;Home Office;820 
+Office Supplies;2020-04-08;Home Office;22 
+Office Supplies;2020-04-09;Home Office;3289 
+Office Supplies;2020-04-09;Corporate;2503 
+Furniture;2020-04-09;Corporate;567 
+Office Supplies;2020-04-10;Home Office;822 
+Office Supplies;2020-04-10;Consumer;686 
+Office Supplies;2020-04-10;Corporate;110 
+Office Supplies;2020-04-11;Home Office;259 
+Office Supplies;2020-04-11;Consumer;208 
+Technology;2020-04-11;Consumer;98 
+Technology;2020-04-11;Home Office;97 
+Furniture;2020-04-11;Consumer;38 
+Furniture;2020-04-11;Corporate;13 
+Office Supplies;2020-04-11;Corporate;4 
+Technology;2020-04-12;Consumer;238 
+Office Supplies;2020-04-12;Consumer;87 
+Office Supplies;2020-04-12;Home Office;11 
+Office Supplies;2020-04-13;Consumer;77 
+Office Supplies;2020-04-14;Corporate;927 
+Furniture;2020-04-14;Corporate;389 
+Furniture;2020-04-15;Corporate;265 
+Furniture;2020-04-15;Consumer;259 
+Office Supplies;2020-04-15;Consumer;130 
+Office Supplies;2020-04-15;Home Office;9 
+Furniture;2020-04-16;Corporate;179 
+Office Supplies;2020-04-16;Corporate;98 
+Office Supplies;2020-04-16;Home Office;22 
+Office Supplies;2020-04-16;Consumer;19 
+Office Supplies;2020-04-17;Corporate;449 
+Office Supplies;2020-04-17;Consumer;287 
+Furniture;2020-04-17;Consumer;98 
+Office Supplies;2020-04-17;Home Office;60 
+Technology;2020-04-17;Corporate;28 
+Technology;2020-04-18;Home Office;2805 
+Technology;2020-04-18;Consumer;272 
+Furniture;2020-04-18;Consumer;270 
+Office Supplies;2020-04-18;Corporate;180 
+Office Supplies;2020-04-18;Consumer;65 
+Office Supplies;2020-04-18;Home Office;60 
+Office Supplies;2020-04-21;Home Office;909 
+Office Supplies;2020-04-21;Corporate;357 
+Furniture;2020-04-21;Consumer;328 
+Office Supplies;2020-04-21;Consumer;213 
+Technology;2020-04-21;Home Office;135 
+Furniture;2020-04-21;Corporate;85 
+Furniture;2020-04-21;Home Office;38 
+Furniture;2020-04-22;Consumer;943 
+Office Supplies;2020-04-22;Consumer;108 
+Technology;2020-04-22;Corporate;49 
+Office Supplies;2020-04-22;Corporate;21 
+Technology;2020-04-22;Consumer;11 
+Office Supplies;2020-04-23;Consumer;736 
+Furniture;2020-04-23;Home Office;267 
+Furniture;2020-04-23;Consumer;19 
+Office Supplies;2020-04-24;Consumer;448 
+Furniture;2020-04-24;Home Office;423 
+Technology;2020-04-24;Consumer;144 
+Furniture;2020-04-24;Consumer;109 
+Technology;2020-04-24;Home Office;48 
+Office Supplies;2020-04-24;Corporate;16 
+Office Supplies;2020-04-24;Home Office;3 
+Technology;2020-04-25;Consumer;486 
+Office Supplies;2020-04-25;Corporate;241 
+Office Supplies;2020-04-25;Consumer;75 
+Technology;2020-04-25;Corporate;63 
+Office Supplies;2020-04-25;Home Office;2 
+Furniture;2020-04-26;Consumer;376 
+Office Supplies;2020-04-26;Consumer;126 
+Office Supplies;2020-04-26;Home Office;120 
+Technology;2020-04-26;Consumer;97 
+Office Supplies;2020-04-27;Home Office;58 
+Furniture;2020-04-27;Consumer;2 
+Furniture;2020-04-28;Corporate;203 
+Office Supplies;2020-04-28;Consumer;163 
+Furniture;2020-04-28;Consumer;120 
+Office Supplies;2020-04-28;Corporate;31 
+Technology;2020-04-29;Consumer;744 
+Office Supplies;2020-04-29;Consumer;28 
+Office Supplies;2020-04-29;Corporate;13 
+Furniture;2020-04-30;Corporate;1059 
+Office Supplies;2020-04-30;Consumer;4 
+Technology;2020-05-01;Corporate;707 
+Office Supplies;2020-05-01;Home Office;278 
+Furniture;2020-05-01;Home Office;243 
+Office Supplies;2020-05-01;Corporate;129 
+Furniture;2020-05-01;Corporate;92 
+Office Supplies;2020-05-01;Consumer;15 
+Furniture;2020-05-02;Consumer;3444 
+Technology;2020-05-02;Home Office;45 
+Office Supplies;2020-05-02;Consumer;8 
+Technology;2020-05-03;Corporate;161 
+Furniture;2020-05-03;Corporate;131 
+Office Supplies;2020-05-03;Consumer;94 
+Office Supplies;2020-05-04;Corporate;810 
+Furniture;2020-05-04;Corporate;357 
+Office Supplies;2020-05-04;Consumer;53 
+Office Supplies;2020-05-05;Consumer;753 
+Furniture;2020-05-05;Corporate;328 
+Technology;2020-05-05;Corporate;177 
+Office Supplies;2020-05-05;Corporate;30 
+Furniture;2020-05-06;Consumer;96 
+Office Supplies;2020-05-06;Consumer;59 
+Office Supplies;2020-05-06;Corporate;31 
+Technology;2020-05-07;Consumer;803 
+Office Supplies;2020-05-07;Corporate;674 
+Furniture;2020-05-07;Corporate;667 
+Office Supplies;2020-05-07;Consumer;574 
+Technology;2020-05-07;Home Office;417 
+Office Supplies;2020-05-07;Home Office;7 
+Furniture;2020-05-08;Corporate;1668 
+Technology;2020-05-08;Consumer;454 
+Technology;2020-05-08;Home Office;83 
+Office Supplies;2020-05-08;Corporate;74 
+Technology;2020-05-09;Home Office;3091 
+Furniture;2020-05-09;Corporate;113 
+Office Supplies;2020-05-09;Consumer;80 
+Furniture;2020-05-09;Consumer;53 
+Office Supplies;2020-05-09;Corporate;38 
+Furniture;2020-05-10;Home Office;316 
+Office Supplies;2020-05-10;Home Office;287 
+Furniture;2020-05-10;Corporate;193 
+Technology;2020-05-10;Home Office;178 
+Office Supplies;2020-05-10;Corporate;70 
+Furniture;2020-05-12;Corporate;187 
+Office Supplies;2020-05-12;Consumer;158 
+Office Supplies;2020-05-12;Home Office;90 
+Furniture;2020-05-12;Home Office;7 
+Office Supplies;2020-05-13;Corporate;453 
+Furniture;2020-05-13;Corporate;300 
+Office Supplies;2020-05-13;Consumer;126 
+Technology;2020-05-13;Consumer;78 
+Furniture;2020-05-13;Consumer;47 
+Office Supplies;2020-05-13;Home Office;10 
+Office Supplies;2020-05-14;Corporate;1645 
+Technology;2020-05-14;Corporate;547 
+Furniture;2020-05-14;Home Office;413 
+Office Supplies;2020-05-14;Home Office;372 
+Technology;2020-05-15;Consumer;1967 
+Furniture;2020-05-15;Consumer;945 
+Office Supplies;2020-05-15;Corporate;571 
+Office Supplies;2020-05-15;Consumer;350 
+Furniture;2020-05-15;Corporate;270 
+Technology;2020-05-15;Corporate;79 
+Furniture;2020-05-16;Consumer;270 
+Office Supplies;2020-05-16;Consumer;84 
+Technology;2020-05-16;Consumer;45 
+Office Supplies;2020-05-17;Consumer;208 
+Office Supplies;2020-05-19;Home Office;653 
+Technology;2020-05-19;Consumer;385 
+Furniture;2020-05-19;Corporate;305 
+Office Supplies;2020-05-19;Corporate;130 
+Technology;2020-05-19;Home Office;98 
+Technology;2020-05-19;Corporate;84 
+Furniture;2020-05-19;Consumer;15 
+Office Supplies;2020-05-19;Consumer;3 
+Furniture;2020-05-20;Consumer;1401 
+Furniture;2020-05-20;Home Office;668 
+Office Supplies;2020-05-20;Consumer;639 
+Technology;2020-05-20;Corporate;571 
+Technology;2020-05-20;Consumer;515 
+Office Supplies;2020-05-20;Corporate;388 
+Furniture;2020-05-20;Corporate;314 
+Technology;2020-05-20;Home Office;32 
+Office Supplies;2020-05-20;Home Office;8 
+Technology;2020-05-21;Consumer;1157 
+Office Supplies;2020-05-21;Consumer;839 
+Furniture;2020-05-21;Home Office;483 
+Technology;2020-05-21;Home Office;295 
+Office Supplies;2020-05-21;Corporate;44 
+Furniture;2020-05-22;Corporate;478 
+Office Supplies;2020-05-22;Corporate;18 
+Furniture;2020-05-23;Consumer;166 
+Office Supplies;2020-05-23;Consumer;79 
+Technology;2020-05-23;Consumer;68 
+Office Supplies;2020-05-23;Home Office;12 
+Furniture;2020-05-24;Consumer;180 
+Office Supplies;2020-05-24;Consumer;60 
+Office Supplies;2020-05-26;Consumer;789 
+Technology;2020-05-26;Consumer;116 
+Office Supplies;2020-05-26;Home Office;26 
+Furniture;2020-05-26;Consumer;20 
+Office Supplies;2020-05-27;Corporate;204 
+Technology;2020-05-27;Consumer;25 
+Office Supplies;2020-05-27;Consumer;14 
+Technology;2020-05-28;Home Office;535 
+Office Supplies;2020-05-28;Consumer;518 
+Furniture;2020-05-28;Consumer;487 
+Technology;2020-05-28;Consumer;281 
+Technology;2020-05-28;Corporate;117 
+Office Supplies;2020-05-28;Home Office;53 
+Office Supplies;2020-05-28;Corporate;37 
+Furniture;2020-05-29;Corporate;548 
+Technology;2020-05-29;Corporate;473 
+Furniture;2020-05-29;Consumer;302 
+Office Supplies;2020-05-29;Corporate;145 
+Technology;2020-05-29;Consumer;49 
+Office Supplies;2020-05-30;Consumer;578 
+Furniture;2020-05-30;Consumer;64 
+Office Supplies;2020-05-30;Home Office;21 
+Furniture;2020-05-31;Consumer;500 
+Technology;2020-05-31;Home Office;209 
+Office Supplies;2020-05-31;Corporate;41 
+Office Supplies;2020-05-31;Consumer;34 
+Furniture;2020-05-31;Home Office;12 
+Office Supplies;2020-06-02;Corporate;2419 
+Furniture;2020-06-02;Corporate;2118 
+Office Supplies;2020-06-02;Consumer;349 
+Technology;2020-06-02;Consumer;152 
+Technology;2020-06-02;Corporate;124 
+Office Supplies;2020-06-03;Consumer;95 
+Office Supplies;2020-06-03;Home Office;24 
+Technology;2020-06-03;Home Office;3 
+Technology;2020-06-04;Corporate;1076 
+Technology;2020-06-04;Consumer;804 
+Furniture;2020-06-04;Corporate;458 
+Furniture;2020-06-04;Consumer;227 
+Office Supplies;2020-06-04;Home Office;120 
+Office Supplies;2020-06-04;Corporate;61 
+Office Supplies;2020-06-04;Consumer;55 
+Office Supplies;2020-06-05;Home Office;106 
+Technology;2020-06-05;Corporate;73 
+Furniture;2020-06-05;Corporate;33 
+Furniture;2020-06-05;Consumer;30 
+Office Supplies;2020-06-05;Consumer;22 
+Office Supplies;2020-06-05;Corporate;7 
+Technology;2020-06-06;Consumer;437 
+Office Supplies;2020-06-06;Corporate;22 
+Office Supplies;2020-06-07;Home Office;23 
+Furniture;2020-06-07;Home Office;5 
+Furniture;2020-06-09;Home Office;1573 
+Technology;2020-06-09;Corporate;401 
+Office Supplies;2020-06-09;Consumer;116 
+Office Supplies;2020-06-09;Corporate;103 
+Technology;2020-06-09;Consumer;84 
+Technology;2020-06-09;Home Office;15 
+Office Supplies;2020-06-10;Corporate;771 
+Furniture;2020-06-10;Home Office;116 
+Office Supplies;2020-06-10;Consumer;46 
+Office Supplies;2020-06-10;Home Office;36 
+Office Supplies;2020-06-11;Corporate;1454 
+Furniture;2020-06-11;Home Office;555 
+Technology;2020-06-11;Home Office;238 
+Technology;2020-06-11;Consumer;237 
+Office Supplies;2020-06-11;Consumer;71 
+Office Supplies;2020-06-11;Home Office;32 
+Office Supplies;2020-06-12;Home Office;368 
+Technology;2020-06-12;Consumer;347 
+Office Supplies;2020-06-12;Consumer;331 
+Furniture;2020-06-12;Home Office;244 
+Furniture;2020-06-12;Consumer;171 
+Furniture;2020-06-13;Consumer;760 
+Furniture;2020-06-13;Home Office;476 
+Technology;2020-06-13;Consumer;137 
+Office Supplies;2020-06-13;Consumer;102 
+Office Supplies;2020-06-13;Home Office;82 
+Furniture;2020-06-14;Home Office;830 
+Office Supplies;2020-06-14;Consumer;169 
+Office Supplies;2020-06-14;Home Office;161 
+Technology;2020-06-14;Home Office;50 
+Technology;2020-06-16;Corporate;2860 
+Furniture;2020-06-16;Consumer;776 
+Office Supplies;2020-06-16;Corporate;301 
+Furniture;2020-06-16;Corporate;149 
+Office Supplies;2020-06-16;Home Office;141 
+Technology;2020-06-16;Consumer;45 
+Office Supplies;2020-06-16;Consumer;22 
+Furniture;2020-06-17;Consumer;1500 
+Technology;2020-06-17;Consumer;657 
+Office Supplies;2020-06-17;Consumer;239 
+Office Supplies;2020-06-17;Home Office;215 
+Office Supplies;2020-06-17;Corporate;19 
+Technology;2020-06-18;Home Office;3331 
+Office Supplies;2020-06-18;Consumer;224 
+Furniture;2020-06-18;Consumer;169 
+Office Supplies;2020-06-18;Corporate;21 
+Furniture;2020-06-19;Consumer;945 
+Office Supplies;2020-06-19;Home Office;77 
+Office Supplies;2020-06-19;Consumer;41 
+Furniture;2020-06-20;Corporate;719 
+Furniture;2020-06-20;Home Office;471 
+Office Supplies;2020-06-20;Consumer;362 
+Office Supplies;2020-06-20;Corporate;263 
+Technology;2020-06-20;Corporate;194 
+Furniture;2020-06-20;Consumer;51 
+Office Supplies;2020-06-20;Home Office;6 
+Technology;2020-06-21;Consumer;796 
+Office Supplies;2020-06-21;Consumer;134 
+Office Supplies;2020-06-22;Home Office;569 
+Office Supplies;2020-06-22;Consumer;42 
+Furniture;2020-06-22;Consumer;16 
+Furniture;2020-06-23;Home Office;449 
+Office Supplies;2020-06-23;Home Office;48 
+Office Supplies;2020-06-23;Consumer;36 
+Office Supplies;2020-06-25;Corporate;535 
+Furniture;2020-06-25;Consumer;436 
+Office Supplies;2020-06-25;Consumer;194 
+Furniture;2020-06-26;Consumer;1094 
+Technology;2020-06-26;Consumer;146 
+Office Supplies;2020-06-26;Home Office;96 
+Technology;2020-06-27;Consumer;1734 
+Office Supplies;2020-06-27;Corporate;1020 
+Furniture;2020-06-27;Consumer;563 
+Technology;2020-06-27;Home Office;473 
+Office Supplies;2020-06-27;Consumer;339 
+Furniture;2020-06-27;Corporate;282 
+Office Supplies;2020-06-27;Home Office;22 
+Technology;2020-06-28;Corporate;1249 
+Furniture;2020-06-28;Home Office;172 
+Furniture;2020-06-28;Corporate;131 
+Office Supplies;2020-06-28;Consumer;21 
+Office Supplies;2020-06-28;Corporate;19 
+Office Supplies;2020-06-30;Consumer;1904 
+Office Supplies;2020-06-30;Corporate;1225 
+Furniture;2020-06-30;Consumer;732 
+Furniture;2020-06-30;Corporate;697 
+Technology;2020-06-30;Consumer;54 
+Furniture;2020-07-01;Consumer;1458 
+Technology;2020-07-01;Home Office;1072 
+Office Supplies;2020-07-01;Corporate;1020 
+Furniture;2020-07-01;Home Office;531 
+Office Supplies;2020-07-01;Consumer;490 
+Office Supplies;2020-07-01;Home Office;78 
+Furniture;2020-07-01;Corporate;21 
+Office Supplies;2020-07-02;Home Office;589 
+Office Supplies;2020-07-03;Home Office;186 
+Technology;2020-07-04;Home Office;3837 
+Furniture;2020-07-04;Consumer;729 
+Technology;2020-07-04;Corporate;573 
+Technology;2020-07-04;Consumer;518 
+Office Supplies;2020-07-04;Corporate;295 
+Furniture;2020-07-04;Home Office;230 
+Office Supplies;2020-07-04;Home Office;90 
+Office Supplies;2020-07-04;Consumer;76 
+Furniture;2020-07-06;Corporate;286 
+Technology;2020-07-06;Corporate;80 
+Office Supplies;2020-07-06;Corporate;56 
+Furniture;2020-07-07;Consumer;307 
+Office Supplies;2020-07-07;Corporate;17 
+Technology;2020-07-08;Consumer;1167 
+Technology;2020-07-08;Corporate;270 
+Furniture;2020-07-08;Consumer;87 
+Office Supplies;2020-07-08;Consumer;48 
+Office Supplies;2020-07-09;Consumer;902 
+Furniture;2020-07-09;Consumer;210 
+Office Supplies;2020-07-09;Corporate;173 
+Office Supplies;2020-07-09;Home Office;167 
+Furniture;2020-07-09;Home Office;155 
+Technology;2020-07-09;Corporate;155 
+Furniture;2020-07-09;Corporate;118 
+Technology;2020-07-09;Consumer;52 
+Office Supplies;2020-07-10;Consumer;877 
+Furniture;2020-07-10;Home Office;569 
+Technology;2020-07-10;Consumer;268 
+Office Supplies;2020-07-10;Corporate;62 
+Office Supplies;2020-07-11;Home Office;328 
+Office Supplies;2020-07-11;Corporate;42 
+Furniture;2020-07-11;Consumer;18 
+Technology;2020-07-12;Corporate;1482 
+Office Supplies;2020-07-12;Corporate;196 
+Technology;2020-07-12;Consumer;143 
+Office Supplies;2020-07-12;Consumer;32 
+Office Supplies;2020-07-13;Consumer;4 
+Office Supplies;2020-07-14;Corporate;352 
+Furniture;2020-07-14;Consumer;90 
+Technology;2020-07-14;Consumer;43 
+Technology;2020-07-15;Consumer;2601 
+Furniture;2020-07-15;Consumer;686 
+Office Supplies;2020-07-15;Consumer;405 
+Furniture;2020-07-16;Consumer;965 
+Furniture;2020-07-16;Corporate;943 
+Office Supplies;2020-07-16;Corporate;183 
+Technology;2020-07-16;Consumer;45 
+Office Supplies;2020-07-16;Consumer;44 
+Furniture;2020-07-17;Consumer;326 
+Office Supplies;2020-07-17;Home Office;3 
+Furniture;2020-07-18;Corporate;1111 
+Technology;2020-07-18;Home Office;712 
+Office Supplies;2020-07-18;Home Office;105 
+Office Supplies;2020-07-18;Corporate;88 
+Furniture;2020-07-18;Home Office;33 
+Furniture;2020-07-18;Consumer;7 
+Furniture;2020-07-19;Consumer;1444 
+Technology;2020-07-19;Consumer;582 
+Office Supplies;2020-07-19;Consumer;28 
+Office Supplies;2020-07-21;Corporate;1220 
+Furniture;2020-07-21;Corporate;499 
+Technology;2020-07-21;Corporate;386 
+Office Supplies;2020-07-21;Consumer;73 
+Furniture;2020-07-21;Consumer;9 
+Technology;2020-07-22;Corporate;1773 
+Furniture;2020-07-22;Consumer;642 
+Office Supplies;2020-07-22;Consumer;418 
+Technology;2020-07-22;Consumer;358 
+Office Supplies;2020-07-22;Home Office;284 
+Technology;2020-07-22;Home Office;215 
+Office Supplies;2020-07-22;Corporate;97 
+Furniture;2020-07-23;Consumer;579 
+Technology;2020-07-23;Corporate;30 
+Technology;2020-07-24;Home Office;380 
+Office Supplies;2020-07-24;Consumer;182 
+Technology;2020-07-24;Consumer;174 
+Office Supplies;2020-07-24;Corporate;124 
+Office Supplies;2020-07-24;Home Office;14 
+Technology;2020-07-25;Corporate;2112 
+Office Supplies;2020-07-26;Consumer;356 
+Furniture;2020-07-26;Home Office;289 
+Furniture;2020-07-26;Consumer;151 
+Technology;2020-07-27;Corporate;1551 
+Furniture;2020-07-27;Corporate;351 
+Technology;2020-07-28;Consumer;841 
+Furniture;2020-07-28;Consumer;331 
+Office Supplies;2020-07-28;Consumer;36 
+Technology;2020-07-29;Corporate;1214 
+Office Supplies;2020-07-29;Corporate;22 
+Technology;2020-07-30;Consumer;500 
+Furniture;2020-07-30;Consumer;356 
+Office Supplies;2020-07-30;Consumer;249 
+Technology;2020-07-30;Corporate;121 
+Office Supplies;2020-07-30;Corporate;3 
+Office Supplies;2020-07-31;Consumer;385 
+Technology;2020-07-31;Consumer;83 
+Office Supplies;2020-07-31;Home Office;74 
+Office Supplies;2020-08-01;Home Office;873 
+Technology;2020-08-01;Consumer;309 
+Office Supplies;2020-08-01;Corporate;217 
+Office Supplies;2020-08-01;Consumer;48 
+Technology;2020-08-01;Home Office;45 
+Furniture;2020-08-01;Consumer;35 
+Technology;2020-08-02;Corporate;1426 
+Technology;2020-08-02;Consumer;335 
+Office Supplies;2020-08-02;Consumer;192 
+Office Supplies;2020-08-02;Corporate;90 
+Furniture;2020-08-04;Consumer;283 
+Office Supplies;2020-08-04;Consumer;175 
+Technology;2020-08-04;Consumer;37 
+Office Supplies;2020-08-04;Corporate;14 
+Office Supplies;2020-08-05;Corporate;20 
+Office Supplies;2020-08-06;Consumer;254 
+Office Supplies;2020-08-06;Home Office;150 
+Technology;2020-08-06;Consumer;73 
+Office Supplies;2020-08-06;Corporate;15 
+Technology;2020-08-07;Home Office;775 
+Office Supplies;2020-08-07;Home Office;275 
+Furniture;2020-08-07;Consumer;160 
+Office Supplies;2020-08-07;Corporate;118 
+Office Supplies;2020-08-07;Consumer;75 
+Office Supplies;2020-08-08;Consumer;1729 
+Technology;2020-08-08;Consumer;1294 
+Furniture;2020-08-08;Consumer;223 
+Technology;2020-08-11;Consumer;1294 
+Office Supplies;2020-08-11;Corporate;174 
+Furniture;2020-08-11;Consumer;106 
+Office Supplies;2020-08-11;Consumer;64 
+Office Supplies;2020-08-12;Home Office;443 
+Technology;2020-08-12;Corporate;135 
+Office Supplies;2020-08-12;Corporate;48 
+Furniture;2020-08-13;Corporate;1922 
+Office Supplies;2020-08-13;Consumer;939 
+Technology;2020-08-13;Consumer;689 
+Office Supplies;2020-08-13;Corporate;252 
+Furniture;2020-08-13;Consumer;56 
+Office Supplies;2020-08-14;Consumer;2068 
+Furniture;2020-08-14;Consumer;501 
+Office Supplies;2020-08-14;Corporate;56 
+Technology;2020-08-14;Consumer;1 
+Furniture;2020-08-15;Consumer;360 
+Office Supplies;2020-08-15;Consumer;20 
+Office Supplies;2020-08-16;Corporate;2000 
+Office Supplies;2020-08-16;Consumer;97 
+Office Supplies;2020-08-17;Consumer;74 
+Office Supplies;2020-08-18;Corporate;4306 
+Furniture;2020-08-18;Consumer;4151 
+Furniture;2020-08-18;Corporate;444 
+Office Supplies;2020-08-18;Home Office;165 
+Furniture;2020-08-18;Home Office;89 
+Technology;2020-08-18;Home Office;85 
+Technology;2020-08-18;Corporate;71 
+Office Supplies;2020-08-19;Corporate;3589 
+Technology;2020-08-19;Corporate;2045 
+Office Supplies;2020-08-19;Home Office;313 
+Office Supplies;2020-08-19;Consumer;271 
+Furniture;2020-08-19;Corporate;206 
+Technology;2020-08-19;Consumer;23 
+Office Supplies;2020-08-20;Corporate;376 
+Office Supplies;2020-08-20;Consumer;119 
+Office Supplies;2020-08-21;Corporate;293 
+Office Supplies;2020-08-21;Consumer;225 
+Technology;2020-08-21;Corporate;100 
+Technology;2020-08-21;Home Office;37 
+Office Supplies;2020-08-22;Consumer;5160 
+Furniture;2020-08-22;Consumer;1493 
+Office Supplies;2020-08-22;Corporate;670 
+Technology;2020-08-22;Consumer;410 
+Furniture;2020-08-22;Corporate;330 
+Office Supplies;2020-08-22;Home Office;255 
+Furniture;2020-08-22;Home Office;115 
+Technology;2020-08-22;Corporate;34 
+Furniture;2020-08-23;Home Office;277 
+Furniture;2020-08-23;Consumer;218 
+Technology;2020-08-24;Consumer;3975 
+Office Supplies;2020-08-24;Consumer;231 
+Furniture;2020-08-24;Consumer;2 
+Office Supplies;2020-08-25;Consumer;604 
+Office Supplies;2020-08-25;Corporate;28 
+Office Supplies;2020-08-26;Consumer;254 
+Furniture;2020-08-26;Consumer;113 
+Technology;2020-08-27;Home Office;78 
+Furniture;2020-08-27;Consumer;67 
+Office Supplies;2020-08-27;Home Office;50 
+Technology;2020-08-28;Corporate;2180 
+Furniture;2020-08-28;Corporate;1764 
+Office Supplies;2020-08-28;Corporate;1662 
+Technology;2020-08-28;Home Office;351 
+Furniture;2020-08-28;Consumer;130 
+Office Supplies;2020-08-28;Home Office;110 
+Office Supplies;2020-08-28;Consumer;25 
+Furniture;2020-08-29;Home Office;1240 
+Office Supplies;2020-08-29;Home Office;214 
+Office Supplies;2020-08-29;Consumer;53 
+Technology;2020-08-29;Home Office;32 
+Furniture;2020-08-30;Corporate;158 
+Office Supplies;2020-08-30;Corporate;96 
+Office Supplies;2020-09-01;Consumer;1135 
+Technology;2020-09-01;Consumer;647 
+Technology;2020-09-01;Home Office;607 
+Furniture;2020-09-01;Corporate;501 
+Office Supplies;2020-09-01;Corporate;157 
+Office Supplies;2020-09-01;Home Office;11 
+Furniture;2020-09-02;Consumer;552 
+Office Supplies;2020-09-02;Corporate;327 
+Furniture;2020-09-02;Corporate;295 
+Technology;2020-09-02;Consumer;21 
+Office Supplies;2020-09-02;Consumer;20 
+Office Supplies;2020-09-02;Home Office;7 
+Technology;2020-09-03;Home Office;3097 
+Office Supplies;2020-09-03;Consumer;1870 
+Furniture;2020-09-03;Corporate;1689 
+Furniture;2020-09-03;Home Office;706 
+Technology;2020-09-03;Corporate;544 
+Office Supplies;2020-09-03;Home Office;543 
+Office Supplies;2020-09-03;Corporate;347 
+Furniture;2020-09-03;Consumer;237 
+Technology;2020-09-03;Consumer;225 
+Office Supplies;2020-09-04;Home Office;523 
+Furniture;2020-09-04;Consumer;359 
+Furniture;2020-09-04;Home Office;251 
+Technology;2020-09-04;Home Office;242 
+Technology;2020-09-04;Corporate;111 
+Office Supplies;2020-09-04;Consumer;64 
+Office Supplies;2020-09-04;Corporate;16 
+Furniture;2020-09-05;Corporate;2298 
+Furniture;2020-09-05;Consumer;1654 
+Office Supplies;2020-09-05;Consumer;1255 
+Office Supplies;2020-09-05;Corporate;163 
+Technology;2020-09-05;Consumer;115 
+Technology;2020-09-05;Home Office;44 
+Office Supplies;2020-09-05;Home Office;37 
+Office Supplies;2020-09-06;Home Office;138 
+Technology;2020-09-06;Consumer;92 
+Office Supplies;2020-09-06;Consumer;79 
+Office Supplies;2020-09-08;Home Office;1559 
+Technology;2020-09-08;Consumer;930 
+Office Supplies;2020-09-08;Corporate;576 
+Furniture;2020-09-08;Consumer;400 
+Office Supplies;2020-09-08;Consumer;153 
+Furniture;2020-09-09;Consumer;819 
+Technology;2020-09-09;Corporate;457 
+Technology;2020-09-09;Consumer;264 
+Furniture;2020-09-09;Corporate;246 
+Technology;2020-09-09;Home Office;162 
+Office Supplies;2020-09-09;Corporate;153 
+Office Supplies;2020-09-09;Home Office;57 
+Technology;2020-09-10;Corporate;2667 
+Office Supplies;2020-09-10;Corporate;849 
+Office Supplies;2020-09-10;Consumer;612 
+Furniture;2020-09-10;Consumer;324 
+Furniture;2020-09-10;Corporate;138 
+Office Supplies;2020-09-11;Home Office;694 
+Technology;2020-09-11;Consumer;678 
+Furniture;2020-09-11;Corporate;384 
+Office Supplies;2020-09-11;Consumer;366 
+Technology;2020-09-11;Corporate;157 
+Office Supplies;2020-09-11;Corporate;96 
+Office Supplies;2020-09-12;Consumer;2130 
+Furniture;2020-09-12;Home Office;2116 
+Furniture;2020-09-12;Consumer;832 
+Office Supplies;2020-09-12;Home Office;218 
+Technology;2020-09-12;Corporate;157 
+Technology;2020-09-12;Consumer;76 
+Office Supplies;2020-09-12;Corporate;17 
+Office Supplies;2020-09-13;Consumer;369 
+Office Supplies;2020-09-13;Corporate;94 
+Furniture;2020-09-13;Consumer;8 
+Office Supplies;2020-09-14;Consumer;14 
+Technology;2020-09-15;Home Office;983 
+Office Supplies;2020-09-15;Corporate;936 
+Technology;2020-09-15;Corporate;887 
+Furniture;2020-09-15;Home Office;595 
+Technology;2020-09-15;Consumer;231 
+Furniture;2020-09-15;Consumer;229 
+Office Supplies;2020-09-15;Consumer;193 
+Office Supplies;2020-09-15;Home Office;96 
+Office Supplies;2020-09-16;Consumer;3064 
+Furniture;2020-09-16;Consumer;1819 
+Technology;2020-09-16;Consumer;763 
+Furniture;2020-09-16;Corporate;600 
+Technology;2020-09-16;Corporate;400 
+Furniture;2020-09-16;Home Office;350 
+Office Supplies;2020-09-16;Corporate;122 
+Technology;2020-09-16;Home Office;65 
+Office Supplies;2020-09-16;Home Office;38 
+Office Supplies;2020-09-17;Consumer;580 
+Technology;2020-09-17;Consumer;172 
+Office Supplies;2020-09-17;Corporate;36 
+Furniture;2020-09-17;Consumer;24 
+Office Supplies;2020-09-17;Home Office;19 
+Technology;2020-09-17;Home Office;18 
+Technology;2020-09-18;Home Office;1430 
+Furniture;2020-09-18;Corporate;1190 
+Furniture;2020-09-18;Home Office;928 
+Technology;2020-09-18;Consumer;564 
+Office Supplies;2020-09-18;Corporate;470 
+Office Supplies;2020-09-18;Home Office;107 
+Office Supplies;2020-09-18;Consumer;45 
+Office Supplies;2020-09-19;Corporate;628 
+Technology;2020-09-19;Corporate;548 
+Office Supplies;2020-09-19;Home Office;114 
+Technology;2020-09-19;Consumer;108 
+Office Supplies;2020-09-19;Consumer;85 
+Furniture;2020-09-19;Corporate;29 
+Technology;2020-09-20;Consumer;567 
+Furniture;2020-09-20;Corporate;496 
+Technology;2020-09-20;Corporate;356 
+Office Supplies;2020-09-20;Corporate;139 
+Office Supplies;2020-09-20;Consumer;67 
+Office Supplies;2020-09-20;Home Office;43 
+Furniture;2020-09-21;Consumer;4947 
+Technology;2020-09-21;Consumer;1855 
+Office Supplies;2020-09-21;Consumer;115 
+Office Supplies;2020-09-22;Consumer;155 
+Technology;2020-09-22;Consumer;144 
+Office Supplies;2020-09-22;Corporate;14 
+Office Supplies;2020-09-23;Consumer;5089 
+Technology;2020-09-23;Consumer;1704 
+Office Supplies;2020-09-23;Corporate;379 
+Furniture;2020-09-23;Home Office;218 
+Technology;2020-09-23;Corporate;183 
+Office Supplies;2020-09-23;Home Office;105 
+Furniture;2020-09-23;Consumer;12 
+Office Supplies;2020-09-24;Consumer;1037 
+Furniture;2020-09-24;Consumer;752 
+Technology;2020-09-24;Consumer;620 
+Furniture;2020-09-24;Corporate;27 
+Office Supplies;2020-09-24;Home Office;13 
+Office Supplies;2020-09-24;Corporate;9 
+Technology;2020-09-25;Corporate;3040 
+Technology;2020-09-25;Home Office;1397 
+Furniture;2020-09-25;Consumer;716 
+Furniture;2020-09-25;Corporate;519 
+Office Supplies;2020-09-25;Consumer;339 
+Office Supplies;2020-09-25;Home Office;104 
+Technology;2020-09-25;Consumer;16 
+Furniture;2020-09-26;Consumer;693 
+Office Supplies;2020-09-26;Corporate;277 
+Office Supplies;2020-09-26;Consumer;196 
+Technology;2020-09-26;Consumer;110 
+Office Supplies;2020-09-27;Corporate;1024 
+Furniture;2020-09-27;Home Office;407 
+Furniture;2020-09-27;Corporate;10 
+Office Supplies;2020-09-27;Home Office;2 
+Office Supplies;2020-09-29;Home Office;457 
+Technology;2020-09-29;Home Office;57 
+Furniture;2020-09-29;Home Office;34 
+Office Supplies;2020-09-29;Corporate;14 
+Furniture;2020-09-29;Consumer;8 
+Office Supplies;2020-09-29;Consumer;2 
+Office Supplies;2020-09-30;Consumer;618 
+Technology;2020-09-30;Home Office;576 
+Furniture;2020-09-30;Home Office;365 
+Furniture;2020-09-30;Consumer;123 
+Office Supplies;2020-09-30;Home Office;55 
+Office Supplies;2020-09-30;Corporate;54 
+Office Supplies;2020-10-01;Corporate;206 
+Technology;2020-10-01;Home Office;160 
+Office Supplies;2020-10-01;Consumer;152 
+Office Supplies;2020-10-01;Home Office;12 
+Technology;2020-10-02;Home Office;1918 
+Furniture;2020-10-02;Corporate;433 
+Office Supplies;2020-10-02;Consumer;394 
+Office Supplies;2020-10-02;Corporate;193 
+Furniture;2020-10-02;Consumer;106 
+Furniture;2020-10-03;Home Office;2567 
+Office Supplies;2020-10-03;Home Office;1512 
+Technology;2020-10-03;Consumer;377 
+Furniture;2020-10-03;Consumer;358 
+Office Supplies;2020-10-03;Consumer;291 
+Technology;2020-10-03;Home Office;92 
+Technology;2020-10-03;Corporate;67 
+Office Supplies;2020-10-03;Corporate;40 
+Furniture;2020-10-03;Corporate;9 
+Office Supplies;2020-10-04;Consumer;1573 
+Technology;2020-10-04;Home Office;394 
+Furniture;2020-10-04;Corporate;147 
+Furniture;2020-10-04;Home Office;86 
+Office Supplies;2020-10-04;Corporate;22 
+Office Supplies;2020-10-04;Home Office;6 
+Furniture;2020-10-05;Home Office;18 
+Technology;2020-10-06;Corporate;5349 
+Furniture;2020-10-06;Corporate;908 
+Technology;2020-10-06;Home Office;214 
+Office Supplies;2020-10-06;Home Office;204 
+Office Supplies;2020-10-06;Corporate;32 
+Office Supplies;2020-10-07;Home Office;596 
+Office Supplies;2020-10-07;Consumer;483 
+Technology;2020-10-07;Home Office;330 
+Furniture;2020-10-07;Home Office;46 
+Office Supplies;2020-10-07;Corporate;44 
+Technology;2020-10-08;Consumer;1232 
+Office Supplies;2020-10-08;Home Office;592 
+Furniture;2020-10-08;Consumer;286 
+Technology;2020-10-08;Home Office;231 
+Furniture;2020-10-08;Home Office;138 
+Office Supplies;2020-10-08;Consumer;90 
+Technology;2020-10-09;Corporate;379 
+Furniture;2020-10-09;Consumer;150 
+Office Supplies;2020-10-09;Corporate;86 
+Furniture;2020-10-10;Corporate;811 
+Furniture;2020-10-10;Consumer;568 
+Office Supplies;2020-10-10;Consumer;142 
+Furniture;2020-10-11;Consumer;223 
+Furniture;2020-10-13;Consumer;2639 
+Technology;2020-10-13;Home Office;1023 
+Technology;2020-10-13;Corporate;692 
+Technology;2020-10-13;Consumer;476 
+Furniture;2020-10-13;Home Office;250 
+Office Supplies;2020-10-13;Home Office;132 
+Office Supplies;2020-10-13;Corporate;73 
+Office Supplies;2020-10-13;Consumer;34 
+Office Supplies;2020-10-14;Corporate;5614 
+Office Supplies;2020-10-14;Consumer;1596 
+Furniture;2020-10-14;Consumer;1424 
+Technology;2020-10-14;Corporate;210 
+Office Supplies;2020-10-15;Home Office;81 
+Technology;2020-10-15;Consumer;42 
+Furniture;2020-10-15;Consumer;10 
+Furniture;2020-10-16;Corporate;581 
+Office Supplies;2020-10-16;Corporate;417 
+Office Supplies;2020-10-16;Home Office;87 
+Office Supplies;2020-10-16;Consumer;15 
+Furniture;2020-10-17;Corporate;2519 
+Technology;2020-10-17;Home Office;516 
+Office Supplies;2020-10-17;Corporate;308 
+Office Supplies;2020-10-17;Consumer;137 
+Technology;2020-10-17;Corporate;19 
+Office Supplies;2020-10-18;Corporate;67 
+Technology;2020-10-18;Corporate;52 
+Office Supplies;2020-10-18;Consumer;10 
+Office Supplies;2020-10-20;Home Office;1513 
+Furniture;2020-10-20;Consumer;399 
+Technology;2020-10-20;Corporate;285 
+Office Supplies;2020-10-20;Corporate;236 
+Furniture;2020-10-20;Corporate;118 
+Office Supplies;2020-10-20;Consumer;40 
+Technology;2020-10-20;Consumer;18 
+Office Supplies;2020-10-21;Corporate;768 
+Furniture;2020-10-21;Corporate;247 
+Office Supplies;2020-10-21;Consumer;200 
+Office Supplies;2020-10-21;Home Office;68 
+Furniture;2020-10-21;Consumer;42 
+Technology;2020-10-21;Corporate;15 
+Technology;2020-10-22;Home Office;1282 
+Furniture;2020-10-22;Home Office;982 
+Office Supplies;2020-10-22;Corporate;829 
+Furniture;2020-10-22;Corporate;507 
+Technology;2020-10-22;Consumer;350 
+Office Supplies;2020-10-22;Home Office;173 
+Office Supplies;2020-10-22;Consumer;108 
+Technology;2020-10-22;Corporate;26 
+Technology;2020-10-23;Home Office;11741 
+Furniture;2020-10-23;Consumer;770 
+Office Supplies;2020-10-23;Consumer;370 
+Furniture;2020-10-23;Corporate;167 
+Office Supplies;2020-10-23;Home Office;97 
+Technology;2020-10-23;Corporate;34 
+Office Supplies;2020-10-23;Corporate;33 
+Technology;2020-10-24;Consumer;1778 
+Furniture;2020-10-24;Corporate;1050 
+Office Supplies;2020-10-24;Consumer;255 
+Office Supplies;2020-10-24;Corporate;90 
+Technology;2020-10-24;Corporate;35 
+Furniture;2020-10-25;Consumer;466 
+Office Supplies;2020-10-25;Consumer;12 
+Furniture;2020-10-27;Consumer;364 
+Office Supplies;2020-10-27;Consumer;269 
+Technology;2020-10-27;Consumer;153 
+Office Supplies;2020-10-27;Corporate;76 
+Technology;2020-10-27;Corporate;66 
+Office Supplies;2020-10-27;Home Office;48 
+Furniture;2020-10-28;Corporate;649 
+Technology;2020-10-28;Corporate;161 
+Office Supplies;2020-10-28;Corporate;100 
+Office Supplies;2020-10-28;Home Office;54 
+Technology;2020-10-28;Home Office;23 
+Office Supplies;2020-10-29;Consumer;240 
+Furniture;2020-10-29;Consumer;68 
+Technology;2020-10-29;Consumer;55 
+Office Supplies;2020-10-29;Corporate;51 
+Office Supplies;2020-10-30;Corporate;44 
+Office Supplies;2020-10-31;Consumer;2060 
+Furniture;2020-10-31;Consumer;1120 
+Technology;2020-10-31;Consumer;502 
+Office Supplies;2020-10-31;Home Office;162 
+Furniture;2020-10-31;Home Office;33 
+Furniture;2020-10-31;Corporate;10 
+Technology;2020-11-01;Corporate;499 
+Office Supplies;2020-11-01;Corporate;9 
+Office Supplies;2020-11-01;Home Office;5 
+Furniture;2020-11-02;Consumer;2319 
+Office Supplies;2020-11-02;Consumer;233 
+Technology;2020-11-03;Corporate;3265 
+Office Supplies;2020-11-03;Home Office;975 
+Furniture;2020-11-03;Corporate;891 
+Office Supplies;2020-11-03;Corporate;525 
+Office Supplies;2020-11-03;Consumer;315 
+Furniture;2020-11-03;Home Office;168 
+Furniture;2020-11-04;Home Office;1723 
+Technology;2020-11-04;Consumer;1023 
+Furniture;2020-11-04;Consumer;507 
+Technology;2020-11-04;Corporate;358 
+Furniture;2020-11-04;Corporate;349 
+Office Supplies;2020-11-04;Consumer;208 
+Office Supplies;2020-11-04;Corporate;189 
+Technology;2020-11-04;Home Office;172 
+Technology;2020-11-05;Corporate;9902 
+Furniture;2020-11-05;Corporate;450 
+Office Supplies;2020-11-05;Corporate;391 
+Technology;2020-11-05;Consumer;264 
+Office Supplies;2020-11-05;Home Office;112 
+Office Supplies;2020-11-05;Consumer;8 
+Technology;2020-11-06;Corporate;627 
+Office Supplies;2020-11-06;Consumer;565 
+Technology;2020-11-06;Consumer;461 
+Furniture;2020-11-06;Consumer;424 
+Office Supplies;2020-11-06;Home Office;204 
+Office Supplies;2020-11-06;Corporate;17 
+Furniture;2020-11-07;Home Office;2561 
+Office Supplies;2020-11-07;Consumer;1247 
+Office Supplies;2020-11-07;Home Office;268 
+Furniture;2020-11-07;Consumer;177 
+Technology;2020-11-07;Home Office;131 
+Office Supplies;2020-11-07;Corporate;5 
+Technology;2020-11-08;Consumer;743 
+Technology;2020-11-08;Home Office;739 
+Furniture;2020-11-08;Consumer;368 
+Furniture;2020-11-08;Corporate;300 
+Office Supplies;2020-11-08;Consumer;172 
+Furniture;2020-11-09;Corporate;244 
+Office Supplies;2020-11-09;Home Office;106 
+Office Supplies;2020-11-10;Corporate;2408 
+Technology;2020-11-10;Corporate;982 
+Technology;2020-11-10;Home Office;691 
+Furniture;2020-11-10;Corporate;628 
+Furniture;2020-11-10;Home Office;92 
+Furniture;2020-11-10;Consumer;41 
+Furniture;2020-11-11;Corporate;1328 
+Technology;2020-11-11;Corporate;1017 
+Office Supplies;2020-11-11;Corporate;956 
+Office Supplies;2020-11-11;Consumer;468 
+Furniture;2020-11-11;Home Office;210 
+Technology;2020-11-11;Consumer;107 
+Office Supplies;2020-11-11;Home Office;20 
+Office Supplies;2020-11-12;Corporate;996 
+Office Supplies;2020-11-12;Consumer;432 
+Furniture;2020-11-12;Consumer;76 
+Furniture;2020-11-12;Home Office;36 
+Technology;2020-11-12;Consumer;31 
+Office Supplies;2020-11-12;Home Office;25 
+Office Supplies;2020-11-13;Consumer;1121 
+Technology;2020-11-13;Home Office;801 
+Technology;2020-11-13;Corporate;416 
+Furniture;2020-11-13;Home Office;273 
+Office Supplies;2020-11-13;Home Office;140 
+Office Supplies;2020-11-13;Corporate;53 
+Furniture;2020-11-14;Consumer;2140 
+Office Supplies;2020-11-14;Consumer;1592 
+Technology;2020-11-14;Corporate;1276 
+Technology;2020-11-14;Consumer;369 
+Furniture;2020-11-14;Corporate;321 
+Office Supplies;2020-11-14;Home Office;216 
+Technology;2020-11-14;Home Office;154 
+Office Supplies;2020-11-14;Corporate;69 
+Furniture;2020-11-15;Corporate;273 
+Technology;2020-11-15;Consumer;259 
+Office Supplies;2020-11-15;Consumer;112 
+Office Supplies;2020-11-15;Corporate;104 
+Office Supplies;2020-11-15;Home Office;16 
+Furniture;2020-11-16;Consumer;554 
+Technology;2020-11-17;Corporate;2546 
+Office Supplies;2020-11-17;Consumer;1025 
+Furniture;2020-11-17;Consumer;310 
+Technology;2020-11-17;Consumer;219 
+Office Supplies;2020-11-17;Corporate;92 
+Technology;2020-11-17;Home Office;56 
+Office Supplies;2020-11-17;Home Office;20 
+Technology;2020-11-18;Consumer;9942 
+Office Supplies;2020-11-18;Corporate;1414 
+Furniture;2020-11-18;Consumer;515 
+Office Supplies;2020-11-18;Consumer;389 
+Technology;2020-11-18;Corporate;295 
+Office Supplies;2020-11-19;Corporate;707 
+Office Supplies;2020-11-19;Consumer;323 
+Technology;2020-11-19;Consumer;220 
+Furniture;2020-11-19;Consumer;131 
+Furniture;2020-11-19;Home Office;18 
+Furniture;2020-11-19;Corporate;6 
+Office Supplies;2020-11-20;Corporate;2323 
+Office Supplies;2020-11-20;Consumer;1781 
+Furniture;2020-11-20;Consumer;1335 
+Furniture;2020-11-20;Corporate;880 
+Office Supplies;2020-11-20;Home Office;112 
+Furniture;2020-11-20;Home Office;82 
+Technology;2020-11-20;Consumer;31 
+Technology;2020-11-21;Consumer;1159 
+Furniture;2020-11-21;Consumer;738 
+Technology;2020-11-21;Corporate;533 
+Office Supplies;2020-11-21;Consumer;277 
+Furniture;2020-11-21;Corporate;48 
+Furniture;2020-11-21;Home Office;29 
+Technology;2020-11-22;Consumer;1161 
+Technology;2020-11-22;Home Office;601 
+Office Supplies;2020-11-22;Consumer;258 
+Furniture;2020-11-22;Consumer;92 
+Office Supplies;2020-11-22;Home Office;75 
+Office Supplies;2020-11-22;Corporate;58 
+Office Supplies;2020-11-23;Consumer;34 
+Technology;2020-11-24;Consumer;515 
+Office Supplies;2020-11-24;Corporate;465 
+Furniture;2020-11-24;Corporate;147 
+Furniture;2020-11-24;Consumer;31 
+Office Supplies;2020-11-24;Consumer;17 
+Office Supplies;2020-11-25;Home Office;1244 
+Furniture;2020-11-25;Corporate;1065 
+Furniture;2020-11-25;Consumer;825 
+Office Supplies;2020-11-25;Corporate;734 
+Office Supplies;2020-11-25;Consumer;585 
+Technology;2020-11-25;Consumer;230 
+Technology;2020-11-25;Corporate;150 
+Furniture;2020-11-26;Consumer;2073 
+Furniture;2020-11-26;Corporate;737 
+Office Supplies;2020-11-26;Home Office;467 
+Technology;2020-11-26;Consumer;294 
+Office Supplies;2020-11-26;Consumer;162 
+Technology;2020-11-26;Corporate;35 
+Office Supplies;2020-11-26;Corporate;32 
+Technology;2020-11-27;Home Office;2009 
+Technology;2020-11-27;Consumer;1325 
+Furniture;2020-11-27;Home Office;1203 
+Furniture;2020-11-27;Consumer;243 
+Office Supplies;2020-11-27;Corporate;237 
+Office Supplies;2020-11-27;Home Office;154 
+Office Supplies;2020-11-27;Consumer;36 
+Office Supplies;2020-11-28;Corporate;901 
+Technology;2020-11-28;Corporate;332 
+Office Supplies;2020-11-28;Consumer;279 
+Technology;2020-11-28;Consumer;60 
+Furniture;2020-11-28;Corporate;51 
+Furniture;2020-11-28;Consumer;18 
+Furniture;2020-11-29;Home Office;4193 
+Technology;2020-11-29;Corporate;1802 
+Office Supplies;2020-11-29;Consumer;167 
+Office Supplies;2020-11-29;Corporate;84 
+Office Supplies;2020-11-29;Home Office;46 
+Furniture;2020-11-30;Consumer;482 
+Furniture;2020-12-01;Consumer;2804 
+Furniture;2020-12-01;Home Office;1256 
+Office Supplies;2020-12-01;Home Office;977 
+Technology;2020-12-01;Home Office;562 
+Office Supplies;2020-12-01;Consumer;365 
+Technology;2020-12-01;Consumer;361 
+Technology;2020-12-01;Corporate;99 
+Technology;2020-12-02;Consumer;1436 
+Furniture;2020-12-02;Home Office;1366 
+Furniture;2020-12-02;Consumer;984 
+Office Supplies;2020-12-02;Consumer;632 
+Office Supplies;2020-12-02;Corporate;539 
+Office Supplies;2020-12-02;Home Office;129 
+Furniture;2020-12-02;Corporate;64 
+Technology;2020-12-02;Home Office;64 
+Technology;2020-12-03;Consumer;3598 
+Furniture;2020-12-03;Corporate;3070 
+Office Supplies;2020-12-03;Consumer;1488 
+Office Supplies;2020-12-03;Corporate;1103 
+Furniture;2020-12-03;Consumer;704 
+Technology;2020-12-03;Corporate;325 
+Office Supplies;2020-12-03;Home Office;41 
+Furniture;2020-12-04;Home Office;553 
+Office Supplies;2020-12-04;Consumer;457 
+Technology;2020-12-04;Consumer;390 
+Furniture;2020-12-04;Consumer;71 
+Technology;2020-12-05;Consumer;1216 
+Furniture;2020-12-05;Corporate;539 
+Furniture;2020-12-05;Consumer;513 
+Technology;2020-12-05;Corporate;243 
+Office Supplies;2020-12-05;Consumer;146 
+Office Supplies;2020-12-05;Corporate;42 
+Office Supplies;2020-12-06;Consumer;278 
+Office Supplies;2020-12-06;Home Office;266 
+Office Supplies;2020-12-06;Corporate;232 
+Furniture;2020-12-06;Home Office;188 
+Technology;2020-12-06;Corporate;185 
+Technology;2020-12-06;Consumer;90 
+Furniture;2020-12-06;Corporate;86 
+Furniture;2020-12-06;Consumer;42 
+Technology;2020-12-06;Home Office;29 
+Office Supplies;2020-12-07;Corporate;11 
+Office Supplies;2020-12-08;Corporate;1737 
+Technology;2020-12-08;Consumer;582 
+Office Supplies;2020-12-08;Consumer;337 
+Furniture;2020-12-08;Consumer;80 
+Office Supplies;2020-12-08;Home Office;47 
+Furniture;2020-12-09;Consumer;3570 
+Technology;2020-12-09;Consumer;1511 
+Office Supplies;2020-12-09;Consumer;1485 
+Office Supplies;2020-12-09;Home Office;587 
+Office Supplies;2020-12-09;Corporate;275 
+Technology;2020-12-10;Consumer;1824 
+Furniture;2020-12-10;Home Office;919 
+Furniture;2020-12-10;Corporate;883 
+Office Supplies;2020-12-10;Consumer;685 
+Office Supplies;2020-12-10;Corporate;582 
+Office Supplies;2020-12-10;Home Office;208 
+Furniture;2020-12-11;Consumer;1921 
+Technology;2020-12-11;Home Office;549 
+Office Supplies;2020-12-11;Consumer;506 
+Office Supplies;2020-12-11;Corporate;446 
+Technology;2020-12-11;Consumer;98 
+Office Supplies;2020-12-11;Home Office;79 
+Technology;2020-12-11;Corporate;49 
+Furniture;2020-12-11;Corporate;15 
+Furniture;2020-12-12;Corporate;857 
+Office Supplies;2020-12-12;Consumer;737 
+Furniture;2020-12-12;Consumer;609 
+Technology;2020-12-12;Corporate;341 
+Technology;2020-12-12;Consumer;148 
+Office Supplies;2020-12-12;Corporate;22 
+Office Supplies;2020-12-12;Home Office;12 
+Furniture;2020-12-14;Corporate;276 
+Furniture;2020-12-14;Consumer;189 
+Office Supplies;2020-12-14;Consumer;95 
+Technology;2020-12-15;Home Office;1584 
+Furniture;2020-12-15;Consumer;1363 
+Furniture;2020-12-15;Home Office;544 
+Office Supplies;2020-12-15;Home Office;198 
+Technology;2020-12-15;Corporate;194 
+Office Supplies;2020-12-15;Consumer;94 
+Technology;2020-12-15;Consumer;38 
+Technology;2020-12-16;Consumer;199 
+Office Supplies;2020-12-16;Consumer;81 
+Furniture;2020-12-16;Home Office;21 
+Office Supplies;2020-12-16;Corporate;10 
+Technology;2020-12-17;Corporate;303 
+Office Supplies;2020-12-17;Home Office;220 
+Furniture;2020-12-17;Corporate;217 
+Office Supplies;2020-12-17;Corporate;99 
+Office Supplies;2020-12-17;Consumer;11 
+Office Supplies;2020-12-18;Consumer;706 
+Furniture;2020-12-18;Consumer;592 
+Office Supplies;2020-12-18;Corporate;544 
+Office Supplies;2020-12-18;Home Office;34 
+Office Supplies;2020-12-19;Consumer;2259 
+Furniture;2020-12-19;Consumer;1217 
+Technology;2020-12-19;Consumer;131 
+Furniture;2020-12-19;Corporate;93 
+Technology;2020-12-19;Corporate;29 
+Office Supplies;2020-12-19;Corporate;17 
+Office Supplies;2020-12-19;Home Office;5 
+Office Supplies;2020-12-20;Consumer;1941 
+Furniture;2020-12-20;Consumer;123 
+Office Supplies;2020-12-21;Corporate;340 
+Office Supplies;2020-12-22;Corporate;1070 
+Office Supplies;2020-12-22;Consumer;803 
+Technology;2020-12-22;Consumer;371 
+Furniture;2020-12-22;Home Office;14 
+Furniture;2020-12-23;Consumer;3239 
+Technology;2020-12-23;Consumer;1552 
+Office Supplies;2020-12-23;Consumer;1020 
+Office Supplies;2020-12-23;Corporate;680 
+Furniture;2020-12-23;Corporate;239 
+Furniture;2020-12-23;Home Office;143 
+Technology;2020-12-23;Corporate;65 
+Office Supplies;2020-12-24;Corporate;797 
+Technology;2020-12-24;Corporate;426 
+Office Supplies;2020-12-24;Consumer;272 
+Furniture;2020-12-24;Corporate;167 
+Furniture;2020-12-24;Consumer;73 
+Furniture;2020-12-24;Home Office;29 
+Technology;2020-12-25;Home Office;3053 
+Office Supplies;2020-12-25;Consumer;1202 
+Furniture;2020-12-25;Home Office;749 
+Furniture;2020-12-25;Consumer;530 
+Technology;2020-12-25;Consumer;499 
+Office Supplies;2020-12-25;Home Office;82 
+Office Supplies;2020-12-25;Corporate;56 
+Furniture;2020-12-25;Corporate;39 
+Furniture;2020-12-26;Consumer;790 
+Office Supplies;2020-12-26;Home Office;619 
+Office Supplies;2020-12-26;Corporate;377 
+Office Supplies;2020-12-26;Consumer;339 
+Technology;2020-12-26;Consumer;317 
+Technology;2020-12-26;Home Office;92 
+Furniture;2020-12-26;Corporate;36 
+Office Supplies;2020-12-27;Corporate;790 
+Office Supplies;2020-12-27;Consumer;41 
+Office Supplies;2020-12-27;Home Office;3 
+Technology;2020-12-28;Corporate;163 
+Office Supplies;2020-12-28;Corporate;12 
+Office Supplies;2020-12-29;Corporate;700 
+Furniture;2020-12-29;Corporate;411 
+Office Supplies;2020-12-29;Consumer;294 
+Furniture;2020-12-29;Consumer;86 
+Office Supplies;2020-12-29;Home Office;82 
+Technology;2020-12-29;Consumer;16 
+Furniture;2020-12-30;Consumer;2074 
+Technology;2020-12-30;Consumer;269 
+Office Supplies;2020-12-30;Corporate;189 
+Furniture;2020-12-30;Corporate;86 
+Office Supplies;2020-12-30;Consumer;71 
+Furniture;2020-12-31;Consumer;284 
+Office Supplies;2020-12-31;Home Office;199 
+Technology;2020-12-31;Consumer;80 
+Office Supplies;2020-12-31;Consumer;61 
+Office Supplies;2020-12-31;Corporate;29 

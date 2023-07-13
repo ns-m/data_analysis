@@ -1,0 +1,21 @@
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах
+
+1. https://console.cloud.google.com/
+2. https://cloud.google.com/bigquery/docs/sandbox
+3. https://disk.yandex.ru/d/e9myjbjekZbpnQ
+4. https://colab.research.google.com/drive/1tYP6ZPfwZ_L4hlQNG5XPGPH5H-bOP6Rz?usp=sharing
+5. https://drive.google.com/file/d/1Dy_ZwxSiBRBFAOdJBbYut4wPGE0E27PE/view?usp=drive_link
+6. https://drive.google.com/file/d/1XLN02zU_6tTcVLDFtAVf4Vm2F03fvOdi/view?usp=drive_link
+7. https://drive.google.com/file/d/1v6vT0lWEYC9s8aUXZ9XRwFhFrQXZ-xeG/view?usp=drive_link
+8. https://drive.google.com/file/d/1UT2o0z-EKCN2hCNoHC-z22_GnFv3wHoi/view?usp=drive_link
+9. https://drive.google.com/file/d/1P1jzMCxmfP_-ENtAn5TUw36qq7f0GPXU/view?usp=drive_link
+10. https://drive.google.com/file/d/1Hs-geZ8mlTJjRRqrhTxErhJhYaVirliK/view?usp=drive_link
+11. https://colab.research.google.com/drive/1MQxRzG39iNJGuY_XK4Vkhm2ULkBh8nu8?usp=sharing
+12. https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_sql.html
+13. https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax
+14. https://www.kaggle.com/code/alexisbcook/analytic-functions
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://cloud.google.com/bigquery-ml/docs/linear-regression-tutorial
+2. https://drive.google.com/file/d/1kDcCO_3wfG6M4SOwGLJS5GIGPa_D5F5B/view?usp=sharing

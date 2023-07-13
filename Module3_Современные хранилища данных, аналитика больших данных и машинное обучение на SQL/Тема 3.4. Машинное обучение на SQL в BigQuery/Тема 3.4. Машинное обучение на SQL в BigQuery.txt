@@ -1,0 +1,42 @@
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах
+
+1. https://colab.research.google.com/drive/1HkOiM7oQOKQKCC8X_Wwk_yGN_szOR-ri?usp=sharing
+2. https://pypi.org/project/prophet/
+3. https://colab.research.google.com/drive/1hSok6IBLscxu8DdktF6oO3ZtFp2USy_l?usp=sharing
+4. 
+# Python
+df = pd.read_csv('https://raw.githubusercontent.com/facebook/prophet/master/examples/example_wp_log_peyton_manning.csv', parse_dates=['ds'])
+df.head()
+5. https://pypi.org/project/fbprophet/
+6. https://github.com/ourownstory/neural_prophet
+7. https://neurohive.io/ru/novosti/ar-net-nejroset-dlya-modelirovaniya-vremennyh-ryadov/
+8. https://arxiv.org/abs/1911.12436
+9. https://www.kaggle.com/datasets/residentmario/iowa-liquor-sales
+10. https://colab.research.google.com/drive/1Dc5ehhAsHb059BokN5A3h4jfWGfGjZki?usp=sharing
+11. https://drive.google.com/file/d/1zCIgDnMF1Km2y8p0-2MeRftOwuiXO_O-/view?usp=drive_link
+12. https://colab.research.google.com/drive/1qyLFekDUR20v3cqX5NoCS2qnnGDdBwcQ?usp=sharing
+13. https://github.com/ourownstory/neural_prophet
+14. https://colab.research.google.com/drive/1bmQEmzCu_Ik1kkk1iGZmB3LinBGb_jOY?usp=sharing
+15. https://unit8co.github.io/darts/
+16. https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/video-lecture?hl=ru
+17. https://trends.rbc.ru/trends/industry/641157be9a7947d3401fa3e8
+18. https://colab.research.google.com/drive/1i_WR-h7iDukqivoZhGCFqQOSq-Mp8e8R?usp=sharing
+19. https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)
+20. https://github.com/tensorflow/adanet
+21. https://colab.research.google.com/drive/10mvYZ0ToydMAQEVrBBHLQTaaQHD78Os3?usp=sharing
+22. https://huggingface.co/tasks
+23. https://colab.research.google.com/drive/1Gp3zjumKWIwCZvB9-JDI6YmP75iaKd2L?usp=sharing
+24. https://openai.com/gpt-4
+25. https://ru.wikipedia.org/wiki/Generative_pre-trained_transformer
+26. https://codeium.com/
+27. https://deepai.org/chat
+28. 
+создать модель машинного обучения на датасете https://raw.githubusercontent.com/pav-sahnyuk/datasets/main/Boston.csv целевой признак medv
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://docs.google.com/spreadsheets/d/1VwqWYiJ0UymFzRe6onFbfK8ZxVzVQZe-gTfQRp4PZ-s/edit?usp=sharing
+2. https://workspace.google.com/marketplace/app/simple_ml_for_sheets/685936641092
+3. https://simplemlforsheets.com/tutorial.html
+
+https://trends.rbc.ru/trends/industry/60c85c599a7947f5776ad409

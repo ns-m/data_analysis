@@ -1,0 +1,18 @@
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах
+
+1. https://colab.research.google.com/drive/1F2J1tfBhiIWzlJe-nk_4KJc3MkKF3Y-F?usp=sharing
+2. https://www.youtube.com/watch?v=o7czRH_z9Yk
+3. https://colab.research.google.com/drive/16dmY8ea1qrPAChm6qsb4176r6h3xKkRn?usp=sharing
+4. https://auto.gluon.ai/stable/tutorials/tabular/tabular-multimodal.html
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://cloud.google.com/bigquery/docs/reference/standard-sql/date_functions#format_date
+2. https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax#join_types
+3. https://analytics.google.com/
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://cloud.google.com/bigquery/docs/reference/standard-sql/statistical_aggregate_functions
+2. https://cloud.google.com/bigquery/docs/reference/standard-sql/conditional_expressions
+3. https://cloud.google.com/bigquery/docs/reference/standard-sql/window-function-calls#compute_a_grand_total

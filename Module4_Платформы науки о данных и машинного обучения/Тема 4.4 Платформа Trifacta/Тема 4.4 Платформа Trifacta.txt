@@ -1,0 +1,10 @@
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://github.com/h2oai/tutorials/tree/1.9.0/Driverless%20AI
+2. https://h2oai.github.io/tutorials/automatic-ml-intro-with-driverless-ai/#7
+3. https://help.loginom.ru/userguide/visualization/coarse-classes/
+4. файл для скачивания Big Mart Sales_Test.csv - https://drive.google.com/file/d/1MhFa49us1wO9rP_54dLwWv06C1FqOAZ4/view?usp=sharing
+5. файл для скачивания Big Mart Sales_Train.csv - https://drive.google.com/file/d/1kvtxhGYFMDwo_NW4zfbmiAnp73LJTNQR/view?usp=sharing
+6. файл для скачивания BMS_train.csv - https://drive.google.com/file/d/1GMechMvoCA7uc8SjKW83VcDSIDyzb5Z-/view?usp=sharing
+7. https://sundarstyles89.medium.com/weight-of-evidence-and-information-value-using-python-6f05072e83eb
+8. https://loginom.ru/download

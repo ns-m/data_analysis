@@ -1,0 +1,4 @@
+https://learn.microsoft.com/ru-ru/previous-versions/azure/machine-learning/classic/create-experiment
+https://learn.microsoft.com/ru-ru/previous-versions/azure/machine-learning/classic/tutorial-part1-credit-risk
+https://learn.microsoft.com/ru-ru/previous-versions/azure/machine-learning/classic/tutorial-part2-credit-risk-train
+https://learn.microsoft.com/ru-ru/previous-versions/azure/machine-learning/classic/tutorial-part3-credit-risk-deploy

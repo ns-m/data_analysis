@@ -1,0 +1,8 @@
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://colab.research.google.com/drive/13AKLnYgXGk3e16r27zmDsDb-dTsiJgEa?usp=sharing
+2. https://drive.google.com/file/d/1fp9sJl5bMsNxxOUT_M9FOgdxNlG5ylI8/view?usp=share_link
+3. https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html
+4. http://lib.stat.cmu.edu/datasets/boston
+5. https://developers.google.com/machine-learning/crash-course/reducing-loss/playground-exercise?hl=ru
+6. https://colab.research.google.com/drive/13AKLnYgXGk3e16r27zmDsDb-dTsiJgEa?usp=sharing

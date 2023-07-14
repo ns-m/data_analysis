@@ -1,0 +1,3 @@
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://colab.research.google.com/drive/1giAgylswrPCvWiDwSN4zgjlp2sNP2IZX?usp=sharing

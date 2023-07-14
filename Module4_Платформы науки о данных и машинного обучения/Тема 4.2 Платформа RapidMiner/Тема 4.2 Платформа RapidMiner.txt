@@ -1,0 +1,7 @@
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://cloud.google.com/bigquery-ml/docs/reference/standard-sql/bigqueryml-syntax-create-glm
+2. https://cloud.google.com/bigquery-ml/docs/logistic-regression-prediction
+3. https://cloud.google.com/bigquery-ml/docs/reference/standard-sql/bigqueryml-auto-preprocessing
+4. https://cloud.google.com/bigquery-ml/docs/reference/standard-sql/bigqueryml-syntax-create-boosted-tree
+5. https://christophm.github.io/interpretable-ml-book/lime.html

@@ -1,0 +1,5 @@
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://loginom.ru/download
+2. https://cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers
+3. https://help.loginom.ru/userguide/integration/connections/list/bigquery.html

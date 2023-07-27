@@ -1,0 +1,14 @@
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://wiki.loginom.ru/articles/hodrickprescott-filter.html
+2. https://pypi.org/project/dtale/
+3. https://www.youtube.com/watch?v=AtyCqaOGoj4&ab_channel=GoogleCloudTech
+4. https://wiki.loginom.ru/articles/cohort-analysis.html
+5. https://towardsdatascience.com/model-or-do-you-mean-weight-of-evidence-woe-and-information-value-iv-331499f6fc2
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://www.knime.com/downloads
+2. https://www.knime.com/blog/tutorial-importing-data-from-google-bigquery
+
+https://coderlessons.com/tutorials/bolshie-dannye-i-analitika/vyuchit-tablitsu/tableau-kratkoe-rukovodstvo

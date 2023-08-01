@@ -12,3 +12,11 @@
 2. https://www.knime.com/blog/tutorial-importing-data-from-google-bigquery
 
 https://coderlessons.com/tutorials/bolshie-dannye-i-analitika/vyuchit-tablitsu/tableau-kratkoe-rukovodstvo
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://disk.yandex.ru/d/RMMa8nXXhB4DUA
+2. https://hub.knime.com/site/about
+3. https://docs.knime.com/latest/python_installation_guide/index.html#_introduction
+4. https://disk.yandex.ru/d/RMMa8nXXhB4DUA
+5. https://disk.yandex.ru/d/OaZ2KkGNqxqHkQ

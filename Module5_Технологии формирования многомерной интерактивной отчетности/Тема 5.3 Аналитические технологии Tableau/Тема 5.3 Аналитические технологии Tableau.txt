@@ -20,3 +20,14 @@ https://coderlessons.com/tutorials/bolshie-dannye-i-analitika/vyuchit-tablitsu/t
 3. https://docs.knime.com/latest/python_installation_guide/index.html#_introduction
 4. https://disk.yandex.ru/d/RMMa8nXXhB4DUA
 5. https://disk.yandex.ru/d/OaZ2KkGNqxqHkQ
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах
+
+1. https://help.tableau.com/current/pro/desktop/en-us/dataview_examples.htm
+2. https://public.tableau.com/views/superstore_31_07_23/pie?:language=en-US&:display_count=n&:origin=viz_share_link
+3. https://otexts.com/fpp3/expsmooth.html
+4. https://www.google.com/imgres
+imgurl=https%3A%2F%2Fs0.rbk.ru%2Fv6_top_pics%2Fresized%2F1005xH%2Fmedia%2Fimg%2F9%2F51%2F754429969002519.jpg&tbnid=vavUZumKWUPYBM&vet=12ahUKEwi06NGx0b2AAxXSgSoKHWVjAvoQMygDegUIARDAAQ..i&imgrefurl=https%3A%2F%2Fwww.rbc.ru%2Fbusiness%2F23%2F09%2F2015%2F5601aded9a7947a6e9a4e474&docid=Mx5ysAaC3eObzM&w=1005&h=732&q=%D1%82%D0%BE%D0%BF%20500%20%D1%80%D0%B1%D0%BA&ved=2ahUKEwi06NGx0b2AAxXSgSoKHWVjAvoQMygDegUIARDAAQ
+5. https://disk.yandex.ru/d/RMMa8nXXhB4DUA
+6. https://colab.research.google.com/drive/1dfFXMdk_X0JY6-JbkMtaHkQ8jqwe8eSz?usp=sharing
+7. https://public.tableau.com/views/superstore_31_07_23/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link

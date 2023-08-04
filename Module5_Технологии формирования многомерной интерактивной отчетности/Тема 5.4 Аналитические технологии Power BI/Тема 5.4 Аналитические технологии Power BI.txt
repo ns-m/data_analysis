@@ -1,1 +1,11 @@
 https://powerbi.microsoft.com/ru-ru/learning/
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://www.microsoft.com/ru-ru/download/confirmation.aspx?id=58494
+2. https://www.microsoft.com/ru-RU/download/details.aspx?id=58494
+3. https://www.microsoft.com/en-us/videoplayer/embed/RW14dL8
+4. https://learn.microsoft.com/ru-ru/training/browse/?filter-products=powe&products=power-bi
+5. https://learn.microsoft.com/ru-ru/power-bi/guidance/star-schema
+6. https://learn.microsoft.com/ru-ru/power-bi/transform-model/desktop-quickstart-learn-dax-basics
+7. https://azure.microsoft.com/en-us/blog/introducing-microsoft-fabric-data-analytics-for-the-era-of-ai/

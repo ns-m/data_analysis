@@ -1,5 +1,26 @@
 https://powerbi.microsoft.com/ru-ru/learning/
 
+https://learn.microsoft.com/ru-ru/power-bi/?WT.mc_id=sitertzn_learntab_docs-card-powerbi
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://disk.yandex.ru/d/LE7ID7zGRBACzg
+2. https://biconsult.ru/products/tableau/technologies
+3. https://powerbi.microsoft.com/ru-ru/data-storytelling/
+4. https://help.tableau.com/current/pro/desktop/en-us/dataview_examples.htm
+5. https://tableau.pro/m23
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://help.tableau.com/current/pro/desktop/en-us/dataview_examples.htm
+2. https://www.microsoft.com/ru-RU/download/details.aspx?id=58494
+3. https://learn.microsoft.com/ru-ru/power-bi/guidance/star-schema
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://learn.microsoft.com/ru-ru/power-bi/transform-model/desktop-quickstart-learn-dax-basics
+2. https://learn.microsoft.com/ru-ru/power-bi/visuals/power-bi-visualization-anomaly-detection
+
 Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
 
 1. https://www.microsoft.com/ru-ru/download/confirmation.aspx?id=58494

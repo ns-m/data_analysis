@@ -30,3 +30,44 @@ https://learn.microsoft.com/ru-ru/power-bi/?WT.mc_id=sitertzn_learntab_docs-card
 5. https://learn.microsoft.com/ru-ru/power-bi/guidance/star-schema
 6. https://learn.microsoft.com/ru-ru/power-bi/transform-model/desktop-quickstart-learn-dax-basics
 7. https://azure.microsoft.com/en-us/blog/introducing-microsoft-fabric-data-analytics-for-the-era-of-ai/
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах.
+
+1. https://colab.research.google.com/drive/1SQVK2y-jrZxUfrsulB3e2Ff9e1IfQNN7?usp=sharing
+2. https://disk.yandex.ru/i/9WlL_p8m8JBRnA
+3. https://drive.google.com/file/d/1oXenwy7eW573L25ZQmmNSrHIe42MeoyB/view?usp=sharing
+4. 
+import pandas as pd
+import numpy as np
+df = pd.read_csv("D:\Загрузка\Sample_Superstore_2020.csv")
+df['Order_Date'] = pd.to_datetime(df['Order_Date'], infer_datetime_format=True)
+abc_df = df.groupby([pd.Grouper(key='Customer_ID')
+                            ]).agg(sum_Sales=('Sales','sum'),
+                                    #mean_quantity=('Quantity', 'mean')
+                                    ).reset_index()
+
+abc_df['percent_Sales'] = abc_df['sum_Sales'].map(lambda x: x/abc_df['sum_Sales'].sum())
+abc_df = abc_df.sort_values(by='percent_Sales', ascending=False)
+abc_df['cumsum_percent_Sales'] = abc_df['percent_Sales'].cumsum()
+abc_df['ABC'] = abc_df['cumsum_percent_Sales'].map(lambda x: 'A' if x<=0.5 else 'B' if x <=0.8 else 'C')
+abc_df.drop(columns=['sum_Sales','percent_Sales', 'cumsum_percent_Sales'],inplace=True)
+
+xyz_df = df
+xyz_df = df.groupby([pd.Grouper(key='Customer_ID')
+                            ]).agg(std_quantity=('Quantity','std'),
+                                    mean_quantity=('Quantity', 'mean')).reset_index()
+
+xyz_df['var'] = xyz_df['std_quantity']/xyz_df['mean_quantity']
+xyz_df.drop(columns=['std_quantity','mean_quantity'],inplace=True)
+xyz_df['XYZ'] = xyz_df['var'].map(lambda x: 'X' if x<=0.1 else 'Y' if x <=0.25 else 'Z')
+xyz_df.drop(columns=['var'],inplace=True)xyz_df.sort_values(by=['XYZ'])
+
+rfm_df = df.groupby('Customer_ID').agg({'Order_Date': 'max', 'Order_ID': 'count', 'Sales': 'sum'}).reset_index()
+rfm_df.columns = ['Customer_ID', 'Recency', 'Frequency', 'Monetary']
+rfm_df['r'] = 6 - (pd.qcut(rfm_df['Recency'],5,labels=False) + 1)
+rfm_df['f'] = pd.qcut(rfm_df['Frequency'],5,labels=False) + 1
+rfm_df['m'] = pd.qcut(rfm_df['Monetary'],5,labels=False) + 1
+rfm_df['r'] = rfm_df['r'].astype('str')
+rfm_df['f'] = rfm_df['f'].astype('str')
+rfm_df['m'] = rfm_df['m'].astype('str')
+rfm_df['rfm'] = rfm_df.r + rfm_df.f + rfm_df.m

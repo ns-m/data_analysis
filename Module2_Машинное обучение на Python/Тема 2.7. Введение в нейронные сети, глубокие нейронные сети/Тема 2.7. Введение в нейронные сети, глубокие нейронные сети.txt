@@ -23,3 +23,6 @@ https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist#0
 1. https://colab.research.google.com/drive/1z1AGoDtsStAz1Ijb48iApi8uGSF6yOx8?usp=sharing
 2. https://colab.research.google.com/drive/1z1AGoDtsStAz1Ijb48iApi8uGSF6yOx8?usp=sharing
 3. https://drive.google.com/file/d/1musputOYXWo5CmqrInjFxGdnyl43RgEc/view?usp=drive_link
+
+
+/////

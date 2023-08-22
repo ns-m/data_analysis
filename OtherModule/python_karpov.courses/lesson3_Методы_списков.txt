@@ -1,0 +1,68 @@
+1. append() — добавляет новый элемент в список.
+
+my_list = [1, 2, 3]
+my_list.append(4)
+print(my_list) # [1, 2, 3, 4]
+
+2. clear() — удаляет все элементы списка:
+
+my_list = [1, 2, 3]
+my_list.clear()
+print(my_list) # []
+
+3. copy() — возвращает копию списка:
+
+my_list = [1, 2, 3]
+new_list = my_list.copy()
+print(new_list) # [1, 2, 3]
+
+4. count(item)  — возвращает количество элементов item в списке:
+
+my_list = [1, 2, 2, 3, 2]
+count = my_list.count(2)
+print(count) # 3
+
+5. extend(iterable) — добавляет элементы из другого списка в конец списка:
+
+my_list = [1, 2, 3]
+my_list.extend([4, 5])
+print(my_list) # [1, 2, 3, 4, 5]
+
+6. index(item, start, end)  — возвращает индекс первого элемента, равного item, в диапазоне от start до end:
+
+my_list = [1, 2, 2, 3, 2]
+index = my_list.index(2, 2, 5)
+print(index) # 2
+
+7. insert(index, item)  — добавляет элемент item на позицию index в списке:
+
+my_list = [1, 2, 3]
+my_list.insert(1, 4)
+print(my_list) # [1, 4, 2, 3]
+
+8. pop(index) — удаляет и возвращает элемент на позиции index в списке:
+
+my_list = [1, 2, 3]
+removed_item = my_list.pop(1)
+print(my_list) # [1, 3]
+print(removed_item) # 2
+
+9. remove(item) — удаляет первый элемент, равный item, из списка:
+
+my_list = [1, 2, 3, 2]
+my_list.remove(2)
+print(my_list) # [1, 3, 2]
+
+10. reverse()  — переворачивает порядок следования элементов в списке:
+
+my_list = [1, 2, 3]
+my_list.reverse()
+print(my_list) # [3, 2, 1]
+
+11. sort(key, reverse) — сортирует элементы в списке:
+
+my_list = [3, 1, 2]
+my_list.sort()
+print(my_list) # [1, 2, 3]
+my_list.sort(reverse=True)
+print(my_list) # [3, 2, 1]

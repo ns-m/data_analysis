@@ -1,2 +1,16 @@
 https://marketing-dostupno.ru/yandex-datalens-obzor-instrumenta-i-primery-otchetov/
 https://quokka.media/obzory/yandex-datalens/
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах
+
+1. https://cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers
+2. https://demo.loginom.ru/
+3. https://loginom.ru/blog/government-center-case
+4. https://disk.yandex.ru/d/wxGcyF1JMZPTrQ
+
+1. https://wiki.loginom.ru/articles/odds-ratio.html
+2. https://ru.wikipedia.org/wiki/%D0%9E%D1%82%D0%BD%D0%BE%D1%88%D0%B5%D0%BD%D0%B8%D0%B5_%D1%88%D0%B0%D0%BD%D1%81%D0%BE%D0%B2
+3. https://loginom.ru/blog/arima-example
+4. https://examples.loginom.ru/approximation-time-series-data/
+5. https://www.knime.com/downloads
+6. https://hub.knime.com/site/about

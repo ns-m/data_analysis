@@ -3,3 +3,11 @@
 1. https://loginom.ru/download
 2. https://cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers
 3. https://help.loginom.ru/userguide/integration/connections/list/bigquery.html
+
+Внимание! Обязательно делайте копии блокнотов, не работайте в оригинальных файлах
+
+1. https://aquarium.h2o.ai/login
+2. https://docs.trymito.io/getting-started/installing-mito/installing-mito-inside-a-virtual-environment
+3. https://disk.yandex.ru/d/12k1kjRC7YkUpw
+4. https://disk.yandex.ru/d/NdjBjOBeX15plw
+5. https://www.youtube.com/watch?v=eWdKBRVsDLM

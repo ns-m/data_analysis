@@ -1,0 +1,109 @@
+2023-08-23 22:24:13,332 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | Select-Object -ExpandProperty AMServiceEnabled did not terminate successfully.
+2023-08-23 22:24:13,333 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2023-08-23 22:24:13,333 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : €¬п "Get-MpComputerStatus" ­Ґ а бЇ®§­ ­® Є Є Ё¬п Є®¬ ­¤«Ґв , дг­ЄжЁЁ, д ©«  бжҐ­ аЁп Ё«Ё ўлЇ®«­п
+2023-08-23 22:24:13,334 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Ґ¬®© Їа®Ја ¬¬л. Џа®ўҐамвҐ Їа ўЁ«м­®бвм ­ ЇЁб ­Ёп Ё¬Ґ­Ё,   в Є¦Ґ ­ «ЁзЁҐ Ё Їа ўЁ«м­®бвм ЇгвЁ, Ї®б«Ґ зҐЈ® Ї®ўв®аЁвҐ Ї®Їлв
+2023-08-23 22:24:13,334 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Єг.
+2023-08-23 22:24:13,334 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : бва®Є :1 §­ Є:1
+2023-08-23 22:24:13,334 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | Select-Object -ExpandPropert ...
+2023-08-23 22:24:13,335 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~
+2023-08-23 22:24:13,335 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : ObjectNotFound: (Get-MpComputerStatus:String) [], CommandNotFoundException
+2023-08-23 22:24:13,335 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : CommandNotFoundException
+2023-08-23 22:24:13,335 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2023-08-24 13:19:08,720 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | Select-Object -ExpandProperty AMServiceEnabled did not terminate successfully.
+2023-08-24 13:19:08,724 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2023-08-24 13:19:08,724 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : €¬п "Get-MpComputerStatus" ­Ґ а бЇ®§­ ­® Є Є Ё¬п Є®¬ ­¤«Ґв , дг­ЄжЁЁ, д ©«  бжҐ­ аЁп Ё«Ё ўлЇ®«­п
+2023-08-24 13:19:08,724 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Ґ¬®© Їа®Ја ¬¬л. Џа®ўҐамвҐ Їа ўЁ«м­®бвм ­ ЇЁб ­Ёп Ё¬Ґ­Ё,   в Є¦Ґ ­ «ЁзЁҐ Ё Їа ўЁ«м­®бвм ЇгвЁ, Ї®б«Ґ зҐЈ® Ї®ўв®аЁвҐ Ї®Їлв
+2023-08-24 13:19:08,724 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Єг.
+2023-08-24 13:19:08,724 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : бва®Є :1 §­ Є:1
+2023-08-24 13:19:08,724 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | Select-Object -ExpandPropert ...
+2023-08-24 13:19:08,724 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~
+2023-08-24 13:19:08,724 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : ObjectNotFound: (Get-MpComputerStatus:String) [], CommandNotFoundException
+2023-08-24 13:19:08,724 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : CommandNotFoundException
+2023-08-24 13:19:08,724 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2023-08-24 13:21:25,214 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | Select-Object -ExpandProperty AMServiceEnabled did not terminate successfully.
+2023-08-24 13:21:25,215 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2023-08-24 13:21:25,215 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : €¬п "Get-MpComputerStatus" ­Ґ а бЇ®§­ ­® Є Є Ё¬п Є®¬ ­¤«Ґв , дг­ЄжЁЁ, д ©«  бжҐ­ аЁп Ё«Ё ўлЇ®«­п
+2023-08-24 13:21:25,215 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Ґ¬®© Їа®Ја ¬¬л. Џа®ўҐамвҐ Їа ўЁ«м­®бвм ­ ЇЁб ­Ёп Ё¬Ґ­Ё,   в Є¦Ґ ­ «ЁзЁҐ Ё Їа ўЁ«м­®бвм ЇгвЁ, Ї®б«Ґ зҐЈ® Ї®ўв®аЁвҐ Ї®Їлв
+2023-08-24 13:21:25,216 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Єг.
+2023-08-24 13:21:25,216 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : бва®Є :1 §­ Є:1
+2023-08-24 13:21:25,216 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | Select-Object -ExpandPropert ...
+2023-08-24 13:21:25,216 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~
+2023-08-24 13:21:25,216 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : ObjectNotFound: (Get-MpComputerStatus:String) [], CommandNotFoundException
+2023-08-24 13:21:25,216 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : CommandNotFoundException
+2023-08-24 13:21:25,216 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2023-08-24 13:45:30,731 : ERROR : Clear OSGi configuration :  : InvokeInstallSiteAction :  :  : Could not clean OSGi configuration area: F:\KNIME\configuration\org.eclipse.osgi\112\0\.cp\os\win32\x86_64\localfile_1_0_0.dll
+2023-08-24 14:15:50,923 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | Select-Object -ExpandProperty AMServiceEnabled did not terminate successfully.
+2023-08-24 14:15:50,924 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2023-08-24 14:15:50,925 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : €¬п "Get-MpComputerStatus" ­Ґ а бЇ®§­ ­® Є Є Ё¬п Є®¬ ­¤«Ґв , дг­ЄжЁЁ, д ©«  бжҐ­ аЁп Ё«Ё ўлЇ®«­п
+2023-08-24 14:15:50,925 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Ґ¬®© Їа®Ја ¬¬л. Џа®ўҐамвҐ Їа ўЁ«м­®бвм ­ ЇЁб ­Ёп Ё¬Ґ­Ё,   в Є¦Ґ ­ «ЁзЁҐ Ё Їа ўЁ«м­®бвм ЇгвЁ, Ї®б«Ґ зҐЈ® Ї®ўв®аЁвҐ Ї®Їлв
+2023-08-24 14:15:50,925 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Єг.
+2023-08-24 14:15:50,925 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : бва®Є :1 §­ Є:1
+2023-08-24 14:15:50,925 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | Select-Object -ExpandPropert ...
+2023-08-24 14:15:50,925 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~
+2023-08-24 14:15:50,925 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : ObjectNotFound: (Get-MpComputerStatus:String) [], CommandNotFoundException
+2023-08-24 14:15:50,925 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : CommandNotFoundException
+2023-08-24 14:15:50,925 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2023-08-24 14:16:26,039 : WARN  : Worker-2: Workflow Coach loader :  : HadoopInitializer :  :  : Unable to find 'msvcr100.dll' at hadoop home creation.
+2023-08-24 14:16:33,533 : ERROR : ForkJoinPool.commonPool-worker-1 :  : PurePythonNodeSetFactory :  :  : Failed to parse Python node extension at path 'F:\KNIME\plugins\sdl.harvard.geospatial_1.1.1.202306211527\src\main\python'.
+java.io.IOException: Exception while closing the outputConsumer
+	at org.knime.python3.nodes.pycentric.PythonCentricExtensionParser.retrieveDynamicInformationFromPython(PythonCentricExtensionParser.java:137)
+	at org.knime.python3.nodes.pycentric.PythonCentricExtensionParser.parseExtension(PythonCentricExtensionParser.java:104)
+	at org.knime.python3.nodes.PurePythonNodeSetFactory.parseExtension(PurePythonNodeSetFactory.java:130)
+	at org.knime.python3.nodes.PurePythonNodeSetFactory.lambda$3(PurePythonNodeSetFactory.java:125)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(Unknown Source)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.knime.python3.nodes.extension.ExtensionNodeSetFactory.<init>(ExtensionNodeSetFactory.java:111)
+	at org.knime.python3.nodes.PurePythonNodeSetFactory.<init>(PurePythonNodeSetFactory.java:106)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.knime.core.node.extension.NodeSetFactoryExtension.from(NodeSetFactoryExtension.java:265)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(Unknown Source)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.ReduceOps$ReduceTask.doLeaf(Unknown Source)
+	at java.base/java.util.stream.ReduceOps$ReduceTask.doLeaf(Unknown Source)
+	at java.base/java.util.stream.AbstractTask.compute(Unknown Source)
+	at java.base/java.util.concurrent.CountedCompleter.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Queue has been closed.
+	at org.knime.python3.QueuedPythonGatewayFactory$PythonGatewayQueue.getNextGateway(QueuedPythonGatewayFactory.java:250)
+	at org.knime.python3.QueuedPythonGatewayFactory.create(QueuedPythonGatewayFactory.java:118)
+	at org.knime.python3.nodes.PythonNodeGatewayFactory.create(PythonNodeGatewayFactory.java:131)
+	at org.knime.python3.nodes.pycentric.PythonCentricExtensionParser.retrieveDynamicInformationFromPython(PythonCentricExtensionParser.java:129)
+	... 42 more
+2023-08-24 14:18:19,037 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | Select-Object -ExpandProperty AMServiceEnabled did not terminate successfully.
+2023-08-24 14:18:19,038 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2023-08-24 14:18:19,038 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : €¬п "Get-MpComputerStatus" ­Ґ а бЇ®§­ ­® Є Є Ё¬п Є®¬ ­¤«Ґв , дг­ЄжЁЁ, д ©«  бжҐ­ аЁп Ё«Ё ўлЇ®«­п
+2023-08-24 14:18:19,038 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Ґ¬®© Їа®Ја ¬¬л. Џа®ўҐамвҐ Їа ўЁ«м­®бвм ­ ЇЁб ­Ёп Ё¬Ґ­Ё,   в Є¦Ґ ­ «ЁзЁҐ Ё Їа ўЁ«м­®бвм ЇгвЁ, Ї®б«Ґ зҐЈ® Ї®ўв®аЁвҐ Ї®Їлв
+2023-08-24 14:18:19,039 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Єг.
+2023-08-24 14:18:19,039 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : бва®Є :1 §­ Є:1
+2023-08-24 14:18:19,039 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | Select-Object -ExpandPropert ...
+2023-08-24 14:18:19,039 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~
+2023-08-24 14:18:19,040 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : ObjectNotFound: (Get-MpComputerStatus:String) [], CommandNotFoundException
+2023-08-24 14:18:19,040 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : CommandNotFoundException
+2023-08-24 14:18:19,040 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2023-08-24 14:18:30,542 : WARN  : Worker-0: Workflow Coach loader :  : HadoopInitializer :  :  : Unable to find 'msvcr100.dll' at hadoop home creation.

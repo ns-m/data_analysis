@@ -1,0 +1,12 @@
+{
+  "version" : "5.1.0.v202307121410",
+  "projects" : [ {
+    "name" : "KNIME_project_AD",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "KNIME_project_AD"
+    }
+  } ]
+}

@@ -8,73 +8,25 @@
         <entry key="authored-by" type="xstring" value="nsm"/>
         <entry key="authored-when" type="xstring" value="2023-08-24 14:28:50 +0300"/>
         <entry key="lastEdited-by" type="xstring" value="nsm"/>
-        <entry key="lastEdited-when" type="xstring" value="2023-08-25 10:01:46 +0300"/>
+        <entry key="lastEdited-when" type="xstring" value="2023-08-25 17:05:33 +0300"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <config key="workflow_credentials"/>
     <config key="nodes">
-        <config key="node_1">
-            <entry key="id" type="xint" value="1"/>
-            <entry key="node_settings_file" type="xstring" value="Excel Reader (#1)/settings.xml"/>
-            <entry key="node_is_meta" type="xboolean" value="false"/>
-            <entry key="node_type" type="xstring" value="NativeNode"/>
+        <config key="node_5">
+            <entry key="id" type="xint" value="5"/>
+            <entry key="node_settings_file" type="xstring" value="ReadData (#5)/workflow.knime"/>
+            <entry key="node_is_meta" type="xboolean" value="true"/>
+            <entry key="node_type" type="xstring" value="MetaNode"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
                     <entry key="0" type="xint" value="64"/>
-                    <entry key="1" type="xint" value="57"/>
-                    <entry key="2" type="xint" value="82"/>
-                    <entry key="3" type="xint" value="78"/>
-                </config>
-            </config>
-        </config>
-        <config key="node_2">
-            <entry key="id" type="xint" value="2"/>
-            <entry key="node_settings_file" type="xstring" value="Excel Reader (#2)/settings.xml"/>
-            <entry key="node_is_meta" type="xboolean" value="false"/>
-            <entry key="node_type" type="xstring" value="NativeNode"/>
-            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
-            <config key="ui_settings">
-                <config key="extrainfo.node.bounds">
-                    <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="65"/>
-                    <entry key="1" type="xint" value="177"/>
-                    <entry key="2" type="xint" value="82"/>
-                    <entry key="3" type="xint" value="78"/>
-                </config>
-            </config>
-        </config>
-        <config key="node_3">
-            <entry key="id" type="xint" value="3"/>
-            <entry key="node_settings_file" type="xstring" value="Excel Reader (#3)/settings.xml"/>
-            <entry key="node_is_meta" type="xboolean" value="false"/>
-            <entry key="node_type" type="xstring" value="NativeNode"/>
-            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
-            <config key="ui_settings">
-                <config key="extrainfo.node.bounds">
-                    <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="65"/>
-                    <entry key="1" type="xint" value="297"/>
-                    <entry key="2" type="xint" value="82"/>
-                    <entry key="3" type="xint" value="78"/>
-                </config>
-            </config>
-        </config>
-        <config key="node_4">
-            <entry key="id" type="xint" value="4"/>
-            <entry key="node_settings_file" type="xstring" value="Excel Reader (#4)/settings.xml"/>
-            <entry key="node_is_meta" type="xboolean" value="false"/>
-            <entry key="node_type" type="xstring" value="NativeNode"/>
-            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
-            <config key="ui_settings">
-                <config key="extrainfo.node.bounds">
-                    <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="65"/>
-                    <entry key="1" type="xint" value="417"/>
-                    <entry key="2" type="xint" value="82"/>
-                    <entry key="3" type="xint" value="78"/>
+                    <entry key="1" type="xint" value="237"/>
+                    <entry key="2" type="xint" value="60"/>
+                    <entry key="3" type="xint" value="65"/>
                 </config>
             </config>
         </config>

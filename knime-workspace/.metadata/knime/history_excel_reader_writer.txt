@@ -1,2 +1,3 @@
+/edu_group/Data/demographics.xlsx
 /edu_group/Data/case10.xlsx
 E:\Save\PycharmProjects\data_analysis\HomeWorks\FinalTask\кейс 10\case10.xlsx

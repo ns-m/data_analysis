@@ -6,19 +6,19 @@
         "nodes": [
             {
                 "id": "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory#Excel Reader",
-                "nrexecs": 11,
-                "nrfails": 0,
-                "exectime": 42552,
+                "nrexecs": 12,
+                "nrfails": 1,
+                "exectime": 42582,
                 "nrcreated": 5,
-                "successor": "n/a"
+                "successor": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter"
             },
             {
                 "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory#CSV Reader",
-                "nrexecs": 1,
+                "nrexecs": 2,
                 "nrfails": 0,
-                "exectime": 26,
+                "exectime": 64,
                 "nrcreated": 1,
-                "successor": "n/a"
+                "successor": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter"
             },
             {
                 "id": "org.knime.base.node.io.filehandling.table.reader.KnimeTableReaderNodeFactory#Table Reader",
@@ -30,26 +30,42 @@
             },
             {
                 "id": "org.knime.database.extension.sqlite.node.connector.SQLiteDBConnectorNodeFactory#SQLite Connector",
-                "nrexecs": 1,
+                "nrexecs": 2,
                 "nrfails": 0,
-                "exectime": 433,
+                "exectime": 621,
                 "nrcreated": 0,
                 "successor": "org.knime.database.node.utility.tableselector.DBTableSelectNodeFactory#DB Table Selector"
             },
             {
                 "id": "org.knime.database.node.utility.tableselector.DBTableSelectNodeFactory#DB Table Selector",
-                "nrexecs": 1,
+                "nrexecs": 2,
                 "nrfails": 0,
-                "exectime": 105,
+                "exectime": 110,
                 "nrcreated": 1,
                 "successor": "org.knime.database.node.io.reader.DBReadNodeFactory#DB Reader"
             },
             {
                 "id": "org.knime.database.node.io.reader.DBReadNodeFactory#DB Reader",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 48,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 14,
+                "nrcreated": 3,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter",
                 "nrexecs": 1,
                 "nrfails": 0,
                 "exectime": 42,
-                "nrcreated": 1,
+                "nrcreated": 2,
                 "successor": "n/a"
             }
         ],
@@ -58,7 +74,7 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 20551252,
+    "uptime": 33944306,
     "workflowsOpened": 7,
     "remoteWorkflowsOpened": 1,
     "columnarStorageWorkflowsOpened": 0,
@@ -67,7 +83,7 @@
     "webUIPerspectiveSwitches": 0,
     "launches": 5,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 102756262,
+    "timeSinceLastStart": 169721534,
     "crashes": 0,
     "properlyShutDown": false
 }

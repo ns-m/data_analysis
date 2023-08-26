@@ -1,1 +1,3 @@
+../Data/outputdata_case10.csv
+../Data/outputdata.csv
 /edu_group/Data/travel_advisories.csv

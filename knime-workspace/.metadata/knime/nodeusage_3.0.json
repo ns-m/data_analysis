@@ -6,9 +6,9 @@
         "nodes": [
             {
                 "id": "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory#Excel Reader",
-                "nrexecs": 18,
+                "nrexecs": 21,
                 "nrfails": 1,
-                "exectime": 60988,
+                "exectime": 77236,
                 "nrcreated": 5,
                 "successor": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner"
             },
@@ -94,11 +94,11 @@
             },
             {
                 "id": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner",
-                "nrexecs": 9,
+                "nrexecs": 14,
                 "nrfails": 0,
-                "exectime": 5778,
+                "exectime": 6851,
                 "nrcreated": 3,
-                "successor": "org.knime.expressions.base.node.formulas.FormulasNodeFactory#Column Expressions"
+                "successor": "org.knime.base.node.preproc.colcombine2.ColCombine2NodeFactory#Column Combiner"
             },
             {
                 "id": "org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeFactory#CSV Writer",
@@ -110,19 +110,19 @@
             },
             {
                 "id": "org.knime.expressions.base.node.formulas.FormulasNodeFactory#Column Expressions",
-                "nrexecs": 16,
-                "nrfails": 2,
-                "exectime": 13650,
-                "nrcreated": 1,
-                "successor": "n/a"
+                "nrexecs": 31,
+                "nrfails": 4,
+                "exectime": 20021,
+                "nrcreated": 2,
+                "successor": "org.knime.ext.jep.multicolumn.MultiColumnJEPNodeFactory#Math Formula (Multi Column)"
             },
             {
                 "id": "org.knime.base.node.rules.engine.RuleEngineNodeFactory#Rule Engine",
-                "nrexecs": 3,
+                "nrexecs": 25,
                 "nrfails": 0,
-                "exectime": 823,
+                "exectime": 874,
                 "nrcreated": 1,
-                "successor": "n/a"
+                "successor": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner"
             },
             {
                 "id": "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory#String Manipulation",
@@ -131,6 +131,78 @@
                 "exectime": 1370,
                 "nrcreated": 1,
                 "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy",
+                "nrexecs": 16,
+                "nrfails": 0,
+                "exectime": 28995,
+                "nrcreated": 5,
+                "successor": "org.knime.time.node.calculate.datetimedifference.DateTimeDifferenceNodeFactory#Date&Time Difference"
+            },
+            {
+                "id": "org.knime.base.node.preproc.pivot.Pivot2NodeFactory#Pivoting",
+                "nrexecs": 18,
+                "nrfails": 0,
+                "exectime": 77902,
+                "nrcreated": 1,
+                "successor": "org.knime.ext.jep.multicolumn.MultiColumnJEPNodeFactory#Math Formula (Multi Column)"
+            },
+            {
+                "id": "org.AF.TableUtil.GroupAll.GroupAllNodeFactory#Group All Columns",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 3,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.ext.jep.multicolumn.MultiColumnJEPNodeFactory#Math Formula (Multi Column)",
+                "nrexecs": 16,
+                "nrfails": 0,
+                "exectime": 97,
+                "nrcreated": 3,
+                "successor": "org.knime.base.node.preproc.sorter.SorterNodeFactory#Sorter"
+            },
+            {
+                "id": "org.knime.ext.jep.JEPNodeFactory#Math Formula",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 3,
+                "successor": "org.knime.base.node.rules.engine.RuleEngineNodeFactory#Rule Engine"
+            },
+            {
+                "id": "org.knime.base.node.preproc.sorter.SorterNodeFactory#Sorter",
+                "nrexecs": 13,
+                "nrfails": 0,
+                "exectime": 49,
+                "nrcreated": 1,
+                "successor": "org.knime.timeseries.node.movagg.MovingAggregationNodeFactory#Moving Aggregation"
+            },
+            {
+                "id": "org.knime.timeseries.node.movagg.MovingAggregationNodeFactory#Moving Aggregation",
+                "nrexecs": 9,
+                "nrfails": 0,
+                "exectime": 22,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.rules.engine.RuleEngineNodeFactory#Rule Engine"
+            },
+            {
+                "id": "org.knime.time.node.calculate.datetimedifference.DateTimeDifferenceNodeFactory#Date&Time Difference",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.autobinner3.AutoBinnerLearnNodeFactory#Auto-Binner"
+            },
+            {
+                "id": "org.knime.base.node.preproc.autobinner3.AutoBinnerLearnNodeFactory#Auto-Binner",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 1,
+                "nrcreated": 0,
+                "successor": "org.knime.base.node.rules.engine.RuleEngineNodeFactory#Rule Engine"
             }
         ],
         "metaNodes": {
@@ -138,16 +210,16 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 37868621,
-    "workflowsOpened": 8,
-    "remoteWorkflowsOpened": 2,
+    "uptime": 58023334,
+    "workflowsOpened": 15,
+    "remoteWorkflowsOpened": 5,
     "columnarStorageWorkflowsOpened": 0,
-    "workflowsImported": 4,
+    "workflowsImported": 9,
     "workflowsExported": 0,
     "webUIPerspectiveSwitches": 0,
     "launches": 5,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 189343107,
+    "timeSinceLastStart": 290116671,
     "crashes": 0,
     "properlyShutDown": false
 }

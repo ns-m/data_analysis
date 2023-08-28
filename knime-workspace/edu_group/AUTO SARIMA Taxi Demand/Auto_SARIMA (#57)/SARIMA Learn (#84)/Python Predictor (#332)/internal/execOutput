@@ -1,0 +1,13 @@
+ar.L1            0.148454
+ar.L2            0.122549
+ma.L1            0.162850
+ma.L2            0.172972
+ma.L3            0.143658
+ar.S.L24              NaN
+ar.S.L48              NaN
+ar.S.L72              NaN
+ar.S.L96         0.239630
+ma.S.L24              NaN
+ma.S.L48              NaN
+sigma2      318894.681666
+dtype: float64

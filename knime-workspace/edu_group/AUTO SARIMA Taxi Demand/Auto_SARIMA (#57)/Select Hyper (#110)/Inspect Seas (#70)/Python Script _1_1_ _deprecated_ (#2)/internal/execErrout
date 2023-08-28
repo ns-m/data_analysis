@@ -1,0 +1,2 @@
+[WARN]/Users/corey/opt/anaconda3/envs/SARIM/lib/python3.6/site-packages/statsmodels/regression/linear_model.py:1406: RuntimeWarning: invalid value encountered in sqrt
+  return rho, np.sqrt(sigmasq)

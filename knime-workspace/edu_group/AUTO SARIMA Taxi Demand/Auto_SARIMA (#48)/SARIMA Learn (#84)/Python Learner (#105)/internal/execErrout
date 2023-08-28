@@ -1,0 +1,10 @@
+[WARN]/Users/corey/opt/anaconda3/envs/SARIM/lib/python3.6/site-packages/statsmodels/tsa/base/tsa_model.py:214: ValueWarning: An unsupported index was provided and will be ignored when e.g. forecasting.
+  ' ignored when e.g. forecasting.', ValueWarning)
+[WARN]/Users/corey/opt/anaconda3/envs/SARIM/lib/python3.6/site-packages/statsmodels/tsa/base/tsa_model.py:214: ValueWarning: An unsupported index was provided and will be ignored when e.g. forecasting.
+  ' ignored when e.g. forecasting.', ValueWarning)
+[WARN]/Users/corey/opt/anaconda3/envs/SARIM/lib/python3.6/site-packages/statsmodels/tsa/statespace/sarimax.py:975: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  warn('Non-invertible starting MA parameters found.'
+[WARN]/Users/corey/opt/anaconda3/envs/SARIM/lib/python3.6/site-packages/statsmodels/tsa/statespace/sarimax.py:1006: UserWarning: Non-invertible starting seasonal moving average Using zeros as starting parameters.
+  warn('Non-invertible starting seasonal moving average'
+[WARN]/Users/corey/opt/anaconda3/envs/SARIM/lib/python3.6/site-packages/statsmodels/base/model.py:568: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)

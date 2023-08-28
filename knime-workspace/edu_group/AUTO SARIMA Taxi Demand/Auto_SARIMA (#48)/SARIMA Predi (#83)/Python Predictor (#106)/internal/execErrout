@@ -1,0 +1,2 @@
+[WARN]/Users/corey/opt/anaconda3/envs/SARIM/lib/python3.6/site-packages/statsmodels/tsa/base/tsa_model.py:583: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  ValueWarning)

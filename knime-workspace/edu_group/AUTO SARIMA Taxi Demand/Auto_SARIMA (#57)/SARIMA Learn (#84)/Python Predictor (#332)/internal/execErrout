@@ -1,0 +1,2 @@
+[WARN]/Users/corey/opt/anaconda3/envs/SARIM/lib/python3.6/site-packages/statsmodels/base/model.py:1354: RuntimeWarning: invalid value encountered in sqrt
+  bse_ = np.sqrt(np.diag(self.cov_params()))

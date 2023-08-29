@@ -6,19 +6,19 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Lag Value"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="2"/>
+            <entry key="value" type="xint" value="0"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Correlation"/>
             <entry key="class" type="xstring" value="DOUBLE"/>
-            <entry key="value" type="xdouble" value="0.637"/>
+            <entry key="value" type="xdouble" value="0.0"/>
         </config>
         <config key="Variable_2">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="mlag"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="547"/>
+            <entry key="value" type="xint" value="17"/>
         </config>
         <config key="Variable_3">
             <entry key="type" type="xstring" value="variable"/>
@@ -36,19 +36,19 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Lag Value"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="2"/>
+            <entry key="value" type="xint" value="0"/>
         </config>
         <config key="Variable_6">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Correlation"/>
             <entry key="class" type="xstring" value="DOUBLE"/>
-            <entry key="value" type="xdouble" value="0.637"/>
+            <entry key="value" type="xdouble" value="0.0"/>
         </config>
         <config key="Variable_7">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="mlag"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="547"/>
+            <entry key="value" type="xint" value="17"/>
         </config>
         <config key="Variable_8">
             <entry key="type" type="xstring" value="variable"/>

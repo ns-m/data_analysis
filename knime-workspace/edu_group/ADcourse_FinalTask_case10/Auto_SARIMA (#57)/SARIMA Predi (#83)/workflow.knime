@@ -26,10 +26,6 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
-    <config key="nodecontainer_message">
-        <entry key="type" type="xstring" value="ERROR"/>
-        <entry key="message" type="xstring" value="An internal error occurred."/>
-    </config>
     <config key="workflow_credentials"/>
     <config key="annotations">
         <config key="annotation_0">

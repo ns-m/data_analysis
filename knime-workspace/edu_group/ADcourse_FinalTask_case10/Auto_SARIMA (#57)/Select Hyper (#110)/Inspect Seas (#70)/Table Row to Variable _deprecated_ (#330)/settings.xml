@@ -48,43 +48,43 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="RowID"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Row3"/>
+            <entry key="value" type="xstring" value=""/>
         </config>
         <config key="Variable_8">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Title"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Local Maximum"/>
+            <entry key="value" type="xstring" value="missing"/>
         </config>
         <config key="Variable_9">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="acf(-2)"/>
             <entry key="class" type="xstring" value="DOUBLE"/>
-            <entry key="value" type="xdouble" value="0.6356865129943903"/>
+            <entry key="value" type="xdouble" value="0.0"/>
         </config>
         <config key="Variable_10">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Correlation"/>
             <entry key="class" type="xstring" value="DOUBLE"/>
-            <entry key="value" type="xdouble" value="0.637"/>
+            <entry key="value" type="xdouble" value="0.0"/>
         </config>
         <config key="Variable_11">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Lag Value"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="2"/>
+            <entry key="value" type="xint" value="0"/>
         </config>
         <config key="Variable_12">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="pacf"/>
             <entry key="class" type="xstring" value="DOUBLE"/>
-            <entry key="value" type="xdouble" value="0.266074365526383"/>
+            <entry key="value" type="xdouble" value="0.0"/>
         </config>
         <config key="Variable_13">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="acf"/>
             <entry key="class" type="xstring" value="DOUBLE"/>
-            <entry key="value" type="xdouble" value="0.6285045216851253"/>
+            <entry key="value" type="xdouble" value="0.0"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -155,6 +155,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="cd29df1f-9ad5-43ce-a0ae-4e32419559b4"/>
+        <entry key="file_store_id" type="xstring" value="cb7a34f3-b501-424e-b665-568ef7574ed7"/>
     </config>
 </config>

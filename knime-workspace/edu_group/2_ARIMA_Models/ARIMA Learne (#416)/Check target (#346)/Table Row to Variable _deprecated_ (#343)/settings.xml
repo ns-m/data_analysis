@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="RowID"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value=""/>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Histogram"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_2">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Row count"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_3">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Median"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.0"/>
+        </config>
+        <config key="Variable_4">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="No. -∞s"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_5">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="No. +∞s"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_6">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="No. NaNs"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_7">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="No. missings"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_8">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Overall sum"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.0"/>
+        </config>
+        <config key="Variable_9">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Kurtosis"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.0"/>
+        </config>
+        <config key="Variable_10">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Skewness"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.0"/>
+        </config>
+        <config key="Variable_11">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Variance"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.0"/>
+        </config>
+        <config key="Variable_12">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Std. deviation"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.0"/>
+        </config>
+        <config key="Variable_13">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Mean"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.0"/>
+        </config>
+        <config key="Variable_14">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Max"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.0"/>
+        </config>
+        <config key="Variable_15">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Min"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.0"/>
+        </config>
+        <config key="Variable_16">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Column"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="missing"/>
+        </config>
+        <config key="Variable_17">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="RowID"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="Residual"/>
+        </config>
+        <config key="Variable_18">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Histogram"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="%%00010&lt;svg stroke-dasharray=&quot;none&quot; shape-rendering=&quot;auto&quot;%%00010     xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&amp;apos;Dialog&amp;apos;&quot;%%00010     width=&quot;200&quot; text-rendering=&quot;auto&quot; fill-opacity=&quot;1&quot;%%00010     contentScriptType=&quot;text/ecmascript&quot; color-interpolation=&quot;auto&quot;%%00010     color-rendering=&quot;auto&quot; preserveAspectRatio=&quot;xMidYMid meet&quot; font-size=&quot;12px&quot;%%00010     fill=&quot;black&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; stroke=&quot;black&quot;%%00010     image-rendering=&quot;auto&quot; stroke-miterlimit=&quot;10&quot; zoomAndPan=&quot;magnify&quot;%%00010     version=&quot;1.0&quot; stroke-linecap=&quot;square&quot; stroke-linejoin=&quot;miter&quot;%%00010     contentStyleType=&quot;text/css&quot; font-style=&quot;normal&quot; height=&quot;100&quot;%%00010     stroke-width=&quot;1&quot; stroke-dashoffset=&quot;0&quot; font-weight=&quot;normal&quot;%%00010     stroke-opacity=&quot;1&quot;&gt;%%00010    &lt;!--Generated by the Batik Graphics2D SVG Generator--&gt;%%00010    &lt;defs id=&quot;genericDefs&quot;/&gt;%%00010    &lt;g&gt;%%00010        &lt;g fill=&quot;rgb(170,204,255)&quot; stroke=&quot;rgb(170,204,255)&quot;&gt;%%00010            &lt;rect x=&quot;171&quot; width=&quot;29&quot; height=&quot;1&quot; y=&quot;84&quot; stroke=&quot;none&quot;/&gt;%%00010            &lt;rect x=&quot;142&quot; width=&quot;29&quot; height=&quot;2&quot; y=&quot;83&quot; stroke=&quot;none&quot;/&gt;%%00010            &lt;rect x=&quot;114&quot; width=&quot;29&quot; height=&quot;30&quot; y=&quot;55&quot; stroke=&quot;none&quot;/&gt;%%00010            &lt;rect x=&quot;85&quot; width=&quot;29&quot; height=&quot;53&quot; y=&quot;32&quot; stroke=&quot;none&quot;/&gt;%%00010            &lt;rect x=&quot;57&quot; width=&quot;29&quot; height=&quot;2&quot; y=&quot;83&quot; stroke=&quot;none&quot;/&gt;%%00010            &lt;rect x=&quot;28&quot; width=&quot;29&quot; height=&quot;1&quot; y=&quot;84&quot; stroke=&quot;none&quot;/&gt;%%00010            &lt;rect x=&quot;0&quot; width=&quot;29&quot; height=&quot;1&quot; y=&quot;84&quot; stroke=&quot;none&quot;/&gt;%%00010            &lt;line y2=&quot;85&quot; fill=&quot;none&quot; x1=&quot;0&quot; x2=&quot;200&quot; stroke=&quot;rgb(64,64,64)&quot;%%00010                  y1=&quot;85&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;171&quot; x2=&quot;171&quot; y1=&quot;84&quot; y2=&quot;85&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;171&quot; x2=&quot;200&quot; y1=&quot;84&quot; y2=&quot;84&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;200&quot; x2=&quot;200&quot; y1=&quot;84&quot; y2=&quot;85&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;142&quot; x2=&quot;142&quot; y1=&quot;83&quot; y2=&quot;85&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;142&quot; x2=&quot;171&quot; y1=&quot;83&quot; y2=&quot;83&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;171&quot; x2=&quot;171&quot; y1=&quot;83&quot; y2=&quot;85&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;114&quot; x2=&quot;114&quot; y1=&quot;55&quot; y2=&quot;85&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;114&quot; x2=&quot;142&quot; y1=&quot;55&quot; y2=&quot;55&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;142&quot; x2=&quot;142&quot; y1=&quot;55&quot; y2=&quot;85&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;85&quot; x2=&quot;85&quot; y1=&quot;32&quot; y2=&quot;85&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;85&quot; x2=&quot;114&quot; y1=&quot;32&quot; y2=&quot;32&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;114&quot; x2=&quot;114&quot; y1=&quot;32&quot; y2=&quot;85&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;57&quot; x2=&quot;57&quot; y1=&quot;83&quot; y2=&quot;85&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;57&quot; x2=&quot;85&quot; y1=&quot;83&quot; y2=&quot;83&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;85&quot; x2=&quot;85&quot; y1=&quot;83&quot; y2=&quot;85&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;28&quot; x2=&quot;28&quot; y1=&quot;84&quot; y2=&quot;85&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;28&quot; x2=&quot;57&quot; y1=&quot;84&quot; y2=&quot;84&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;57&quot; x2=&quot;57&quot; y1=&quot;84&quot; y2=&quot;85&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;0&quot; x2=&quot;0&quot; y1=&quot;84&quot; y2=&quot;85&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;0&quot; x2=&quot;28&quot; y1=&quot;84&quot; y2=&quot;84&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;28&quot; x2=&quot;28&quot; y1=&quot;84&quot; y2=&quot;85&quot;%%00010                  stroke=&quot;rgb(64,64,64)&quot; stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;5&quot; x2=&quot;5&quot; y1=&quot;85&quot; y2=&quot;90&quot; stroke=&quot;black&quot;%%00010                  stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;line fill=&quot;none&quot; x1=&quot;196&quot; x2=&quot;196&quot; y1=&quot;85&quot; y2=&quot;90&quot; stroke=&quot;black&quot;%%00010                  stroke-width=&quot;1.5&quot;/&gt;%%00010            &lt;text fill=&quot;black&quot; x=&quot;6&quot; xml:space=&quot;preserve&quot; stroke-width=&quot;1.5&quot;%%00010                  y=&quot;100&quot; stroke=&quot;none&quot;&gt;-22&lt;/text&gt;&lt;text fill=&quot;black&quot; x=&quot;181&quot;%%00010                  xml:space=&quot;preserve&quot; stroke-width=&quot;1.5&quot; y=&quot;100&quot; stroke=&quot;none&quot;&gt;18&lt;/text&gt;%%00010        &lt;/g&gt;%%00010    &lt;/g&gt;%%00010&lt;/svg&gt;"/>
+        </config>
+        <config key="Variable_19">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Row count"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="10118"/>
+        </config>
+        <config key="Variable_20">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Median"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.0"/>
+        </config>
+        <config key="Variable_21">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="No. -∞s"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_22">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="No. +∞s"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_23">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="No. NaNs"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_24">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="No. missings"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_25">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Overall sum"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="-7.96061392415395"/>
+        </config>
+        <config key="Variable_26">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Kurtosis"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="12.733764122113442"/>
+        </config>
+        <config key="Variable_27">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Skewness"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="-0.4389067673908712"/>
+        </config>
+        <config key="Variable_28">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Variance"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="6.707502251871977"/>
+        </config>
+        <config key="Variable_29">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Std. deviation"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="2.5898846020377"/>
+        </config>
+        <config key="Variable_30">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Mean"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="-7.867774188726972E-4"/>
+        </config>
+        <config key="Variable_31">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Max"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="17.72886815372942"/>
+        </config>
+        <config key="Variable_32">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Min"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="-22.356899962212623"/>
+        </config>
+        <config key="Variable_33">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Column"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="Residual"/>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="CFG_FAILONMISS_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="CFG_FAILONMISS" type="xstring" value="Use Defaults"/>
+        <config key="CFG_Integer_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="CFG_Integer" type="xint" value="0"/>
+        <config key="CFG_Double_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="CFG_Double" type="xdouble" value="0.0"/>
+        <config key="CFG_String_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="CFG_String" type="xstring" value="missing"/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value=""/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="567"/>
+        <entry key="y-coordinate" type="xint" value="679"/>
+        <entry key="width" type="xint" value="106"/>
+        <entry key="height" type="xint" value="15"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.flowvariable.tablerowtovariable.TableToVariableNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Table Row to Variable (deprecated)"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.0.v202111301618"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.0.v202112011253"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Table Row to Variable (deprecated)"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

@@ -18,13 +18,13 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="RowID"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Row835"/>
+            <entry key="value" type="xstring" value="Row27"/>
         </config>
         <config key="Variable_3">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Time_Upper Bound"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="2019-12-31"/>
+            <entry key="value" type="xstring" value="2019-12-01"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -105,6 +105,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="5cd8f932-3bdc-49fb-8559-4ab18dc800d3"/>
+        <entry key="file_store_id" type="xstring" value="82cea957-92a9-4879-a12e-a82bc0f19889"/>
     </config>
 </config>

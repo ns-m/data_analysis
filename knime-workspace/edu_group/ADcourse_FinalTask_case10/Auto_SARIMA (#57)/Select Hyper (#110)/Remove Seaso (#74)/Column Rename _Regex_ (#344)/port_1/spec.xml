@@ -3,7 +3,7 @@
     <entry key="spec_name" type="xstring" value="default"/>
     <entry key="number_columns" type="xint" value="1"/>
     <config key="column_spec_0">
-        <entry key="column_name" type="xstring" value="Sum(SumOrder) (removed seasonality)"/>
+        <entry key="column_name" type="xstring" value="Mean(Profit) (removed seasonality)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -14,13 +14,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="-614882.5000000049"/>
+                    <entry key="DoubleCell" type="xdouble" value="-48.320814340816604"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="605154.1500000047"/>
+                    <entry key="DoubleCell" type="xdouble" value="85.58548190569093"/>
                 </config>
             </config>
         </config>

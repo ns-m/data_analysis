@@ -22,7 +22,7 @@
     <entry key="displayRowIndex" type="xboolean" value="false"/>
     <entry key="fixedHeaders" type="xboolean" value="false"/>
     <entry key="title" type="xstring" value="Insample Metrics"/>
-    <entry key="subtitle" type="xstring" value="SARIMA(1,1,1)(0,1,1)2"/>
+    <entry key="subtitle" type="xstring" value="SARIMA(1,1,1)(0,0,0)0"/>
     <entry key="enableSelection" type="xboolean" value="false"/>
     <entry key="enableSearching" type="xboolean" value="true"/>
     <entry key="enableColumnSearching" type="xboolean" value="false"/>

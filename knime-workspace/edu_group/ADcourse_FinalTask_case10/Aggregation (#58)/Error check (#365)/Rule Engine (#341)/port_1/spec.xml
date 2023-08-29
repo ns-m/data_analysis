@@ -16,7 +16,7 @@
                 <config key="0">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="SumOrder"/>
+                        <entry key="StringCell" type="xstring" value="Profit"/>
                     </config>
                 </config>
             </config>
@@ -83,13 +83,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="63.55"/>
+                    <entry key="DoubleCell" type="xdouble" value="-173.9"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="63.55"/>
+                    <entry key="DoubleCell" type="xdouble" value="-173.9"/>
                 </config>
             </config>
         </config>
@@ -108,13 +108,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="1738.6499999999999"/>
+                    <entry key="DoubleCell" type="xdouble" value="361.7999999999999"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="1738.6499999999999"/>
+                    <entry key="DoubleCell" type="xdouble" value="361.7999999999999"/>
                 </config>
             </config>
         </config>

@@ -6,13 +6,13 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Number Rows"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1094"/>
+            <entry key="value" type="xint" value="35"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Number Rows"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1094"/>
+            <entry key="value" type="xint" value="35"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -67,6 +67,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="a38dca6b-51ac-4478-943a-8afd169f2806"/>
+        <entry key="file_store_id" type="xstring" value="ae858812-6350-4f3f-bdbd-fd5a2bab4ac5"/>
     </config>
 </config>

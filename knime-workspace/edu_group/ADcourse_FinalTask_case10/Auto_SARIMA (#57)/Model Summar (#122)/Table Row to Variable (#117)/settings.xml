@@ -24,7 +24,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="SARIMA Config"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="SARIMA(1,1,1)(0,1,1)2"/>
+            <entry key="value" type="xstring" value="SARIMA(1,1,1)(0,0,0)0"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -128,6 +128,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="704e862d-abfd-47fd-9c03-2c19092fc491"/>
+        <entry key="file_store_id" type="xstring" value="d8e8b409-61a6-4460-9e9b-9dc59882d910"/>
     </config>
 </config>

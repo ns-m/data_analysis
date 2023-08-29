@@ -6,13 +6,13 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="column-selection"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Sum(SumOrder)"/>
+            <entry key="value" type="xstring" value="Mean(Profit)"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="column-selection"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Sum(SumOrder)"/>
+            <entry key="value" type="xstring" value="Mean(Profit)"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -107,12 +107,12 @@
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 1095, Cols: 3"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 36, Cols: 3"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="baa1e56d-435e-4131-955c-efdc42c2164f"/>
+        <entry key="file_store_id" type="xstring" value="39090874-e0f6-47c0-abb4-9e72872ba099"/>
     </config>
 </config>

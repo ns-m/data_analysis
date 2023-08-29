@@ -20,7 +20,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="547.0"/>
+                    <entry key="DoubleCell" type="xdouble" value="17.0"/>
                 </config>
             </config>
         </config>

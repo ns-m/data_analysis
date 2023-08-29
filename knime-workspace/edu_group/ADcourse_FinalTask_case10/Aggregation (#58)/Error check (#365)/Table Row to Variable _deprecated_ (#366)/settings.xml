@@ -48,7 +48,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="RowID"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="SumOrder"/>
+            <entry key="value" type="xstring" value="Profit"/>
         </config>
         <config key="Variable_8">
             <entry key="type" type="xstring" value="variable"/>
@@ -60,13 +60,13 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Upper Bound"/>
             <entry key="class" type="xstring" value="DOUBLE"/>
-            <entry key="value" type="xdouble" value="1738.6499999999999"/>
+            <entry key="value" type="xdouble" value="361.7999999999999"/>
         </config>
         <config key="Variable_10">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Lower Bound"/>
             <entry key="class" type="xstring" value="DOUBLE"/>
-            <entry key="value" type="xdouble" value="63.55"/>
+            <entry key="value" type="xdouble" value="-173.9"/>
         </config>
         <config key="Variable_11">
             <entry key="type" type="xstring" value="variable"/>
@@ -84,7 +84,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Column Name"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="SumOrder"/>
+            <entry key="value" type="xstring" value="Profit"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -165,6 +165,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="4fb68cf7-bb8d-496a-a01d-9f0dd8c1809d"/>
+        <entry key="file_store_id" type="xstring" value="37bb23eb-77bd-4fa5-8d9a-9f05e4ee2812"/>
     </config>
 </config>

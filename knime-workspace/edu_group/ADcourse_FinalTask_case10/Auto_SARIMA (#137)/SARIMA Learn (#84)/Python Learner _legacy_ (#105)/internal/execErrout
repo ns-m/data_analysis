@@ -1,4 +1,0 @@
-[WARN]C:\Users\nsm\anaconda3\envs\SARIM\lib\site-packages\statsmodels\tsa\base\tsa_model.py:214: ValueWarning: An unsupported index was provided and will be ignored when e.g. forecasting.
-  ' ignored when e.g. forecasting.', ValueWarning)
-[WARN]C:\Users\nsm\anaconda3\envs\SARIM\lib\site-packages\statsmodels\tsa\base\tsa_model.py:214: ValueWarning: An unsupported index was provided and will be ignored when e.g. forecasting.
-  ' ignored when e.g. forecasting.', ValueWarning)

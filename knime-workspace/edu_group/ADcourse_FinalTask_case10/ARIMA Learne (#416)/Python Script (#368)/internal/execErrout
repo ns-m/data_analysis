@@ -1,0 +1,6 @@
+[WARN]<string>:1: DeprecationWarning: The module knime_io is deprecated, please use 'import knime.scripting.io' instead
+[WARN]<string>:6: FutureWarning: The pandas.datetime class is deprecated and will be removed from pandas in a future version. Import from datetime module instead.
+[WARN]F:\KNIME\plugins\org.knime.pythonscripting.channel.v1.bin.win32.x86_64_4.7.1.v202301201518\env\lib\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: An unsupported index was provided and will be ignored when e.g. forecasting.
+  self._init_dates(dates, freq)
+[WARN]F:\KNIME\plugins\org.knime.pythonscripting.channel.v1.bin.win32.x86_64_4.7.1.v202301201518\env\lib\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: An unsupported index was provided and will be ignored when e.g. forecasting.
+  self._init_dates(dates, freq)

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="viewValue">
-    <entry key="chartTitle" type="xstring" value="Sum(SumOrder) Forecast"/>
-    <entry key="chartSubtitle" type="xstring" value="SARIMA(1,1,1)(0,1,1)2"/>
+    <entry key="chartTitle" type="xstring" value="Mean(Profit) Forecast"/>
+    <entry key="chartSubtitle" type="xstring" value="SARIMA(1,1,1)(0,0,0)0"/>
     <entry key="xCol" type="xstring" value="Forecast Index"/>
     <config key="yCols">
         <entry key="array-size" type="xint" value="2"/>
         <entry key="0" type="xstring" value="Forecast"/>
-        <entry key="1" type="xstring" value="Sum(SumOrder)"/>
+        <entry key="1" type="xstring" value="Mean(Profit)"/>
     </config>
     <entry key="xAxisLabel" type="xstring" value=""/>
     <entry key="yAxisLabel" type="xstring" value=""/>

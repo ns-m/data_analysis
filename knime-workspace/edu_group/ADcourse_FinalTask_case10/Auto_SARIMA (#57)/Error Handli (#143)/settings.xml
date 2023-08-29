@@ -6,7 +6,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Dimensions"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1095"/>
+            <entry key="value" type="xint" value="36"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
@@ -24,13 +24,13 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Number Rows"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1095"/>
+            <entry key="value" type="xint" value="36"/>
         </config>
         <config key="Variable_4">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="column-selection"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Sum(SumOrder)"/>
+            <entry key="value" type="xstring" value="Mean(Profit)"/>
         </config>
         <config key="Variable_5">
             <entry key="type" type="xstring" value="variable"/>
@@ -42,7 +42,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Dimensions"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1095"/>
+            <entry key="value" type="xint" value="36"/>
         </config>
         <config key="Variable_7">
             <entry key="type" type="xstring" value="variable"/>
@@ -60,13 +60,13 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Number Rows"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1095"/>
+            <entry key="value" type="xint" value="36"/>
         </config>
         <config key="Variable_10">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="column-selection"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Sum(SumOrder)"/>
+            <entry key="value" type="xstring" value="Mean(Profit)"/>
         </config>
         <config key="Variable_11">
             <entry key="type" type="xstring" value="variable"/>

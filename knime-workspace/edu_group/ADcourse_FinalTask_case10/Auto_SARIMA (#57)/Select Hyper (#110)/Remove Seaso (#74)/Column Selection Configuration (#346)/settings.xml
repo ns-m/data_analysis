@@ -6,13 +6,13 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="value"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Sum(SumOrder)"/>
+            <entry key="value" type="xstring" value="Mean(Profit)"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="value"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Sum(SumOrder)"/>
+            <entry key="value" type="xstring" value="Mean(Profit)"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -124,6 +124,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="866227ae-05b6-47e8-a461-f396b36b8e3e"/>
+        <entry key="file_store_id" type="xstring" value="45d0e20e-3f71-4801-8bd0-6ad359f3ba4b"/>
     </config>
 </config>

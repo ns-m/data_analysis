@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
     <entry key="node_file" type="xstring" value="settings.xml"/>
-    <config key="flow_stack">
-        <config key="Variable_0">
-            <entry key="type" type="xstring" value="variable"/>
-            <entry key="name" type="xstring" value="FailingNode"/>
-            <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Python Predictor (legacy)"/>
-        </config>
-        <config key="Variable_1">
-            <entry key="type" type="xstring" value="variable"/>
-            <entry key="name" type="xstring" value="FailingNodeMessage"/>
-            <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="In-sample dynamic prediction is not available if memory conservation has been used to avoid storing forecasted or predicted state means or covariances.%%00010Traceback (most recent call last):%%00010  File &quot;&lt;string&gt;&quot;, line 13, in &lt;module&gt;%%00010  File &quot;C:\Users\nsm\anaconda3\envs\SARIM\lib\site-packages\statsmodels\base\wrapper.py&quot;, line 115, in wrapper%%00010    obj = data.wrap_output(func(results, *args, **kwargs), how)%%00010  File &quot;C:\Users\nsm\anaconda3\envs\SARIM\lib\site-packages\statsmodels\tsa\statespace\mlemodel.py&quot;, line 3311, in predict%%00010    prediction_results = self.get_prediction(start, end, dynamic, **kwargs)%%00010  File &quot;C:\Users\nsm\anaconda3\envs\SARIM\lib\site-packages\statsmodels\tsa\statespace\mlemodel.py&quot;, line 3243, in get_prediction%%00010    start, end + out_of_sample + 1, dynamic, **kwargs)%%00010  File &quot;C:\Users\nsm\anaconda3\envs\SARIM\lib\site-packages\statsmodels\tsa\statespace\kalman_filter.py&quot;, line 2040, in predict%%00010    raise ValueError('In-sample dynamic prediction is not available if'%%00010ValueError: In-sample dynamic prediction is not available if memory conservation has been used to avoid storing forecasted or predicted state means or covariances.%%00010"/>
-        </config>
-        <config key="Variable_2">
-            <entry key="type" type="xstring" value="variable"/>
-            <entry key="name" type="xstring" value="FailingNodeStackTrace"/>
-            <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="org.knime.python2.kernel.PythonIOException: In-sample dynamic prediction is not available if memory conservation has been used to avoid storing forecasted or predicted state means or covariances.%%00010Traceback (most recent call last):%%00010  File &quot;&lt;string&gt;&quot;, line 13, in &lt;module&gt;%%00010  File &quot;C:\Users\nsm\anaconda3\envs\SARIM\lib\site-packages\statsmodels\base\wrapper.py&quot;, line 115, in wrapper%%00010    obj = data.wrap_output(func(results, *args, **kwargs), how)%%00010  File &quot;C:\Users\nsm\anaconda3\envs\SARIM\lib\site-packages\statsmodels\tsa\statespace\mlemodel.py&quot;, line 3311, in predict%%00010    prediction_results = self.get_prediction(start, end, dynamic, **kwargs)%%00010  File &quot;C:\Users\nsm\anaconda3\envs\SARIM\lib\site-packages\statsmodels\tsa\statespace\mlemodel.py&quot;, line 3243, in get_prediction%%00010    start, end + out_of_sample + 1, dynamic, **kwargs)%%00010  File &quot;C:\Users\nsm\anaconda3\envs\SARIM\lib\site-packages\statsmodels\tsa\statespace\kalman_filter.py&quot;, line 2040, in predict%%00010    raise ValueError('In-sample dynamic prediction is not available if'%%00010ValueError: In-sample dynamic prediction is not available if memory conservation has been used to avoid storing forecasted or predicted state means or covariances.%%00010%%00013%%00010%%00009at org.knime.python2.kernel.Python2KernelBackend.executeCommand(Python2KernelBackend.java:1282)%%00013%%00010%%00009at org.knime.python2.kernel.Python2KernelBackend.execute(Python2KernelBackend.java:1238)%%00013%%00010%%00009at org.knime.python2.kernel.Python2KernelBackend.lambda$10(Python2KernelBackend.java:1244)%%00013%%00010%%00009at java.base/java.util.concurrent.FutureTask.run(Unknown Source)%%00013%%00010%%00009at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)%%00013%%00010%%00009at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)%%00013%%00010%%00009at java.base/java.lang.Thread.run(Unknown Source)%%00013%%00010Caused by: Traceback (most recent call last):%%00010  File &quot;F:\KNIME\plugins\org.knime.python2_4.7.1.v202301311311\py\messaging\RequestHandlers.py&quot;, line 96, in _handle_custom_message%%00010    response = self._respond(message, response_message_id, workspace)%%00010  File &quot;F:\KNIME\plugins\org.knime.python2_4.7.1.v202301311311\py\messaging\RequestHandlers.py&quot;, line 379, in _respond%%00010    output, error = workspace.execute(source_code, request.id)%%00010  File &quot;F:\KNIME\plugins\org.knime.python2_4.7.1.v202301311311\py\PythonKernelBase.py&quot;, line 328, in execute%%00010    exec(source_code, self._exec_env, self._exec_env)%%00010  File &quot;&lt;string&gt;&quot;, line 13, in &lt;module&gt;%%00010  File &quot;C:\Users\nsm\anaconda3\envs\SARIM\lib\site-packages\statsmodels\base\wrapper.py&quot;, line 115, in wrapper%%00010    obj = data.wrap_output(func(results, *args, **kwargs), how)%%00010  File &quot;C:\Users\nsm\anaconda3\envs\SARIM\lib\site-packages\statsmodels\tsa\statespace\mlemodel.py&quot;, line 3311, in predict%%00010    prediction_results = self.get_prediction(start, end, dynamic, **kwargs)%%00010  File &quot;C:\Users\nsm\anaconda3\envs\SARIM\lib\site-packages\statsmodels\tsa\statespace\mlemodel.py&quot;, line 3243, in get_prediction%%00010    start, end + out_of_sample + 1, dynamic, **kwargs)%%00010  File &quot;C:\Users\nsm\anaconda3\envs\SARIM\lib\site-packages\statsmodels\tsa\statespace\kalman_filter.py&quot;, line 2040, in predict%%00010    raise ValueError('In-sample dynamic prediction is not available if'%%00010ValueError: In-sample dynamic prediction is not available if memory conservation has been used to avoid storing forecasted or predicted state means or covariances.%%00010%%00013%%00010"/>
-        </config>
-    </config>
+    <config key="flow_stack"/>
     <config key="internal_node_subsettings">
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
@@ -86,7 +67,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 0"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 35, Cols: 1"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
@@ -101,6 +82,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="06b56d0e-07fe-46f2-9ebf-21422761c98f"/>
+        <entry key="file_store_id" type="xstring" value="d14dee80-2246-4ebd-b1f1-5b4205b60cd0"/>
     </config>
 </config>

@@ -4,12 +4,6 @@
     <config key="flow_stack">
         <config key="Variable_0">
             <entry key="type" type="xstring" value="variable"/>
-            <entry key="name" type="xstring" value="Min"/>
-            <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="0"/>
-        </config>
-        <config key="Variable_1">
-            <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Median"/>
             <entry key="class" type="xstring" value="INTEGER"/>
             <entry key="value" type="xint" value="0"/>
@@ -82,6 +76,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" value="filestore"/>
-        <entry key="file_store_id" type="xstring" value="9baa0164-fe72-4d2b-bfbd-7180551f38cf"/>
+        <entry key="file_store_id" type="xstring" value="3d152e16-cb10-4e07-ad0a-c0aad903b158"/>
     </config>
 </config>

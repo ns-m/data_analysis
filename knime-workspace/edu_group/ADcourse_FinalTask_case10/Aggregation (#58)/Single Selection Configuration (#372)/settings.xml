@@ -6,25 +6,25 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="aggregation (index)"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="4"/>
+            <entry key="value" type="xint" value="0"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="aggregation"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Sum"/>
+            <entry key="value" type="xstring" value="Mean"/>
         </config>
         <config key="Variable_2">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="aggregation (index)"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="4"/>
+            <entry key="value" type="xint" value="0"/>
         </config>
         <config key="Variable_3">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="aggregation"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Sum"/>
+            <entry key="value" type="xstring" value="Mean"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -100,6 +100,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="dbc831ea-d7b2-46ae-b890-1c65dc7ca2ea"/>
+        <entry key="file_store_id" type="xstring" value="8d6c4b37-0624-4336-82ba-1570a4fd4992"/>
     </config>
 </config>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
     <entry key="spec_name" type="xstring" value="default"/>
-    <entry key="number_columns" type="xint" value="21"/>
+    <entry key="number_columns" type="xint" value="25"/>
     <config key="column_spec_0">
         <entry key="column_name" type="xstring" value="OrderNumber"/>
         <config key="element_names">
@@ -568,6 +568,59 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_10">
+        <entry key="column_name" type="xstring" value="KitType"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="2"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="RTF"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="KIT"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_11">
+        <entry key="column_name" type="xstring" value="Channels"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="3"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="6"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_12">
         <entry key="column_name" type="xstring" value="Demographic"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -613,7 +666,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_11">
+    <config key="column_spec_13">
         <entry key="column_name" type="xstring" value="RetailPrice"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -638,7 +691,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_12">
+    <config key="column_spec_14">
         <entry key="column_name" type="xstring" value="StateName"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -960,7 +1013,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_13">
+    <config key="column_spec_15">
         <entry key="column_name" type="xstring" value="RegionName"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1012,7 +1065,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_14">
+    <config key="column_spec_16">
         <entry key="column_name" type="xstring" value="UsedPromoCode"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1037,7 +1090,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_15">
+    <config key="column_spec_17">
         <entry key="column_name" type="xstring" value="Year"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1062,7 +1115,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_16">
+    <config key="column_spec_18">
         <entry key="column_name" type="xstring" value="SumOrder"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1087,7 +1140,57 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_17">
+    <config key="column_spec_19">
+        <entry key="column_name" type="xstring" value="Profit"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="-173.9"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="361.7999999999999"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_20">
+        <entry key="column_name" type="xstring" value="Marginality"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="-58.32973859028557"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="21.400472069236816"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_21">
         <entry key="column_name" type="xstring" value="ABC_Class_2017"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1121,7 +1224,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_18">
+    <config key="column_spec_22">
         <entry key="column_name" type="xstring" value="ABC_Class_2018"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1155,7 +1258,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_19">
+    <config key="column_spec_23">
         <entry key="column_name" type="xstring" value="ABC_Class_2019"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1189,7 +1292,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_20">
+    <config key="column_spec_24">
         <entry key="column_name" type="xstring" value="XYZ"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>

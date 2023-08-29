@@ -18,7 +18,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Number Rows"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1095"/>
+            <entry key="value" type="xint" value="36"/>
         </config>
         <config key="Variable_3">
             <entry key="type" type="xstring" value="variable"/>
@@ -72,6 +72,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="d1930128-87e8-47b5-98fa-29b42406aae7"/>
+        <entry key="file_store_id" type="xstring" value="5f730dc5-c775-40bb-bbdf-c3d698c2eed4"/>
     </config>
 </config>

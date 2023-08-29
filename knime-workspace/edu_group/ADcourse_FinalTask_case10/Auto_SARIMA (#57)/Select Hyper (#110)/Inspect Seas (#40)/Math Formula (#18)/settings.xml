@@ -27,10 +27,6 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
-    <config key="nodecontainer_message">
-        <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="Node created an empty data table."/>
-    </config>
     <entry key="factory" type="xstring" value="org.knime.ext.jep.JEPNodeFactory"/>
     <entry key="node-name" type="xstring" value="Math Formula"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Math Expression Node"/>
@@ -50,12 +46,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 0, Cols: 5"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 5, Cols: 5"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="9282764f-e7c0-4c87-b79f-3e35ff9adddf"/>
+        <entry key="file_store_id" type="xstring" value="73611632-ab60-451a-ba14-b51e14c21ce4"/>
     </config>
 </config>

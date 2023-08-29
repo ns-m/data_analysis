@@ -6,25 +6,25 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="integer-input"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="90"/>
+            <entry key="value" type="xint" value="12"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="sD_value"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1"/>
+            <entry key="value" type="xint" value="0"/>
         </config>
         <config key="Variable_2">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="s_value"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="2"/>
+            <entry key="value" type="xint" value="0"/>
         </config>
         <config key="Variable_3">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="mlag"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1094"/>
+            <entry key="value" type="xint" value="35"/>
         </config>
         <config key="Variable_4">
             <entry key="type" type="xstring" value="variable"/>
@@ -42,19 +42,19 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Correlation"/>
             <entry key="class" type="xstring" value="DOUBLE"/>
-            <entry key="value" type="xdouble" value="0.638"/>
+            <entry key="value" type="xdouble" value="0.0"/>
         </config>
         <config key="Variable_7">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Lag Value"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="2"/>
+            <entry key="value" type="xint" value="0"/>
         </config>
         <config key="Variable_8">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="column-selection"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Sum(SumOrder)"/>
+            <entry key="value" type="xstring" value="Mean(Profit)"/>
         </config>
         <config key="Variable_9">
             <entry key="type" type="xstring" value="variable"/>
@@ -72,19 +72,19 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="s-1"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1"/>
+            <entry key="value" type="xint" value="35"/>
         </config>
         <config key="Variable_12">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="s-max"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1"/>
+            <entry key="value" type="xint" value="34"/>
         </config>
         <config key="Variable_13">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="sQ_value"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1"/>
+            <entry key="value" type="xint" value="0"/>
         </config>
         <config key="Variable_14">
             <entry key="type" type="xstring" value="variable"/>
@@ -102,25 +102,25 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="integer-input"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="90"/>
+            <entry key="value" type="xint" value="12"/>
         </config>
         <config key="Variable_17">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="sD_value"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1"/>
+            <entry key="value" type="xint" value="0"/>
         </config>
         <config key="Variable_18">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="s_value"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="2"/>
+            <entry key="value" type="xint" value="0"/>
         </config>
         <config key="Variable_19">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="mlag"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1094"/>
+            <entry key="value" type="xint" value="35"/>
         </config>
         <config key="Variable_20">
             <entry key="type" type="xstring" value="variable"/>
@@ -138,19 +138,19 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Correlation"/>
             <entry key="class" type="xstring" value="DOUBLE"/>
-            <entry key="value" type="xdouble" value="0.638"/>
+            <entry key="value" type="xdouble" value="0.0"/>
         </config>
         <config key="Variable_23">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Lag Value"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="2"/>
+            <entry key="value" type="xint" value="0"/>
         </config>
         <config key="Variable_24">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="column-selection"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Sum(SumOrder)"/>
+            <entry key="value" type="xstring" value="Mean(Profit)"/>
         </config>
         <config key="Variable_25">
             <entry key="type" type="xstring" value="variable"/>
@@ -168,19 +168,19 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="s-1"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1"/>
+            <entry key="value" type="xint" value="35"/>
         </config>
         <config key="Variable_28">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="s-max"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1"/>
+            <entry key="value" type="xint" value="34"/>
         </config>
         <config key="Variable_29">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="sQ_value"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1"/>
+            <entry key="value" type="xint" value="0"/>
         </config>
         <config key="Variable_30">
             <entry key="type" type="xstring" value="variable"/>
@@ -298,6 +298,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="bf0091e6-7c14-4e67-aea1-277354cd4c3e"/>
+        <entry key="file_store_id" type="xstring" value="75817764-5fba-46a9-8e9f-d860d3a6850c"/>
     </config>
 </config>

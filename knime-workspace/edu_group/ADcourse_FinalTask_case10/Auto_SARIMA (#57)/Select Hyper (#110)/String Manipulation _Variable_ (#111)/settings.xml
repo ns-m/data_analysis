@@ -6,7 +6,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="old-column"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Sum(SumOrder) (removed seasonality)"/>
+            <entry key="value" type="xstring" value="Mean(Profit) (removed seasonality)"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -63,6 +63,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="92c998d2-966c-46b8-a936-db65545d1f11"/>
+        <entry key="file_store_id" type="xstring" value="39d11992-06c3-428a-98ae-48f03e2b7b71"/>
     </config>
 </config>

@@ -1,0 +1,2 @@
+[WARN]<string>:2: FutureWarning: The pandas.datetime class is deprecated and will be removed from pandas in a future version. Import from datetime module instead.
+[WARN]<string>:6: DeprecationWarning: The module knime_io is deprecated, please use 'import knime.scripting.io' instead

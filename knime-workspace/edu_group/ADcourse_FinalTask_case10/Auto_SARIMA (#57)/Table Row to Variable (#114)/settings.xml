@@ -40,7 +40,7 @@
             <entry key="class" type="xstring" value="STRINGARRAY"/>
             <config key="value">
                 <entry key="array-size" type="xint" value="2"/>
-                <entry key="0" type="xstring" value="Sum(SumOrder)"/>
+                <entry key="0" type="xstring" value="Mean(Profit)"/>
                 <entry key="1" type="xstring" value="Forecast"/>
             </config>
         </config>
@@ -54,7 +54,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="column-selection"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Sum(SumOrder)"/>
+            <entry key="value" type="xstring" value="Mean(Profit)"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -158,6 +158,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="8a4a7e5e-4336-471e-b2fb-811ce0ca04da"/>
+        <entry key="file_store_id" type="xstring" value="8ca025db-cfbe-4bac-941c-aa38b14cd66b"/>
     </config>
 </config>

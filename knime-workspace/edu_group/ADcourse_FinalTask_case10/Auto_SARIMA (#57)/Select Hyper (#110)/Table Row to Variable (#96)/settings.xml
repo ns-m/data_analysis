@@ -24,7 +24,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="sQ_value"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1"/>
+            <entry key="value" type="xint" value="0"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -128,6 +128,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="67030dd5-9b13-4eb6-bf42-ac17b45dc2c7"/>
+        <entry key="file_store_id" type="xstring" value="93fb8b67-5ac0-411f-ac4f-37b504305418"/>
     </config>
 </config>

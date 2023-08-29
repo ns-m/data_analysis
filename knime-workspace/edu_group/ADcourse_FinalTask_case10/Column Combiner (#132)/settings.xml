@@ -37,9 +37,9 @@
             </config>
         </config>
         <entry key="delimiter" type="xstring" value=""/>
-        <entry key="new_column_name" type="xstring" value="RFM"/>
         <entry key="is_quoting" type="xboolean" value="false"/>
         <entry key="replace_delimiter" type="xstring" value=""/>
+        <entry key="new_column_name" type="xstring" value="RFM"/>
         <entry key="remove_included_columns" type="xboolean" value="true"/>
     </config>
     <config key="nodeAnnotation">
@@ -92,6 +92,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="80f07829-4032-4e28-93ff-d618dbf73d17"/>
+        <entry key="file_store_id" type="xstring" value="bb6e9127-d8b3-4f7a-8ebf-f872e0fddb9c"/>
     </config>
 </config>

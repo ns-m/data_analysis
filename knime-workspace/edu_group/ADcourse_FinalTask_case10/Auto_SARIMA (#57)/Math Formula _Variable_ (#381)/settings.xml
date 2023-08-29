@@ -6,13 +6,13 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="SARIMA-Predictor"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="91"/>
+            <entry key="value" type="xint" value="13"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="SARIMA-Predictor"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="91"/>
+            <entry key="value" type="xint" value="13"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -67,6 +67,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="0f297d1c-73b8-4b83-bcf6-6771b4c24c3d"/>
+        <entry key="file_store_id" type="xstring" value="62f051c7-76bd-481b-b2ec-62b33c44a2b1"/>
     </config>
 </config>

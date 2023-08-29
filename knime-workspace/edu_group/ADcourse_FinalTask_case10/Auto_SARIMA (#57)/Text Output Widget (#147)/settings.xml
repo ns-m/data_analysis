@@ -41,11 +41,11 @@
     <entry key="node-feature-version" type="xstring" value="4.7.4.v202306091222"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Text Output Widget"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
-    <entry key="isInactive" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="true"/>
     <config key="ports"/>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="c406c6e7-452d-4b94-a8f4-69a7b35d9d9b"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>

@@ -6,7 +6,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="title"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Sum(SumOrder) Forecast"/>
+            <entry key="value" type="xstring" value="Mean(Profit) Forecast"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -63,6 +63,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="07b844f7-f066-4ce6-8d8f-d5974adec4b5"/>
+        <entry key="file_store_id" type="xstring" value="aa9d7151-8c0e-4dec-ae55-dc8c2e44952a"/>
     </config>
 </config>

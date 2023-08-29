@@ -1,0 +1,5 @@
+[WARN]<string>:1: DeprecationWarning: The module knime_io is deprecated, please use 'import knime.scripting.io' instead
+[WARN]F:\KNIME\plugins\org.knime.pythonscripting.channel.v1.bin.win32.x86_64_4.7.1.v202301201518\env\lib\site-packages\numpy\lib\function_base.py:2846: RuntimeWarning: Degrees of freedom <= 0 for slice
+  c = cov(x, y, rowvar, dtype=dtype)
+[WARN]F:\KNIME\plugins\org.knime.pythonscripting.channel.v1.bin.win32.x86_64_4.7.1.v202301201518\env\lib\site-packages\numpy\lib\function_base.py:2705: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)

@@ -6,13 +6,13 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="periods"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="91"/>
+            <entry key="value" type="xint" value="13"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="periods"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="91"/>
+            <entry key="value" type="xint" value="13"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -76,6 +76,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="1025d481-0e85-4696-8279-c7a9418b0fa5"/>
+        <entry key="file_store_id" type="xstring" value="b414359b-858e-4046-8db0-5eb2c071f644"/>
     </config>
 </config>

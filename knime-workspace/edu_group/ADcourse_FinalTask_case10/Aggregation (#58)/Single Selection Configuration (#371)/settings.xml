@@ -6,25 +6,25 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Granularity (index)"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="4"/>
+            <entry key="value" type="xint" value="2"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Granularity"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Day"/>
+            <entry key="value" type="xstring" value="Month"/>
         </config>
         <config key="Variable_2">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Granularity (index)"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="4"/>
+            <entry key="value" type="xint" value="2"/>
         </config>
         <config key="Variable_3">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Granularity"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Day"/>
+            <entry key="value" type="xstring" value="Month"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -101,6 +101,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="40c02752-563c-4c7a-aa13-7e7ef7f60894"/>
+        <entry key="file_store_id" type="xstring" value="79089404-0227-41aa-bf5e-36fcf9fab78e"/>
     </config>
 </config>

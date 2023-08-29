@@ -24,7 +24,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Dimensions"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="11"/>
+            <entry key="value" type="xint" value="0"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -95,6 +95,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="bbb68b64-16b0-4799-ab23-dd21bf503ca0"/>
+        <entry key="file_store_id" type="xstring" value="9b5e2c28-dacf-4838-8747-00c3766d666c"/>
     </config>
 </config>

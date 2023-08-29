@@ -36,7 +36,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="RowID"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Row3"/>
+            <entry key="value" type="xstring" value="Row4"/>
         </config>
         <config key="Variable_6">
             <entry key="type" type="xstring" value="variable"/>
@@ -54,13 +54,13 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Query"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="join(string($Year$), &quot;-&quot;, string($Month (number)$), &quot;-&quot;, string($Day of month$))"/>
+            <entry key="value" type="xstring" value="join(string($Year$), &quot;-&quot;, string($Month (number)$), &quot;-01&quot;)"/>
         </config>
         <config key="Variable_9">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Granularity"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Day"/>
+            <entry key="value" type="xstring" value="Month"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -141,6 +141,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="78d50509-8a9d-48b7-9921-14ed599e8fcd"/>
+        <entry key="file_store_id" type="xstring" value="9d39654c-ff90-427b-9847-8826f22f374b"/>
     </config>
 </config>

@@ -6,7 +6,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="s-max"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1"/>
+            <entry key="value" type="xint" value="34"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -70,6 +70,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="22452e7d-216a-41ba-b441-4da64d917f82"/>
+        <entry key="file_store_id" type="xstring" value="6231df11-ffe6-44db-b8b9-be2e19b5bd46"/>
     </config>
 </config>

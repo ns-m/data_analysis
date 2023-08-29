@@ -24,7 +24,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="RowID"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Row3"/>
+            <entry key="value" type="xstring" value="Row6"/>
         </config>
         <config key="Variable_4">
             <entry key="type" type="xstring" value="variable"/>
@@ -36,7 +36,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Aggregation"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Sum"/>
+            <entry key="value" type="xstring" value="Mean"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -117,6 +117,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="32fc15b1-4449-4ab4-b51e-ca745ad53417"/>
+        <entry key="file_store_id" type="xstring" value="8d18e3f7-a1b5-4255-9d5c-ac56d9a9b907"/>
     </config>
 </config>

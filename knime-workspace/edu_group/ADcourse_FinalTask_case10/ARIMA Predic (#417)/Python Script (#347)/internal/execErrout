@@ -1,0 +1,5 @@
+[WARN]<string>:1: DeprecationWarning: The module knime_io is deprecated, please use 'import knime.scripting.io' instead
+[WARN]F:\KNIME\plugins\org.knime.pythonscripting.channel.v1.bin.win32.x86_64_4.7.1.v202301201518\env\lib\site-packages\statsmodels\tsa\base\tsa_model.py:834: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+[WARN]F:\KNIME\plugins\org.knime.pythonscripting.channel.v1.bin.win32.x86_64_4.7.1.v202301201518\env\lib\site-packages\statsmodels\tsa\base\tsa_model.py:834: DeprecationWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(

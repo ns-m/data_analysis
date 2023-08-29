@@ -152,7 +152,7 @@
     <entry key="state" type="xstring" value="EXECUTED"/>
     <config key="nodecontainer_message">
         <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="Only the first 10 rows are displayed."/>
+        <entry key="message" type="xstring" value="Node created an empty data table."/>
     </config>
     <entry key="factory" type="xstring" value="org.knime.js.base.node.viz.tileView.TileViewNodeFactory"/>
     <entry key="node-name" type="xstring" value="Tile View"/>
@@ -173,7 +173,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 12, Cols: 6"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 0, Cols: 6"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
@@ -189,6 +189,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="45aa5d5b-22a1-4800-9393-f0f24a5cfe77"/>
+        <entry key="file_store_id" type="xstring" value="2d4339d2-94fc-4bb3-a7e2-718a05bf5f32"/>
     </config>
 </config>

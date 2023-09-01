@@ -1,0 +1,9 @@
+EDA с библиотекой Python pandas-profiling
+EDA с библиотекой Python dataprep
+
+
+
+predictor = TabularPredictor.load("AutogluonModels/ag-20230829_055705/")
+
+new
+predictor = TabularPredictor.load("AutogluonModels/ag-20230829_160851/")

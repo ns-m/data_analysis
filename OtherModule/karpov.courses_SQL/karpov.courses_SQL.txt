@@ -1,1 +1,8 @@
 https://youtu.be/cK7K0g1rXKw
+
+/*select * from courier_actions limit 10*/
+/*select action, courier_id, order_id, time from courier_actions limit 12*/
+/*select * from user_actions limit 10*/
+/*select user_id, action, order_id, time from user_actions order by user_id desc limit 10*/
+/*select user_id, birth_date, sex from users order by birth_date desc limit 5*/
+select product_id, name, price from products order by price desc limit 10

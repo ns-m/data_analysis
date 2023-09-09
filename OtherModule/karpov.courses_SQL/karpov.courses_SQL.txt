@@ -1,11 +1,18 @@
-https://youtu.be/cK7K0g1rXKw
-
 /*select * from courier_actions limit 10*/
 /*select action, courier_id, order_id, time from courier_actions limit 12*/
 /*select * from user_actions limit 10*/
 /*select user_id, action, order_id, time from user_actions order by user_id desc limit 10*/
 /*select user_id, birth_date, sex from users order by birth_date desc limit 5*/
-select product_id, name, price from products order by price desc limit 10
+--select product_id, name, price from products order by price desc limit 10
+--SELECT name, price, product_id FROM products
+--SELECT product_id, name, price FROM products ORDER BY name
+--SELECT courier_id, order_id, action, time FROM courier_actions ORDER BY courier_id, action, time DESC LIMIT 1000
+--SELECT name, price FROM products ORDER BY price DESC LIMIT 5
+--SELECT name product_name, price product_price FROM products ORDER BY price DESC LIMIT 5
+--SELECT name, LENGTH(name) name_length, price FROM products ORDER BY name_length DESC LIMIT 1
+--SELECT name, UPPER(SPLIT_PART(name, ' ', 1)) AS first_word, price FROM products ORDER BY name
+--SELECT CAST('100' AS INTEGER);
+--SELECT '2022-12-31'::DATE
 
 Правильный порядок операторов в запросе выглядит так:
 

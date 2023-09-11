@@ -13,6 +13,23 @@
 --SELECT name, UPPER(SPLIT_PART(name, ' ', 1)) AS first_word, price FROM products ORDER BY name
 --SELECT CAST('100' AS INTEGER);
 --SELECT '2022-12-31'::DATE
+--SELECT name, price, price::VARCHAR price_char FROM products ORDER BY name
+--SELECT CONCAT('Заказ № ', order_id, ' создан ', DATE(creation_time)) AS order_info FROM orders LIMIT 200
+--SELECT DATE_PART('year', DATE '2022-01-12');
+/*SELECT DATE_PART('month', DATE '2022-01-12');
+SELECT DATE_PART('day', DATE '2022-01-12');
+SELECT DATE_PART('hour', TIMESTAMP '2022-01-12 20:31:05');
+SELECT DATE_PART('minute', TIMESTAMP '2022-01-12 20:31:05');*/
+--SELECT courier_id, DATE_PART('year', birth_date) AS birth_year FROM couriers ORDER BY birth_year DESC,  courier_id
+--SELECT courier_id, COALESCE(DATE_PART('year', birth_date)::VARCHAR, 'unknown') AS birth_year FROM couriers ORDER BY birth_year DESC,  courier_id
+--SELECT product_id, name, price AS old_price, price*1.05 AS new_price FROM products ORDER BY new_price DESC, product_id
+--SELECT product_id, name, price AS old_price, round(price*1.05, 1) AS new_price FROM products ORDER BY new_price DESC, product_id
+/*SELECT product_id, name, price AS old_price,
+    CASE
+    when price > 100 and name != 'икра' then price*1.05
+    ELSE price
+    END AS new_price 
+FROM products ORDER BY new_price DESC, product_id*/
 
 Правильный порядок операторов в запросе выглядит так:
 
@@ -37,3 +54,91 @@ LIMIT -- ограничение количества выводимых запи
     Затем SELECT — отбираются указанные столбцы.
     Потом ORDER BY — производится сортировка результирующей таблицы.
     И в самом конце LIMIT — ограничивается количество выводимых записей.
+
+На вход функции CAST необходимо подать имя колонки, указав через AS тип данных, к которому нужно привести все значения:
+SELECT CAST(column AS VARCHAR)
+FROM table
+Также изменить тип данных можно с помощью специального синтаксиса с двумя двоеточиями («::»):
+SELECT column::VARCHAR
+FROM table
+
+Функция CONCAT принимает на вход несколько аргументов и возвращает результат их последовательного сложения друг с другом. Хорошая аналогия — составление предложений из разных карточек со словами:
+SELECT CONCAT('SQL', ' ', 'Simulator ', 2022)
+
+Результат:
+SQL Simulator 2022
+
+На практике часто встречаются задачи, когда нужна, например, не вся дата, а какая-то её часть: год, месяц, день, час и т.д. Извлечь эту часть из исходных данных позволяет функция DATE_PART. Её синтаксис следующий:
+SELECT DATE_PART(part, column)
+На месте part необходимо в кавычках указать ту часть, которую нужно извлечь: 'year', 'month', 'day', 'hour' и т.д. На месте column следует указать нужную колонку либо конкретную дату или время.
+
+Работу COALESCE можно описать следующим образом: она буквально читает список значений слева направо и, как только видит значение, которое не является NULL, сразу же возвращает его и прекращает чтение списка. Посмотрите внимательно на следующие примеры:
+SELECT COALESCE(NULL, 'I am not NULL' , 'karpov.courses')
+Результат:
+I am not NULL
+
+SELECT COALESCE(NULL, 25, 100, 150)
+Результат:
+25
+
+SELECT COALESCE('NULL', 'I am not NULL', 'karpov.courses')
+Результат:
+NULL
+
+Одним из аргументов функции COALESCE может выступать результат выполнения другой функции:
+SELECT COALESCE(NULL, LOWER('I am not NULL'), 'karpov.courses')
+
+Результат:
+i am not null
+
+Чтобы заполнить пропуски в колонке, достаточно применить функцию COALESCE к колонке с пропусками и указать в качестве второго аргумента то значение, которое мы хотим видеть вместо NULL:
+SELECT COALESCE(column, 'filler value')
+FROM table
+
+Функция COALESCE применится к каждому значению в колонке. Если это значение окажется NULL, она заменит его на значение, указанное вторым аргументом. Если значение в колонке, наоборот, окажется не NULL, то функция просто вернёт это значение.
+При этом к колонке с пропусками можно также заранее применять разные другие функции:
+SELECT COALESCE(LEFT(column, 5), 'filler value')
+FROM table
+
+Наряду с арифметическими операторами в PostgreSQL также доступны разные математические функции. Например, для округления вещественных чисел («чисел с плавающей точкой») можно использовать ROUND:
+SELECT ROUND(100.5454, 2)
+Результат:
+100.55
+
+SELECT ROUND(100.551, 1)
+Результат:
+100.6
+
+SELECT ROUND(100.5511)
+Результат:
+101.0
+
+Следующая конструкция разобъёт весь список наименований на три категории: «мясо», «рыба» и «другое». Соответственно, если в первых двух условиях мы не учтём какие-то наименования из колонки name (например, «телятину»), то они попадут в категорию «другое».
+SELECT name,
+       CASE 
+       WHEN name='свинина' OR name='баранина' OR name='курица' THEN 'мясо'
+       WHEN name='треска' OR name='форель' OR name='окунь' THEN 'рыба'
+       ELSE 'другое'
+       END AS сategory
+FROM table
+
+Результатом этих логических операций также могут быть три вышеуказанных логических состояния (TRUE, FALSE или NULL):
+a	b	a AND b	a OR b
+TRUE	TRUE	TRUE	TRUE
+TRUE	FALSE	FALSE	TRUE
+TRUE	NULL	NULL	TRUE
+FALSE	FALSE	FALSE	FALSE
+FALSE	NULL	FALSE	NULL
+NULL	NULL	NULL	NULL
+a	NOT a
+TRUE	FALSE
+FALSE	TRUE
+NULL	NULL
+
+существуют приоритеты выполнения операций:
+1. умножение и деление (* и /)
+2. сложение и вычитание (+ и -)
+3. операторы сравнения (=, !=, >, <, >=, <=)
+4. NOT
+5. AND
+6. OR

@@ -30,6 +30,17 @@ SELECT DATE_PART('minute', TIMESTAMP '2022-01-12 20:31:05');*/
     ELSE price
     END AS new_price 
 FROM products ORDER BY new_price DESC, product_id*/
+SELECT
+  product_id,
+  name,
+  price,
+  round((price / 120 * 20), 2) as tax,
+  round(price - (price / 120 * 20), 2) as price_before_tax
+FROM
+  products
+ORDER BY
+  price_before_tax DESC,
+  product_id
 
 Правильный порядок операторов в запросе выглядит так:
 

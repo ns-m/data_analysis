@@ -1,6 +1,9 @@
 /*select * from courier_actions limit 10*/
 /*select action, courier_id, order_id, time from courier_actions limit 12*/
 /*select * from user_actions limit 10*/
+/*select * from courier_actions limit 10*/
+/*select action, courier_id, order_id, time from courier_actions limit 12*/
+/*select * from user_actions limit 10*/
 /*select user_id, action, order_id, time from user_actions order by user_id desc limit 10*/
 /*select user_id, birth_date, sex from users order by birth_date desc limit 5*/
 --select product_id, name, price from products order by price desc limit 10
@@ -30,7 +33,7 @@ SELECT DATE_PART('minute', TIMESTAMP '2022-01-12 20:31:05');*/
     ELSE price
     END AS new_price 
 FROM products ORDER BY new_price DESC, product_id*/
-SELECT
+/*SELECT
   product_id,
   name,
   price,
@@ -40,7 +43,12 @@ FROM
   products
 ORDER BY
   price_before_tax DESC,
-  product_id
+  product_id*/
+--SELECT product_id, name, price FROM products WHERE price <= 100 ORDER BY product_id
+--SELECT user_id FROM users WHERE sex = 'female' ORDER BY user_id LIMIT 1000
+SELECT user_id, order_id, time FROM user_actions WHERE time > '2022-09-06' AND action = 'create_order' ORDER BY order_id
+
+
 
 Правильный порядок операторов в запросе выглядит так:
 

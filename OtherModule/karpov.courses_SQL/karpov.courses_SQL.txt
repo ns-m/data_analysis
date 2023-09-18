@@ -226,3 +226,71 @@ WHERE LOWER(column_1) = 'karpov.courses'
 SELECT column_1 AS new_column_1, column_2
 FROM table 
 WHERE LOWER(new_column_1) = 'karpov.courses'
+
+ Для фильтрации по колонкам с текстовыми значениями в SQL предусмотрен оператор LIKE.
+
+Оператор LIKE не просто сравнивает строки на полное совпадение (или несовпадение), а проверяет их на соответствие заданному шаблону: если строка ему соответствует, то возвращается TRUE, в противном случае — FALSE. Как можно догадаться, конструкция NOT LIKE работает с точностью до наоборот.
+
+Шаблоны могут содержать как обычные символы, так и символы-шаблоны: знак процента ( % ) и подчёркивание ( _ ). Подчёркивание подменяет любой одиночный символ, а знак процента — любую (в том числе и пустую) последовательность символов:
+SELECT 'karpov.courses' LIKE 'karpov%'
+Результат:
+true
+
+SELECT 'karpov.courses' LIKE 'karpov_'
+Результат:
+false
+
+SELECT 'karpov.courses' LIKE '%karpov%'
+Результат:
+true
+
+SELECT 'karpov.courses' LIKE '_karpov%'
+Результат:
+false
+
+SELECT 'karpov.courses' LIKE '%.%'
+Результат:
+true
+
+SELECT 'karpov.courses' LIKE '_._'
+Результат:
+false
+
+SELECT 'karpov.courses' LIKE 'Karpov%'
+Результат:
+false
+
+Оператор IN проверяет, соответствует ли значение в колонке одному из значений из заданного списка. Иными словами, он проверяет, входит ли значение в этот список:
+SELECT column_1, column_2
+FROM table
+WHERE column_1 IN ('product_1', 'product_2', 'product_3')
+
+В свою очередь оператор BETWEEN позволяет отобрать данные, относящиеся к некоторому интервалу. При этом границы интервала включаются:
+SELECT column_1, column_2
+FROM table
+WHERE column_2 BETWEEN 5 AND 10
+
+Оператор BETWEEN можно использовать и для фильтрации по колонкам с датами и временем
+SELECT column_1, column_2, column_3
+FROM table
+WHERE column_3 BETWEEN '2022-11-20' AND '2022-12-31'
+
+Для получения обратного результата в сочетании с операторами IN и BETWEEN можно использовать оператор NOT:
+SELECT column_1, column_2
+FROM table
+WHERE column_1 NOT IN ('product_1', 'product_2', 'product_3')
+
+
+SELECT column_1, column_2
+FROM table
+WHERE column_2 NOT BETWEEN 5 AND 10
+
+Для проверки на NULL значения в SQL есть оператор IS NULL. В сочетании с WHERE записывается он так:
+SELECT column_1, column_2
+FROM table
+WHERE column_1 IS NULL
+
+Если же, наоборот, необходимо отобрать не NULL значения, то дополнительно используется оператор NOT:
+SELECT column_1, column_2
+FROM table
+WHERE column_1 IS NOT NULL

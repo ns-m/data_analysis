@@ -111,7 +111,7 @@ FROM   users
 WHERE  sex = 'male'
    and birth_date is not null
 ORDER BY birth_date desc limit 50*/
-SELECT
+/*SELECT
   order_id,
   time
 FROM
@@ -122,7 +122,172 @@ WHERE
 ORDER BY
   time DESC
 LIMIT
-  10 
+  10*/
+/*SELECT 
+  order_id
+FROM 
+  user_actions
+WHERE
+  DATE_PART('month', time) = 08
+  AND action = 'create_order'
+  and date_part('year', time) = 2022
+ORDER BY
+  order_id*/
+/*SELECT
+  courier_id
+FROM
+  couriers
+WHERE
+  birth_date BETWEEN '1990-01-01' AND '1996-01-01'
+ORDER BY
+  courier_id*/
+/*SELECT courier_id
+FROM   couriers
+WHERE  date_part('year', birth_date) between 1990
+   and 1995
+ORDER BY courier_id  */
+/*SELECT
+  user_id,
+  order_id,
+  action,
+  time
+FROM
+  user_actions
+WHERE
+  DATE_PART('dow', time) = 3
+  AND time BETWEEN '2022-08-01' AND '2022-09-01'
+  AND date_part('hour', time) between 12
+   and 15
+  AND action = 'cancel_order'
+ORDER BY
+  order_id DESC*/
+/*SELECT 
+  user_id,
+  order_id,
+  action,
+  time
+FROM   user_actions
+WHERE  action = 'cancel_order'
+   and date_part ('dow', time) = 3
+   and date_part ('month' , time) = 8
+   and date_part('hour', time) between 12
+   and 15
+   and date_part('year', time) = 2022
+ORDER BY order_id desc*/
+/*SELECT
+  product_id,
+  name,
+  price,
+  CASE
+    WHEN name IN (
+      'сахар',
+      'сухарики',
+      'сушки',
+      'семечки',
+      'масло льняное',
+      'виноград',
+      'масло оливковое',
+      'арбуз',
+      'батон',
+      'йогурт',
+      'сливки',
+      'гречка',
+      'овсянка',
+      'макароны',
+      'баранина',
+      'апельсины',
+      'бублики',
+      'хлеб',
+      'горох',
+      'сметана',
+      'рыба копченая',
+      'мука',
+      'шпроты',
+      'сосиски',
+      'свинина',
+      'рис',
+      'масло кунжутное',
+      'сгущенка',
+      'ананас',
+      'говядина',
+      'соль',
+      'рыба вяленая',
+      'масло подсолнечное',
+      'яблоки',
+      'груши',
+      'лепешка',
+      'молоко',
+      'курица',
+      'лаваш',
+      'вафли',
+      'мандарины'
+    ) THEN round(price/110*10, 2)
+    ELSE round(price/120*20, 2)
+    END AS tax,
+    CASE
+    WHEN name IN (
+      'сахар',
+      'сухарики',
+      'сушки',
+      'семечки',
+      'масло льняное',
+      'виноград',
+      'масло оливковое',
+      'арбуз',
+      'батон',
+      'йогурт',
+      'сливки',
+      'гречка',
+      'овсянка',
+      'макароны',
+      'баранина',
+      'апельсины',
+      'бублики',
+      'хлеб',
+      'горох',
+      'сметана',
+      'рыба копченая',
+      'мука',
+      'шпроты',
+      'сосиски',
+      'свинина',
+      'рис',
+      'масло кунжутное',
+      'сгущенка',
+      'ананас',
+      'говядина',
+      'соль',
+      'рыба вяленая',
+      'масло подсолнечное',
+      'яблоки',
+      'груши',
+      'лепешка',
+      'молоко',
+      'курица',
+      'лаваш',
+      'вафли',
+      'мандарины'
+    ) THEN round(price-(price/110*10), 2)
+    ELSE round(price-(price/120*20), 2)
+    END AS price_before_tax
+    FROM
+      products
+    ORDER BY
+      price_before_tax DESC,
+      product_id*/
+--SELECT DISTINCT user_id FROM user_actions ORDER BY user_id
+/*SELECT
+  DISTINCT courier_id,
+  order_id
+FROM
+  courier_actions
+ORDER BY
+  courier_id,
+  order_id*/
+--SELECT MAX(price) AS max_price, MIN(price) AS min_price FROM products  
+--SELECT COUNT(*) AS dates, COUNT(birth_date) AS dates_not_null FROM users
+SELECT COUNT(user_id) users, COUNT(DISTINCT user_id) unique_users FROM user_actions
+ 
 
 
 Правильный порядок операторов в запросе выглядит так:
@@ -353,3 +518,46 @@ WHERE column_1 IS NULL
 SELECT column_1, column_2
 FROM table
 WHERE column_1 IS NOT NULL
+
+Ключевое слово DISTINCT позволяет отбирать уникальные записи, т.е. избавляться от всех дубликатов в таблице.
+
+Указывается DISTINCT сразу после SELECT. Для вывода уникальных значений в одной колонке можно составить следующий запрос:
+SELECT DISTINCT column
+FROM table
+
+запрос для двух колонок будет выглядеть так:
+SELECT DISTINCT column_1, column_2
+FROM table
+В таком случае в качестве результата запрос вернёт уникальные комбинации значений в колонках. 
+
+Агрегирующими функциями называют функции, которые обрабатывают определённый набор строк и возвращают одно обобщающее значение. Если вы когда-нибудь работали в Excel, то наверняка сталкивались с подсчётом суммы или максимального/минимального значения по столбцу — речь идёт именно об этом.
+
+Вот несколько примеров таких функций в SQL:
+
+    COUNT — считает количество значений в колонке.
+    SUM — вычисляет сумму значений.
+    AVG — вычисляет среднее значение.
+    MAX — вычисляет максимальное значение.
+    MIN — вычисляет минимальное значение.
+Пример:
+SELECT COUNT(column) AS count
+FROM table
+
+
+SELECT SUM(column_1) AS sum,
+       AVG(column_2) AS average
+FROM table
+
+важно учитывать один нюанс: запрос со звёздочкой возвращает количество вообще всех записей в таблице, а запрос с указанием столбца — количество тех записей, где в заданном столбце значения не являются NULL.
+
+Таким образом, если в некоторой колонке column есть пропуски, выражения COUNT(*) и COUNT(column) вернут разные значения.
+
+агрегирующие функции можно применять в сочетании с ключевым словом DISTINCT. В таком случае расчёты будут производиться только по уникальным значениям.
+
+Если в случае с MIN и MAX это не имеет особого смысла, то при расчёте AVG, SUM и COUNT иногда это бывает полезно:
+SELECT SUM(DISTINCT column) AS sum_distinct
+FROM table
+
+При этом довольно часто DISTINCT используется именно в сочетании с COUNT — для подсчёта числа уникальных пользователей, уникальных заказов и т.д.
+SELECT COUNT(DISTINCT column) AS count_distinct
+FROM table

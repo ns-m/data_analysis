@@ -607,3 +607,23 @@ SELECT AGE(current_date, '2021-11-10')
 SELECT AGE(current_date, '2021-11-10')::VARCHAR
 Результат:
 1 year 1 mon 2 days
+
+Аргументом агрегирующей функции может быть и более сложная расчётная колонка — например, полученная в результате работы конструкции CASE.
+В таком случае сама конструкция CASE помещается внутрь скобок агрегирующей функции:
+AVG(
+    CASE  
+    WHEN logical_expression_1 THEN expression_1
+    WHEN logical_expression_2 THEN expression_2
+    ELSE expression_else
+    END
+)
+Так, если бы в нашей таблице все товары были разбиты по категориям и мы захотели бы посчитать среднюю цену товаров с учётом повышающих или понижающих коэффициентов для каждой категории, то мы могли бы сделать это, например, следующим образом:
+SELECT AVG(
+    CASE 
+    WHEN category='мясо' THEN price*0.95
+    WHEN category='рыба' THEN price*0.9
+    WHEN category='напитки' THEN price*1.05
+    ELSE price
+    END
+    ) AS avg_price
+FROM products

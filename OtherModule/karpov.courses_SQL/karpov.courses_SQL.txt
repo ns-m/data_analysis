@@ -284,9 +284,51 @@ FROM
 ORDER BY
   courier_id,
   order_id*/
---SELECT MAX(price) AS max_price, MIN(price) AS min_price FROM products  
+--SELECT MAX(price) AS max_price, MIN(price) AS min_price FROM products
 --SELECT COUNT(*) AS dates, COUNT(birth_date) AS dates_not_null FROM users
-SELECT COUNT(user_id) users, COUNT(DISTINCT user_id) unique_users FROM user_actions
+/*SELECT
+  COUNT(user_id) users,
+  COUNT(DISTINCT user_id) unique_users
+FROM
+  user_actions*/
+--SELECT COUNT(courier_id) AS couriers FROM couriers WHERE sex = 'female'
+/*SELECT
+  MIN(time) AS first_delivery,
+  MAX(time) AS last_delivery
+FROM
+  courier_actions
+WHERE
+  action = 'deliver_order'*/
+--SELECT SUM(price) AS order_price FROM products  WHERE name IN ('сухарики', 'чипсы', 'энергетический напиток')
+--SELECT name FROM products WHERE name LIKE '% напиток%'
+--SELECT COUNT(order_id) AS orders FROM orders WHERE array_length(product_ids, 1) >= 9
+/*SELECT
+  SUM(
+  CASE
+  WHEN name = 'сухарики' THEN price * 3
+  WHEN name = 'чипсы' THEN price * 2
+  WHEN name = 'энергетический напиток' THEN price
+  END
+  ) AS order_price
+FROM
+  products*/
+/*SELECT
+  ROUND(AVG(price), 2) AS avg_price
+FROM
+  products
+WHERE
+  name NOT IN ('иван-чай', 'чайный гриб')
+  AND (
+    name LIKE 'чай%'
+    OR name LIKE 'кофе%'
+  )*/
+--SELECT AGE(MAX(birth_date), MIN(birth_date))::VARCHAR AS age_diff FROM users WHERE sex = 'male'
+SELECT
+  ROUND(AVG(array_length(product_ids, 1)), 2) AS avg_order_size
+FROM
+  orders
+WHERE
+  date_part('dow', creation_time) IN (0, 6)
  
 
 

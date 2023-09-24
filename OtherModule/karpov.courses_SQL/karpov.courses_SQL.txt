@@ -669,3 +669,7 @@ SELECT AVG(
     END
     ) AS avg_price
 FROM products
+
+Результаты нескольких агрегирующих функций можно использовать в одном запросе для проведения над ними арифметических операций:
+SELECT (SUM(column_1) + SUM(column_2)) / 2
+FROM table

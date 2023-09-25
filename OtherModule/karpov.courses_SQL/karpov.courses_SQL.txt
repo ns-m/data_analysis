@@ -323,12 +323,26 @@ WHERE
     OR name LIKE 'кофе%'
   )*/
 --SELECT AGE(MAX(birth_date), MIN(birth_date))::VARCHAR AS age_diff FROM users WHERE sex = 'male'
-SELECT
+/*SELECT
   ROUND(AVG(array_length(product_ids, 1)), 2) AS avg_order_size
 FROM
   orders
 WHERE
-  date_part('dow', creation_time) IN (0, 6)
+  date_part('dow', creation_time) IN (0, 6)*/
+/*SELECT
+  COUNT(DISTINCT user_id) AS unique_users,
+  COUNT(DISTINCT order_id) AS unique_orders,
+  ROUND(COUNT(DISTINCT order_id):: DECIMAL / COUNT(DISTINCT user_id), 2) AS orders_per_user
+FROM
+  user_actions*/
+SELECT
+  COUNT(DISTINCT user_id) - (COUNT(DISTINCT user_id) FILTER (
+    WHERE
+      action = 'cancel_order'
+  )) AS users_count
+FROM
+  user_actions
+--SELECT * FROM user_actions LIMIT 50
  
 
 
@@ -673,3 +687,15 @@ FROM products
 Результаты нескольких агрегирующих функций можно использовать в одном запросе для проведения над ними арифметических операций:
 SELECT (SUM(column_1) + SUM(column_2)) / 2
 FROM table
+
+познакомимся с более продвинутым функционалом — агрегатными выражениями с фильтрацией.
+Если после агрегирующей функции указать ключевое слово FILTER и поместить в скобках некоторое условие condition после WHERE, то агрегирующей функции на вход будут поданы только те строки, для которых условие фильтра окажется истинным.
+В общем виде эта конструкция выглядит так:
+SELECT agg_function(column) FILTER (WHERE condition)
+FROM table
+Например, если бы мы захотели посчитать среднюю цену только для товаров категории 'рыба', то запрос выглядел бы так:
+SELECT AVG(price) FILTER (WHERE category = 'рыба') AS avg_fish_price
+FROM table
+
+Обратите внимание: это очень похоже на обычную фильтрацию с агрегацией, которую мы рассматривали в предыдущих задачах, только в данном случае условие на отбор записей указывается сразу в блоке SELECT.
+Преимущество такой записи в том, что она позволяет проводить расчёты без промежуточных запросов с условиями в блоке WHERE.

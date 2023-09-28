@@ -373,7 +373,45 @@ GROUP BY
   action
 ORDER BY
   orders_count*/ 
-
+/*SELECT
+  DATE_TRUNC('month', creation_time) AS month,
+  COUNT(order_id) AS orders_count
+FROM
+  orders
+GROUP BY
+  month
+ORDER BY
+  month*/
+/*SELECT
+  DATE_TRUNC('month', time) AS month,
+  action,
+  COUNT(order_id) AS orders_count
+FROM
+  user_actions
+GROUP BY
+  month,
+  action
+ORDER BY
+  month,
+  action*/
+/*SELECT
+  sex,
+  MAX(DATE_PART('month', birth_date)) :: INTEGER AS max_month
+FROM
+  users
+GROUP BY
+  sex
+ORDER BY
+  sex*/
+SELECT
+  sex,
+  DATE_PART('month', MAX(birth_date)) :: INTEGER AS max_month
+FROM
+  users
+GROUP BY
+  sex
+ORDER BY
+  sex  
 
 Правильный порядок операторов в запросе выглядит так:
 
@@ -871,3 +909,44 @@ SELECT column_1, column_2, SUM(column_3) AS sum
 FROM table
 GROUP BY 1, 2
 ORDER BY 3
+
+Посчитаем, сколько заказов было сделано в каждом месяце. Разумеется, для этого нам потребуется как-то получить месяц из каждой даты. Это можно было бы сделать с помощью функции DATE_PART, но в этот раз для работы с датами мы попробуем новую функцию DATE_TRUNC.
+
+Функция DATE_TRUNC используется для усечения дат и времени, т.е. она работает аналогично округлению ROUND, только для типов данных TIMESTAMP и INTERVAL.
+Синтаксис у неё такой же, как и у DATE_PART:
+SELECT DATE_TRUNC(part, column)
+На месте part в кавычках указывается, до какой точности следует округлять переданное значение времени:  'year', 'month', 'day', 'hour' и т.д.
+Возвращаемое значение имеет тип TIMESTAMP или INTERVAL, а все «части» исходного значения, менее значимые, чем заданная «часть», приравниваются к нулю (или единице, если это номер дня или месяца):
+SELECT DATE_TRUNC('month', TIMESTAMP '2022-01-12 08:55:30')
+Результат:
+01/01/22 00:00
+
+SELECT DATE_TRUNC('day', TIMESTAMP '2022-01-12 08:55:30')
+Результат:
+12/01/22 00:00	
+
+SELECT DATE_TRUNC('hour', TIMESTAMP '2022-01-12 08:55:30')
+Результат:
+12/01/22 08:00	
+
+Агрегацию не обязательно проводить по уже имеющимся колонкам — колонки можно «создавать» в рамках того же запроса, в котором происходит группировка:
+SELECT column_1, MIN(DATE_TRUNC('month', column_2)) AS min_month
+FROM table
+GROUP BY column_1
+
+В примере выше с помощью функции DATE_TRUNC мы сначала привели все даты в колонке column_2 к началу месяца (получив по сути новую колонку), а затем сразу же провели агрегацию по новой колонке, посчитав минимальную округлённую дату в каждой группе, сформированной на основе колонки column_1.
+
+Обратите внимание, что тот же самый результат мы могли бы получить и с помощью такого запроса:
+SELECT column_1, DATE_TRUNC('month', MIN(column_2)) AS min_month
+FROM table
+GROUP BY column_1
+
+Часто результат зависит от того, в каком порядке применяются обычные и агрегирующие функции. Например, следующие два запроса дадут разный результат:
+SELECT column_1, MIN(DATE_PART('month', column_2)) AS min_month
+FROM table
+GROUP BY column_1
+
+
+SELECT column_1, DATE_PART('month', MIN(column_2)) AS min_month
+FROM table
+GROUP BY column_1

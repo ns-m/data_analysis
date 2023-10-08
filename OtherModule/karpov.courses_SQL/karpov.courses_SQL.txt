@@ -411,7 +411,50 @@ FROM
 GROUP BY
   sex
 ORDER BY
-  sex  
+  sex
+/*SELECT
+  sex,
+  DATE_PART('year', (AGE(current_date,  MIN(birth_date))))::INTEGER AS max_age
+FROM
+  users
+GROUP BY
+  sex
+ORDER BY
+  max_age*/
+/*SELECT
+  DATE_PART('year', (AGE(current_date, birth_date))) :: INTEGER age,
+  COUNT(user_id) AS users_count
+FROM
+  users
+GROUP BY
+  age
+ORDER BY
+  age*/
+/*SELECT
+  DATE_PART('year', (AGE(current_date, birth_date))) :: INTEGER age,
+  sex,
+  COUNT(user_id) users_count
+FROM
+  users
+WHERE
+  birth_date IS NOT NULL
+GROUP BY
+  age,
+  sex
+ORDER BY
+  age, sex*/
+/*SELECT
+  array_length(product_ids, 1) AS order_size,
+  COUNT(order_id) orders_count
+FROM
+  orders
+WHERE
+  creation_time BETWEEN '2022-08-29'
+  AND '2022-09-05'
+GROUP BY
+  order_size
+ORDER BY
+  order_size*/  
 
 Правильный порядок операторов в запросе выглядит так:
 

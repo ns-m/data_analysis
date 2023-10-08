@@ -454,7 +454,51 @@ WHERE
 GROUP BY
   order_size
 ORDER BY
-  order_size*/  
+  order_size*/
+/*SELECT
+  array_length(product_ids, 1) AS order_size,
+  COUNT(order_id) orders_count
+FROM
+  orders
+WHERE
+  TO_CHAR(creation_time, 'Dy') IN ('Mon', 'Tue', 'Wed', 'Thu', 'Fri')
+GROUP BY
+  order_size
+HAVING
+  COUNT(order_id) > 2000
+ORDER BY
+  order_size*/
+/*SELECT
+  user_id,
+  COUNT(DISTINCT order_id) AS created_orders
+FROM
+  user_actions
+WHERE
+  time BETWEEN '2022-08-01'
+  AND '2022-09-01'
+GROUP BY
+  user_id,
+  action
+HAVING
+  action = 'create_order'
+ORDER BY
+  created_orders DESC,
+  user_id
+LIMIT
+  5*/
+/*SELECT
+  courier_id
+FROM
+  courier_actions
+WHERE
+  action = 'deliver_order'
+  AND time BETWEEN '2022-09-01' AND '2022-10-01'
+GROUP BY
+  courier_id
+HAVING
+  COUNT(courier_id) = 1
+ORDER BY
+  courier_id*/  
 
 Правильный порядок операторов в запросе выглядит так:
 
@@ -1021,3 +1065,28 @@ SELECT column_1, SUM(column_2) AS new_column
 FROM table
 GROUP BY column_1
 HAVING AVG(column_3) < 50
+
+список ключевых слов в запросе:
+
+SELECT
+FROM
+WHERE
+GROUP BY
+HAVING
+ORDER BY
+LIMIT
+Порядок их выполнения в запросе следующий:
+
+Сначала выполняется оператор FROM — происходит выбор нужной таблицы.
+Далее WHERE — отфильтровываются строки, соответствующие условию.
+Потом GROUP BY — строки объединяются в группы и производится агрегация.
+Затем HAVING — отфильтровываются группы, соответствующие условию.
+После этого SELECT — отбираются указанные столбцы.
+Потом ORDER BY — производится сортировка результирующей таблицы.
+И в самом конце LIMIT — ограничивается количество выводимых записей.
+
+Для получения наименования дня недели из колонки с датой или отметкой времени можно использовать, например, функцию DATE_PART с параметром 'isodow' либо функцию TO_CHAR с параметром 'Dy':
+
+SELECT TO_CHAR(TIMESTAMP '2022-08-29', 'Dy')
+Результат:
+Mon

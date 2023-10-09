@@ -498,7 +498,19 @@ GROUP BY
 HAVING
   COUNT(courier_id) = 1
 ORDER BY
-  courier_id*/  
+  courier_id*/
+SELECT
+  user_id
+FROM
+  user_actions
+GROUP BY
+  user_id,
+  action
+HAVING
+  action = 'create_order' AND
+  MAX(time) < '2022-09-08'
+ORDER BY
+  user_id  
 
 Правильный порядок операторов в запросе выглядит так:
 

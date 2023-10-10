@@ -510,7 +510,16 @@ HAVING
   action = 'create_order' AND
   MAX(time) < '2022-09-08'
 ORDER BY
-  user_id  
+  user_id
+SELECT
+  CASE
+    WHEN TO_CHAR(creation_time, 'Dy') IN ('Sat', 'Sun') THEN 'weekend'
+    ELSE 'weekdays'
+    END AS week_part,
+    ROUND(AVG(array_length(product_ids, 1)), 2) AS avg_order_size
+FROM orders
+GROUP BY week_part
+ORDER BY avg_order_size  
 
 Правильный порядок операторов в запросе выглядит так:
 
@@ -1102,3 +1111,24 @@ LIMIT
 SELECT TO_CHAR(TIMESTAMP '2022-08-29', 'Dy')
 Результат:
 Mon
+
+В качестве поля для группировки может выступать и более сложная расчётная колонка — например, результат выполнения условной конструкции CASE:
+SELECT 
+       CASE 
+       WHEN name='свинина' OR name='баранина' OR name='курица' THEN 'мясо'
+       WHEN name='треска' OR name='форель' OR name='окунь' THEN 'рыба'
+       ELSE 'другое'
+       END AS сategory,
+       AVG(price) AS average_price
+FROM table
+GROUP BY сategory
+
+конструкцию можно применять не только ко всей таблице, но и отдельно к каждой группе, сформированной с помощью GROUP BY. В общем виде она будет выглядеть так:
+SELECT column_1, agg_function(column_2) FILTER (WHERE condition)
+FROM table
+GROUP BY column_1
+
+Например, если бы мы захотели посчитать среднюю цену по категориям товаров и учесть только те продукты, которые ещё остались на складе, то запрос выглядел бы так:
+SELECT category, AVG(price) FILTER (WHERE product_count > 0) AS avg_price
+FROM table
+GROUP BY category

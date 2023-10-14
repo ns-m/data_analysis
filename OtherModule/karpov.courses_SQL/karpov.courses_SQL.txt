@@ -519,7 +519,54 @@ SELECT
     ROUND(AVG(array_length(product_ids, 1)), 2) AS avg_order_size
 FROM orders
 GROUP BY week_part
-ORDER BY avg_order_size  
+ORDER BY avg_order_size
+/*SELECT
+  CASE
+    WHEN DATE_PART('year', (AGE(current_date, birth_date))) :: INTEGER < 25 THEN '19-24'
+    WHEN DATE_PART('year', (AGE(current_date, birth_date))) :: INTEGER > 24 AND DATE_PART('year', (AGE(current_date, birth_date))) :: INTEGER < 30 THEN '25-29'
+    WHEN DATE_PART('year', (AGE(current_date, birth_date))) :: INTEGER > 29 AND DATE_PART('year', (AGE(current_date, birth_date))) :: INTEGER < 36 THEN '30-35'
+    WHEN DATE_PART('year', (AGE(current_date, birth_date))) :: INTEGER > 35 AND DATE_PART('year', (AGE(current_date, birth_date))) :: INTEGER < 42 THEN  '36-41'
+    END AS group_age,
+    COUNT(DISTINCT user_id) AS users_count
+FROM users
+WHERE birth_date IS NOT NULL
+GROUP BY group_age
+ORDER BY group_age*/
+/*SELECT case when date_part('year', age(birth_date)) between 19 and
+                 24 then '19-24'
+            when date_part('year', age(birth_date)) between 25 and
+                 29 then '25-29'
+            when date_part('year', age(birth_date)) between 30 and
+                 35 then '30-35'
+            when date_part('year', age(birth_date)) between 36 and
+                 41 then '36-41' end as group_age,
+       count(user_id) as users_count
+FROM   users
+WHERE  birth_date is not null
+GROUP BY group_age
+ORDER BY group_age*/
+SELECT
+  user_id,
+  COUNT(order_id) FILTER (
+    WHERE
+      action != 'cancel_order'
+  ) AS orders_count,
+  COUNT(order_id) FILTER (
+    WHERE
+      action = 'cancel_order'
+  )::DECIMAL / COUNT(order_id)  AS cancel_rate
+FROM
+  user_actions
+GROUP BY
+  user_id
+HAVING
+  COUNT(user_id) > 3 AND
+  COUNT(order_id) FILTER (
+    WHERE
+      action = 'cancel_order'
+  )::DECIMAL / COUNT(order_id) > 0.49
+ORDER BY
+  user_id  
 
 Правильный порядок операторов в запросе выглядит так:
 

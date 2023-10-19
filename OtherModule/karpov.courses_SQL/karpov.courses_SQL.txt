@@ -545,28 +545,61 @@ FROM   users
 WHERE  birth_date is not null
 GROUP BY group_age
 ORDER BY group_age*/
-SELECT
+/*SELECT
   user_id,
-  COUNT(order_id) FILTER (
+  COUNT(user_id) FILTER (
     WHERE
-      action != 'cancel_order'
-  ) AS orders_count,
-  COUNT(order_id) FILTER (
+      action = 'create_order'
+  )  AS orders_count,
+  ROUND(COUNT(order_id) FILTER (
     WHERE
       action = 'cancel_order'
-  )::DECIMAL / COUNT(order_id)  AS cancel_rate
+  )::DECIMAL / COUNT(DISTINCT order_id), 2) AS cancel_rate
 FROM
   user_actions
 GROUP BY
   user_id
 HAVING
-  COUNT(user_id) > 3 AND
+  COUNT(user_id) FILTER (
+    WHERE
+      action = 'create_order'
+  ) > 3 AND
+  ROUND(COUNT(order_id) FILTER (
+    WHERE
+      action = 'cancel_order'
+  )::DECIMAL / COUNT(DISTINCT order_id), 2) > 0.49
+ORDER BY
+  user_id*/
+SELECT
+  DATE_PART('isodow', time)::INTEGER AS weekday_number,
+  TO_CHAR(time, 'Dy') AS weekday,
+  COUNT(order_id) FILTER (
+    WHERE
+      action = 'create_order'
+  )  AS  created_orders,
   COUNT(order_id) FILTER (
     WHERE
       action = 'cancel_order'
-  )::DECIMAL / COUNT(order_id) > 0.49
+  )  AS canceled_orders,
+  COUNT(DISTINCT order_id) FILTER (
+    WHERE
+      action != 'cancel_order'
+  )  AS actual_orders,
+  ROUND(COUNT(order_id) FILTER (
+    WHERE
+      action = 'create_order'
+  )::DECIMAL / COUNT(order_id), 3) AS success_rate
+FROM
+  user_actions
+WHERE
+  time BETWEEN '2022-08-24'
+  AND '2022-09-07'
+GROUP BY
+  weekday_number,
+  weekday
 ORDER BY
-  user_id  
+  weekday_number
+--SELECT order_id, COUNT(action) as action From user_actions GROUP BY order_id HAVING COUNT(action) > 1
 
 Правильный порядок операторов в запросе выглядит так:
 

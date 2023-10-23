@@ -1,0 +1,67 @@
+SQL база с таблицами магазина, который существует много лет:
+1) Users(userId, age)
+2) Purchases (purchaseId, userId, itemId, date)
+3) Items (itemId, price).
+
+PostgreSQL
+А)какую сумму в среднем в месяц тратит:
+- пользователи в возрастном диапазоне от 18 до 25 лет включительно
+- пользователи в возрастном диапазоне от 26 до 35 лет включительно
+
+A.1
+SELECT Purchases.userId AS user, 
+       Users.age AS age,
+       ROUND(AVG(Items.price), 2) AS avg_price,
+       date_part('month', Purchases.date) AS month
+FROM 
+	Purchases
+JOIN 
+	Users ON USING(userId)
+JOIN
+	Items ON USING(itemId)
+WHERE Users.age BEETWEEN 18 AND 25
+GROUP BY month,	user, age
+ORDER BY month
+A.2
+Только меняем условия отбора
+...
+WHERE Users.age BEETWEEN 26 AND 35
+...
+
+Б) в каком месяце года выручка от пользователей в возрастном диапазоне 35+ самая большая
+SELECT date_part('month', Purchases.date) AS month,
+       SUM(Items.price) AS total_price
+FROM 
+	Purchases
+JOIN 
+	Users ON USING(userId)
+JOIN
+	Items ON USING(itemId)
+WHERE Users.age >= 35
+GROUP BY month
+ORDER BY total_price DESC
+LIMIT 1
+
+В) какой товар обеспечивает дает наибольший вклад в выручку за последний год
+SELECT  Items.itemId AS id_item,
+	Items.price * COUNT(*) AS total_item_sales
+FROM 
+	Purchases
+JOIN
+	Items ON USING(itemId)
+WHERE Purchases.date >= DATE_TRUNC('year', now() - interval '1 year')
+GROUP BY id_item
+ORDER BY total_item_sales DESC
+LIMIT 1
+
+Г) топ-3 товаров по выручке и их доля в общей выручке за любой год
+SELECT Items.itemId, SUM(Items.price),
+       SUM(Items.price) * 1.0 / SUM(SUM(Items.price)) OVER () as revenue_share
+FROM 
+	Purchases 
+JOIN
+	Items ON USING(itemId)
+WHERE Purchases.date BEETWEEN '2022-01-01' AND '2022-12-31'
+GROUP BY Items.itemId
+ORDER BY Items.itemId DESC
+LIMIT 3

@@ -372,7 +372,7 @@ FROM
 GROUP BY
   action
 ORDER BY
-  orders_count*/ 
+  orders_count*/
 /*SELECT
   DATE_TRUNC('month', creation_time) AS month,
   COUNT(order_id) AS orders_count
@@ -403,7 +403,7 @@ GROUP BY
   sex
 ORDER BY
   sex*/
-SELECT
+/*SELECT
   sex,
   DATE_PART('month', MAX(birth_date)) :: INTEGER AS max_month
 FROM
@@ -411,7 +411,7 @@ FROM
 GROUP BY
   sex
 ORDER BY
-  sex
+  sex */
 /*SELECT
   sex,
   DATE_PART('year', (AGE(current_date,  MIN(birth_date))))::INTEGER AS max_age
@@ -499,7 +499,7 @@ HAVING
   COUNT(courier_id) = 1
 ORDER BY
   courier_id*/
-SELECT
+/*SELECT
   user_id
 FROM
   user_actions
@@ -510,8 +510,8 @@ HAVING
   action = 'create_order' AND
   MAX(time) < '2022-09-08'
 ORDER BY
-  user_id
-SELECT
+  user_id*/
+/*SELECT
   CASE
     WHEN TO_CHAR(creation_time, 'Dy') IN ('Sat', 'Sun') THEN 'weekend'
     ELSE 'weekdays'
@@ -519,7 +519,7 @@ SELECT
     ROUND(AVG(array_length(product_ids, 1)), 2) AS avg_order_size
 FROM orders
 GROUP BY week_part
-ORDER BY avg_order_size
+ORDER BY avg_order_size*/
 /*SELECT
   CASE
     WHEN DATE_PART('year', (AGE(current_date, birth_date))) :: INTEGER < 25 THEN '19-24'
@@ -583,12 +583,14 @@ SELECT
   )  AS canceled_orders,
   COUNT(DISTINCT order_id) FILTER (
     WHERE
-      action != 'cancel_order'
-  )  AS actual_orders,
-  ROUND(COUNT(order_id) FILTER (
-    WHERE
       action = 'create_order'
-  )::DECIMAL / COUNT(order_id), 3) AS success_rate
+  ) - COUNT(order_id) FILTER (
+    WHERE
+      action = 'cancel_order'
+  )  AS actual_orders,
+  ROUND((COUNT(order_id) FILTER (WHERE action = 'create_order')
+    - COUNT(order_id) FILTER (WHERE action = 'cancel_order')) 
+    / COUNT(DISTINCT order_id) FILTER (WHERE action = 'create_order')::DECIMAL, 3) AS success_rate
 FROM
   user_actions
 WHERE
@@ -600,6 +602,12 @@ GROUP BY
 ORDER BY
   weekday_number
 --SELECT order_id, COUNT(action) as action From user_actions GROUP BY order_id HAVING COUNT(action) > 1
+/*SELECT  order_id, date_part('year', creation_time) AS year
+FROM 	orders
+WHERE creation_time >= date_trunc('year', now() - interval '1 year')
+GROUP BY order_id, year*/
+
+
 
 Правильный порядок операторов в запросе выглядит так:
 
@@ -1212,3 +1220,20 @@ GROUP BY column_1
 SELECT category, AVG(price) FILTER (WHERE product_count > 0) AS avg_price
 FROM table
 GROUP BY category
+
+В этом уроке мы:
+
+    Научились группировать данные и узнали разные нюансы работы оператора GROUP BY.
+    Поработали с агрегирующими функциями и научились применять их к сгруппированным данным.
+    Узнали, что к результату группировки можно применять фильтрацию с помощью оператора HAVING.
+    Ещё немного поработали с датами и познакомились с новыми функциями DATE_TRUNC и TO_CHAR.
+    Решили несколько задач на CASE с группировкой.
+    Научились применять FILTER и агрегатные выражения с фильтрацией поверх группировки
+Известные нам на текущий момент ключевые слова и порядок их написания в запросе:
+SELECT     -- перечисление полей результирующей таблицы
+FROM       -- указание источника данных
+WHERE      -- фильтрация данных
+GROUP BY   -- группировка данных
+HAVING     -- фильтрация данных после группировки
+ORDER BY   -- сортировка результирующей таблицы
+LIMIT      -- ограничение количества выводимых записей

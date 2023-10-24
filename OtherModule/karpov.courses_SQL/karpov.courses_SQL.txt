@@ -570,7 +570,7 @@ HAVING
   )::DECIMAL / COUNT(DISTINCT order_id), 2) > 0.49
 ORDER BY
   user_id*/
-SELECT
+/*SELECT
   DATE_PART('isodow', time)::INTEGER AS weekday_number,
   TO_CHAR(time, 'Dy') AS weekday,
   COUNT(order_id) FILTER (
@@ -600,12 +600,21 @@ GROUP BY
   weekday_number,
   weekday
 ORDER BY
-  weekday_number
+  weekday_number*/
 --SELECT order_id, COUNT(action) as action From user_actions GROUP BY order_id HAVING COUNT(action) > 1
 /*SELECT  order_id, date_part('year', creation_time) AS year
 FROM 	orders
 WHERE creation_time >= date_trunc('year', now() - interval '1 year')
 GROUP BY order_id, year*/
+SELECT
+  ROUND(AVG(count_orders), 2) AS orders_avg
+FROM
+  (
+    SELECT COUNT(order_id) AS count_orders
+    FROM user_actions
+    WHERE action = 'create_order'
+    GROUP BY user_id
+  ) AS tt_1
 
 
 
@@ -1237,3 +1246,70 @@ GROUP BY   -- группировка данных
 HAVING     -- фильтрация данных после группировки
 ORDER BY   -- сортировка результирующей таблицы
 LIMIT      -- ограничение количества выводимых записей
+
+К текущему уроку мы уже успели познакомиться с основными операторами, которые составляют «скелет» стандартного SQL-запроса: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY и LIMIT.
+
+Мы уже знаем, что порядок их указания в запросе следующий:
+SELECT     -- перечисление полей результирующей таблицы
+FROM       -- указание источника данных
+WHERE      -- фильтрация данных
+GROUP BY   -- группировка данных
+HAVING     -- фильтрация данных после группировки
+ORDER BY   -- сортировка результирующей таблицы
+LIMIT      -- ограничение количества выводимых записей
+
+Тем не менее важно помнить, что порядок выполнения операторов в СУБД несколько отличается от порядка их написания в запросе. В упрощённом виде порядок выполнения запроса в PostgreSQL такой:
+FROM       -- указание источника данных
+WHERE      -- фильтрация данных
+GROUP BY   -- группировка данных
+HAVING     -- фильтрация данных после группировки
+SELECT     -- перечисление полей результирующей таблицы
+ORDER BY   -- сортировка результирующей таблицы
+LIMIT      -- ограничение количества выводимых записей
+
+Таким образом:
+
+    Сначала с помощью FROM определяется таблица.
+    Затем в соответствии с указанным в WHERE условием из этой таблицы отбираются записи.
+    Потом выбранные данные группируются и агрегируются с помощью GROUP BY.
+    Далее из агрегированных записей отбираются те, которые удовлетворяют условию в HAVING.
+    Только после этого в соответствии с указанными в SELECT инструкциями формируется результирующая таблица — отбираются нужные колонки, расчётным полям присваиваются новые имена и т.д.
+    Затем результирующая таблица сортируется в соответствии с правилами в ORDER BY.
+    И наконец срабатывает ограничение на количество строк, указанное в LIMIT.
+
+к результату выполнения подзапроса можно обращаться так же, как и к таблицам в базе данных, т.е. использовать их в блоке FROM вместо имеющихся таблиц:
+SELECT column_1
+FROM (
+    SELECT column_1, column_2
+    FROM table
+) AS subquery_1
+По сути подзапрос — это такая же таблица, только временная. Она формируется в процессе выполнения основного запроса и нигде не сохраняется.
+Важный момент: при использовании подзапроса в блоке FROM сформированной в подзапросе таблице необходимо присвоить какой-нибудь алиас, иначе основной запрос не сработает. В примере выше мы обозначили результат подзапроса как subquery_1.
+
+SELECT sex, COUNT(user_id) AS users_count
+FROM users
+WHERE sex = 'male'
+GROUP BY sex
+
+SELECT sex, COUNT(user_id) AS users_count
+FROM users
+GROUP BY sex
+HAVING sex = 'male'
+
+Но то же самое можно сделать и с помощью подзапроса:
+SELECT sex, users_count
+FROM (
+    SELECT sex, COUNT(user_id) AS users_count
+    FROM users
+    GROUP BY sex
+) AS subquery
+WHERE sex = 'male'
+в подзапросе мы сначала сгруппировали наши данные по полу и посчитали число пользователей в каждой группе, а потом обратились к результату этого подзапроса, как к таблице, и отобрали с помощью WHERE нужную нам группу.
+
+К колонкам из подзапроса можно применять агрегирующие функции — так же, как если бы мы обращались к колонкам исходных таблиц:
+SELECT MAX(column_sum) AS max_sum
+FROM (
+    SELECT column_1, SUM(column_2) AS column_sum
+    FROM table
+    GROUP BY column_1
+) AS subquery_1

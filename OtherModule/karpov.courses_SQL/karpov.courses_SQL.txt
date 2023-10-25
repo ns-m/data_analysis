@@ -1313,3 +1313,28 @@ FROM (
     FROM table
     GROUP BY column_1
 ) AS subquery_1
+
+в SQL предусмотрен оператор WITH, который позволяет создавать так называемые табличные выражения (CTE, common table expressions).
+
+Табличные выражения — это временные таблицы, существующие только для одного запроса. Их основное предназначение заключается в разбиении сложных запросов на несколько частей.
+
+Табличные выражения создаются так:
+WITH 
+subquery_1 AS (
+    SELECT column_1, column_2
+    FROM table
+)
+Оператор WITH может содержать несколько табличных выражений, причём к указанным ранее выражениям можно обращаться в последующих выражениях:
+WITH 
+subquery_1 AS (
+    SELECT column_1, column_2, column_3
+    FROM table
+),
+subquery_2 AS (
+    SELECT column_1, column_2
+    FROM subquery_1
+)
+
+SELECT column_1
+FROM subquery_2
+

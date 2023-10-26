@@ -606,7 +606,7 @@ ORDER BY
 FROM 	orders
 WHERE creation_time >= date_trunc('year', now() - interval '1 year')
 GROUP BY order_id, year*/
-SELECT
+/*SELECT
   ROUND(AVG(count_orders), 2) AS orders_avg
 FROM
   (
@@ -614,8 +614,14 @@ FROM
     FROM user_actions
     WHERE action = 'create_order'
     GROUP BY user_id
-  ) AS tt_1
-
+  ) AS tt_1*/
+WITH 
+tt_1 AS  (SELECT count(order_id) as count_orders
+        FROM   user_actions
+        WHERE  action = 'create_order'
+        GROUP BY user_id)
+SELECT round(avg(count_orders), 2) as orders_avg
+FROM tt_1
 
 
 Правильный порядок операторов в запросе выглядит так:

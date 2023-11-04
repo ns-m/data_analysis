@@ -532,7 +532,10 @@ FROM users
 WHERE birth_date IS NOT NULL
 GROUP BY group_age
 ORDER BY group_age*/
-/*SELECT case when date_part('year', age(birth_date)) between 19 and
+---------------
+Lesson 6 Task --
+---------------
+SELECT case when date_part('year', age(birth_date)) between 19 and
                  24 then '19-24'
             when date_part('year', age(birth_date)) between 25 and
                  29 then '25-29'
@@ -544,8 +547,11 @@ ORDER BY group_age*/
 FROM   users
 WHERE  birth_date is not null
 GROUP BY group_age
-ORDER BY group_age*/
-/*SELECT
+ORDER BY group_age
+---------------
+Lesson 6 Task --
+---------------
+SELECT
   user_id,
   COUNT(user_id) FILTER (
     WHERE
@@ -569,8 +575,11 @@ HAVING
       action = 'cancel_order'
   )::DECIMAL / COUNT(DISTINCT order_id), 2) > 0.49
 ORDER BY
-  user_id*/
-/*SELECT
+  user_id
+---------------
+Lesson 6 Task --
+---------------
+SELECT
   DATE_PART('isodow', time)::INTEGER AS weekday_number,
   TO_CHAR(time, 'Dy') AS weekday,
   COUNT(order_id) FILTER (
@@ -600,13 +609,20 @@ GROUP BY
   weekday_number,
   weekday
 ORDER BY
-  weekday_number*/
+  weekday_number
+
 --SELECT order_id, COUNT(action) as action From user_actions GROUP BY order_id HAVING COUNT(action) > 1
-/*SELECT  order_id, date_part('year', creation_time) AS year
+---------------
+Lesson 6 Task --
+---------------
+SELECT  order_id, date_part('year', creation_time) AS year
 FROM 	orders
 WHERE creation_time >= date_trunc('year', now() - interval '1 year')
-GROUP BY order_id, year*/
-/*SELECT
+GROUP BY order_id, year
+---------------
+Lesson 7 Task 1
+---------------
+SELECT
   ROUND(AVG(count_orders), 2) AS orders_avg
 FROM
   (
@@ -614,7 +630,10 @@ FROM
     FROM user_actions
     WHERE action = 'create_order'
     GROUP BY user_id
-  ) AS tt_1*/
+  ) AS tt_1
+---------------
+Lesson 7 Task 2
+---------------
 WITH 
 tt_1 AS  (SELECT count(order_id) as count_orders
         FROM   user_actions
@@ -622,7 +641,106 @@ tt_1 AS  (SELECT count(order_id) as count_orders
         GROUP BY user_id)
 SELECT round(avg(count_orders), 2) as orders_avg
 FROM tt_1
+---------------
+Lesson 7 Task 3
+---------------
+SELECT
+  product_id,
+  name,
+  price
+FROM
+  products
+WHERE
+  price > (SELECT MIN(price) FROM products)
+ORDER BY
+  product_id DESC
+---------------
+Lesson 7 Task 4
+---------------
+SELECT
+  product_id,
+  name,
+  price
+FROM
+  products
+WHERE
+  price >= (
+    SELECT
+      AVG(price)
+    FROM
+      products
+  ) + 20
+ORDER BY
+  product_id DESC
+---------------
+Lesson 7 Task 5
+---------------
+SELECT
+  COUNT(DISTINCT user_id) AS users_count
+FROM
+  user_actions
+WHERE
+  time >= (SELECT MAX(time) FROM user_actions) - INTERVAL '1 week'
+  AND action = 'create_order'
+---------------
+Lesson 7 Task 6
+---------------
+SELECT
+  min(
+    age(
+      (
+        SELECT
+          max(time) :: date
+        FROM
+          courier_actions
+      ),
+      birth_date
+    )
+  ) :: varchar as min_age
+FROM
+  couriers
+WHERE
+  sex = 'male'
+---------------
+Lesson 7 Task 7
+---------------
+/*WITH tt_1 AS(
+  SELECT
+    order_id
+  FROM
+    user_actions
+  WHERE
+    action = 'cancel_order'
+)
+SELECT
+  order_id
+FROM
+  user_actions
+WHERE
+  order_id NOT IN (
+    SELECT
+      *
+    FROM
+      tt_1
+  )
+ORDER BY
+  order_id
+LIMIT
+  1000 */
+SELECT order_id
+FROM   user_actions
+WHERE  order_id not in (SELECT order_id
+                        FROM   user_actions
+                        WHERE  action = 'cancel_order')
+ORDER BY order_id limit 1000
+---------------
+Lesson 7 Task 8
+---------------
 
+
+####^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^####
+####^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^####
+####^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^####
 
 Правильный порядок операторов в запросе выглядит так:
 
@@ -1344,3 +1462,84 @@ subquery_2 AS (
 SELECT column_1
 FROM subquery_2
 
+Результат подзапроса, возвращающего столбец с одним значением, также можно использовать в арифметических операциях
+SELECT column
+FROM table
+WHERE column = (SELECT MAX(column) FROM table) - 100
+
+Более того, с помощью подзапросов вы можете брать необходимые вам значения из нескольких разных таблиц и использовать их в качестве переменных внутри основного запроса:
+SELECT column
+FROM table
+WHERE column >= (SELECT MAX(column_1) FROM table_1) - 100
+    AND column <= (SELECT MAX(column_2) FROM table_2)
+
+Если же в одном запросе используется несколько разных «переменных» из подзапросов или к одному и тому же подзапросу нужно обращаться несколько раз, тогда имеет смысл вынести эти подзапросы в начало основного запроса в виде табличных выражений в блоке WITH.
+WITH 
+subquery AS (
+    SELECT MAX(column_2)
+    FROM table_2
+)
+
+SELECT column_1
+FROM table_1
+WHERE column_1 = (SELECT * FROM subquery) 
+
+Обратите внимание на запись со «звёздочкой». Дело в том, что обратиться к этим «переменным» просто по имени табличного выражения не получится — придётся отдельным подзапросом из табличного выражения выбрать рассчитанное значение. Самый простой вариант — написать подзапрос с SELECT * из табличного выражения. 
+
+Если «переменных» несколько, то запрос может выглядеть так:
+WITH
+subquery_1 AS (
+    SELECT MAX(column_1)
+    FROM table_1
+),
+subquery_2 AS (
+    SELECT MAX(column_2)
+    FROM table_2
+)
+
+
+SELECT column
+FROM table
+WHERE column >= (SELECT * FROM subquery_1) - 100
+    AND column <= (SELECT * FROM subquery_2)
+
+Чтобы отложить от даты или прибавить к ней какой-то промежуток времени, можно использовать несложные арифметические операции с датами. Например, от текущей даты можно отнять заданный промежуток INTERVAL:
+SELECT NOW() - INTERVAL '1 year 2 months 1 week'
+Результат:
+10/10/21 19:32
+
+Кстати, NOW — полезная функция, которая позволяет получать текущую дату и время (в вашем случае она будет другой, как и результат запроса выше):
+SELECT NOW()
+Результат:
+17/12/22 19:32
+
+С другими примерами работы с INTERVAL и арифметическими операциями с датами можно ознакомиться здесь-
+https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-interval/
+Про функцию NOW можно дополнительно почитать тут-
+https://www.postgresqltutorial.com/postgresql-date-functions/postgresql-now/
+
+подзапросы могут выступать в качестве аргументов функций, т.е. к результату выполнения подзапросов можно применять функции, принимающие на вход какие-то значения. Так, например, подзапросы можно указывать в качестве аргументов функций CONCAT или COALESCE:
+SELECT CONCAT(
+              'Начало периода: ', (SELECT MIN(date) FROM table), 
+              ' ', 
+              'Конец периода: ', (SELECT MAX(date) FROM table)
+       )
+SELECT COALESCE((SELECT MAX(date) FROM table), NOW())
+В таком случае результат выполнения подзапроса будет подставляться в функцию для дальнейших расчётов.
+
+Подзапрос, возвращающий несколько значений, может использоваться в блоке WHERE совместно с оператором IN — например, когда нам нужно проверить, совпадает ли значение в столбце с одним из значений из определённого множества, полученного в результате выполнения подзапроса:
+SELECT column_1
+FROM table_1
+WHERE column_1 IN (SELECT column_2 FROM table_2) 
+Сначала подзапрос отберёт все значения в колонке column_2 из таблицы table_2, а затем выберет те записи из таблицы table_1, где в колонке column_1 значение совпадает с одним из значений в колонке column_2, полученной в результате подзапроса. Обратите внимание, что использовать DISTINCT в подзапросе необязательно, т.к. на результат основного запроса это никак не повлияет — по большому счёту нет разницы, будут значения в списке уникальными или нет.
+
+При этом запрос выше будет равносилен запросу с табличным выражением:
+WITH 
+subquery AS (
+    SELECT column_2
+    FROM table_2
+)
+
+SELECT column_1
+FROM table_1
+WHERE column_1 IN (SELECT * FROM subquery) 

@@ -736,7 +736,79 @@ ORDER BY order_id limit 1000
 ---------------
 Lesson 7 Task 8
 ---------------
+/*WITH tcount AS(
+  SELECT
+    COUNT(DISTINCT order_id) AS orders_count,
+    user_id
+  FROM
+    user_actions
+  WHERE
+    action = 'create_order'
+  GROUP BY
+    user_id
+),
+  tavg AS(
+  SELECT
+    ROUND(SUM(orders_count) / COUNT(DISTINCT user_id), 2) AS orders_avg
+  FROM
+    tcount   
+  )
+SELECT
+  user_id,
+  orders_count,
+  orders_avg,
+  orders_count - orders_avg AS orders_diff
+FROM
+  tcount, tavg
+ORDER BY
+  user_id
+LIMIT
+  1000*/
+WITH t1 as (
+  SELECT
+    user_id,
+    count(order_id) as orders_count
+  FROM
+    user_actions
+  WHERE
+    action = 'create_order'
+  GROUP BY
+    user_id
+)
+SELECT
+  user_id,
+  orders_count,
+  round(
+    (
+      SELECT
+        avg(orders_count)
+      FROM
+        t1
+    ),
+    2
+  ) as orders_avg,
+  orders_count - round(
+    (
+      SELECT
+        avg(orders_count)
+      FROM
+        t1
+    ),
+    2
+  ) as orders_diff
+FROM
+  t1
+ORDER BY
+  user_id
+limit
+  1000
+---------------
+Lesson 7 Task 9
+---------------
 
+---------------
+Lesson 7 Task 10
+---------------
 
 ####^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^####
 ####^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^####
@@ -1543,3 +1615,7 @@ subquery AS (
 SELECT column_1
 FROM table_1
 WHERE column_1 IN (SELECT * FROM subquery) 
+
+На практике подзапрос в SELECT может использоваться для того, чтобы сравнить значения в колонке с каким-нибудь одним расчётным значением (из той же или другой таблицы):
+SELECT column_1, column_2, column_2 > (SELECT MAX(column_1) FROM table) AS column_3
+FROM table

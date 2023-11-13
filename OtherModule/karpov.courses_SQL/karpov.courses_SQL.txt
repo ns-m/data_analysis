@@ -805,9 +805,45 @@ limit
 ---------------
 Lesson 7 Task 9
 ---------------
-
+WITH tavg AS (
+  SELECT
+    ROUND(AVG(price), 2) AS avgprice
+  FROM
+    products
+)
+SELECT
+  product_id,
+  name,
+  price,
+  CASE
+    WHEN price - avgprice >= 50 THEN price * 0.85
+    WHEN avgprice - price >= 50 THEN price * 0.9
+    ELSE price
+  END AS new_price
+FROM
+  products,
+  tavg
+ORDER BY
+  price DESC,
+  product_id
 ---------------
 Lesson 7 Task 10
+---------------
+
+---------------
+Lesson 7 Task 11
+---------------
+
+---------------
+Lesson 7 Task 12
+---------------
+
+---------------
+Lesson 7 Task 13
+---------------
+
+---------------
+Lesson 7 Task 14
 ---------------
 
 ####^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^####
@@ -1619,3 +1655,14 @@ WHERE column_1 IN (SELECT * FROM subquery)
 На практике подзапрос в SELECT может использоваться для того, чтобы сравнить значения в колонке с каким-нибудь одним расчётным значением (из той же или другой таблицы):
 SELECT column_1, column_2, column_2 > (SELECT MAX(column_1) FROM table) AS column_3
 FROM table
+
+Допустим, у нас есть две таблицы, в которых хранятся почты старых и новых клиентов, и нам необходимо «подтянуть» эту информацию в таблицу c заказами. Сделать это можно так:
+SELECT client_id, email, order_id,
+    CASE 
+    WHEN email IN (SELECT email FROM clients_new)
+    THEN 'new'
+    WHEN email IN (SELECT email FROM clients_old)
+    THEN 'old'
+    ELSE 'unknown'
+    END AS client_type
+FROM orders

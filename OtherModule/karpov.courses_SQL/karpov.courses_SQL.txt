@@ -829,21 +829,107 @@ ORDER BY
 ---------------
 Lesson 7 Task 10
 ---------------
-
+SELECT
+  COUNT(order_id) AS orders_count
+FROM
+  courier_actions
+WHERE
+  action = 'accept_order'
+  AND order_id not in (
+    SELECT
+      order_id
+    FROM
+      user_actions
+    WHERE
+      action = 'create_order'
+  )
+SELECT count(distinct order_id) as orders_count
+FROM   courier_actions
+WHERE  order_id not in (SELECT order_id
+                        FROM   user_actions) 
 ---------------
 Lesson 7 Task 11
 ---------------
-
+/*SELECT count(distinct order_id) as orders_count
+FROM   courier_actions
+WHERE  order_id not in (SELECT order_id
+                        FROM   user_actions)*/
+/*SELECT
+  (SELECT COUNT(order_id) FROM courier_actions WHERE action = 'accept_order') - (SELECT COUNT(order_id) FROM courier_actions  WHERE action = 'deliver_order') AS orders_count
+FROM
+  courier_actions
+GROUP BY orders_count  */
+--SELECT * FROM courier_actions    LIMIT 100   
+SELECT count(order_id) as orders_count
+FROM   courier_actions
+WHERE  order_id not in (SELECT order_id
+                        FROM   courier_actions
+                        WHERE  action = 'deliver_order')
 ---------------
 Lesson 7 Task 12
 ---------------
-
+SELECT
+  COUNT(order_id) FILTER (
+    WHERE
+      action = 'accept_order'
+  ) AS orders_canceled,
+  COUNT(order_id) FILTER (
+    WHERE
+      action = 'deliver_order'
+  ) AS orders_canceled_and_delivered
+FROM
+  courier_actions
+WHERE
+  order_id IN (
+    SELECT
+      order_id
+    FROM
+      user_actions
+    WHERE
+      action = 'cancel_order'
+  )
 ---------------
 Lesson 7 Task 13
 ---------------
 
 ---------------
 Lesson 7 Task 14
+---------------
+
+---------------
+Lesson 7 Task 15
+---------------
+
+---------------
+Lesson 7 Task 16
+---------------
+
+---------------
+Lesson 7 Task 17
+---------------
+
+---------------
+Lesson 7 Task 18
+---------------
+
+---------------
+Lesson 7 Task 19
+---------------
+
+---------------
+Lesson 7 Task 20
+---------------
+
+---------------
+Lesson 7 Task 21
+---------------
+
+---------------
+Lesson 7 Task 22
+---------------
+
+---------------
+Lesson 7 Task 23
 ---------------
 
 ####^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^####

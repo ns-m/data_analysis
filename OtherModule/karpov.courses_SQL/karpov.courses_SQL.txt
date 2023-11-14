@@ -891,6 +891,20 @@ WHERE
 ---------------
 Lesson 7 Task 13
 ---------------
+WITH 
+tcancel AS(
+  SELECT order_id FROM user_actions WHERE action = 'cancel_order'
+),
+tdeliver AS(
+  SELECT order_id FROM courier_actions WHERE action = 'deliver_order'
+)
+SELECT
+  COUNT(DISTINCT order_id) FILTER(WHERE order_id IN (SELECT * FROM tcancel)) AS orders_canceled,
+  COUNT(order_id) FILTER(WHERE order_id NOT IN (SELECT * FROM tcancel) AND order_id NOT IN (SELECT * FROM tdeliver)) AS orders_in_process,
+  COUNT(DISTINCT order_id) FILTER(WHERE order_id IN (SELECT * FROM tcancel) AND order_id NOT IN (SELECT * FROM tdeliver)) AS orders_undelivered
+FROM
+  courier_actions
+
 
 ---------------
 Lesson 7 Task 14
@@ -931,6 +945,10 @@ Lesson 7 Task 22
 ---------------
 Lesson 7 Task 23
 ---------------
+
+
+courier_actions: action - 'accept_order' 'deliver_order'
+user_actions: action - 'create_order' 'cancel_order'
 
 ####^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^####
 ####^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^#######^ CODE ^####
@@ -1752,3 +1770,11 @@ SELECT client_id, email, order_id,
     ELSE 'unknown'
     END AS client_type
 FROM orders
+
+Подзапросы можно также использовать и в операторе FILTER для формирования ещё более продвинутых условий фильтрации. В таком случае конструкция будет иметь следующий вид:
+SELECT COUNT(column) FILTER (WHERE column > (SELECT AVG(column) FROM table)) AS count
+FROM table
+
+Такой запрос посчитает количество значений в колонке column, которые превышают среднее значение по этой же колонке. Разумеется, в подзапросе, указанном в FILTER, можно обращаться и к другим колонкам и таблицам, применяя любые другие способы фильтрации — например, оператор IN:
+SELECT COUNT(column_1) FILTER (WHERE column_1 IN (SELECT column_2 FROM table_2)) AS count
+FROM table_1

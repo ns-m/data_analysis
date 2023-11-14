@@ -905,15 +905,39 @@ SELECT
 FROM
   courier_actions
 
-
+SELECT count(distinct order_id) as orders_undelivered,
+       count(order_id) filter (WHERE action = 'cancel_order') as orders_canceled,
+       count(distinct order_id) - count(order_id) filter (WHERE action = 'cancel_order') as orders_in_process
+FROM   user_actions
+WHERE  order_id in (SELECT order_id
+                    FROM   courier_actions
+                    WHERE  order_id not in (SELECT order_id
+                                            FROM   courier_actions
+                                            WHERE  action = 'deliver_order'))  
 ---------------
 Lesson 7 Task 14
 ---------------
-
+SELECT
+  user_id,
+  birth_date
+FROM
+  users
+WHERE
+  birth_date < (SELECT MIN(birth_date) FROM users WHERE sex = 'female') 
+ORDER BY
+  user_id
 ---------------
 Lesson 7 Task 15
 ---------------
-
+SELECT
+  order_id,
+  product_ids
+FROM
+  orders
+WHERE
+  order_id IN (SELECT order_id FROM courier_actions WHERE action = 'deliver_order' ORDER BY time DESC LIMIT 100)
+ORDER BY
+  order_id
 ---------------
 Lesson 7 Task 16
 ---------------

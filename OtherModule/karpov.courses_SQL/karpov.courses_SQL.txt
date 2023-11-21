@@ -1101,11 +1101,87 @@ SELECT creation_time, order_id, product_ids, unnest(product_ids) AS product_id
 ---------------
 Lesson 7 Task 22
 ---------------
-
+WITH tt AS (
+  SELECT
+    order_id,
+    unnest(product_ids) AS product_id
+  FROM
+    orders
+  WHERE
+    order_id NOT IN (SELECT order_id FROM user_actions WHERE action = 'cancel_order')),
+ttr AS (
+  SELECT
+    product_id,
+    COUNT(product_id) AS times_purchased
+  FROM
+    tt
+  GROUP BY
+    product_id
+  ORDER BY times_purchased DESC LIMIT 10
+)
+SELECT
+  product_id,
+  times_purchased
+FROM
+  ttr
+ORDER BY
+  product_id
+/*
+SELECT
+  product_id,
+  times_purchased
+FROM
+  (
+    SELECT
+      unnest(product_ids) as product_id,
+      count(*) as times_purchased
+    FROM
+      orders
+    WHERE
+      order_id not in (
+        SELECT
+          order_id
+        FROM
+          user_actions
+        WHERE
+          action = 'cancel_order'
+      )
+    GROUP BY
+      product_id
+    ORDER BY
+      times_purchased desc
+    limit
+      10
+  ) t
+ORDER BY
+  product_id
 ---------------
 Lesson 7 Task 23
 ---------------
-
+WITH
+  ttopprice AS(
+  SELECT product_id FROM products ORDER BY price DESC LIMIT 5
+  ),
+  ttprodid AS(
+  SELECT order_id, unnest(product_ids) as product_id FROM orders
+  ),
+  ttres AS (
+  SELECT order_id FROM ttprodid WHERE product_id IN (SELECT * FROM ttopprice)
+  )
+SELECT order_id, product_ids FROM orders WHERE order_id IN (SELECT * FROM ttres) ORDER BY order_id
+/*
+with top_products as (SELECT product_id
+                      FROM   products
+                      ORDER BY price desc limit 5), unnest as (SELECT order_id,
+                                                product_ids,
+                                                unnest(product_ids) as product_id
+                                         FROM   orders)
+SELECT DISTINCT order_id,
+                product_ids
+FROM   unnest
+WHERE  product_id in (SELECT product_id
+                      FROM   top_products)
+ORDER BY order_id	
 
 courier_actions: action - 'accept_order' 'deliver_order'
 user_actions: action - 'create_order' 'cancel_order'

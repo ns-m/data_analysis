@@ -1056,11 +1056,48 @@ ORDER BY order_id
 ---------------
 Lesson 7 Task 20
 ---------------
-
+WITH tt AS (
+  SELECT
+    user_id,
+    DATE(MIN(time)) AS date
+  FROM
+    user_actions
+  WHERE
+    order_id NOT IN (
+      SELECT
+        order_id
+      FROM
+        user_actions
+      WHERE
+        action = 'cancel_order'
+    )
+  GROUP BY
+    user_id
+)
+SELECT
+  date,
+  COUNT(DISTINCT user_id) AS first_orders
+FROM
+  tt
+GROUP BY
+  date
+/*SELECT first_order_date as date,
+       count(user_id) as first_orders
+FROM   (SELECT user_id,
+               min(time)::date as first_order_date
+        FROM   user_actions
+        WHERE  order_id not in (SELECT order_id
+                                FROM   user_actions
+                                WHERE  action = 'cancel_order')
+        GROUP BY user_id) t
+GROUP BY first_order_date
+ORDER BY date*/
 ---------------
 Lesson 7 Task 21
 ---------------
-
+SELECT creation_time, order_id, product_ids, unnest(product_ids) AS product_id 
+  FROM orders 
+  LIMIT 100
 ---------------
 Lesson 7 Task 22
 ---------------
@@ -1901,3 +1938,45 @@ FROM table
 Такой запрос посчитает количество значений в колонке column, которые превышают среднее значение по этой же колонке. Разумеется, в подзапросе, указанном в FILTER, можно обращаться и к другим колонкам и таблицам, применяя любые другие способы фильтрации — например, оператор IN:
 SELECT COUNT(column_1) FILTER (WHERE column_1 IN (SELECT column_2 FROM table_2)) AS count
 FROM table_1
+
+Функция unnest предназначена для разворачивания массивов и превращения их в набор строк:
+SELECT unnest(ARRAY['one','two','three'])
+
+Результат:
+one
+two
+three
+
+Развернуть массив означает превратить его в набор записей, где каждой строчке будет соответствовать значение, входящее в массив.
+В примере выше функция unnest превратила исходный список из трёх элементов в набор из трёх строк.
+Если бы в исходной таблице помимо списка был столбец с каким-либо значением, то это значение автоматически проставилось бы напротив значений в каждой образовавшейся строке:
+SELECT 'row', unnest(ARRAY['one','two','three'])
+
+Результат:
+row    one
+row    two
+row    three
+
+В нашем случае мы имеем таблицу с id заказов и списками id товаров, входящих в заказ. Допустим, таблица выглядит так:
+ ________________________
+| order_id | product_ids |
+|__________|_____________|
+| 1001     | [5, 8, 15]  |
+| 1002     | [2]         |
+| 1003     | [4, 11, 21] |
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Если развернуть массивы в колонке product_ids, то записей с id каждого заказа станет ровно столько, сколько было товаров в массиве, соответствующем эту заказу. Внимательно посмотрите на результат запроса применения функции unnest к колонке product_ids:
+SELECT order_id, unnest(product_ids) AS product_id
+FROM orders
+Результат:
+ ________________________
+| order_id | product_id  |
+|__________|_____________|
+| 1001     | 5           |
+| 1001     | 8           |
+| 1001     | 15          |
+| 1002     | 2           |
+| 1003     | 4           |
+| 1003     | 11          |
+| 1003     | 21          |
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾

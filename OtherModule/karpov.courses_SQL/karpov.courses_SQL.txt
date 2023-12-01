@@ -1210,17 +1210,72 @@ FROM user_actions AS u_ac
 ---------------
 Lesson 8 Task 3
 ---------------
-
+SELECT u_ac.user_id AS user_id_left, usr.user_id AS user_id_right,  order_id, time, action, sex, birth_date
+FROM user_actions AS u_ac
+  LEFT JOIN users AS usr
+  using (user_id)
+ORDER BY user_id_left
 ---------------
 Lesson 8 Task 4
 ---------------
-
+SELECT COUNT(DISTINCT u_ac.user_id) AS users_count
+FROM user_actions AS u_ac
+  LEFT JOIN users AS usr
+  using (user_id)
 ---------------
 Lesson 8 Task 5
 ---------------
-
+SELECT u_ac.user_id as user_id_left,
+       usr.user_id as user_id_right,
+       order_id,
+       time,
+       action,
+       sex,
+       birth_date
+FROM   user_actions as u_ac
+    LEFT JOIN users as usr using (user_id)
+WHERE
+    usr.user_id IS NOT NULL
+ORDER BY user_id_left
 ---------------
 Lesson 8 Task 6
+---------------
+SELECT
+    usr.birth_date AS users_birth_date,
+    usr.users_count,
+    crrs.birth_date AS couriers_birth_date,
+    crrs.couriers_count
+FROM
+    (SELECT birth_date, COUNT(user_id) AS users_count
+     FROM users
+     WHERE birth_date IS NOT NULL
+     GROUP BY birth_date) usr
+FULL JOIN
+    (SELECT birth_date, COUNT(courier_id) AS couriers_count
+     FROM couriers
+     WHERE birth_date IS NOT NULL
+     GROUP BY birth_date) crrs
+using (birth_date)
+ORDER BY
+    users_birth_date, couriers_birth_date
+---------------
+Lesson 8 Task 7
+---------------
+
+---------------
+Lesson 8 Task 8
+---------------
+
+---------------
+Lesson 8 Task 9
+---------------
+
+---------------
+Lesson 8 Task 10
+---------------
+
+---------------
+Lesson 8 Task 11
 ---------------
 courier_actions: action - 'accept_order' 'deliver_order'
 user_actions: action - 'create_order' 'cancel_order'
@@ -2207,6 +2262,18 @@ FROM table_A as A
      JOIN table_B as B
      ON A.id = B.id
 
+LEFT JOIN — это оператор внешнего соединения, для которого важен порядок таблиц в запросе, т.е. в отличие от INNER JOIN он не является симметричным.
+Поэтому следующие две записи уже не являются эквивалентными:
+SELECT ...
+FROM table_1 LEFT JOIN table_2
+     ON [condition]
+...
+
+
+SELECT ...
+FROM table_2 LEFT JOIN table_1 
+     ON [condition]
+...
 Результат объединения LEFT JOIN формируется следующим образом:
 
     Сначала каждая строка левой таблицы сопоставляется с каждой строкой правой таблицы (происходит декартово произведение).
@@ -2233,3 +2300,46 @@ SELECT B.id as id,
 FROM table_A as A
      RIGHT JOIN table_B as B
      ON A.id = B.id
+
+А чтобы лучше разобраться с джойнами, рассмотрим ещё один тип объединения таблиц — FULL OUTER JOIN или просто FULL JOIN. Это оператор полного внешнего соединения, для которого, как и для INNER JOIN, неважен порядок указания таблиц. Однако работает он совсем по-другому.
+
+Запрос с FULL OUTER JOIN выглядит примерно так:
+SELECT ...
+FROM table_1 FULL JOIN table_2
+     ON [condition]
+...
+
+
+SELECT ...
+FROM table_2 FULL JOIN table_1 
+     ON [condition]
+...
+Результат объединения FULL JOIN формируется следующим образом:
+    Сначала каждая строка левой таблицы сопоставляется с каждой строкой правой таблицы (происходит декартово произведение).
+    Затем для каждой объединённой строки проверяется условие соединения, указанное после оператора ON.
+    После этого все объединённые строки, для которых условие оказалось истинным, добавляются в результирующую таблицу.
+    Далее в результат добавляются те записи из левой и правой таблиц (внимание: из обеих таблиц), для которых условие оказалось ложным и которые не вошли в соединение на предыдущем шаге. При этом для таких записей соответствующие поля из другой таблицы (для левой — это поля из правой, для правой — это поля из левой) заполняются значениями NULL.
+
+Этот алгоритм можно свести к следующей последовательности действий:
+    Сначала в соответствии с указанным условием выполняется INNER JOIN левой и правой таблиц.
+    Далее в результат добавляются те записи из левой и правой таблиц (внимание: из обеих таблиц), для которых условие оказалось ложным и которые не вошли в соединение на предыдущем шаге. При этом для таких записей соответствующие поля из другой таблицы (для левой — это поля из правой, для правой — это поля из левой) заполняются значениями NULL.
+Так будет выглядеть запрос и его результат с FULL JOIN:
+SELECT A.id as id,
+       A.city as city,
+       B.country as country
+FROM table_A as A
+     FULL JOIN table_B as B
+     ON A.id = B.id
+У нас есть две таблицы с датами рождения пользователей и курьеров — users и couriers. Можно предположить, что в каждой таблице в колонке birth_date есть какие-то даты, которых нет в другой таблице. То есть есть такие даты, в которые родился кто-то из курьеров, но не родился ни один пользователь, и наоборот. Ну что ж, давайте попробуем проверить эту гипотезу.
+
+Для начала сгруппируем две таблицы по колонке birth_date и посчитаем, сколько пользователей/курьеров родились в каждый из дней. Для этого можете выполнить в Redash следующие запросы:
+SELECT birth_date, COUNT(user_id) AS users_count
+FROM users
+WHERE birth_date IS NOT NULL
+GROUP BY birth_date
+
+
+SELECT birth_date, COUNT(courier_id) AS couriers_count
+FROM couriers
+WHERE birth_date IS NOT NULL
+GROUP BY birth_date
